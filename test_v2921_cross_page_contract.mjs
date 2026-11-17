@@ -1,0 +1,37 @@
+/** Cross-page source-of-truth checks, independent from mere component presence. */
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {enterpriseAnalysis} from './enterprise_v08.mjs';
+import {sourcingFacts} from './sourcing_domain_v2921.mjs';
+import {metricReport} from './metric_registry_v2921.mjs';
+const raw=enterpriseAnalysis({});
+const ctx={window:{},document:{addEventListener:()=>{}},sessionStorage:{getItem:()=>null,setItem:()=>{}},location:{hash:'#ss-overview'},console,Date,Math,Number,Set,Map,Intl,URL,Blob};ctx.window=ctx;vm.createContext(ctx);
+for(const f of ['strategic_sourcing_universe','strategic_sourcing_overview','strategic_sourcing_market','strategic_sourcing_ai','strategic_sourcing_cost','strategic_sourcing_project','strategic_sourcing_performance'])vm.runInContext(fs.readFileSync('static/'+f+'.js','utf8'),ctx,{filename:f+'.js'});
+const universe=ctx.PharmaSourcingUniverse.catalog;
+const ov=ctx.PharmaStrategicHub.build(raw,{});
+const market=ctx.PharmaStrategicMarket.build(raw,{});
+const ai=ctx.PharmaAISourcing.build(raw,{},universe);
+const cost=ctx.PharmaCostBaseline.build(raw,{});
+const project=ctx.PharmaSourcingProject.build(raw,'API-001');
+const perf=ctx.PharmaSupplierPerformance.build(raw,{view:'commercial'});
+const facts=sourcingFacts(raw);
+const srcTotal=metricReport('SRC.PO.SPEND',{data:raw}).result;
+assert.equal(srcTotal,580704);
+assert.equal(universe.length,80);
+assert.equal(ov.orders.reduce((s,x)=>s+Number(x.amount),0),srcTotal,'overview source PO must reconcile');
+assert.equal(market.poAmount,srcTotal,'market source PO must reconcile');
+assert.equal(perf.totals.spend,srcTotal,'performance Spend must reconcile, no scenario');
+assert.equal(facts.purchaseOrders.reduce((s,x)=>s+x.amount_usd,0),srcTotal);
+const material='API-001';const perMaterial=metricReport('SRC.PO.SPEND',{data:raw,scope:{material}}).result;
+assert.equal(perMaterial,387008);
+assert.equal(ai.po.reduce((s,x)=>s+Number(x.amount),0),perMaterial,'AI uses material-only PO');
+assert.equal(cost.spend,perMaterial,'cost page uses same material PO');
+assert.equal(project.metrics.ordered,metricReport('SRC.PO.QUANTITY',{data:raw,scope:{material}}).result,'project quantities reconcile');
+assert.equal(perf.candidates.length,80);
+assert.equal(perf.candidates.filter(x=>x.is_scenario).length,77);
+assert.equal(perf.candidates.filter(x=>x.is_scenario&&x.spend!=null).length,0);
+assert.equal(perf.candidates.filter(x=>x.is_scenario&&x.riskScore!=null).length,0);
+// Unknown metrics must never receive generic calculations.
+assert.equal(metricReport('SRC.NOT_REGISTERED',{data:raw}).status,'MISSING_LINEAGE');
+console.log('PASS V2.9.21 same source Spend / material Spend / PO quantity across overview, market, AI, cost, project, performance, with 77 scenario candidates isolated');

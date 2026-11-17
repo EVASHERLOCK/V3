@@ -1,0 +1,2211 @@
+{
+  "routes": [
+    "overview",
+    "portfolio",
+    "m01",
+    "m02",
+    "m06",
+    "m05",
+    "m08",
+    "m09",
+    "m10",
+    "documents",
+    "regulatory",
+    "workflow",
+    "reports",
+    "access",
+    "master",
+    "alerts",
+    "ss-overview",
+    "ss-market",
+    "ss-kraljic",
+    "ss-ai",
+    "ss-cost",
+    "ss-project",
+    "ss-performance",
+    "ss-compliance",
+    "ss-technical",
+    "ss-data"
+  ],
+  "components": [
+    {
+      "route": "portfolio",
+      "index": 0,
+      "title": "Top30 产品线采购结构矩阵当前 2 / 2 条可追溯产品线",
+      "id": "portfolio.64f51145",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "Top30 产品线采购结构矩阵当前 2 / 2 条可追溯产品线?\n产品线\t营收等级\t核心原料\t主力供应商\t第二批准来源\t年度采购金额\t预算执行率\t综合风险\nDRUG-A\t未接入\tAPI-001\tAster Pharma Materials\t暂无二供\t387,008 USD\t—\t高风险\nDRUG-B\t未接入\tAPI-002\tCedar Life Sciences\t暂无二供\t193,696 USD\t—\t高风险\n当前数据仅有 2 条产品线；点击任一产品线可联动下方风险、库存与行动清单。营收贡献与预算尚未接入。\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "portfolio",
+      "index": 1,
+      "title": "原料库存与消耗健康度基于批次与生产需求",
+      "id": "portfolio.d3e8e73a",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "原料库存与消耗健康度基于批次与生产需求?\n平均库存覆盖天数28 天生产需求与 Released 数量估算安全库存覆盖达标率100.0%按物料 safety_days 对比临期 / 受控库存金额占比56.3%使用模拟库存估值单一批准来源库存估值137,070 USD批次库存估值，非财务账面\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "portfolio",
+      "index": 2,
+      "title": "Top10 原料采购金额排行｜ABC 分类按当前范围采购金额",
+      "id": "portfolio.88bf8e48",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "Top10 原料采购金额排行｜ABC 分类按当前范围采购金额?\n2 种 A 类原料贡献 100.0% 采购额，为核心管控对象 · 依据当前筛选 PO 排名\nAPI-001A\n387,008 USD66.6%\n单一批准来源\nAPI-002A\n193,696 USD33.4%\n单一批准来源\nA 类｜重点B 类｜重要C 类｜常规\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "portfolio",
+      "index": 3,
+      "title": "战略行动清单6 条源任务 · 点击可追溯",
+      "id": "portfolio.268a11c8",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "战略行动清单6 条源任务 · 点击可追溯?\n优先级\t产品线\t对应原料/供应商\t问题描述\t战略行动建议\t责任部门\t计划完成时间\t预期效果\t状态\n高\tDRUG-A、DRUG-B\tAPI-001、API-002\t7 条生产需求缺料风险\tQC 优先排程申请 / 合格备选询价 / PO 前置\tPlanning + QA/QC + Procurement\t待确认\t待量化\t待处理\n高\tDRUG-A\tAPI-001\t2 项开放变更待评估\t发起 RA 评估任务\tRA / QA\t待确认\t待量化\t待处理\n高\tDRUG-A\tAPI-001\t受控文件已到期 · SUP-002\t阻止在演示规则中用于新准入，提交 QA 复核\tQA\t待确认\t待量化\t待处理\n高\tDRUG-A\tAPI-001\t受控文件已到期 · SUP-00"
+    },
+    {
+      "route": "m01",
+      "index": 0,
+      "title": "月度物料需求 vs 当前可用库存",
+      "id": "m01.6cc6eaa5",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "月度物料需求 vs 当前可用库存\n??\n生产需求 当前可放行库存快照\n08月\n09月\n10月\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m01",
+      "index": 1,
+      "title": "缺料物料 TOP10",
+      "id": "m01.3f69953c",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "缺料物料 TOP10\n??\nAPI-001\n62.5%API-002\n50.0%\n0%10%20%30%40%50%60%70%\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m01",
+      "index": 2,
+      "title": "误差根因追溯矩阵",
+      "id": "m01.111fc4fe",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "误差根因追溯矩阵\n从根因贡献定位到关联工单、物料和责任部门 · 可下钻??\n偏差根因追溯矩阵\n??\n物料编码\t需求月份\t偏差率\t根因一级分类\t根因二级分类\t责任部门\t当前状态\nAPI-001\t2026-08\t-3.0%\t供应交付\t检验排期偏慢\t需求计划部\t跟踪中\nAPI-001\t2026-09\t-1.0%\t供应交付\tQC待放行\t需求计划部\t高风险\nAPI-001\t2026-09\t+0.0%\t库存策略\t安全库存偏低\t物料管理部\t待处置\nAPI-001\t2026-09\t-3.0%\t供应交付\t检验排期偏慢\t需求计划部\t跟踪中\nAPI-002\t2026-10\t-2.0%\t供应交付\tQC待放行\t需求计划部\t高风险\nAPI-001\t2026-09\t+0.0%\t库存策略\t安全库存偏低\t物料管理部\t待处置\n"
+    },
+    {
+      "route": "m01",
+      "index": 3,
+      "title": "偏差根因追溯矩阵",
+      "id": "m01.162bc906",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "偏差根因追溯矩阵\n??\n物料编码\t需求月份\t偏差率\t根因一级分类\t根因二级分类\t责任部门\t当前状态\nAPI-001\t2026-08\t-3.0%\t供应交付\t检验排期偏慢\t需求计划部\t跟踪中\nAPI-001\t2026-09\t-1.0%\t供应交付\tQC待放行\t需求计划部\t高风险\nAPI-001\t2026-09\t+0.0%\t库存策略\t安全库存偏低\t物料管理部\t待处置\nAPI-001\t2026-09\t-3.0%\t供应交付\t检验排期偏慢\t需求计划部\t跟踪中\nAPI-002\t2026-10\t-2.0%\t供应交付\tQC待放行\t需求计划部\t高风险\nAPI-001\t2026-09\t+0.0%\t库存策略\t安全库存偏低\t物料管理部\t待处置\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含"
+    },
+    {
+      "route": "m02",
+      "index": 0,
+      "title": "期末批次库存估算金额 ⓘ137,070 USD源于批次数量 × 关联 PO 单价?采购价差 PPV ⓘ2.5%价差金额 14,304 USD?库存周转天数 ⓘ未接入正式期间平均库存与耗用成本不足?呆滞",
+      "id": "m02.274e1477",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "期末批次库存估算金额 ⓘ137,070 USD源于批次数量 × 关联 PO 单价?采购价差 PPV ⓘ2.5%价差金额 14,304 USD?库存周转天数 ⓘ未接入正式期间平均库存与耗用成本不足?呆滞库存估算金额 ⓘ0 USD库龄超过 90 天的关联批次?非放行库存估算金额 ⓘ31,530 USD待检、隔离等不计生产可用?临期 / 复验关注金额 ⓘ45,690 USD批次效期或复验控制预警?年度库存持有成本 ⓘ未接入缺少仓储、资本与损耗成本参数?预算准确率（模拟） ⓘ93.7%PO 对演示参考预算偏差；非正式财务准确率?\n月度库存资金估算趋势｜三类库存ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n0\n22,185\n44,370\n66,555\n88,7"
+    },
+    {
+      "route": "m02",
+      "index": 1,
+      "title": "月度库存资金估算趋势｜三类库存ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.60e574be",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "月度库存资金估算趋势｜三类库存ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n0\n22,185\n44,370\n66,555\n88,740\nUSD\n07月\n08月\n09月\n10月\n11月\n在途库存分界线\n可放行库存在检隔离库存在途库存（未收 PO）\n\n按已登记批次入库月份及 PO 未收数量计算估算金额；不是历史月末财务库存。当前未收 PO：0 笔，零值用 0 线表示。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 2,
+      "title": "月度库存资金估算趋势｜三类库存ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.36ae8018",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "月度库存资金估算趋势｜三类库存ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 3,
+      "title": "ABC 分类库存金额占比ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.33ab85b7",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "ABC 分类库存金额占比ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n137,070估算 USD\nA 类 100.0%B 类 0.0%C 类 0.0%\n点击 A/B/C 扇区或图例，下钻对应物料和批次。\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 4,
+      "title": "ABC 分类库存金额占比ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.38862302",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "ABC 分类库存金额占比ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 5,
+      "title": "呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.25c076cb",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n0–30天031–60天93,15061–90天43,92091–180天0180天以上0\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n采购差异原因拆分ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n0\n2,260\n4,519\n6,779\n9,039\n偏差贡献 USD\n06月\n07月\n08月\n09月\n10月\n价格差异｜PO数量耗用差异｜WO\n\n按实际月份显示绝对偏差贡献，负号及原因在来源明细中查看；结构差异暂无正式预算品类基线，不生成虚构柱。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ "
+    },
+    {
+      "route": "m02",
+      "index": 6,
+      "title": "呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.4febb572",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n0–30天031–60天93,15061–90天43,92091–180天0180天以上0\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 7,
+      "title": "呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.bb27ec9c",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 8,
+      "title": "采购差异原因拆分ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.b245852e",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "采购差异原因拆分ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n0\n2,260\n4,519\n6,779\n9,039\n偏差贡献 USD\n06月\n07月\n08月\n09月\n10月\n价格差异｜PO数量耗用差异｜WO\n\n按实际月份显示绝对偏差贡献，负号及原因在来源明细中查看；结构差异暂无正式预算品类基线，不生成虚构柱。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 9,
+      "title": "采购差异原因拆分ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.bfc5032b",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "采购差异原因拆分ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 10,
+      "title": "库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.c181cb26",
+      "tables": 0,
+      "svg": 2,
+      "ctx": "库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n情景测算 库存资本优化机会 · USD（非已实现降本）\n0\n14,408\n28,816\n43,224\n57,632\n报废减少\n资金利息节约\n退回供应商换回\n阶段 1\n阶段 2\n阶段 3\n报废减少45,690 USD资金利息节约49 USD退回供应商换回0 USD\n\n金额按原始批次记录测算：报废减少为潜在临期金额、资金利息节约采用演示年化资金率 4.0% 和 90 天、退回供应商需要已确认的回收比例；均非财务已实现降本。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n滚动预算准确率复盘ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表"
+    },
+    {
+      "route": "m02",
+      "index": 11,
+      "title": "库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.23dcfec",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n情景测算 库存资本优化机会 · USD（非已实现降本）\n0\n14,408\n28,816\n43,224\n57,632\n报废减少\n资金利息节约\n退回供应商换回\n阶段 1\n阶段 2\n阶段 3\n报废减少45,690 USD资金利息节约49 USD退回供应商换回0 USD\n\n金额按原始批次记录测算：报废减少为潜在临期金额、资金利息节约采用演示年化资金率 4.0% 和 90 天、退回供应商需要已确认的回收比例；均非财务已实现降本。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 12,
+      "title": "库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.a43cf4ce",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 13,
+      "title": "滚动预算准确率复盘ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.5e4cca98",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "滚动预算准确率复盘ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n0\n94,654\n189,307\n283,961\n378,615\nUSD\n01月\n02月\n03月\n04月\n05月\n06月\n07月\n08月\n09月\n10月\n11月\n12月\n月度预算（本地模拟）实际采购（PO）\n\n蓝线仅连有实际 PO 的月份；其余月份为“无来源记录”，不补造实际采购。预算可在下方逐月编辑。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 14,
+      "title": "滚动预算准确率复盘ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.a244c095",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "滚动预算准确率复盘ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 15,
+      "title": "月度滚动预算复盘｜消耗数量与金额ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.813eab27",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "月度滚动预算复盘｜消耗数量与金额ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\nTOP 10 · 保持业务优先顺序 · 全量 12 条可展开\n月份\t年初库存预算数量\t单价（USD）\t预测消耗数量\t预测消耗金额\t实际消耗数量\t实际消耗金额\t偏差率\t偏差原因\n2026-01\t\t—\t—\t—\t—\t—\t—\t未接入该月工单\n2026-02\t\t—\t—\t—\t—\t—\t—\t未接入该月工单\n2026-03\t\t—\t—\t—\t—\t—\t—\t未接入该月工单\n2026-04\t\t—\t—\t—\t—\t—\t—\t未接入该月工单\n2026-05\t\t—\t—\t—\t—\t—\t—\t未接入该月工单\n2026-06\t\t—\t—\t—\t—\t—\t—\t未接入该月工单\n2026-07\t\t—\t—\t—\t—\t—\t—\t未接入该月工单"
+    },
+    {
+      "route": "m02",
+      "index": 16,
+      "title": "月度滚动预算复盘｜消耗数量与金额ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.5e4fdfc8",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "月度滚动预算复盘｜消耗数量与金额ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 17,
+      "title": "物料库存金额排行ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.e0e26acb",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "物料库存金额排行ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n物料编码\tABC\t品类\t采购金额\t采购金额占比\t可用库存\t在检/隔离库存\t在途库存\t库存合计\tPO 行\nAPI-001\tA\tAPI\t387,008 USD\t66.6%\t76,500 USD\t14,880 USD\t0 USD\t91,380 USD\t16\nAPI-002\tA\tAPI\t193,696 USD\t33.4%\t29,040 USD\t16,650 USD\t0 USD\t45,690 USD\t8\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 18,
+      "title": "物料库存金额排行ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.5f747895",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "物料库存金额排行ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 19,
+      "title": "呆滞 / 临期批次处置明细ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.786b1a74",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "呆滞 / 临期批次处置明细ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\nLot\t物料\t状态\t估算价值\t库龄天数\t复验日期\t效期日期\nLOT-002\tAPI-002\tReleased\t14,640 USD\t64\t2027-01-07\t2027-09-30\nLOT-003\tAPI-001\tQuarantined\t14,880 USD\t62\t2027-06-02\t2027-10-18\nLOT-004\tAPI-001\tReleased\t1,770 USD\t60\t2027-06-14\t2026-12-08\nLOT-007\tAPI-001\tReleased\t14,880 USD\t54\t2027-01-07\t2027-12-29\nLOT-008\tAPI-002\tQ"
+    },
+    {
+      "route": "m02",
+      "index": 20,
+      "title": "呆滞 / 临期批次处置明细ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.26388c66",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "呆滞 / 临期批次处置明细ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 21,
+      "title": "滚动预算准确率复盘表ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.4ced5692",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "滚动预算准确率复盘表ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\nTOP 10 · 保持业务优先顺序 · 全量 12 条可展开\n月份\t预算金额（USD，模拟）\t实际采购（PO，USD）\t预算准确率（模拟）\t金额差异\t数据状态\n2026-01\t\t—\t—\t—\t无采购记录\n2026-02\t\t—\t—\t—\t无采购记录\n2026-03\t\t—\t—\t—\t无采购记录\n2026-04\t\t—\t—\t—\t无采购记录\n2026-05\t\t—\t—\t—\t无采购记录\n2026-06\t\t27,112 USD\t52.5%\t-24,555 USD\t2 条 PO\n2026-07\t\t326,392 USD\t0.0%\t274,725 USD\t15 条 PO\n2026-08\t\t227,200 USD"
+    },
+    {
+      "route": "m02",
+      "index": 22,
+      "title": "滚动预算准确率复盘表ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.961b995f",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "滚动预算准确率复盘表ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 23,
+      "title": "年度采购预算编制 ｜Annual Procurement Budget Planning",
+      "id": "m02.10c1ce46",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "年度采购预算编制 ｜Annual Procurement Budget Planning\n\n基于需求预测、价格、库存、交期多因子预测全年采购资金预算\n\n▢ 保存版本▧ 提交审批▣ 导出预算报告\n?\n◴ 预算年度 \n2026\n?◴ 预算版本 \nV2.0修订版（本地情景）\n?▣ 编制范围 \n全部品类\nAPI 原料\n?非正式财务审批 · 演示情景\n▧上年度实际消耗量待接入本期实际耗用参考 1,182 源单位?\n▧下年度生产计划量待录入当前工单标准量参考 1,200?\n▣期初可用库存待录入当前 Released 参考 870?\n▧在途未到货量0 源单位0 条未收足 PO?\n编制参数控制面板\n蓝色字段可编辑；未接入项不会自动写入 ERP?\n▣需求侧参数⌄\n年度生产计划ⓘ源单位\n验证批额外需求源单位\n工"
+    },
+    {
+      "route": "m02",
+      "index": 24,
+      "title": "♧供应侧参数⌄",
+      "id": "m02.cc23eeca",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "♧供应侧参数⌄\n供应商标准交期LTⓘ60天\n最小起订量MOQⓘ未接入\n批量采购折扣ⓘ%\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n?"
+    },
+    {
+      "route": "m02",
+      "index": 25,
+      "title": "▧价格侧参数⌄",
+      "id": "m02.a29c2c89",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "▧价格侧参数⌄\n基准合同价ⓘ120.98 USD/源单位\n预计涨价幅度%\n物流关税成本%\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n?"
+    },
+    {
+      "route": "m02",
+      "index": 26,
+      "title": "品类预算占比",
+      "id": "m02.840e7579",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "月度预算资金分布ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n0\n99,550\n199,099\n298,649\n398,198\n01月\n02月\n03月\n04月\n05月\n06月\n07月\n08月\n09月\n10月\n11月\n12月\n停产月份：未接入正式计划\n蓝柱：月度预算情景；有来源的月份可展开实际 PO。尚未接入工厂正式停产与下一年度排产日历。\n品类预算占比\n品类\n占比\nAPI100.0%\n?\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 27,
+      "title": "月度预算资金分布ⓘ∑ 本模块公式 / 分析依据",
+      "id": "m02.10b565f",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "月度预算资金分布ⓘ∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m02",
+      "index": 28,
+      "title": "预算编制说明ⓘ",
+      "id": "m02.2a78929e",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "预算编制说明ⓘ\n\n编制依据：下年度生产计划（未接入，未录入时用本期标准量作情景代理）、当前合同/PO 价格、历史消耗趋势、供应商交期与库存政策\n\n假设条件：汇率波动控制在 ±3.0% 内，关键原材料供应稳定，停产计划不发生重大调整\n\n风险提示：若 API 价格上涨超过 10%，年度预算预计增加约 66,324 USD；此为情景测算，并非承诺成本\n\n数据边界：源 PO 24 行；当前预算属于 DEMO / Non-GxP 本地方案。正式生效须获得财务、采购和质量审批。\n\n↻ 锁定生效▧ 对比上版预算\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m06",
+      "index": 0,
+      "title": "库存状态分层统计区",
+      "id": "m06.51f53479",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "库存状态分层统计区\nⓘ?\n✓可用放行9 批75.0% 批次占比▣待检隔离3 批25.0% 批次占比▣待取样0 批0.0% 批次占比▣检验中0 批0.0% 批次占比▣复验中0 批0.0% 批次占比✕待报废0 批0.0% 批次占比▣降级限制使用0 批0.0% 批次占比\n批次流程追踪 示意流程，数量与状态来自当前批次；各节点不代表完整历史事件日志\n⇢PO 到货➝▣GR 待检隔离➝◎取样 / QC➝✓授权放行➝◈生产消耗➝⚑复验 / 限用➝⌕追溯核查\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m06",
+      "index": 1,
+      "title": "ABC 关键物料分层管控",
+      "id": "m06.4c75aaba",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "ABC 关键物料分层管控\nⓘ?\n✓A 类关键物料›\n数量占比100.0%\n采购金额占比100.0%\n2 种物料重点监控\n≋B 类常规物料›\n数量占比0.0%\n采购金额占比0.0%\n0 种物料常规管理\n◇C 类低值物料›\n数量占比0.0%\n采购金额占比0.0%\n0 种物料简化管理\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m06",
+      "index": 2,
+      "title": "01 · 批次总台账",
+      "id": "m06.1ce016b",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "01 · 批次总台账\n\n查看批次、QA/QC 受控状态与效期 · 当前筛选 12 条记录\n\n本表搜索?↓ 导出本表 CSV\n??\nTOP 10 · 保持业务优先顺序 · 全量 12 条可展开\n批次号 ↕\t物料 ↕\t仓库 ↕\t供应商 ↕\t状态 ↕\t数量 ↕\t收货 PO ↕\t有效期 ↕\t复验日期 ↕\t可控日剩余 ↕\nLOT-001\tAPI-001\tWH-01\tSUP-002\t可用放行\t120\tPO-0001\t2027-09-12\t2027-05-09\t189 天\nLOT-002\tAPI-002\tWH-01\tSUP-003\t可用放行\t120\tPO-0002\t2027-09-30\t2027-01-07\t67 天\nLOT-003\tAPI-001\tWH-01\tSUP-001\t待检隔离\t120\tPO-00"
+    },
+    {
+      "route": "m06",
+      "index": 3,
+      "title": "02 · 安全库存缺口清单",
+      "id": "m06.90ac0575",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "02 · 安全库存缺口清单\n\n仅列示有有效目标且 Released 库存不足的物料 · 当前筛选 0 条记录\n\n本表搜索?↓ 导出本表 CSV\n??\n物料 ↕\tABC ↕\tReleased 可用 ↕\t安全目标 ↕\t差额 ↕\t可覆盖天数 ↕\t参考批次 ↕\n当前筛选没有对应的来源记录\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m06",
+      "index": 4,
+      "title": "03 · 呆滞 / 效期处置行动",
+      "id": "m06.81fc3f1c",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "03 · 呆滞 / 效期处置行动\n\n复验、临期和呆滞风险需人工确认处置 · 当前筛选 4 条记录\n\n本表搜索?↓ 导出本表 CSV\n??\n批次 ↕\t物料 ↕\t状态 ↕\t有效期 ↕\t复验 ↕\t控制日 ↕\t剩余天数 ↕\t处置说明 ↕\nLOT-002\tAPI-002\tReleased\t2027-09-30\t2027-01-07\t2027-01-07\t67\tQA/QC 复核；不得自动改变批次状态\nLOT-004\tAPI-001\tReleased\t2026-12-08\t2027-06-14\t2026-12-08\t37\tQA/QC 复核；不得自动改变批次状态\nLOT-007\tAPI-001\tReleased\t2027-12-29\t2027-01-07\t2027-01-07\t67\tQA/QC 复核；不得自"
+    },
+    {
+      "route": "m06",
+      "index": 5,
+      "title": "04 · 批次追溯明细",
+      "id": "m06.b3ba053a",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "04 · 批次追溯明细\n\n关联 PO、QC 和生产工单的来源记录 · 当前筛选 12 条记录\n\n本表搜索?↓ 导出本表 CSV\n??\nTOP 10 · 保持业务优先顺序 · 全量 12 条可展开\n批次号 ↕\t原料 ↕\t供应商 ↕\t关联 PO ↕\t受控状态 ↕\tQC 状态 ↕\t相关生产工单 ↕\t仓库 ↕\nLOT-001\tAPI-001\tSUP-002\tPO-0001\tReleased\tReleased\tWO-0001\tWH-01\nLOT-002\tAPI-002\tSUP-003\tPO-0002\tReleased\tReleased\tWO-0002\tWH-01\nLOT-003\tAPI-001\tSUP-001\tPO-0003\tQuarantined\tQuarantined\tWO-0003\tWH-01\n"
+    },
+    {
+      "route": "m05",
+      "index": 0,
+      "title": "承诺交期 vs 实际到货 · 月度双柱",
+      "id": "m05.e8cf62af",
+      "tables": 6,
+      "svg": 4,
+      "ctx": "2026 › Procurement › 合同与 PO 执行\n合同与 PO 执行\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nSupplier\n全部\nAster Pharma Materials\nBoreal Chemicals\nCedar Life Sciences\n?Material\n全部\nAPI-001 · API Alpha · simulated\nAPI-002 · API Beta · simulated\n?Month\n全部\n2026-06\n2026-07\n2026-08\n?金额口径\n不含税采购额\n含税 ·"
+    },
+    {
+      "route": "m05",
+      "index": 1,
+      "title": "提前到货（反向异常）",
+      "id": "m05.9f481f1b",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "提前到货（反向异常）\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 0 / 全量 0 行导出筛选全量 CSV\n选择\tPO ↕\t实际日 ↕\t承诺日 ↕\t早到天数 ↕\t操作\n没有符合条件的记录 · 已应用 0 个条件\n上一页第 0–0 行 / 共 0 行下一页\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n提前超过7天仅提示仓容/效期复核，不直接认定异常\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n?"
+    },
+    {
+      "route": "m05",
+      "index": 2,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "m05.f19db499",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 0 / 全量 0 行导出筛选全量 CSV\n选择\tPO ↕\t实际日 ↕\t承诺日 ↕\t早到天数 ↕\t操作\n没有符合条件的记录 · 已应用 0 个条件\n上一页第 0–0 行 / 共 0 行下一页\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "m05",
+      "index": 3,
+      "title": "催货优先级 · 影响 WO",
+      "id": "m05.3de3a1b0",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "催货优先级 · 影响 WO\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 2 / 全量 2 行导出筛选全量 CSV\n选择\tPO ↕\t物料 ↕\t供应商 ↕\t承诺日 ↕\t到货日 ↕\t金额 ↕\t延期天 ↕\t责任人 ↕\t距承诺日 ↕\t影响 WO ↕\t状态 ↕\t操作\n\tPO-0008\tAPI-002\tSUP-003\t2026-09-10\t2026-09-15\t19,352 DEMO-USD\t5\t采购员 · 待指派\t-52天\tWO-0002, WO-0005, WO-0008, WO-0011\tLate delivered\t明细 / 行动\n\tPO-0021\tAPI-001\tSUP-001\t2026-10-06\t2026-10-11\t32,160 DEMO-USD\t5\t采购员 · 待指派\t-26"
+    },
+    {
+      "route": "m05",
+      "index": 4,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "m05.f19db499",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 2 / 全量 2 行导出筛选全量 CSV\n选择\tPO ↕\t物料 ↕\t供应商 ↕\t承诺日 ↕\t到货日 ↕\t金额 ↕\t延期天 ↕\t责任人 ↕\t距承诺日 ↕\t影响 WO ↕\t状态 ↕\t操作\n\tPO-0008\tAPI-002\tSUP-003\t2026-09-10\t2026-09-15\t19,352 DEMO-USD\t5\t采购员 · 待指派\t-52天\tWO-0002, WO-0005, WO-0008, WO-0011\tLate delivered\t明细 / 行动\n\tPO-0021\tAPI-001\tSUP-001\t2026-10-06\t2026-10-11\t32,160 DEMO-USD\t5\t采购员 · 待指派\t-26天\tWO-0001, WO-00"
+    },
+    {
+      "route": "m05",
+      "index": 5,
+      "title": "订单交付状态",
+      "id": "m05.4da6c53e",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m05",
+      "index": 6,
+      "title": "供应商 OTD · 模拟历史趋势",
+      "id": "m05.dc806786",
+      "tables": 0,
+      "svg": 1,
+      "ctx": ""
+    },
+    {
+      "route": "m05",
+      "index": 7,
+      "title": "供应商催货优先级清单",
+      "id": "m05.e4ceb279",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m05",
+      "index": 8,
+      "title": "全部 PO 执行台账",
+      "id": "m05.c1bf97f1",
+      "tables": 2,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m05",
+      "index": 9,
+      "title": "两维归因交叉矩阵（当前范围）",
+      "id": "m05.a5fe6e19",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "两维归因交叉矩阵（当前范围）\nsupplier_id month\t2026-06\t2026-07\t2026-08\nSUP-002\t1\t5\t2\nSUP-003\t1\t5\t2\nSUP-001\t0\t5\t3\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n?"
+    },
+    {
+      "route": "m05",
+      "index": 10,
+      "title": "采购情景 · 仅模拟，不修改 MRP / SAP PO",
+      "id": "m05.cad18d24",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "采购情景 · 仅模拟，不修改 MRP / SAP PO\n情景 \n基准\n加急空运（5–8 天）\n提前下单（海运 25–40 天 + 清关 3 天）\n?\n\n基准情景：使用当前承诺交期与 QC 记录，不自动变更排产。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n?"
+    },
+    {
+      "route": "m08",
+      "index": 0,
+      "title": "三单匹配率 · 目标95%",
+      "id": "m08.9668b82c",
+      "tables": 5,
+      "svg": 0,
+      "ctx": "2026 › Procurement › 发票与付款\n发票与付款\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nSupplier\n全部\nAster Pharma Materials\nBoreal Chemicals\nCedar Life Sciences\n?Material\n全部\nAPI-001 · API Alpha · simulated\nAPI-002 · API Beta · simulated\n?Month\n全部\n2026-06\n2026-07\n2026-08\n?金额口径\n不含税采购额\n含税 · tax_rat"
+    },
+    {
+      "route": "m08",
+      "index": 1,
+      "title": "3-Way Matching 明细",
+      "id": "m08.aa5d8369",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "3-Way Matching 明细\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 24 / 全量 24 行导出筛选全量 CSV\nTOP 10 · 按关键指标由高到低排序 · 全量 24 条可展开\n选择\tInvoice ↕\tPO ↕\tSupplier ↕\t匹配状态 ↕\t金额 ↕\t责任人 ↕\t应付日 ↕\t操作\n\tINV-0023\tPO-0023\tSUP-003\tQuantity mismatch\t37,597 DEMO-USD\tAP / Procurement\t2026-11-24\t明细 / 行动\n\tINV-0024\tPO-0024\tSUP-001\tMatched\t36,179 DEMO-USD\tAP / Procurement\t2026-11-26\t明细 / 行动\n\tINV-0022"
+    },
+    {
+      "route": "m08",
+      "index": 2,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "m08.4f464cc0",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 24 / 全量 24 行导出筛选全量 CSV\nTOP 10 · 按关键指标由高到低排序 · 全量 24 条可展开\n选择\tInvoice ↕\tPO ↕\tSupplier ↕\t匹配状态 ↕\t金额 ↕\t责任人 ↕\t应付日 ↕\t操作\n\tINV-0023\tPO-0023\tSUP-003\tQuantity mismatch\t37,597 DEMO-USD\tAP / Procurement\t2026-11-24\t明细 / 行动\n\tINV-0024\tPO-0024\tSUP-001\tMatched\t36,179 DEMO-USD\tAP / Procurement\t2026-11-26\t明细 / 行动\n\tINV-0022\tPO-0022\tSUP-002\tMat"
+    },
+    {
+      "route": "m08",
+      "index": 3,
+      "title": "异常类型",
+      "id": "m08.7f35a96d",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m08",
+      "index": 4,
+      "title": "账龄区间",
+      "id": "m08.147bd60c",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m08",
+      "index": 5,
+      "title": "三单匹配台账",
+      "id": "m08.f7961f7",
+      "tables": 2,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m08",
+      "index": 6,
+      "title": "两维归因交叉矩阵（当前范围）",
+      "id": "m08.7e7c75dc",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "两维归因交叉矩阵（当前范围）\nsupplier_id exception_type\t未知\nSUP-002\t1\nSUP-001\t2\nSUP-003\t2\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n?"
+    },
+    {
+      "route": "m09",
+      "index": 0,
+      "title": "变更类型结构",
+      "id": "m09.6d7eec95",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "2026 › Procurement › 变更控制与全球 RA\n变更控制与全球 RA\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nSupplier\n全部\nAster Pharma Materials\nBoreal Chemicals\nCedar Life Sciences\n?Material\n全部\nAPI-001 · API Alpha · simulated\nAPI-002 · API Beta · simulated\n?Month\n全部\n2026-06\n2026-07\n2026-08\n?金额口径\n不含税采购额\n含税"
+    },
+    {
+      "route": "m09",
+      "index": 1,
+      "title": "开放变更账龄 vs 60天目标线",
+      "id": "m09.643115a6",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "开放变更账龄 vs 60天目标线\nⓘ\nCC-2026-014\n73%CC-2026-015\n38%\n目标/警戒：60%，虚线为阈值；颜色体现达标程度。\n演示目标 60 天需 RA 确认；到期变更优先提示，不自动批准\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n?"
+    },
+    {
+      "route": "m09",
+      "index": 2,
+      "title": "变更与行动台账",
+      "id": "m09.6c93d7bf",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "变更与行动台账\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 3 / 全量 3 行导出筛选全量 CSV\n选择\tChange ↕\tSupplier ↕\tMaterial ↕\t类型 ↕\t风险 ↕\t目标日 ↕\t剩余天数 ↕\t建议DDL ↕\t责任人 ↕\t状态 ↕\t实施限制 ↕\t预计影响 ↕\t操作\n\tCC-2026-014\tSUP-002\tAPI-001\tManufacturing site change\tHIGH\t2026-11-18\t17\t2026-11-18\tQA/RA\tRA Assessment\tBlocked pending QA/RA\t待商业数据\t明细 / 行动\n\tCC-2026-015\tSUP-001\tAPI-001\tSpecification update\tMEDIUM\t20"
+    },
+    {
+      "route": "m09",
+      "index": 3,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "m09.eb351d3d",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 3 / 全量 3 行导出筛选全量 CSV\n选择\tChange ↕\tSupplier ↕\tMaterial ↕\t类型 ↕\t风险 ↕\t目标日 ↕\t剩余天数 ↕\t建议DDL ↕\t责任人 ↕\t状态 ↕\t实施限制 ↕\t预计影响 ↕\t操作\n\tCC-2026-014\tSUP-002\tAPI-001\tManufacturing site change\tHIGH\t2026-11-18\t17\t2026-11-18\tQA/RA\tRA Assessment\tBlocked pending QA/RA\t待商业数据\t明细 / 行动\n\tCC-2026-015\tSUP-001\tAPI-001\tSpecification update\tMEDIUM\t2026-11-28\t2"
+    },
+    {
+      "route": "m09",
+      "index": 4,
+      "title": "变更类型",
+      "id": "m09.8f402240",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m09",
+      "index": 5,
+      "title": "变更行动与责任台账",
+      "id": "m09.154104ce",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m10",
+      "index": 0,
+      "title": "本周管理优先级原则",
+      "id": "m10.5db56870",
+      "tables": 3,
+      "svg": 1,
+      "ctx": "2026 › Procurement › 采购绩效与决策\n采购绩效与决策\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nSupplier\n全部\nAster Pharma Materials\nBoreal Chemicals\nCedar Life Sciences\n?Material\n全部\nAPI-001 · API Alpha · simulated\nAPI-002 · API Beta · simulated\n?Month\n全部\n2026-06\n2026-07\n2026-08\n?金额口径\n不含税采购额\n含税 · tax"
+    },
+    {
+      "route": "m10",
+      "index": 1,
+      "title": "优先风险行动清单（合规门槛→时间→金额）",
+      "id": "m10.9c80eca1",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "优先风险行动清单（合规门槛→时间→金额）\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 9 / 全量 9 行导出筛选全量 CSV\n选择\t风险 ↕\t等级 ↕\t主责 ↕\t根因 ↕\t策略 ↕\t金额敞口 ↕\t建议DDL ↕\t预期收益 ↕\t验证结果 ↕\t证据 ↕\t操作\n\t7 条生产需求缺料风险\tHIGH\tPlanning + QA/QC + Procurement\tQC_CYCLE_LONG / QC_HOLD / ALLOC_SHORT\tQC 优先排程申请 / 合格备选询价 / PO 前置\t104,568 DEMO-USD\t2026-11-03\t需同口径后续验证\t尚未验证\tWO-0001 / LOT-001 / PO-0001\t明细 / 行动\n\t2 项开放变更待评估\tHIGH\tRA / Q"
+    },
+    {
+      "route": "m10",
+      "index": 2,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "m10.947c4dd3",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 9 / 全量 9 行导出筛选全量 CSV\n选择\t风险 ↕\t等级 ↕\t主责 ↕\t根因 ↕\t策略 ↕\t金额敞口 ↕\t建议DDL ↕\t预期收益 ↕\t验证结果 ↕\t证据 ↕\t操作\n\t7 条生产需求缺料风险\tHIGH\tPlanning + QA/QC + Procurement\tQC_CYCLE_LONG / QC_HOLD / ALLOC_SHORT\tQC 优先排程申请 / 合格备选询价 / PO 前置\t104,568 DEMO-USD\t2026-11-03\t需同口径后续验证\t尚未验证\tWO-0001 / LOT-001 / PO-0001\t明细 / 行动\n\t2 项开放变更待评估\tHIGH\tRA / QA\tCHANGE_FREEZE\t发起 RA 评"
+    },
+    {
+      "route": "m10",
+      "index": 3,
+      "title": "Excel / CSV 多源 KPI 实算",
+      "id": "m10.bd9fe758",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m10",
+      "index": 4,
+      "title": "模块4",
+      "id": "m10.b6faad6b",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m10",
+      "index": 5,
+      "title": "高风险事件 Top",
+      "id": "m10.61961f3e",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "m10",
+      "index": 6,
+      "title": "本周管理行动",
+      "id": "m10.e46584dd",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "documents",
+      "index": 0,
+      "title": "供应商 GMP / CEP 证据核对台",
+      "id": "documents.76815ef9",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "供应商 GMP / CEP 证据核对台\n\n先按官方注册库确认编号与有效状态，再核对制造地点、物料/规格、市场适用性及 QA/SQM 批准范围。\n\nEDQM · CEP 官方注册库\n\n可查询 CEP 编号、持有人、修订版和当前状态；支持官方下载当日全量 .TXT 文件。\n\n打开官方数据库 ↗\n\n直接下载最新 CEP 数据 .TXT ↗\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\nEMA · EudraGMDP GMP\n\n按制造场地和证书号检索 GMP 证书及不合规报告；未命中不能等同于不符合 GMP。\n\n打开官方数据库 ↗∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\nFDA · Inspection Class"
+    },
+    {
+      "route": "documents",
+      "index": 1,
+      "title": "供应商 PDF 文件文本提取与版本差异",
+      "id": "documents.2118dba3",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "EDQM · CEP 官方注册库\n\n可查询 CEP 编号、持有人、修订版和当前状态；支持官方下载当日全量 .TXT 文件。\n\n打开官方数据库 ↗\n\n直接下载最新 CEP 数据 .TXT ↗\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\nEMA · EudraGMDP GMP\n\n按制造场地和证书号检索 GMP 证书及不合规报告；未命中不能等同于不符合 GMP。\n\n打开官方数据库 ↗∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\nFDA · Inspection Classification\n\n核对 FDA 检查分类和警告信；FDA 通常不签发一张可通用核对的 “GMP 证书”。\n\n打开官方数据库 ↗∑ 本模块公式 "
+    },
+    {
+      "route": "documents",
+      "index": 2,
+      "title": "EDQM · CEP 官方注册库",
+      "id": "documents.1bd6d2f3",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "EDQM · CEP 官方注册库\n\n可查询 CEP 编号、持有人、修订版和当前状态；支持官方下载当日全量 .TXT 文件。\n\n打开官方数据库 ↗\n\n直接下载最新 CEP 数据 .TXT ↗\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "documents",
+      "index": 3,
+      "title": "EMA · EudraGMDP GMP",
+      "id": "documents.e7f75cd7",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "EMA · EudraGMDP GMP\n\n按制造场地和证书号检索 GMP 证书及不合规报告；未命中不能等同于不符合 GMP。\n\n打开官方数据库 ↗∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "documents",
+      "index": 4,
+      "title": "FDA · Inspection Classification",
+      "id": "documents.b9a76f6b",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "FDA · Inspection Classification\n\n核对 FDA 检查分类和警告信；FDA 通常不签发一张可通用核对的 “GMP 证书”。\n\n打开官方数据库 ↗∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "documents",
+      "index": 5,
+      "title": "NMPA · 药品生产许可 / 监管",
+      "id": "documents.108d713",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "NMPA · 药品生产许可 / 监管\n\n中国自 2019-12-01 起不再新发传统药品 GMP 认证证书，应核查生产许可与监管检查信息。\n\n打开官方数据库 ↗∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "documents",
+      "index": 6,
+      "title": "有效期分布",
+      "id": "documents.faf394c9",
+      "tables": 4,
+      "svg": 0,
+      "ctx": "2026 › Procurement › 文件与合规中心\n文件与合规中心\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nSupplier\n全部\nAster Pharma Materials\nBoreal Chemicals\nCedar Life Sciences\n?Material\n全部\nAPI-001 · API Alpha · simulated\nAPI-002 · API Beta · simulated\n?Month\n全部\n2026-06\n2026-07\n2026-08\n?金额口径\n不含税采购额\n含税 · tax"
+    },
+    {
+      "route": "documents",
+      "index": 7,
+      "title": "受控文档台账",
+      "id": "documents.78f4aab2",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "受控文档台账\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 18 / 全量 18 行导出筛选全量 CSV\nTOP 10 · 保持业务优先顺序 · 全量 18 条可展开\n选择\t文档编号 ↕\t供应商 ↕\tSite ↕\t物料 ↕\t类型 ↕\t到期日 ↕\t剩余天数 ↕\t复核人 ↕\t操作\n\tDOCREG-01-01\tSUP-001\tSITE-001\tAPI-001\tGMP Certificate\t2026-11-24\t23\tQA/SQM\t明细 / 行动\n\tDOCREG-01-02\tSUP-001\tSITE-001\tAPI-002\tQuality Agreement\t2027-01-08\t68\tQA/SQM\t明细 / 行动\n\tDOCREG-01-03\tSUP-001\tSITE-001\tAPI-0"
+    },
+    {
+      "route": "documents",
+      "index": 8,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "documents.b7a4003f",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 18 / 全量 18 行导出筛选全量 CSV\nTOP 10 · 保持业务优先顺序 · 全量 18 条可展开\n选择\t文档编号 ↕\t供应商 ↕\tSite ↕\t物料 ↕\t类型 ↕\t到期日 ↕\t剩余天数 ↕\t复核人 ↕\t操作\n\tDOCREG-01-01\tSUP-001\tSITE-001\tAPI-001\tGMP Certificate\t2026-11-24\t23\tQA/SQM\t明细 / 行动\n\tDOCREG-01-02\tSUP-001\tSITE-001\tAPI-002\tQuality Agreement\t2027-01-08\t68\tQA/SQM\t明细 / 行动\n\tDOCREG-01-03\tSUP-001\tSITE-001\tAPI-001\tSite A"
+    },
+    {
+      "route": "documents",
+      "index": 9,
+      "title": "文档类型占比",
+      "id": "documents.1cbfb7bd",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "documents",
+      "index": 10,
+      "title": "受控文件台账",
+      "id": "documents.d6afb903",
+      "tables": 2,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "regulatory",
+      "index": 0,
+      "title": "按目标市场分布",
+      "id": "regulatory.8fe9d376",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "2026 › Procurement › 全球法规情报\n全球法规情报\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nSupplier\n全部\nAster Pharma Materials\nBoreal Chemicals\nCedar Life Sciences\n?Material\n全部\nAPI-001 · API Alpha · simulated\nAPI-002 · API Beta · simulated\n?Month\n全部\n2026-06\n2026-07\n2026-08\n?金额口径\n不含税采购额\n含税 · tax_r"
+    },
+    {
+      "route": "regulatory",
+      "index": 1,
+      "title": "法规影响 × Material × Site 台账",
+      "id": "regulatory.92b86434",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "法规影响 × Material × Site 台账\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 5 / 全量 5 行导出筛选全量 CSV\n选择\t规则 ↕\tMarket ↕\t物料 ↕\tSite ↕\t风险 ↕\tRA Owner ↕\t预计生效 ↕\t金额关联（示意） ↕\t建议动作 ↕\t建议DDL ↕\tGap ↕\t操作\n\tREG-DEMO-001\tUS\tAPI-001\tSITE-001\tHIGH\tRegulatory Affairs\t2026-11-21\t200,864 DEMO-USD\tRA 适用性与差距评估\t2026-08-23\tOpen\t明细 / 行动\n\tREG-DEMO-002\tEU\tAPI-002\tSITE-002\tMEDIUM\tRegulatory Affairs\t2027-0"
+    },
+    {
+      "route": "regulatory",
+      "index": 2,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "regulatory.f1ca847d",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 5 / 全量 5 行导出筛选全量 CSV\n选择\t规则 ↕\tMarket ↕\t物料 ↕\tSite ↕\t风险 ↕\tRA Owner ↕\t预计生效 ↕\t金额关联（示意） ↕\t建议动作 ↕\t建议DDL ↕\tGap ↕\t操作\n\tREG-DEMO-001\tUS\tAPI-001\tSITE-001\tHIGH\tRegulatory Affairs\t2026-11-21\t200,864 DEMO-USD\tRA 适用性与差距评估\t2026-08-23\tOpen\t明细 / 行动\n\tREG-DEMO-002\tEU\tAPI-002\tSITE-002\tMEDIUM\tRegulatory Affairs\t2027-01-10\t0 DEMO-USD\tRA 适用性与差距评估\t"
+    },
+    {
+      "route": "regulatory",
+      "index": 3,
+      "title": "风险级别",
+      "id": "regulatory.a6dff66a",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "regulatory",
+      "index": 4,
+      "title": "全球法规演示台账",
+      "id": "regulatory.84f5ace2",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "workflow",
+      "index": 0,
+      "title": "源表与数据血缘 · 10张源表同一场景",
+      "id": "workflow.2a31f289",
+      "tables": 3,
+      "svg": 0,
+      "ctx": "2026 › Procurement › AI 工作流监控\nAI 工作流监控\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nmodule\n全部\nM02\nM03\nM04\nM07\n?status\n全部\nCompleted\nFailed\nActive\nReview due\n?清除本页筛选\n数据链路任务与失败\n工作流运行 12 条、失败 2 条；建议对失败任务核对源文件与参数。（模拟数据 · Non-GxP）\n站内提醒 4进入网页时检查一次；未启用邮件或后台定时推送\n本页产出：工作流运行 12 条、失败 2 条\n+ 添加条件条件"
+    },
+    {
+      "route": "workflow",
+      "index": 1,
+      "title": "源表与数据血缘 · 10张源表同一场景",
+      "id": "workflow.a5b0d0f1",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "源表与数据血缘 · 10张源表同一场景\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 10 / 全量 10 行导出筛选全量 CSV\n选择\t源表 ↕\t行数 ↕\t来源 ↕\t最后更新（演示） ↕\t校验状态 ↕\t口径版本 ↕\t操作\n\tPO\t24\tpurchase_orders\t2026-11-01\t校验通过\tkpi-v1.5\t明细 / 行动\n\tQC / Lot\t12\tqc_lots\t2026-11-01\t校验通过\tkpi-v1.5\t明细 / 行动\n\tProduction\t12\tproduction\t2026-11-01\t校验通过\tkpi-v1.5\t明细 / 行动\n\tInventory\t12\tinventory\t2026-11-01\t校验通过\tkpi-v1.5\t明细 / 行动\n\tInvoic"
+    },
+    {
+      "route": "workflow",
+      "index": 2,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "workflow.fbe9f8a8",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 10 / 全量 10 行导出筛选全量 CSV\n选择\t源表 ↕\t行数 ↕\t来源 ↕\t最后更新（演示） ↕\t校验状态 ↕\t口径版本 ↕\t操作\n\tPO\t24\tpurchase_orders\t2026-11-01\t校验通过\tkpi-v1.5\t明细 / 行动\n\tQC / Lot\t12\tqc_lots\t2026-11-01\t校验通过\tkpi-v1.5\t明细 / 行动\n\tProduction\t12\tproduction\t2026-11-01\t校验通过\tkpi-v1.5\t明细 / 行动\n\tInventory\t12\tinventory\t2026-11-01\t校验通过\tkpi-v1.5\t明细 / 行动\n\tInvoice\t24\t扩展模拟台账\t2026-11-01"
+    },
+    {
+      "route": "workflow",
+      "index": 3,
+      "title": "完成状态",
+      "id": "workflow.cf1883fb",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "workflow",
+      "index": 4,
+      "title": "执行历史",
+      "id": "workflow.f67d1544",
+      "tables": 2,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "reports",
+      "index": 0,
+      "title": "报表类型与使用范围",
+      "id": "reports.3218b936",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "2026 › Procurement › 报表与结果\n报表与结果\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\ntemplate\n全部\n采购经营周报\n品类支出与 PPV 月报\n供应商寻源评审\n资质与文件到期清单\n供应商绩效评审\n变更风险与 MA 影响\n全链路行动清单\n?period\n全部\nWeekly\nMonthly\n?清除本页筛选\n报表模板导出留痕\n当前可手动生成 7 套管理报表，已有 0 份本地生成记录；建议生成含结论和图的采购周报。（模拟数据 · Non-GxP）\n生成一页纸摘要 下载 PDF 汇报 下载 4 页 "
+    },
+    {
+      "route": "reports",
+      "index": 1,
+      "title": "可执行的报告模板库",
+      "id": "reports.de55251",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "可执行的报告模板库\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 7 / 全量 7 行导出筛选全量 CSV\n选择\tTemplate ↕\t来源 ↕\t格式 ↕\t接收角色 ↕\t周期 ↕\t触发条件 ↕\t状态 ↕\t操作\n\t采购经营周报\toverview\tCSV + Print PDF\tCategory Manager\tWeekly\t需后台调度\t可手动导出\t明细 / 行动\n\t品类支出与 PPV 月报\tm02\tCSV + Print PDF\tProcurement\tMonthly\t需后台调度\t可手动导出\t明细 / 行动\n\t供应商寻源评审\tm03\tCSV + Print PDF\tProcurement\tOn demand\t手动生成\t可手动导出\t明细 / 行动\n\t资质与文件到期清单\tdocument"
+    },
+    {
+      "route": "reports",
+      "index": 2,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "reports.3bdd1388",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 7 / 全量 7 行导出筛选全量 CSV\n选择\tTemplate ↕\t来源 ↕\t格式 ↕\t接收角色 ↕\t周期 ↕\t触发条件 ↕\t状态 ↕\t操作\n\t采购经营周报\toverview\tCSV + Print PDF\tCategory Manager\tWeekly\t需后台调度\t可手动导出\t明细 / 行动\n\t品类支出与 PPV 月报\tm02\tCSV + Print PDF\tProcurement\tMonthly\t需后台调度\t可手动导出\t明细 / 行动\n\t供应商寻源评审\tm03\tCSV + Print PDF\tProcurement\tOn demand\t手动生成\t可手动导出\t明细 / 行动\n\t资质与文件到期清单\tdocuments\tCSV + Prin"
+    },
+    {
+      "route": "reports",
+      "index": 3,
+      "title": "统一报表模板",
+      "id": "reports.74be0353",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "reports",
+      "index": 4,
+      "title": "管理汇报模板库 · 7 套均可手动生成",
+      "id": "reports.fbe4dd6a",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "管理汇报模板库 · 7 套均可手动生成\n\n每套包含动态管理结论、SVG 图表快照、TOP 清单和筛选/口径元信息。自动邮件/后台调度尚未启用。\n\n采购经营周报overview生成图文报告\n品类支出与 PPV 月报m02生成图文报告\n供应商寻源评审m03生成图文报告\n资质与文件到期清单documents生成图文报告\n供应商绩效评审m07生成图文报告\n变更风险与 MA 影响m09生成图文报告\n全链路行动清单m10生成图文报告\n本地汇报版本与导出留痕\n\n尚无本地报告，生成后会保留口径快照。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n?"
+    },
+    {
+      "route": "access",
+      "index": 0,
+      "title": "角色结构",
+      "id": "access.f57de64",
+      "tables": 3,
+      "svg": 0,
+      "ctx": "2026 › Procurement › 用户与权限\n用户与权限\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nrole\n全部\nProcurement\nCategory Manager\nQA\nAdministrator\n?status\n全部\nCompleted\nFailed\nActive\nReview due\n?清除本页筛选\n角色权限双人复核\n当前 4 个演示用户；权限申请与双人复核仅浏览器模拟，建议由受控身份系统执行正式授权。（模拟数据 · Non-GxP）\n站内提醒 4进入网页时检查一次；未启用邮件或后台定时推送\n本"
+    },
+    {
+      "route": "access",
+      "index": 1,
+      "title": "角色×敏感数据能力",
+      "id": "access.faecb057",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "角色×敏感数据能力\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 4 / 全量 4 行导出筛选全量 CSV\n选择\t角色 ↕\t价格字段 ↕\t导出权限 ↕\t操作留痕 ↕\t操作\n\tProcurement\t限定范围\t仅授权品类\t记录（演示）\t明细 / 行动\n\tCategory Manager\t限定范围\t仅授权品类\t记录（演示）\t明细 / 行动\n\tQA\t脱敏\t合规报表\t记录（演示）\t明细 / 行动\n\tAdministrator\t完整\t全量\t记录（演示）\t明细 / 行动\n上一页第 1–4 行 / 共 4 行下一页\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n真实行级访问控制需要后端身份验证\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ "
+    },
+    {
+      "route": "access",
+      "index": 2,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "access.b1953415",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 4 / 全量 4 行导出筛选全量 CSV\n选择\t角色 ↕\t价格字段 ↕\t导出权限 ↕\t操作留痕 ↕\t操作\n\tProcurement\t限定范围\t仅授权品类\t记录（演示）\t明细 / 行动\n\tCategory Manager\t限定范围\t仅授权品类\t记录（演示）\t明细 / 行动\n\tQA\t脱敏\t合规报表\t记录（演示）\t明细 / 行动\n\tAdministrator\t完整\t全量\t记录（演示）\t明细 / 行动\n上一页第 1–4 行 / 共 4 行下一页\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "access",
+      "index": 3,
+      "title": "演示账户目录",
+      "id": "access.80219bec",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "演示账户目录\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 4 / 全量 4 行导出筛选全量 CSV\n选择\tUser ↕\t角色 ↕\t范围 ↕\t状态 ↕\t到期 ↕\t上次复核 ↕\t操作\n\tUSR-001\tProcurement\tAPI\tActive\t2027-03-01\t2026-09-01\t明细 / 行动\n\tUSR-002\tCategory Manager\tAll categories\tActive\t2027-05-01\t2026-09-20\t明细 / 行动\n\tUSR-003\tQA\tSite 01\tReview due\t2026-12-15\t2026-09-12\t明细 / 行动\n\tUSR-004\tAdministrator\tAll\tActive\t2027-11-01\t2026-10-"
+    },
+    {
+      "route": "access",
+      "index": 4,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "access.b1953415",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 4 / 全量 4 行导出筛选全量 CSV\n选择\tUser ↕\t角色 ↕\t范围 ↕\t状态 ↕\t到期 ↕\t上次复核 ↕\t操作\n\tUSR-001\tProcurement\tAPI\tActive\t2027-03-01\t2026-09-01\t明细 / 行动\n\tUSR-002\tCategory Manager\tAll categories\tActive\t2027-05-01\t2026-09-20\t明细 / 行动\n\tUSR-003\tQA\tSite 01\tReview due\t2026-12-15\t2026-09-12\t明细 / 行动\n\tUSR-004\tAdministrator\tAll\tActive\t2027-11-01\t2026-10-01\t明细 / 行"
+    },
+    {
+      "route": "access",
+      "index": 5,
+      "title": "账号角色台账",
+      "id": "access.1ceb4815",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "access",
+      "index": 6,
+      "title": "体验角色切换",
+      "id": "access.7d9bdbf1",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "access",
+      "index": 7,
+      "title": "价格/汇报导出操作记录（仅本机演示日志）",
+      "id": "access.c66c90f2",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "价格/汇报导出操作记录（仅本机演示日志）\n\n暂无导出记录\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n?"
+    },
+    {
+      "route": "master",
+      "index": 0,
+      "title": "物料分类覆盖",
+      "id": "master.77fadda6",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "2026 › Procurement › 主数据质量\n主数据质量\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nobject\n全部\nMaterial\nSupplier\nSite\n?validation\n全部\nValid\nMissing\n?清除本页筛选\n数据质量主数据\n物料 2 条，供应商 3 条；建议补充关键字段以提升跨表数据质量。（模拟数据 · Non-GxP）\n站内提醒 4进入网页时检查一次；未启用邮件或后台定时推送\n本页产出：物料 2 条，供应商 3 条\n+ 添加条件条件逻辑 \nAND 且\nOR 或\n?保存命名视图"
+    },
+    {
+      "route": "master",
+      "index": 1,
+      "title": "关键字段校验 / 数据质量与影响面",
+      "id": "master.11d359f4",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "关键字段校验 / 数据质量与影响面\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 3 / 全量 3 行导出筛选全量 CSV\n选择\t关键字段 ↕\t已填写 ↕\t分母 ↕\t下游影响 ↕\t判定规则 ↕\t状态 ↕\t操作\n\tcategory_group\t2\t2\tm02 价格/品类\t不能为空\t通过\t明细 / 行动\n\tsupplier.site\t3\t3\tm03/m04 GMP/ASL\t必须是有效制造Site\t通过\t明细 / 行动\n\tsafety_days\t2\t2\tm01/m06 库存覆盖\t必须为非负数\t通过\t明细 / 行动\n上一页第 1–3 行 / 共 3 行下一页\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n单据修改申请将提示影响 m01 计划、m02 "
+    },
+    {
+      "route": "master",
+      "index": 2,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "master.5981f0bd",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 3 / 全量 3 行导出筛选全量 CSV\n选择\t关键字段 ↕\t已填写 ↕\t分母 ↕\t下游影响 ↕\t判定规则 ↕\t状态 ↕\t操作\n\tcategory_group\t2\t2\tm02 价格/品类\t不能为空\t通过\t明细 / 行动\n\tsupplier.site\t3\t3\tm03/m04 GMP/ASL\t必须是有效制造Site\t通过\t明细 / 行动\n\tsafety_days\t2\t2\tm01/m06 库存覆盖\t必须为非负数\t通过\t明细 / 行动\n上一页第 1–3 行 / 共 3 行下一页\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "master",
+      "index": 3,
+      "title": "物料主数据",
+      "id": "master.d4c88043",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "alerts",
+      "index": 0,
+      "title": "告警分级与状态",
+      "id": "alerts.ce8ab4d1",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "2026 › Procurement › 告警与通知\n告警与通知\n当前 24 条 PO / 全量 24 条 PO · 数据源 24 baseline PO + explicitly simulated V0.8 extensions · DEMO-USD\n模拟演示 · Non-GxP\nseverity\n全部\nHIGH\nMEDIUM\nLOW\n?source\n全部\nMaterial readiness gap\nRegulatory / Change\nSupplier delivery\nQuality-controlled inventory\nInvoice exceptions\n?read\n全部\n未读\n已读\n?清除本页筛选\n告警中心规则与订阅\n当前 9 条告警，高优先 6 条；建议按合规硬门槛与"
+    },
+    {
+      "route": "alerts",
+      "index": 1,
+      "title": "告警按证据关联金额降序（同一 PO 可能关联多个告警）",
+      "id": "alerts.c33ef0db",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "告警按证据关联金额降序（同一 PO 可能关联多个告警）\nⓘ\n搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 9 / 全量 9 行导出筛选全量 CSV\n选择\t标题 ↕\t级别 ↕\t来源 ↕\t责任人 ↕\t金额敞口 ↕\t状态 ↕\t关联证据 ↕\t操作\n\t7 条生产需求缺料风险\tHIGH\tMaterial readiness gap\tPlanning + QA/QC + Procurement\t104,568 DEMO-USD\t未读\tWO-0001 / LOT-001\t明细 / 行动\n\t2 条 PO 超过承诺日期\tMEDIUM\tSupplier delivery\tProcurement\t51,512 DEMO-USD\t未读\tPO-0008 / PO-0021\t明细 / 行动\n\t2 项开放变更待评估\t"
+    },
+    {
+      "route": "alerts",
+      "index": 2,
+      "title": "搜索 ?列设置 ▾每页",
+      "id": "alerts.3d5f77e",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "搜索 ?列设置 ▾每页 \n10\n25\n50\n?匹配 9 / 全量 9 行导出筛选全量 CSV\n选择\t标题 ↕\t级别 ↕\t来源 ↕\t责任人 ↕\t金额敞口 ↕\t状态 ↕\t关联证据 ↕\t操作\n\t7 条生产需求缺料风险\tHIGH\tMaterial readiness gap\tPlanning + QA/QC + Procurement\t104,568 DEMO-USD\t未读\tWO-0001 / LOT-001\t明细 / 行动\n\t2 条 PO 超过承诺日期\tMEDIUM\tSupplier delivery\tProcurement\t51,512 DEMO-USD\t未读\tPO-0008 / PO-0021\t明细 / 行动\n\t2 项开放变更待评估\tHIGH\tRegulatory / Change\tRA / "
+    },
+    {
+      "route": "alerts",
+      "index": 3,
+      "title": "来源/风险类型",
+      "id": "alerts.41eaa0ac",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "alerts",
+      "index": 4,
+      "title": "事件等级",
+      "id": "alerts.71aca421",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "alerts",
+      "index": 5,
+      "title": "告警台账",
+      "id": "alerts.2c04c64d",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "ss-overview",
+      "index": 0,
+      "title": "官方供应商发现与同步状态",
+      "id": "ss-overview.1b5641e0",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◎官方供应商发现与同步状态?\n自动同步 未启用 · 需在服务端设置 SOURCING_AUTO_SYNC=1最后检查 尚未执行来源线索 0 条待审核 0 条NDC 检索词 0 个\n\n尚无来源采集结果：需要启动持久化 Node 服务并配置同步。\n\n自动发现企业线索 Top 10（未核验，不能下单）\n\n目前尚无同步得到的公开企业线索。请配置 FDA 活性成分检索词，启用后端自动同步；企业官网还需配置 HTTPS 域名白名单和具体网址。\n\n重新检查同步状态配置自动同步 / 检索词 / 企业官网原站候选不会自动升级为 GMP/CEP/ASL。\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-overview",
+      "index": 1,
+      "title": "寻源项目漏斗（项目数）",
+      "id": "ss-overview.71283571",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "▽寻源项目漏斗（项目数）?\nNPI 新品项目（演示）存量降本项目（演示）阶段转化率\n线索发掘■ 27■ 5380—技术初筛■ 21■ 436480.0%样品验证■ 16■ 324875.0%商务谈判■ 11■ 213266.7%准入落地■ 5■ 111650.0%\n\n示范阶段由本地情景候选生成；项目编号以 DEMO-PJ 开头，非企业实际立项与实际转化率。上传 ERP/项目里程碑后应替换为真实项目。\n\n五阶段漏斗按可点击的演示项目台账计算，转化率为演示结果；正式项目阶段尚待 ERP/项目系统接入。\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-overview",
+      "index": 2,
+      "title": "供应链风险预警矩阵",
+      "id": "ss-overview.9963dc10",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "⚠供应链风险预警矩阵?\n▤\nCEP 证书到期预警须核验\n待接入来源文件 0 项 · 无来源≠无风险\n›♧\nGMP 审计风险关注\n3 项来源记录中需跟进的 GMP 审计\n›⌘\n单一来源风险关注\n2 项只统计真实已记录合格来源的物料\n›▣\n演示候选高风险演示\n11 项情景风险指数≥67 的候选；非真实供应风险\n›\n情景风险优先级 Top 10仅用于展示筛选与处置路径；未获得监管风险证据或财务验证，不计入正式风险台账\n1DEMO-07287.02DEMO-05686.03DEMO-07783.04DEMO-06182.05DEMO-06678.06DEMO-07174.07DEMO-05573.08DEMO-07670.09MKT-02669.210DEMO-06069.0\n已记录的监管与质量证据"
+    },
+    {
+      "route": "ss-overview",
+      "index": 3,
+      "title": "Kraljic 矩阵（品类分布）",
+      "id": "ss-overview.43c5616f",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◉Kraljic 矩阵（品类分布）?\n价值占比\n(Value Share)\n杠杆品(Leverage)\n战略品(Strategic)\n非关键品(Non-Critical)\n瓶颈品(Bottleneck)\nAPI-001API-002CATEGORY-IntermediateCATEGORY-ExcipientCATEGORY-SolventCATEGORY-BiomaterialCATEGORY-NaturalCATEGORY-Reagent\n0%20%40%60%80%100%\n供应风险（Supply Risk）→\n● 原站有采购事实 2 个物料● 情景品类 6 个（仅示范散点，不计入真实采购金额）\nKraljic Matrix – 原站PO物料按采购占比计算；其他品类只作明确标注的情景展"
+    },
+    {
+      "route": "ss-overview",
+      "index": 4,
+      "title": "商业得分 × Site/Material 资格二维矩阵",
+      "id": "ss-overview.c9557816",
+      "tables": 3,
+      "svg": 1,
+      "ctx": "ϟ商业得分 × Site/Material 资格二维矩阵??\n统一候选 80 家已记录的示例合格 2 家待资质核验 78 家当前展示 Top 10\n50\n60\n70\n80\n90\n100\n优先谈判\nPriority\n禁止下单\nDo Not Order\n改善支持\nImprove\n补件再评\nRe-evaluate\nSUP-003\nSUP-001\n商业得分（50–100）\n合格 / 通过（Qualified）\n不合格 / 资格缺失（Not Qualified）\nSite × Material 资格状态（非项目阶段）\n\n上方显示按照资格可行性及商业得分排列的 Top 10。绿色：有原站 DEMO 批准来源记录，仍非生产 GxP 准入；蓝色：未核验候选。横线为 80 分商业门槛。资质必须由 QA/RA "
+    },
+    {
+      "route": "ss-overview",
+      "index": 5,
+      "title": "快捷功能入口",
+      "id": "ss-overview.b57040b6",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "ϟ快捷功能入口?\n✚新建寻源项目创建并启动寻源流程›♙发起供应商评估对潜在 / 现有供应商进行›⚠查看风险预警查看共性原因风险项›▣成本机会台账管理降本机会与进展›▤供应商档案查看供应商全景信息›▥市场情报洞察供需、价格与行业动态›\n数据与另外八个二级栏目共用同一分析模型；尚未开发的栏目进入各自占位页。\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-market",
+      "index": 0,
+      "title": "原料药 / 零部件品类价格趋势",
+      "id": "ss-market.f8c12c52",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "⌁\n原料药 / 零部件品类价格趋势\n?\n原料药（API）规则化情景预测\n历史价格预测情景情景区间（非统计置信区间）\n价格（USD / 源数据数量单位）\n99\n111\n122\n133\n144\n情景预测分界线\n26-06\n26-08\n27-01\n27-03\n27-05\n27-07\n27-09\n27-11\n实线＝已发生的 PO 采购价格，虚线＝情景外推，不是市场报价或已批准成本。查看采购价明细 ↗\n2026-07 · 采购低点 120.89 PO单价低于所选时窗其他有记录月份；需进一步核验数量、规格与采购条款。2026-08 · 采购高点 121.11 仅能确定历史采购单价高点；供应紧张、需求上升等外因尚无来源证据。2027-11 · 情景预测 121.55 依据历史月度变化率的规则外推，不是市场"
+    },
+    {
+      "route": "ss-market",
+      "index": 1,
+      "title": "全球供应商分布与产能格局",
+      "id": "ss-market.dab0e191",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "◉\n全球供应商分布与产能格局\n?\n欧洲原料药集群40 家 · 50.0%国内/东亚产业带16 家 · 20.0%东南亚产业园区16 家 · 20.0%北美供应区8 家 · 10.0%\n供应商数量（全球）\n80 家原有 3 / 扩展情景 77欧洲原料药集群40 家 · 50.0%国内/东亚产业带16 家 · 20.0%东南亚产业园区16 家 · 20.0%北美供应区8 家 · 10.0%\n♛ 欧洲：精细化工、法规体系和高端工艺积累　 ·　 国内/东亚：原料药、中间体及产业链配套　 ·　 东南亚：区域成本、生产转移与产能补充　 ·　 南亚：规模化合成与仿制药供应链　 ·　 北美：研发转化与创新制造（以上为一般产业特点，非具体厂商尽调结论）　 ·　 点击区域查看候选档案\n∑ 本模块公式 / 分析依"
+    },
+    {
+      "route": "ss-market",
+      "index": 2,
+      "title": "技术情报与产业洞察",
+      "id": "ss-market.d4cc009f",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◈\n技术情报与产业洞察\n?\n⚗新工艺进展线索\n生物催化和连续流制造的成熟度评估\n工艺路线技术转移与变更验证\n原料纯度与杂质谱评估\n▤新辅料潜力方向\nHPMC/药用纤维素的等级与来源核验\n高稳定性辅料的供应替代路径\n载药与制剂工艺兼容性验证\n▣行业展会情报近期展会\nCPHI / API China 等行业活动：核实当期官网日程\n收集原料药厂商产能与报价趋势\n展会合作线索必须二次确认\n♧竞品供应链方案可借鉴\n欧洲 + 东南亚双源寻源评估\n关键中间体自产/外购策略比较\n多点运输与第三方仓储方案\n官方来源检索入口（未自动同步；人工核验后入库）：FDA 药品生产设施登记EMA EudraGMDPEDQM CEP 数据库NMPA 官方信息openFDA 医疗器械企业 API\n以上是情报调研检查项，不表示"
+    },
+    {
+      "route": "ss-market",
+      "index": 3,
+      "title": "供给风险热力图（规则情景 · 未来 12 个月）",
+      "id": "ss-market.2cc668b2",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "⚠\n供给风险热力图（规则情景 · 未来 12 个月）\n?\n低风险≤20%\n较低风险20%–40%\n中风险40%–60%\n较高风险60%–80%\n高风险>80%\n◉ 地缘风险10.0%8 家30.0%24 家11.3%9 家37.5%30 家11.3%9 家\n▥ 产能波动15.0%12 家30.0%24 家13.8%11 家31.3%25 家10.0%8 家\n◈ 原材料短缺8.8%7 家28.7%23 家23.8%19 家18.8%15 家20.0%16 家\n♧ 监管政策变化16.3%13 家28.7%23 家21.3%17 家32.5%26 家1.3%1 家\n▤ 注册法规变更0.0%0 家38.8%31 家8.8%7 家38.8%31 家13.8%11 家\n▣ 企业资产与财务韧性5.2%4 "
+    },
+    {
+      "route": "ss-market",
+      "index": 4,
+      "title": "官方来源发现与每日更新 · Official Discovery",
+      "id": "ss-market.5e33d1b8",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "官方来源发现与每日更新 · Official Discovery\n\n已实现可选 openFDA 器械生产设施登记数据同步。只记录官方注册线索，不将登记误认为 FDA/GMP/CEP/ASL 批准；药品 API 资质需 EudraGMDP、EDQM 与目标制造厂址二次核验。\n\n?\n接口来源：FDA openFDA / 医疗器械设施登记状态：未接入上次获取：从未更新记录数量：0 条立即拉取官方数据 页面打开时每日自动同步（需联网）?查看官方记录及来源链接\n\n自动同步周期为本浏览器访问页面时每 24 小时检查一次；静态站点无法在无人访问时后台更新。生产级无人值守需要服务器定时任务、权限和审计。FDA 接口内容本身按其发布节奏更新，不保证每日新增记录。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计"
+    },
+    {
+      "route": "ss-market",
+      "index": 5,
+      "title": "原材料供应商候选名录 · 80 家",
+      "id": "ss-market.88a2dc80",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "原材料供应商候选名录 · 80 家\n\n覆盖 API、中间体、辅料、溶剂、生物工艺、天然提取与关键试剂。情景候选为模拟数据，不代表可采购资质。\n\n?导出当前范围 CSV ↓\n 展开全部 / 按筛选范围显示?查看全部字段及来源说明导入候选 CSV（浏览器本地）?\nTOP 10 · 保持业务优先顺序 · 全量 80 条可展开\n供应商编号\t供应商名称\t地区/国家\t原材料类别\t供应物料\t风险级别\t来源 / 资质状态\t来源PO金额\nSUP-001\tAster Pharma Materials\tSwitzerland\tAPI原料药\tAPI-001\t低\t原站 DEMO\t200,864 USD\nSUP-002\tBoreal Chemicals\tAustria\tAPI原料药\tAPI-001\t中\t原站 DEMO\t"
+    },
+    {
+      "route": "ss-kraljic",
+      "index": 0,
+      "title": "◉ 需求汇总归口汇总采购需求、归口来源与品类范围，为 Kraljic 分级与寻源路径提供输入",
+      "id": "ss-kraljic.6c5fa48b",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◉ 需求汇总归口汇总采购需求、归口来源与品类范围，为 Kraljic 分级与寻源路径提供输入?\n▱\n汇总需求金额580,704 USD原站PO · 24 行\n ▤\n需求来源部门待接入采购、计划、研发、生产等参考类型\n ▦\n涉及物料品类7 类18 种物料（含情景）\n ▱\n寻源项目数未接入没有正式寻源项目里程碑台账\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-kraljic",
+      "index": 1,
+      "title": "品类分布概览",
+      "id": "ss-kraljic.690bd80e",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "◉Kraljic 四象限矩阵（品类分布）Kraljic Matrix – Category Classification?\n价值占比\n(Value Share)\n0%\n0%\n20%\n20%\n40%\n40%\n60%\n60%\n80%\n80%\n100%\n100%\n杠杆品\n(Leverage)\n战略品\n(Strategic)\n非关键品\n(Non-Critical)\n瓶颈品\n(Bottleneck)\n供应风险（Supply Risk）→\n品类分布概览\n战略品2 类11.1%杠杆品6 类33.3%瓶颈品1 类5.6%非关键品9 类50.0%\n合计 18 种 100%\n\n● 实心大点：已有 PO；小点：情景候选。价值轴在情景物料中采用参考重要性等级。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和"
+    },
+    {
+      "route": "ss-kraljic",
+      "index": 2,
+      "title": "品类分布概览",
+      "id": "ss-kraljic.859feca6",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "价值占比\n(Value Share)\n0%\n0%\n20%\n20%\n40%\n40%\n60%\n60%\n80%\n80%\n100%\n100%\n杠杆品\n(Leverage)\n战略品\n(Strategic)\n非关键品\n(Non-Critical)\n瓶颈品\n(Bottleneck)\n供应风险（Supply Risk）→\n品类分布概览\n战略品2 类11.1%杠杆品6 类33.3%瓶颈品1 类5.6%非关键品9 类50.0%\n合计 18 种 100%\n\n● 实心大点：已有 PO；小点：情景候选。价值轴在情景物料中采用参考重要性等级。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-kraljic",
+      "index": 3,
+      "title": "▥分支判断节点（寻源路径选择）根据项目类型自动进入相应的评审与寻源路径",
+      "id": "ss-kraljic.595fe1aa",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "▥分支判断节点（寻源路径选择）根据项目类型自动进入相应的评审与寻源路径?\n⚗ 在研新品（NPI）\n→⚙ 技术评审\n工艺 / 质量 / 可行性＋◈ 合规前置核验\nGMP / CEP / 法规➜◉ 寻源路由\n根据品类分级匹配\n▥ 成熟量产（Commercial）\n当前选择：战略品 · 集中招标　›\n\n实际来源仅证明采购/资格状态；研发评审、项目节点、电子审批需要后续八个子页面接入流程台账。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-kraljic",
+      "index": 4,
+      "title": "⚗ 在研新品（NPI）",
+      "id": "ss-kraljic.c5806b54",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "⚗ 在研新品（NPI）\n→⚙ 技术评审\n工艺 / 质量 / 可行性＋◈ 合规前置核验\nGMP / CEP / 法规➜◉ 寻源路由\n根据品类分级匹配\n▥ 成熟量产（Commercial）\n当前选择：战略品 · 集中招标　›\n\n实际来源仅证明采购/资格状态；研发评审、项目节点、电子审批需要后续八个子页面接入流程台账。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-kraljic",
+      "index": 5,
+      "title": "战略品 → 集中招标",
+      "id": "ss-kraljic.df23a29b",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "♧差异化寻源路由（按 Kraljic 分级匹配）?\n战略品 → 集中招标\n适用范围：高价值 / 高风险\n推进供应商长期战略合作\n启动合规备选供应商开发（含GMP/ASL）\n锁定产能、需求预测和合同条款\n当前品类 2 种　｜　PO金额 387,008 USD\n杠杆品 → 反向竞价\n适用范围：高价值 / 低风险\n开展竞争性比价及多轮议价\n按总拥有成本 TCO 对比\n建立价格基线并按月复盘\n当前品类 6 种　｜　PO金额 0 USD\n瓶颈品 → 框架协议\n适用范围：低价值 / 高风险\n评估安全库存和柔性框架协议\n优先完成关键 Site/Material 资质验证\n监控单一来源、停供与应急替代\n当前品类 1 种　｜　PO金额 193,696 USD\n非关键品 → 商城直采\n适用范围：低价值 / 低风"
+    },
+    {
+      "route": "ss-kraljic",
+      "index": 6,
+      "title": "⬡品类详情：战略品",
+      "id": "ss-kraljic.5a25ec28",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "⬡品类详情：战略品?\n品类名称API Alpha · simulated\n价值占比66.6%\n供应风险中\n采购金额387,008 USD\n需求状态采购存量\n项目状态尚未关联正式项目\n◉ 候选供应商（共 18 家）＋ 新增候选\n供应商名称\n合规状态\n评估得分\n关键证据\nBoreal Chemicals资格待确认90.6GMP/ASL 待复核Aster Pharma Materials已确认准入88.4GMP/ASL 已有来源演示寻源候选 051未核验76.0*模拟候选 · 无正式审计演示寻源候选 057未核验76.0*模拟候选 · 无正式审计演示寻源候选 062未核验76.0*模拟候选 · 无正式审计\n\n* 候选情景得分仅用于寻源初筛，不能视为资质批准或真实质量绩效。点击供应商查看来源。\n\n◉"
+    },
+    {
+      "route": "ss-kraljic",
+      "index": 7,
+      "title": "品类名称API Alpha · simulated",
+      "id": "ss-kraljic.24c60452",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "品类名称API Alpha · simulated\n价值占比66.6%\n供应风险中\n采购金额387,008 USD\n需求状态采购存量\n项目状态尚未关联正式项目\n◉ 候选供应商（共 18 家）＋ 新增候选\n供应商名称\n合规状态\n评估得分\n关键证据\nBoreal Chemicals资格待确认90.6GMP/ASL 待复核Aster Pharma Materials已确认准入88.4GMP/ASL 已有来源演示寻源候选 051未核验76.0*模拟候选 · 无正式审计演示寻源候选 057未核验76.0*模拟候选 · 无正式审计演示寻源候选 062未核验76.0*模拟候选 · 无正式审计\n\n* 候选情景得分仅用于寻源初筛，不能视为资质批准或真实质量绩效。点击供应商查看来源。\n\n◉ 合规与风险检查\n!C"
+    },
+    {
+      "route": "ss-ai",
+      "index": 0,
+      "title": "◉商业评分 × 准入资格矩阵Business Score × Qualification Matrix",
+      "id": "ss-ai.72b08565",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "◉商业评分 × 准入资格矩阵Business Score × Qualification Matrix??\n商业得分 (Business Score) 纵轴 50–100分 · 商业门槛 ≥ 80分\n优先谈判(Priority)\n禁止下单(Do Not Order)\n改善支持(Improve)\n补件再评(Re-evaluate)\n1009080706050\nAster Pharma Materials (90.0)演示寻源候选 052 (86.7) · 演示Cedar Life Sciences (82.8)演示寻源候选 064 (82.0) · 演示演示寻源候选 062 (80.8) · 演示演示寻源候选 057 (80.6) · 演示Boreal Chemicals (78.8)演示寻源"
+    },
+    {
+      "route": "ss-ai",
+      "index": 1,
+      "title": "商业得分 (Business Score) 纵轴 50–100分 · 商业门槛 ≥ 80分",
+      "id": "ss-ai.a5a0abb0",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "商业得分 (Business Score) 纵轴 50–100分 · 商业门槛 ≥ 80分\n优先谈判(Priority)\n禁止下单(Do Not Order)\n改善支持(Improve)\n补件再评(Re-evaluate)\n1009080706050\nAster Pharma Materials (90.0)演示寻源候选 052 (86.7) · 演示Cedar Life Sciences (82.8)演示寻源候选 064 (82.0) · 演示演示寻源候选 062 (80.8) · 演示演示寻源候选 057 (80.6) · 演示Boreal Chemicals (78.8)演示寻源候选 051 (77.9) · 演示情景供应商-032 · API原料药 (77.0) · 演示演示寻源候选"
+    },
+    {
+      "route": "ss-ai",
+      "index": 2,
+      "title": "▤供应商评估结果Supplier Evaluation Results",
+      "id": "ss-ai.a2726ebe",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "▤供应商评估结果Supplier Evaluation Results?\nTOP 10 · 按关键指标由高到低排序 · 全量 19 条可展开\n序号\t供应商名称\nSupplier\t准入资格\t商业评分\nScore\t关键差异/备注\n1\tAster Pharma MaterialsSUP-001 · Switzerland\t✓ 源站准入\t90.0\tGMP 有来源 · CEP 待核验 · ASL 已列入 · 交期 45 天 · 需复核目标市场和文件有效性\n2\t演示寻源候选 052DEMO-052 · Italy\t待核验\t86.7\t演示价/情景评分；GMP 待证据 · CEP 待核验 · ASL 未列入 · 交期 58 天 · 未找到该物料的 Site/Material 准入\n3\tCedar Life "
+    },
+    {
+      "route": "ss-ai",
+      "index": 3,
+      "title": "TOP 10 · 按关键指标由高到低排序 · 全量 19 条可展开",
+      "id": "ss-ai.11f4ea9e",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "TOP 10 · 按关键指标由高到低排序 · 全量 19 条可展开\n序号\t供应商名称\nSupplier\t准入资格\t商业评分\nScore\t关键差异/备注\n1\tAster Pharma MaterialsSUP-001 · Switzerland\t✓ 源站准入\t90.0\tGMP 有来源 · CEP 待核验 · ASL 已列入 · 交期 45 天 · 需复核目标市场和文件有效性\n2\t演示寻源候选 052DEMO-052 · Italy\t待核验\t86.7\t演示价/情景评分；GMP 待证据 · CEP 待核验 · ASL 未列入 · 交期 58 天 · 未找到该物料的 Site/Material 准入\n3\tCedar Life SciencesSUP-003 · Singapore\t需整改\t82.8\t"
+    },
+    {
+      "route": "ss-ai",
+      "index": 4,
+      "title": "◷各维度评分对比（Top 10）Score Breakdown",
+      "id": "ss-ai.279fa920",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◷各维度评分对比（Top 10）Score Breakdown?\n价格质量交付供应风险\nAster Pharma Materials\n24.3%28.2%17.5%20.0%\n90.0演示寻源候选 052\n23.1%27.9%19.2%16.5%\n86.7演示Cedar Life Sciences\n25.0%27.3%17.5%13.0%\n82.8演示寻源候选 064\n25.0%27.0%18.0%12.0%\n82.0演示演示寻源候选 062\n18.6%28.5%15.2%18.5%\n80.8演示演示寻源候选 057\n20.7%28.2%14.2%17.5%\n80.6演示Boreal Chemicals\n20.0%25.8%20.0%13.0%\n78.8演示寻源候选 051\n15.7%24."
+    },
+    {
+      "route": "ss-ai",
+      "index": 5,
+      "title": "价格质量交付供应风险",
+      "id": "ss-ai.11f4ea9e",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "价格质量交付供应风险\nAster Pharma Materials\n24.3%28.2%17.5%20.0%\n90.0演示寻源候选 052\n23.1%27.9%19.2%16.5%\n86.7演示Cedar Life Sciences\n25.0%27.3%17.5%13.0%\n82.8演示寻源候选 064\n25.0%27.0%18.0%12.0%\n82.0演示演示寻源候选 062\n18.6%28.5%15.2%18.5%\n80.8演示演示寻源候选 057\n20.7%28.2%14.2%17.5%\n80.6演示Boreal Chemicals\n20.0%25.8%20.0%13.0%\n78.8演示寻源候选 051\n15.7%24.6%17.8%19.8%\n77.9演示情景供应商-032 · AP"
+    },
+    {
+      "route": "ss-ai",
+      "index": 6,
+      "title": "◴总成本对比Total Landed Cost",
+      "id": "ss-ai.36fd315d",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "◴总成本对比Total Landed Cost?\n↓ 14.7% · 最优报价相对 Top 10 平均基准下降同物料 API-001 · 统一需求 1,000 kg · USD · 落地估算（含运费；MOQ按实际采购量） · 情景价格（不可作为正式报价）\n104.9k演示寻源候选 064演示107.7k演示寻源候选 060演示110.6k演示寻源候选 056演示113.4k演示寻源候选 052演示123.6k演示寻源候选 061演示126.4k演示寻源候选 057演示128.9k情景供应商-032 · API原料药演示129.3k演示寻源候选 053演示141.0k演示寻源候选 062演示143.9k演示寻源候选 058演示\n均值基准 122,977 USD\n↑ 总落地成本（USD）；排序为"
+    },
+    {
+      "route": "ss-ai",
+      "index": 7,
+      "title": "↓ 14.7% · 最优报价相对 Top 10 平均基准下降同物料 API-001 · 统一需求 1,000 kg · USD · 落地估算（含运费；MOQ按实际采购量） · 情景价格（不可作为正式报",
+      "id": "ss-ai.2217f332",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "↓ 14.7% · 最优报价相对 Top 10 平均基准下降同物料 API-001 · 统一需求 1,000 kg · USD · 落地估算（含运费；MOQ按实际采购量） · 情景价格（不可作为正式报价）\n104.9k演示寻源候选 064演示107.7k演示寻源候选 060演示110.6k演示寻源候选 056演示113.4k演示寻源候选 052演示123.6k演示寻源候选 061演示126.4k演示寻源候选 057演示128.9k情景供应商-032 · API原料药演示129.3k演示寻源候选 053演示141.0k演示寻源候选 062演示143.9k演示寻源候选 058演示\n均值基准 122,977 USD\n↑ 总落地成本（USD）；排序为从低成本（更优）到高成本。基准＝同组 Top 10"
+    },
+    {
+      "route": "ss-ai",
+      "index": 8,
+      "title": "♧合规与资格检查Compliance & Qualification",
+      "id": "ss-ai.f82cef74",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "♧合规与资格检查Compliance & Qualification?\nTOP 10 · 保持业务优先顺序 · 全量 19 条可展开\n供应商\nSupplier\tGMP\tCEP\tASL\tSite/Material\t最终状态\nAster\t✓\t—\t✓\t✓\t源站准入\n演示寻源候选\t—\t—\t—\t—\t需复核\nCedar\t✓\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\nBoreal\t—\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\n情景供应商-032\t—\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\n展开其余 9 条（完整明细） · 默认展示 Top 10\n\nCEP 为文件登记状态；无证据不可"
+    },
+    {
+      "route": "ss-ai",
+      "index": 9,
+      "title": "TOP 10 · 保持业务优先顺序 · 全量 19 条可展开",
+      "id": "ss-ai.c1a5bcb3",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "TOP 10 · 保持业务优先顺序 · 全量 19 条可展开\n供应商\nSupplier\tGMP\tCEP\tASL\tSite/Material\t最终状态\nAster\t✓\t—\t✓\t✓\t源站准入\n演示寻源候选\t—\t—\t—\t—\t需复核\nCedar\t✓\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\nBoreal\t—\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\n情景供应商-032\t—\t—\t—\t—\t需复核\n演示寻源候选\t—\t—\t—\t—\t需复核\n展开其余 9 条（完整明细） · 默认展示 Top 10\n\nCEP 为文件登记状态；无证据不可解释为证书有效。正式批准以授权 Site / Material / Ma"
+    },
+    {
+      "route": "ss-cost",
+      "index": 0,
+      "title": "研发BOM目标参考价（演示）118.00USD/kgV08 PO加权基准代理；非正式BOM∑ 本模块公式 / 分析依据",
+      "id": "ss-cost.3849530a",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "研发BOM目标参考价（演示）118.00USD/kgV08 PO加权基准代理；非正式BOM∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-cost",
+      "index": 1,
+      "title": "最优供应商报价107.24USD/kg情景供应商-032 · API原料药 · Top1 落地报价∑ 本模块公式 / 分析依据",
+      "id": "ss-cost.35986a97",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "最优供应商报价107.24USD/kg情景供应商-032 · API原料药 · Top1 落地报价∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-cost",
+      "index": 2,
+      "title": "统一候选供应商数19正式来源 3 家 / 其余为演示候选∑ 本模块公式 / 分析依据",
+      "id": "ss-cost.febce90b",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "统一候选供应商数19正式来源 3 家 / 其余为演示候选∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-cost",
+      "index": 3,
+      "title": "目标达成率100.0%低于目标视为100%达成；高于目标按超支比例扣减∑ 本模块公式 / 分析依据",
+      "id": "ss-cost.fb107cca",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "目标达成率100.0%低于目标视为100%达成；高于目标按超支比例扣减∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-cost",
+      "index": 4,
+      "title": "▥BOM 成本拆解瀑布图",
+      "id": "ss-cost.c6b69bda",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "▥BOM 成本拆解瀑布图\n?\n\n演示核算：原站无批准研发BOM分项，当前以 PO 基准价/情景目标模拟六段拆解；最优候选价格不代表可下单报价。瀑布图按同一算式闭合，底部保留金额与占比。\n\n示例物料：API Alpha · simulated ｜ 研发BOM目标参考价（非正式BOM）： 118.00 USD/kg\n0\n30\n60\n90\n120\n成本（USD/kg）\n118.00\n研发BOM目标价\n−17.70\n原材料\n−8.85\n加工费\n−4.48\n注册合规成本\n−2.95\n物流\n−2.24\n管理成本\n+25.46\n利润\n107.24\n供应商报价（最优）\n研发BOM目标价\n原材料\n加工费\n注册合规成本\n物流\n管理成本\n利润\n供应商报价（最优）\n金额\n(USD/kg)\n118.00\n-17.70"
+    },
+    {
+      "route": "ss-cost",
+      "index": 5,
+      "title": "演示核算：原站无批准研发BOM分项，当前以 PO 基准价/情景目标模拟六段拆解；最优候选价格不代表可下单报价。瀑布图按同一算式闭合，底部保留金额与占比。",
+      "id": "ss-cost.fc5cdc07",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "演示核算：原站无批准研发BOM分项，当前以 PO 基准价/情景目标模拟六段拆解；最优候选价格不代表可下单报价。瀑布图按同一算式闭合，底部保留金额与占比。\n\n示例物料：API Alpha · simulated ｜ 研发BOM目标参考价（非正式BOM）： 118.00 USD/kg\n0\n30\n60\n90\n120\n成本（USD/kg）\n118.00\n研发BOM目标价\n−17.70\n原材料\n−8.85\n加工费\n−4.48\n注册合规成本\n−2.95\n物流\n−2.24\n管理成本\n+25.46\n利润\n107.24\n供应商报价（最优）\n研发BOM目标价\n原材料\n加工费\n注册合规成本\n物流\n管理成本\n利润\n供应商报价（最优）\n金额\n(USD/kg)\n118.00\n-17.70\n-8.85\n-4.48\n-2."
+    },
+    {
+      "route": "ss-cost",
+      "index": 6,
+      "title": "◫目标成本 vs 供应商报价",
+      "id": "ss-cost.1ce10c1",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "◫目标成本 vs 供应商报价\n?\n\n至少比较 5 家以上供应商，默认显示 Top10，从低到高比较落地单价、MOQ、交期和质量风险。\n\n橙色竖线＝研发 BOM 目标参考价（演示）118.00 USD/kg查看目标价计算依据\n情景供应商-032 · API原料药演示候选 · LT 57d\n107.24 USD/kg\nCedar Life Sciences原站 DEMO · LT 52d\n123.40 USD/kg\nAster Pharma Materials原站 DEMO · LT 45d\n127.10 USD/kg\n演示寻源候选 054演示候选 · LT 59d\n127.88 USD/kg\n演示寻源候选 051演示候选 · LT 52d\n129.48 USD/kg\n演示寻源候选 062演示候"
+    },
+    {
+      "route": "ss-cost",
+      "index": 7,
+      "title": "至少比较 5 家以上供应商，默认显示 Top10，从低到高比较落地单价、MOQ、交期和质量风险。",
+      "id": "ss-cost.6382ad63",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "至少比较 5 家以上供应商，默认显示 Top10，从低到高比较落地单价、MOQ、交期和质量风险。\n\n橙色竖线＝研发 BOM 目标参考价（演示）118.00 USD/kg查看目标价计算依据\n情景供应商-032 · API原料药演示候选 · LT 57d\n107.24 USD/kg\nCedar Life Sciences原站 DEMO · LT 52d\n123.40 USD/kg\nAster Pharma Materials原站 DEMO · LT 45d\n127.10 USD/kg\n演示寻源候选 054演示候选 · LT 59d\n127.88 USD/kg\n演示寻源候选 051演示候选 · LT 52d\n129.48 USD/kg\n演示寻源候选 062演示候选 · LT 56d\n130.14 "
+    },
+    {
+      "route": "ss-cost",
+      "index": 8,
+      "title": "≋物料历史价格基线与采购闭环",
+      "id": "ss-cost.125210b",
+      "tables": 3,
+      "svg": 1,
+      "ctx": "≋物料历史价格基线与采购闭环\n?\n06\n07\n08\n历史基线成交单价\n结论分析\n历史 PO 加权基线价 118.00 USD/kg；最新成交价 121.10 USD/kg。\n月度价差围绕基线波动，适合用于季度复盘和谈判锚点。\n采购闭环分析必须同时联动 Top10 供应商对比、MOQ、交期、质量评分和风险暴露。\n建议把高于基线且交期长的供应商纳入下一轮商务与替代寻源计划。\n\n历史价格只统计原站DEM0采购订单；扩展候选没有历史成交记录，不会伪造成历史曲线。\n\n月份\t历史基线\t成交单价\t价差\t供应商数\n2026-06\t118.00\t120.00\t+2.00\t1\n2026-07\t118.00\t120.88\t+2.88\t2\n2026-08\t118.00\t121.10\t+3.10\t2\n当前同物料供应商"
+    },
+    {
+      "route": "ss-cost",
+      "index": 9,
+      "title": "结论分析",
+      "id": "ss-cost.bde01521",
+      "tables": 3,
+      "svg": 1,
+      "ctx": "06\n07\n08\n历史基线成交单价\n结论分析\n历史 PO 加权基线价 118.00 USD/kg；最新成交价 121.10 USD/kg。\n月度价差围绕基线波动，适合用于季度复盘和谈判锚点。\n采购闭环分析必须同时联动 Top10 供应商对比、MOQ、交期、质量评分和风险暴露。\n建议把高于基线且交期长的供应商纳入下一轮商务与替代寻源计划。\n\n历史价格只统计原站DEM0采购订单；扩展候选没有历史成交记录，不会伪造成历史曲线。\n\n月份\t历史基线\t成交单价\t价差\t供应商数\n2026-06\t118.00\t120.00\t+2.00\t1\n2026-07\t118.00\t120.88\t+2.88\t2\n2026-08\t118.00\t121.10\t+3.10\t2\n当前同物料供应商报价/候选对比（非历史成交）\n供应"
+    },
+    {
+      "route": "ss-cost",
+      "index": 10,
+      "title": "♙降本机会台账",
+      "id": "ss-cost.1d18e6f7",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "♙降本机会台账\n?\n\n此处 −6.0%、−3.5%、−4.0% 等是情景假设，而非已由报价算出的降本结果。点击每张机会卡可以看到假设、参与供应商、原始数字、计算过程；导出 .xlsx 后可在 Excel 公式栏复核。\n\n⚗\n替代材料情景降幅假设 -6.0%（未验证）\n\n评估替代供应商的等效原料（杂质谱一致），满足注册与质量要求；同步进行 RA 影响评估与变更控制。\n\n进展：建议待小试验证 ｜ Owner：研发 / QA / RA建议筛选 Top 3 开展杂质谱、方法学和小试验证；暂无实际样品签收证据查看假设、参与供应商、计算步骤及公式 →\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n⚙\n工艺优化情景降幅假设 -3.5%（未验证）\n\n优化合成路线与精制"
+    },
+    {
+      "route": "ss-cost",
+      "index": 11,
+      "title": "此处 −6.0%、−3.5%、−4.0% 等是情景假设，而非已由报价算出的降本结果。点击每张机会卡可以看到假设、参与供应商、原始数字、计算过程；导出 .xlsx 后可在 Excel 公式栏复核。",
+      "id": "ss-cost.91e7e662",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "此处 −6.0%、−3.5%、−4.0% 等是情景假设，而非已由报价算出的降本结果。点击每张机会卡可以看到假设、参与供应商、原始数字、计算过程；导出 .xlsx 后可在 Excel 公式栏复核。\n\n⚗\n替代材料情景降幅假设 -6.0%（未验证）\n\n评估替代供应商的等效原料（杂质谱一致），满足注册与质量要求；同步进行 RA 影响评估与变更控制。\n\n进展：建议待小试验证 ｜ Owner：研发 / QA / RA建议筛选 Top 3 开展杂质谱、方法学和小试验证；暂无实际样品签收证据查看假设、参与供应商、计算步骤及公式 →\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n⚙\n工艺优化情景降幅假设 -3.5%（未验证）\n\n优化合成路线与精制工艺，降低加工费与溶剂"
+    },
+    {
+      "route": "ss-cost",
+      "index": 12,
+      "title": "⚗",
+      "id": "ss-cost.2a19713c",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "⚗\n替代材料情景降幅假设 -6.0%（未验证）\n\n评估替代供应商的等效原料（杂质谱一致），满足注册与质量要求；同步进行 RA 影响评估与变更控制。\n\n进展：建议待小试验证 ｜ Owner：研发 / QA / RA建议筛选 Top 3 开展杂质谱、方法学和小试验证；暂无实际样品签收证据查看假设、参与供应商、计算步骤及公式 →\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-cost",
+      "index": 13,
+      "title": "⚙",
+      "id": "ss-cost.dd636421",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "⚙\n工艺优化情景降幅假设 -3.5%（未验证）\n\n优化合成路线与精制工艺，降低加工费与溶剂消耗；引入中试批次验证、杂质清除与收率提升跟踪。\n\n进展：建议待工艺评估 ｜ Owner：工艺 / 生产 / QC建议设计 3 条技术路径和 DoE 对比；当前无正式工艺评估数据查看假设、参与供应商、计算步骤及公式 →\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-cost",
+      "index": 14,
+      "title": "▤",
+      "id": "ss-cost.9b5e31b3",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "▤\n长期框架情景降幅假设 -4.0%（未验证）\n\n与核心供应商签订 2–3 年框架，锁定价格与产能，获取批量折扣、季度返利和优先排产。\n\n进展：建议待商务评审 ｜ Owner：采购 / 法务候选目录 Top 5 情景比价 · 最低落地参考 107.24 USD/kg（未审批）查看假设、参与供应商、计算步骤及公式 →\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-cost",
+      "index": 15,
+      "title": "◈",
+      "id": "ss-cost.5b0631ed",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◈\n物流拼箱与港口优化情景降幅假设 -1.8%（未验证）\n\n通过发运窗口协同、拼箱和港口切换，降低国际运输和清关波动。\n\n进展：建议待批准 ｜ Owner：供应链 / 物流建议覆盖高运费供应商，节省金额需以实际运费及年量测算查看假设、参与供应商、计算步骤及公式 →\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-cost",
+      "index": 16,
+      "title": "¤",
+      "id": "ss-cost.167980bb",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "¤\n付款条款与汇率策略情景降幅假设 -1.2%（未验证）\n\n优化账期、结算币种与套保窗口，减少财务成本和汇率侵蚀。\n\n进展：建议待财务复核 ｜ Owner：采购 / 财务建议使用财务核定结算币种与账期作为取数依据查看假设、参与供应商、计算步骤及公式 →\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-cost",
+      "index": 17,
+      "title": "◔降本监控与复盘（达成率 / 偏差分析）",
+      "id": "ss-cost.cdc23aba",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "◔降本监控与复盘（达成率 / 偏差分析）\n?\n∑ 查看达成率、价差及采购明细计算链↓ 导出全部计算公式 Excel\n目标成本118.00 USD/kg\n最优报价107.24 USD/kg\n目标达成率100.0%\n已实现降本1,400 USD\n偏差 PO 行数12\n原站DEMO采购价差分解（按供应商）\n供应商\t订单数\t实际支出 USD\t加权基准 USD/kg\t成交 USD/kg\t价差 USD\nBoreal Chemicals\t8\t186,144\t118.00\t121.19\t4,896\nAster Pharma Materials\t8\t200,864\t118.00\t120.71\t4,512\n复盘时要同时看达成率、偏差来源、正式采购证据和演示候选补充线索，不能只看一个价格数字。\n对超目标报价、长期"
+    },
+    {
+      "route": "ss-cost",
+      "index": 18,
+      "title": "原站DEMO采购价差分解（按供应商）",
+      "id": "ss-cost.8c3d17af",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "∑ 查看达成率、价差及采购明细计算链↓ 导出全部计算公式 Excel\n目标成本118.00 USD/kg\n最优报价107.24 USD/kg\n目标达成率100.0%\n已实现降本1,400 USD\n偏差 PO 行数12\n原站DEMO采购价差分解（按供应商）\n供应商\t订单数\t实际支出 USD\t加权基准 USD/kg\t成交 USD/kg\t价差 USD\nBoreal Chemicals\t8\t186,144\t118.00\t121.19\t4,896\nAster Pharma Materials\t8\t200,864\t118.00\t120.71\t4,512\n复盘时要同时看达成率、偏差来源、正式采购证据和演示候选补充线索，不能只看一个价格数字。\n对超目标报价、长期未关闭的降本项目、以及正式供应商数量不足的物料"
+    },
+    {
+      "route": "ss-project",
+      "index": 0,
+      "title": "统一候选供应商19∑ 本模块公式 / 分析依据",
+      "id": "ss-project.d334ceb5",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "统一候选供应商19∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-project",
+      "index": 1,
+      "title": "▦项目进度甘特图（全流程）",
+      "id": "ss-project.4d03a8c7",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "▦项目进度甘特图（全流程）\n?\n\n16 步甘特排程 · 蓝绿状态仅依据计划日期推演，不代表真实签核。16 步规划情景：含 change control、样品接收静置、化学检测/机械实验、QA审计、RA核验与QC放行。未提供已签核的项目进度记录，颜色只表示规划阶段，不表示实际完成。\n\n项目周期：2026-10-07 — 2027-02-28（145 天）\n排程情景进度：21%\n2026-10\n2026-11\n2026-12\n2027-01\n2027-02\n阶段 / 责任部门\n计划周期\n进度\n需求定义与立项澄清\n10-07 ~ 10-12\n✓ 100%\n品类策略与寻源方案\n10-13 ~ 10-19\n✓ 100%\nRFI / NDA / 基础资料收集\n10-20 ~ 10-29\n✓ 100%\nR"
+    },
+    {
+      "route": "ss-project",
+      "index": 2,
+      "title": "16 步甘特排程 · 蓝绿状态仅依据计划日期推演，不代表真实签核。16 步规划情景：含 change control、样品接收静置、化学检测/机械实验、QA审计、RA核验与QC放行。未提供已签核的项目",
+      "id": "ss-project.b4c9e13d",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "16 步甘特排程 · 蓝绿状态仅依据计划日期推演，不代表真实签核。16 步规划情景：含 change control、样品接收静置、化学检测/机械实验、QA审计、RA核验与QC放行。未提供已签核的项目进度记录，颜色只表示规划阶段，不表示实际完成。\n\n项目周期：2026-10-07 — 2027-02-28（145 天）\n排程情景进度：21%\n2026-10\n2026-11\n2026-12\n2027-01\n2027-02\n阶段 / 责任部门\n计划周期\n进度\n需求定义与立项澄清\n10-07 ~ 10-12\n✓ 100%\n品类策略与寻源方案\n10-13 ~ 10-19\n✓ 100%\nRFI / NDA / 基础资料收集\n10-20 ~ 10-29\n✓ 100%\nRFQ / 商务条款询价\n10-30"
+    },
+    {
+      "route": "ss-project",
+      "index": 3,
+      "title": "◫项目文档档案",
+      "id": "ss-project.89690661",
+      "tables": 3,
+      "svg": 0,
+      "ctx": "◫项目文档档案\n?\n\n按供应商逐项检查 ✓ 有登记 / ✕ 未登记。22 类文件为准入检查清单，源站DEMO仅有登记元数据，没有可视为已提交/已批准的正式附件；Top10之外可展开。\n\n选择供应商查看该厂址 / 物料的文件核对结果 \n演示寻源候选 061 · 情景线索\n演示寻源候选 062 · 情景线索\nCedar Life Sciences · 原站DEMO\n演示寻源候选 063 · 情景线索\nAster Pharma Materials · 原站DEMO\n演示寻源候选 054 · 情景线索\nBoreal Chemicals · 原站DEMO\n情景供应商-032 · API原料药 · 情景线索\n演示寻源候选 055 · 情景线索\n演示寻源候选 051 · 情景线索\n演示寻源候选 053 ·"
+    },
+    {
+      "route": "ss-project",
+      "index": 4,
+      "title": "按供应商逐项检查 ✓ 有登记 / ✕ 未登记。22 类文件为准入检查清单，源站DEMO仅有登记元数据，没有可视为已提交/已批准的正式附件；Top10之外可展开。",
+      "id": "ss-project.aae145f4",
+      "tables": 3,
+      "svg": 0,
+      "ctx": "按供应商逐项检查 ✓ 有登记 / ✕ 未登记。22 类文件为准入检查清单，源站DEMO仅有登记元数据，没有可视为已提交/已批准的正式附件；Top10之外可展开。\n\n选择供应商查看该厂址 / 物料的文件核对结果 \n演示寻源候选 061 · 情景线索\n演示寻源候选 062 · 情景线索\nCedar Life Sciences · 原站DEMO\n演示寻源候选 063 · 情景线索\nAster Pharma Materials · 原站DEMO\n演示寻源候选 054 · 情景线索\nBoreal Chemicals · 原站DEMO\n情景供应商-032 · API原料药 · 情景线索\n演示寻源候选 055 · 情景线索\n演示寻源候选 051 · 情景线索\n演示寻源候选 053 · 情景线索\n演示寻源候"
+    },
+    {
+      "route": "ss-project",
+      "index": 5,
+      "title": "基础准入文件✓ 0 已登记   ✕ 6 待补",
+      "id": "ss-project.9e861b96",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "基础准入文件✓ 0 已登记   ✕ 6 待补\n✕ 供应商主档/问卷\n✕ 营业执照/法人信息\n✕ GMP 证书\n✕ ISO 证书\n✕ Site Master File\n✕ 质量协议\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-project",
+      "index": 6,
+      "title": "商务与合同文件✓ 0 已登记   ✕ 3 待补",
+      "id": "ss-project.c06bd961",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "商务与合同文件✓ 0 已登记   ✕ 3 待补\n✕ 保密协议 NDA\n✕ 报价单 / RFQ 回复\n✕ 工艺路线概述\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-project",
+      "index": 7,
+      "title": "技术 / 质量文件✓ 0 已登记   ✕ 6 待补",
+      "id": "ss-project.86f93f44",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "技术 / 质量文件✓ 0 已登记   ✕ 6 待补\n✕ 关键杂质谱/方法学资料\n✕ CoA 模板\n✕ 稳定性/留样方案\n✕ TSE/BSE / allergen 声明\n✕ 残留溶剂/元素杂质评估\n✕ 变更通知协议\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-project",
+      "index": 8,
+      "title": "合规 / 注册文件✓ 0 已登记   ✕ 4 待补",
+      "id": "ss-project.a4db9265",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "合规 / 注册文件✓ 0 已登记   ✕ 4 待补\n✕ 运输/包装验证\n✕ 环境/ESG 问卷\n✕ 审计报告与 CAPA\n✕ 注册支持文件（DMF/CEP/LoA）\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-project",
+      "index": 9,
+      "title": "首批供货 / 收尾文件✓ 0 已登记   ✕ 3 待补",
+      "id": "ss-project.dfe55c75",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "首批供货 / 收尾文件✓ 0 已登记   ✕ 3 待补\n✕ 上市声明/市场适配声明\n✕ 首批供货放行资料\n✕ 供应连续性与业务恢复计划\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-project",
+      "index": 10,
+      "title": "◎多供应商评分对比矩阵",
+      "id": "ss-project.a23a762d",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "◎多供应商评分对比矩阵\n?\n\n排序使用明确标记的五维情景评分；真实来源质量与交付使用原站DEMO字段，其他模拟分项不构成正式评估或准入结论。\n\n计算公式：综合评分 = 质量×24% + 交付×18% + 技术×22% + 合规×22% + 商务×14%；数据来源为原站 DEMO 档案和可识别的情景分项。查看分项公式和原始表\n排名\t供应商\t国家\t综合得分\t质量 (24%)\t交付 (18%)\t技术 (22%)\t合规 (22%)\t商务 (14%)\t报价 USD/kg\t状态\t计算依据\n1\t演示寻源候选 061\n扩展情景候选\tChina\t91.8\t93.0 ×24% = 22.32\t91.0 ×18% = 16.38\t90.0 ×22% = 19.80\t91.0 ×22% = 20.02\t95.0 ×"
+    },
+    {
+      "route": "ss-project",
+      "index": 11,
+      "title": "排序使用明确标记的五维情景评分；真实来源质量与交付使用原站DEMO字段，其他模拟分项不构成正式评估或准入结论。",
+      "id": "ss-project.8a4799d5",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "排序使用明确标记的五维情景评分；真实来源质量与交付使用原站DEMO字段，其他模拟分项不构成正式评估或准入结论。\n\n计算公式：综合评分 = 质量×24% + 交付×18% + 技术×22% + 合规×22% + 商务×14%；数据来源为原站 DEMO 档案和可识别的情景分项。查看分项公式和原始表\n排名\t供应商\t国家\t综合得分\t质量 (24%)\t交付 (18%)\t技术 (22%)\t合规 (22%)\t商务 (14%)\t报价 USD/kg\t状态\t计算依据\n1\t演示寻源候选 061\n扩展情景候选\tChina\t91.8\t93.0 ×24% = 22.32\t91.0 ×18% = 16.38\t90.0 ×22% = 19.80\t91.0 ×22% = 20.02\t95.0 ×14% = 13.30\t109"
+    },
+    {
+      "route": "ss-project",
+      "index": 12,
+      "title": "◉准入里程碑跟踪（关键节点）",
+      "id": "ss-project.d61cd838",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "◉准入里程碑跟踪（关键节点）\n?\n\n12 个候选里程碑；全部为待人工签核的情景排期，不得由文件存在推断里程碑通过。\n\n里程碑\t责任部门\t关键要求\t目标日期\t状态\t佐证数量\n需求冻结\t采购 / 研发\t年量、目标成本、关键质量属性确认\t2026-10-19\t计划情景 · 待签核\t未签核\n候选供应商长名单完成\t采购\t至少 10 家候选资料收齐\t2026-10-29\t计划情景 · 待签核\t未签核\n样品到厂并通过收样检查\t仓储 / QC\t完成静置和外观检查\t2026-11-07\t计划情景 · 待签核\t未签核\n化学分析通过\tQC\t关键质量指标通过\t2026-11-15\t计划情景 · 待签核\t未签核\n中试验证通过\t工艺 / 研发\t工艺适配和收率接受\t2026-11-22\t计划情景 · 待签核\t未签核\nQA"
+    },
+    {
+      "route": "ss-project",
+      "index": 13,
+      "title": "▤后端产约束视图（产能、库存、排期）",
+      "id": "ss-project.cff39aa7",
+      "tables": 3,
+      "svg": 0,
+      "ctx": "▤后端产约束视图（产能、库存、排期）\n?\n\n以下为非生产情景图表，QA/QC/RA/仓储/排产数值并非正式 ERP 或 QMS 记录；实际投产前必须映射业务字段。\n\n情景产能平均负荷74.1%\n样品 / 中试 / 商业库存待 ERP 导入\nQA / QC 资源负荷78% · 情景\nRA 文件准备度77% · 情景\n首单排产确定性69% · 情景\n首批放行及时率93% · 情景\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n供应商产能与排产负荷（情景）\n演示寻源候选 061\n65%280 t/y\n演示寻源候选 062\n72%316 t/y\nCedar Life Sciences\n79%352 t/y\n演示寻源候选 063\n86%388 t/y\nAster"
+    },
+    {
+      "route": "ss-project",
+      "index": 14,
+      "title": "供应商产能与排产负荷（情景）",
+      "id": "ss-project.add96b51",
+      "tables": 3,
+      "svg": 0,
+      "ctx": "以下为非生产情景图表，QA/QC/RA/仓储/排产数值并非正式 ERP 或 QMS 记录；实际投产前必须映射业务字段。\n\n情景产能平均负荷74.1%\n样品 / 中试 / 商业库存待 ERP 导入\nQA / QC 资源负荷78% · 情景\nRA 文件准备度77% · 情景\n首单排产确定性69% · 情景\n首批放行及时率93% · 情景\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n供应商产能与排产负荷（情景）\n演示寻源候选 061\n65%280 t/y\n演示寻源候选 062\n72%316 t/y\nCedar Life Sciences\n79%352 t/y\n演示寻源候选 063\n86%388 t/y\nAster Pharma Materials\n65%4"
+    },
+    {
+      "route": "ss-project",
+      "index": 15,
+      "title": "情景产能平均负荷74.1%",
+      "id": "ss-project.e7cff5bf",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "情景产能平均负荷74.1%\n样品 / 中试 / 商业库存待 ERP 导入\nQA / QC 资源负荷78% · 情景\nRA 文件准备度77% · 情景\n首单排产确定性69% · 情景\n首批放行及时率93% · 情景\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 0,
+      "title": "▣研发联合绩效",
+      "id": "ss-performance.10cd4937",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "▣研发联合绩效\n?\n质量绩效?\n90.3%\n目标 ≥ 95%无可追溯上期\n研发样品质量评分（原站 DEMO 或情景）∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n交付绩效?\n88.5%\n目标 ≥ 90%无可追溯上期\n研发样品响应：交付 40% + 技术响应 60%∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n技术响应绩效?\n86.3%\n目标 ≥ 90%无可追溯上期\n样品/方法学支持与研发技术澄清情景分∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n商务配合绩效?\n88.2%\n目标 ≥ 90%无可追溯上期\n研发阶段商务协调 70% + 技术协同 30%∑ 本模块公式 / 分析依"
+    },
+    {
+      "route": "ss-performance",
+      "index": 1,
+      "title": "质量绩效",
+      "id": "ss-performance.2e1a40e4",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "质量绩效?\n90.3%\n目标 ≥ 95%无可追溯上期\n研发样品质量评分（原站 DEMO 或情景）∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n交付绩效?\n88.5%\n目标 ≥ 90%无可追溯上期\n研发样品响应：交付 40% + 技术响应 60%∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n技术响应绩效?\n86.3%\n目标 ≥ 90%无可追溯上期\n样品/方法学支持与研发技术澄清情景分∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n商务配合绩效?\n88.2%\n目标 ≥ 90%无可追溯上期\n研发阶段商务协调 70% + 技术协同 30%∑ 本模块公式 / 分析依据\n▤ 展开全量计算"
+    },
+    {
+      "route": "ss-performance",
+      "index": 2,
+      "title": "质量绩效",
+      "id": "ss-performance.bb546065",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "质量绩效?\n90.3%\n目标 ≥ 95%无可追溯上期\n研发样品质量评分（原站 DEMO 或情景）∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 3,
+      "title": "交付绩效",
+      "id": "ss-performance.ea85f424",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "交付绩效?\n88.5%\n目标 ≥ 90%无可追溯上期\n研发样品响应：交付 40% + 技术响应 60%∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 4,
+      "title": "技术响应绩效",
+      "id": "ss-performance.63a41dc0",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "技术响应绩效?\n86.3%\n目标 ≥ 90%无可追溯上期\n样品/方法学支持与研发技术澄清情景分∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 5,
+      "title": "商务配合绩效",
+      "id": "ss-performance.fa9c5927",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "商务配合绩效?\n88.2%\n目标 ≥ 90%无可追溯上期\n研发阶段商务协调 70% + 技术协同 30%∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 6,
+      "title": "◔供应商分级分布",
+      "id": "ss-performance.515be40a",
+      "tables": 1,
+      "svg": 1,
+      "ctx": "◔供应商分级分布\n?\n80\n供应商总数\n战略协作Strategic Partner1 家（1.3%）\n优先供方Preferred Supplier1 家（1.3%）\n跟踪整改Under Observation1 家（1.3%）\n情景候选（淘汰）Scenario / Unverified77 家（96.3%）\n\n分级在演示目录中以来源状态和情景评分区分；77 家未核验候选不应被误判为正式优先供方。\n\n分层\t供应商数\tSpend (USD)\t平均得分\t平均备选数\n战略协作\t1\t193,696\t90.7\t0.0\n优先供方\t1\t186,144\t88.5\t2.0\n跟踪整改\t1\t200,864\t87.6\t3.0\n情景候选（淘汰）\t77\t0\t—\t—\n战略协作\n得分 90.7 / 备选 0.0\n优先供方\n得"
+    },
+    {
+      "route": "ss-performance",
+      "index": 7,
+      "title": "80",
+      "id": "ss-performance.5b23204c",
+      "tables": 1,
+      "svg": 1,
+      "ctx": "80\n供应商总数\n战略协作Strategic Partner1 家（1.3%）\n优先供方Preferred Supplier1 家（1.3%）\n跟踪整改Under Observation1 家（1.3%）\n情景候选（淘汰）Scenario / Unverified77 家（96.3%）\n\n分级在演示目录中以来源状态和情景评分区分；77 家未核验候选不应被误判为正式优先供方。\n\n分层\t供应商数\tSpend (USD)\t平均得分\t平均备选数\n战略协作\t1\t193,696\t90.7\t0.0\n优先供方\t1\t186,144\t88.5\t2.0\n跟踪整改\t1\t200,864\t87.6\t3.0\n情景候选（淘汰）\t77\t0\t—\t—\n战略协作\n得分 90.7 / 备选 0.0\n优先供方\n得分 88.5 / 备选"
+    },
+    {
+      "route": "ss-performance",
+      "index": 8,
+      "title": "◉CAPA 整改跟踪（含 GMP 审计整改）",
+      "id": "ss-performance.58cfefa9",
+      "tables": 3,
+      "svg": 0,
+      "ctx": "◉CAPA 整改跟踪（含 GMP 审计整改）\n?\n\n源站DEMO事件与审计记录优先列出，情景建议不算正式 CAPA。\n\n查看整改来源与规则依据\n来源类型\t供应商\t物料\t整改原因\t涉及文件\t责任人\t计划完成\t状态\t管理等级\t复盘结论\t联合改善建议\t跟进里程碑\n原站DEMO事件\tBoreal Chemicals\tAPI-001\t来料偏差 QEV-001 · Under investigation\t事件 QEV-001；CAPA CAPA-001；批号 LOT-001\tQA / Supplier Quality\t2026-12-15\t源站待跟进\t待QA复核\t仅有事件登记，缺少根因/效果核验附件\t获取8D报告、评估同批次与工艺风险\t根因确认 → 方案批准 → 有效性验证\n原站DEMO事件\tBorea"
+    },
+    {
+      "route": "ss-performance",
+      "index": 9,
+      "title": "◫OTD 与 PPV 绩效分析（两行四图）",
+      "id": "ss-performance.8ba7aaee",
+      "tables": 0,
+      "svg": 3,
+      "ctx": "◫OTD 与 PPV 绩效分析（两行四图）\n?\nOTD 趋势（近 6 个月）\n∑ 输入 / 公式 / 分析\n70%\n80%\n90%\n100%\n05\n无记录\n06\n07\n08\n09\n无记录\n10\n无记录\n6期情景OTD由 —% 变化到 —%（0.0 个百分点）；若低于90%，建议核查交付延误批次、MOQ和产能计划。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\nOTD TOP / BOTTOM（目标90%）\n∑ 输入 / 公式 / 分析\n比目标好\nBoreal\n100.0%\nAster\n87.5%\nCedar\n87.5%\n需重点关注\nAster\n87.5%\nCedar\n87.5%\nBoreal\n100.0%\nTop1 Boreal"
+    },
+    {
+      "route": "ss-performance",
+      "index": 10,
+      "title": "OTD 趋势（近 6 个月）",
+      "id": "ss-performance.b4763fcf",
+      "tables": 0,
+      "svg": 3,
+      "ctx": "OTD 趋势（近 6 个月）\n∑ 输入 / 公式 / 分析\n70%\n80%\n90%\n100%\n05\n无记录\n06\n07\n08\n09\n无记录\n10\n无记录\n6期情景OTD由 —% 变化到 —%（0.0 个百分点）；若低于90%，建议核查交付延误批次、MOQ和产能计划。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\nOTD TOP / BOTTOM（目标90%）\n∑ 输入 / 公式 / 分析\n比目标好\nBoreal\n100.0%\nAster\n87.5%\nCedar\n87.5%\n需重点关注\nAster\n87.5%\nCedar\n87.5%\nBoreal\n100.0%\nTop1 Boreal Chemicals 为 100.0%；Bott"
+    },
+    {
+      "route": "ss-performance",
+      "index": 11,
+      "title": "OTD 趋势（近 6 个月）",
+      "id": "ss-performance.cd495bb4",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "OTD 趋势（近 6 个月）\n∑ 输入 / 公式 / 分析\n70%\n80%\n90%\n100%\n05\n无记录\n06\n07\n08\n09\n无记录\n10\n无记录\n6期情景OTD由 —% 变化到 —%（0.0 个百分点）；若低于90%，建议核查交付延误批次、MOQ和产能计划。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 12,
+      "title": "供应商五维能力雷达",
+      "id": "ss-performance.bbf58905",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "供应商五维能力雷达\n∑ 输入 / 公式 / 分析\n技术响应\n原料质量\n交付\n供应风险\n商务配合\nAsterCedarBoreal\n比较技术响应、质量、交付、合规和商务分项；某一轴的低值应优先安排专项验证与质量/技术复评。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 13,
+      "title": "OTD × PPV 绩效矩阵",
+      "id": "ss-performance.ecbf9569",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "OTD × PPV 绩效矩阵\n∑ 输入 / 公式 / 分析?\n战略合作\n优化谈判\n需改善交付\n重点议价\n80%\n85%\n90%\n95%\n100%\n-10%\n-5%\n0%\n+5%\n+10%\nOTD ↑\nPPV（采购价格偏差）→\nAster Pharm…\nCedar Life …\nBoreal Chem…\n\n横轴负 PPV＝低于基准价；上方 OTD≥90% 为交付达标。点位代表 Top10；超出显示范围按边界标记，完整精确值见下钻表。\n\n以 OTD 90% 与 PPV 0% 为界识别四种策略；本次范围高风险 1 项。高 OTD+负 PPV 优先维持，低 OTD 应先改善交付。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 14,
+      "title": "◎供应商质量事件台账",
+      "id": "ss-performance.c93b3d5b",
+      "tables": 2,
+      "svg": 0,
+      "ctx": "◎供应商质量事件台账\n?\n\n可填写事件、责任人、期限并本地保存用于演示。已存在原站DEMO事件 2 件；情景事件标识为 DEMO-QE，禁止写成真实QMS事实。\n\n＋登记质量事件（本地演示）新增条目将显示为 LOCAL-DEMO，不写入真实 QMS；状态与处理责任人可自行填写。\n查看每条事件的来源与分类依据\n来源类型\t事件编号\t供应商\t物料\t问题\t原因\t文件\t建议管理等级\t复盘结论\t联合改善建议\t跟进里程碑\t进度\t操作\n原站DEMO事件\tQEV-001\tBoreal Chemicals\tAPI-001\tIncoming deviation\tUnder investigation\t原站DEM0事件 QEV-001 / CAPA-001\tQA评审中\t缺少正式根因及CAPA验证结论\t建议QA+QC"
+    },
+    {
+      "route": "ss-performance",
+      "index": 15,
+      "title": "▤替代覆盖（合格来源维度）与供应商依赖风险",
+      "id": "ss-performance.59271ba6",
+      "tables": 0,
+      "svg": 2,
+      "ctx": "▤替代覆盖（合格来源维度）与供应商依赖风险\n?\n替代覆盖（合格来源维度）\n∑ 输入 / 公式 / 分析\n来源\n2\n单一来源 (2)2nd sources（恰有2家） (0)多来源（3家以上） (0)\n查看演示来源结构推演\n正式来源按 Site×Material 的 approved_for_use+ASL 登记计数，当前涉及 2 种物料；情景候选不能算已合格来源。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n供应商依赖风险\n∑ 输入 / 公式 / 分析\nAster Pharma Materials\n34.6% ｜ 备选 3\nCedar Life Sciences\n33.4% ｜ 备选 0\nBoreal Chemicals\n32"
+    },
+    {
+      "route": "ss-performance",
+      "index": 16,
+      "title": "替代覆盖（合格来源维度）",
+      "id": "ss-performance.39d01d80",
+      "tables": 0,
+      "svg": 2,
+      "ctx": "替代覆盖（合格来源维度）\n∑ 输入 / 公式 / 分析\n来源\n2\n单一来源 (2)2nd sources（恰有2家） (0)多来源（3家以上） (0)\n查看演示来源结构推演\n正式来源按 Site×Material 的 approved_for_use+ASL 登记计数，当前涉及 2 种物料；情景候选不能算已合格来源。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n供应商依赖风险\n∑ 输入 / 公式 / 分析\nAster Pharma Materials\n34.6% ｜ 备选 3\nCedar Life Sciences\n33.4% ｜ 备选 0\nBoreal Chemicals\n32.1% ｜ 备选 2\n情景供应商-045 · 关"
+    },
+    {
+      "route": "ss-performance",
+      "index": 17,
+      "title": "替代覆盖（合格来源维度）",
+      "id": "ss-performance.774eb335",
+      "tables": 0,
+      "svg": 2,
+      "ctx": "替代覆盖（合格来源维度）\n∑ 输入 / 公式 / 分析\n来源\n2\n单一来源 (2)2nd sources（恰有2家） (0)多来源（3家以上） (0)\n查看演示来源结构推演\n正式来源按 Site×Material 的 approved_for_use+ASL 登记计数，当前涉及 2 种物料；情景候选不能算已合格来源。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 18,
+      "title": "◈风险管理与备选开发",
+      "id": "ss-performance.852d4015",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "◈风险管理与备选开发\n?\n查看风险等级、综合评分及金额分母公式\n来源类型\t风险总等级\t供应商名称\t对应物料 / 品类\t风险标签\tSpend (USD)\t支出占比\t合规风险 / 核心资质状态\t合规风险 / 剩余天数\t供应结构 / 供应类型\t供应结构 / 集中度占比\t质量风险 / 质量等级\t质量风险 / 近半年偏差数\t交付风险 / OTD 准时交付率\t交付风险 / 平均延期天数\t综合风险 / 标签\t综合风险 / 风险简述\t备选供应商数量\t最高开发阶段\t预计可替代时间\t替代覆盖比例\t管理策略 / CAPA 措施\t责任人\t计划完成时间\t任务状态\t操作\n原站 DEMO 交易来源\t高\tAster Pharma Materials\tAPI-001 / API原料药\t交付风险\t200,864\t34.6%\t文"
+    },
+    {
+      "route": "ss-performance",
+      "index": 19,
+      "title": "◇风险可视化图表（6个）",
+      "id": "ss-performance.e78d30f9",
+      "tables": 1,
+      "svg": 3,
+      "ctx": "◇风险可视化图表（6个）\n?\n图表1：风险等级 & 金额分布环形图\n∑ 输入 / 公式 / 分析?\n\n来源风险明细口径：内圈＝风险项数量占比，外圈＝原站 DEMO PO Spend 占比；77家情景候选不参与。\n\n3\n风险项\n外圈 Spend\n内圈数量\n高 1项\n中 2项\n低 0项\n高风险1 项 / 200,864 USD · 34.6%\n中风险2 项 / 379,840 USD · 65.4%\n低风险0 项 / 0 USD · 0.0%\n数量按风险等级计数，金额按相同风险分组加总，分别计算比例。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n图表2：风险类型分布横向条形图\n∑ 输入 / 公式 / 分析?\n合规风险\n2项\n供应结"
+    },
+    {
+      "route": "ss-performance",
+      "index": 20,
+      "title": "图表1：风险等级 & 金额分布环形图",
+      "id": "ss-performance.fb256c28",
+      "tables": 1,
+      "svg": 3,
+      "ctx": "图表1：风险等级 & 金额分布环形图\n∑ 输入 / 公式 / 分析?\n\n来源风险明细口径：内圈＝风险项数量占比，外圈＝原站 DEMO PO Spend 占比；77家情景候选不参与。\n\n3\n风险项\n外圈 Spend\n内圈数量\n高 1项\n中 2项\n低 0项\n高风险1 项 / 200,864 USD · 34.6%\n中风险2 项 / 379,840 USD · 65.4%\n低风险0 项 / 0 USD · 0.0%\n数量按风险等级计数，金额按相同风险分组加总，分别计算比例。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n图表2：风险类型分布横向条形图\n∑ 输入 / 公式 / 分析?\n合规风险\n2项\n供应结构风险\n1项\n质量风险\n1项\n"
+    },
+    {
+      "route": "ss-performance",
+      "index": 21,
+      "title": "图表1：风险等级 & 金额分布环形图",
+      "id": "ss-performance.568a21bd",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "图表1：风险等级 & 金额分布环形图\n∑ 输入 / 公式 / 分析?\n\n来源风险明细口径：内圈＝风险项数量占比，外圈＝原站 DEMO PO Spend 占比；77家情景候选不参与。\n\n3\n风险项\n外圈 Spend\n内圈数量\n高 1项\n中 2项\n低 0项\n高风险1 项 / 200,864 USD · 34.6%\n中风险2 项 / 379,840 USD · 65.4%\n低风险0 项 / 0 USD · 0.0%\n数量按风险等级计数，金额按相同风险分组加总，分别计算比例。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 22,
+      "title": "图表2：风险类型分布横向条形图",
+      "id": "ss-performance.3f6705b4",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "图表2：风险类型分布横向条形图\n∑ 输入 / 公式 / 分析?\n合规风险\n2项\n供应结构风险\n1项\n质量风险\n1项\n交付风险\n1项\n综合风险\n0项\n\n多标签风险可重复计入各类别，横条按风险项数量降序。\n\n风险标签可多选，分类数量可重复计入，按出现数量排序。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 23,
+      "title": "图表3：供应集中度 TOP5 条形图",
+      "id": "ss-performance.b8c4ff39",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "图表3：供应集中度 TOP5 条形图\n∑ 输入 / 公式 / 分析?\nAster Pharma Materials\n34.6% · 多来源情景\nCedar Life Sciences\n33.4% · 单一来源情景\nBoreal Chemicals\n32.1% · 多来源情景\n\n分母：当前筛选范围原站有 PO 记录供应商的 Spend；77 家情景候选金额为未知，不参与分母。\n\n支出份额=供应商Spend/筛选范围总Spend，按金额份额降序。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 24,
+      "title": "图表4：备选开发阶段进度堆叠图",
+      "id": "ss-performance.ef6a17d5",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "图表4：备选开发阶段进度堆叠图\n∑ 输入 / 公式 / 分析?\n\n备选开发阶段：风险明细每项采用一个最高进度阶段，堆叠条段宽度＝风险项数量占比。\n\n未启动0项 · 备选 0家\n接洽中0项 · 备选 0家\n样品验证2项 · 备选 5家\n准入评审0项 · 备选 0家\n已可替代1项 · 备选 0家\n分母为风险项总数，各项归属最高开发阶段。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 25,
+      "title": "图表5：风险概率 - 影响矩阵",
+      "id": "ss-performance.caae17ed",
+      "tables": 0,
+      "svg": 1,
+      "ctx": "图表5：风险概率 - 影响矩阵\n∑ 输入 / 公式 / 分析?\n\n横轴＝影响程度（采购金额＋产线影响情景分），纵轴＝发生概率；点颜色＝等级，点面积≈Spend。\n\n0\n0\n25\n25\n50\n50\n75\n75\n100\n100\n影响程度（0–100）\n发生概率（0–100）\n1. Aster Pharma Materials · P89 / I892. Cedar Life Sciences · P56 / I683. Boreal Chemicals · P70 / I65\n横轴影响、纵轴概率，颜色为等级；应优先处理高概率高影响。\n展开全量计算依据和来源表∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-performance",
+      "index": 26,
+      "title": "图表6：高风险项整改进度甘特图",
+      "id": "ss-performance.f899be65",
+      "tables": 1,
+      "svg": 1,
+      "ctx": "图表6：高风险项整改进度甘特图\n∑ 输入 / 公式 / 分析?\n\n高/中风险 Top10；条形长度代表计划整改起点至目标完成日（情景）。正式CAPA日期须以QMS记录替换。\n\n+0d\n+25d\n+50d\n+75d\n+100d\nAster Pharma Materials\n2026-11-18\nCedar Life Sciences\n2026-11-21\nBoreal Chemicals\n2026-11-24\n供应商\t风险等级\t策略\t计划完成\t任务状态\nAster Pharma Materials\t高\t建议定期风险复核\t2026-11-18\t建议待审批\nCedar Life Sciences\t中\t建议开发第二来源、准备CAPA证据\t2026-11-21\t建议待审批\nBoreal Chemica"
+    },
+    {
+      "route": "ss-performance",
+      "index": 27,
+      "title": "✦管理建议与行动（推荐）",
+      "id": "ss-performance.2e1e2144",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "✦管理建议与行动（推荐）\n?\n\n以下是从当前风险台账按风险等级及 Spend 重要性自动排序的 Top10 管理建议。非已批准任务，不得作为正式 CAPA。\n\n优先级 1 · Aster Pharma Materials风险 高 · 责任人 采购经理 · 计划 2026-11-18\n\n交付波动情景 + 支出集中；支出 200,864 USD（原站DEMO PO），占筛选范围 34.6%；OTD 87.5%，平均延期 5.0 天。备选 3 家、开发进度 样品验证。\n\n建议管理措施：建议定期风险复核；先核验资格/合同/CoA/审计证据，明确质量与法规变更影响，再确定供应份额及计划。\n\n跟进里程碑：证据收齐 → QA/RA评审 → 试料/验证 → 审批 → 效果复盘\n\n原站 DEMO 交易来源 ·"
+    },
+    {
+      "route": "ss-performance",
+      "index": 28,
+      "title": "以下是从当前风险台账按风险等级及 Spend 重要性自动排序的 Top10 管理建议。非已批准任务，不得作为正式 CAPA。",
+      "id": "ss-performance.a95bfe1d",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "以下是从当前风险台账按风险等级及 Spend 重要性自动排序的 Top10 管理建议。非已批准任务，不得作为正式 CAPA。\n\n优先级 1 · Aster Pharma Materials风险 高 · 责任人 采购经理 · 计划 2026-11-18\n\n交付波动情景 + 支出集中；支出 200,864 USD（原站DEMO PO），占筛选范围 34.6%；OTD 87.5%，平均延期 5.0 天。备选 3 家、开发进度 样品验证。\n\n建议管理措施：建议定期风险复核；先核验资格/合同/CoA/审计证据，明确质量与法规变更影响，再确定供应份额及计划。\n\n跟进里程碑：证据收齐 → QA/RA评审 → 试料/验证 → 审批 → 效果复盘\n\n原站 DEMO 交易来源 · 状态：建议待责任人确认\n优先级"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 0,
+      "title": "受控文件ⓘ",
+      "id": "ss-compliance.1dbec0e1",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "受控文件ⓘ\n18登记源数，不等于官方批准\n示例合格组合ⓘ\n2仅原站DEMO Site×Material\n30天内到期ⓘ\n3按今天与到期日差值\n31–90天到期ⓘ\n2不重复计入30天内\n文件登记有效率ⓘ\n66.7%有效登记数 / 当前文件总数\n登记风险缺口ⓘ\n2作废、到期、退回∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 1,
+      "title": "▣ 证据登记与官方核验",
+      "id": "ss-compliance.5a9e3f5e",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◫官方证据核验工作台Official Evidence Verification\n∑ 计算依据\nEDQM / CEP ↗\n\n证书编号 / 持证人 / 物料范围\n\n人工官方核验未联机确认EMA / EudraGMDP ↗\n\n厂址 GMP 状态 / 检查记录\n\n人工官方核验未联机确认FDA / 检查与短缺 ↗\n\n短缺/召回线索，不等于 GMP 批准\n\n后台可配置采集需后台配置关键词NMPA / CDE ↗\n\n原辅包登记及市场适用性\n\n人工官方核验未联机确认\n▣ 证据登记与官方核验\n＋ 新增受控文件进入数据源管理待审批文件\n\n系统初筛 + QA/RA 人工最终确认；未配置的监管数据库不可标为自动匹配。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n∑ 本模"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 2,
+      "title": "▣ 证据登记与官方核验",
+      "id": "ss-compliance.4dfbdeae",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "EDQM / CEP ↗\n\n证书编号 / 持证人 / 物料范围\n\n人工官方核验未联机确认EMA / EudraGMDP ↗\n\n厂址 GMP 状态 / 检查记录\n\n人工官方核验未联机确认FDA / 检查与短缺 ↗\n\n短缺/召回线索，不等于 GMP 批准\n\n后台可配置采集需后台配置关键词NMPA / CDE ↗\n\n原辅包登记及市场适用性\n\n人工官方核验未联机确认\n▣ 证据登记与官方核验\n＋ 新增受控文件进入数据源管理待审批文件\n\n系统初筛 + QA/RA 人工最终确认；未配置的监管数据库不可标为自动匹配。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 3,
+      "title": "◫准入状态总览Qualification Status Overview",
+      "id": "ss-compliance.27124230",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "◫准入状态总览Qualification Status Overview\n∑ 计算依据\n供应商\tSite\t物料\t市场\t登记有效率\t原站ASL状态\t明细\nSUP-001\tSITE-001\tAPI-001\t待映射\t66.7%\n\t源站示例批准\t证据\nSUP-001\tSITE-001\tAPI-002\t待映射\t100.0%\n\t待确认\t证据\nSUP-002\tSITE-002\tAPI-001\t待映射\t66.7%\n\t待确认\t证据\nSUP-002\tSITE-002\tAPI-002\t待映射\t66.7%\n\t待确认\t证据\nSUP-003\tSITE-003\tAPI-001\t待映射\t33.3%\n\t待确认\t证据\nSUP-003\tSITE-003\tAPI-002\t待映射\t66.7%\n\t源站示例批准\t证据\n准入可评估6有源站"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 4,
+      "title": "供应商\tSite\t物料\t市场\t登记有效率\t原站ASL状态\t明细",
+      "id": "ss-compliance.3879957b",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "供应商\tSite\t物料\t市场\t登记有效率\t原站ASL状态\t明细\nSUP-001\tSITE-001\tAPI-001\t待映射\t66.7%\n\t源站示例批准\t证据\nSUP-001\tSITE-001\tAPI-002\t待映射\t100.0%\n\t待确认\t证据\nSUP-002\tSITE-002\tAPI-001\t待映射\t66.7%\n\t待确认\t证据\nSUP-002\tSITE-002\tAPI-002\t待映射\t66.7%\n\t待确认\t证据\nSUP-003\tSITE-003\tAPI-001\t待映射\t33.3%\n\t待确认\t证据\nSUP-003\tSITE-003\tAPI-002\t待映射\t66.7%\n\t源站示例批准\t证据\n准入可评估6有源站组合登记\n待完成复核4不代表可下单\n已批准购买—企业 ERP 未接入\n∑ 本模块公式 /"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 5,
+      "title": "◫全球法规动态与来源状态Regulatory monitoring · source status",
+      "id": "ss-compliance.3c2af1df",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◫全球法规动态与来源状态Regulatory monitoring · source status\n∑ 计算依据\nEMA · 欧盟 ↗待接法规公告接口RA 责任人和影响产品仍需建立受控关联FDA · 美国 ↗已支持部分召回/短缺线索；不等于法规公告RA 责任人和影响产品仍需建立受控关联NMPA · 中国 ↗待接法规公告接口RA 责任人和影响产品仍需建立受控关联PMDA · 日本 ↗待接法规公告接口RA 责任人和影响产品仍需建立受控关联\n\n未成功采集的官方公告不展示虚构日期或法规结论。待 RA 审核后才能创建正式影响评估。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 6,
+      "title": "EMA · 欧盟 ↗待接法规公告接口RA 责任人和影响产品仍需建立受控关联FDA · 美国 ↗已支持部分召回/短缺线索；不等于法规公告RA 责任人和影响产品仍需建立受控关联NMPA · 中国 ↗待接法",
+      "id": "ss-compliance.6b7a20c2",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "EMA · 欧盟 ↗待接法规公告接口RA 责任人和影响产品仍需建立受控关联FDA · 美国 ↗已支持部分召回/短缺线索；不等于法规公告RA 责任人和影响产品仍需建立受控关联NMPA · 中国 ↗待接法规公告接口RA 责任人和影响产品仍需建立受控关联PMDA · 日本 ↗待接法规公告接口RA 责任人和影响产品仍需建立受控关联\n\n未成功采集的官方公告不展示虚构日期或法规结论。待 RA 审核后才能创建正式影响评估。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 7,
+      "title": "◫到期预警分布Expiry Distribution",
+      "id": "ss-compliance.3071ab65",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◫到期预警分布Expiry Distribution\n∑ 计算依据\n18文件\n已过期2\n0–30天3\n31–90天2\n91–180天3\n>180天8\n日期未知0\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 8,
+      "title": "18文件",
+      "id": "ss-compliance.61e64b18",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "18文件\n已过期2\n0–30天3\n31–90天2\n91–180天3\n>180天8\n日期未知0\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 9,
+      "title": "◫文件类型结构Document Type Mix",
+      "id": "ss-compliance.8db91b36",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◫文件类型结构Document Type Mix\n∑ 计算依据\n18文件\nRegulatory Support3\nSite Audit Report3\nGMP Certificate3\nChange Notification3\nCoA3\nQuality Agreement3\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 10,
+      "title": "18文件",
+      "id": "ss-compliance.61e64b18",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "18文件\nRegulatory Support3\nSite Audit Report3\nGMP Certificate3\nChange Notification3\nCoA3\nQuality Agreement3\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 11,
+      "title": "◫审批闭环状态Approval Workflow Status",
+      "id": "ss-compliance.44b439e4",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "◫审批闭环状态Approval Workflow Status\n∑ 计算依据\n18登记\n登记有效12\n审查中4\n服务端流程0\n其他2\n查看审批链路∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 12,
+      "title": "18登记",
+      "id": "ss-compliance.61e64b18",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "18登记\n登记有效12\n审查中4\n服务端流程0\n其他2\n查看审批链路∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 13,
+      "title": "◫合规文件主台账Site × Material / Document Ledger",
+      "id": "ss-compliance.eaecbb2f",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "◫合规文件主台账Site × Material / Document Ledger\n∑ 计算依据\n＋ 新增登记⇩ 导出CSV批量补件批量状态打印⇩ 公式Excel\n选择\t文件编号\t供应商\tSite\t物料\t文件类型\t版本\t到期\t状态\t发证机构\t来源\tOwner\tASL\t操作\n\tDOCREG-02-05DOCREG-02-05\tSUP-002Boreal Chemicals\tSITE-002\tAPI-001\tRegulatory Support\tv2\t2026-10-21\t已到期\t待核验\t源站DEMO\tQA/SQM\t未核实正式 ASL\t审批链版本\n\tDOCREG-03-03DOCREG-03-03\tSUP-003Cedar Life Sciences\tSITE-003\tAPI-001\tSite "
+    },
+    {
+      "route": "ss-compliance",
+      "index": 14,
+      "title": "＋ 新增登记⇩ 导出CSV批量补件批量状态打印⇩ 公式Excel",
+      "id": "ss-compliance.3808c6d2",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "＋ 新增登记⇩ 导出CSV批量补件批量状态打印⇩ 公式Excel\n选择\t文件编号\t供应商\tSite\t物料\t文件类型\t版本\t到期\t状态\t发证机构\t来源\tOwner\tASL\t操作\n\tDOCREG-02-05DOCREG-02-05\tSUP-002Boreal Chemicals\tSITE-002\tAPI-001\tRegulatory Support\tv2\t2026-10-21\t已到期\t待核验\t源站DEMO\tQA/SQM\t未核实正式 ASL\t审批链版本\n\tDOCREG-03-03DOCREG-03-03\tSUP-003Cedar Life Sciences\tSITE-003\tAPI-001\tSite Audit Report\tv1\t2026-10-21\t已到期\t待核验\t源站DEMO\tQA/SQM\t"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 15,
+      "title": "◫补件与整改任务CAPA & Follow-up Tasks",
+      "id": "ss-compliance.5d30a960",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "◫补件与整改任务CAPA & Follow-up Tasks\n∑ 计算依据\n＋ 新建 CAPA / 补件审计追踪\n风险\t任务\t供应商\t负责人\t截止日\t状态\t验证\t操作\n待人工分级\t补件 · GMP Certificate\tSUP-001\tSQM / Procurement\t2026-11-08\tRequested\t待验证\t查看\n待人工分级\t补件 · Site Audit Report\tSUP-002\tSQM / Procurement\t2026-11-18\tAwaiting reply\t待验证\t查看\n待人工分级\t补件 · Quality Agreement\tSUP-003\tSQM / Procurement\t2026-11-28\tNot provided\t待验证\t查看\n∑ 本模块公式 / 分"
+    },
+    {
+      "route": "ss-compliance",
+      "index": 16,
+      "title": "◫操作审计日志Audit trail & Change history",
+      "id": "ss-compliance.df6700a0",
+      "tables": 1,
+      "svg": 0,
+      "ctx": "◫操作审计日志Audit trail & Change history\n∑ 计算依据\n全部操作\nupload\nsubmit\napprove\nreturn\nrevise\nvoid\ndownload\nexport\ndossier_updated\n操作留痕：上传、提交、批准、退回、作废、下载、导出。审核哈希链：待授权校验查询导出\n时间\t操作人\t动作\t目标\t变更前\t变更后\t说明 / 事件哈希\n需要先连接授权审批服务，才能读取真实操作日志。旧版演示记录没有电子审批审计链。\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-technical",
+      "index": 0,
+      "title": "一、公司全景",
+      "id": "ss-technical.767a2180",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "一、公司全景\n\n工商主体 · 产能布局 · 财务健康 · 组织 · ESG · 未知字段保持“待核验”，不会写入伪造演示值。\n\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-technical",
+      "index": 1,
+      "title": "Aster Pharma Materials",
+      "id": "ss-technical.f8690135",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "ss-technical",
+      "index": 2,
+      "title": "Boreal Chemicals",
+      "id": "ss-technical.5efe12d4",
+      "tables": 0,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "ss-technical",
+      "index": 3,
+      "title": " 多选对比区?",
+      "id": "ss-technical.b4d545c0",
+      "tables": 1,
+      "svg": 1,
+      "ctx": ""
+    },
+    {
+      "route": "ss-technical",
+      "index": 4,
+      "title": "供应商四维能力菱形评估图 ?",
+      "id": "ss-technical.59d08e9f",
+      "tables": 0,
+      "svg": 1,
+      "ctx": ""
+    },
+    {
+      "route": "ss-technical",
+      "index": 5,
+      "title": "多供应商横向参数对比表格 ?",
+      "id": "ss-technical.425c2606",
+      "tables": 1,
+      "svg": 0,
+      "ctx": ""
+    },
+    {
+      "route": "ss-data",
+      "index": 0,
+      "title": "安全连接",
+      "id": "ss-data.8b9ea34a",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "安全连接\n\n管理后台仅在部署的 Node 服务器运行。令牌只保存在当前浏览器内存，不写入本地存储。\n\n管理令牌?连接管理后台\n∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-data",
+      "index": 1,
+      "title": "自动发现设置",
+      "id": "ss-data.a81bda8e",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "自动发现设置仅检索你指定的药品/成分关键词，避免无关的海量 NDC 数据。每日后台同步，失败自动留痕。活性成分/产品关键词（逗号分隔，最多20项）保存检索词切换每日自动采集∑ 本模块公式 / 分析依据▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-data",
+      "index": 2,
+      "title": "企业官网监测清单",
+      "id": "ss-data.df8b36c8",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "企业官网监测清单仅允许 HTTPS 白名单企业官网；尊重 robots.txt；仅监测登记页面，记录标题、描述、内容变化，绝不自动授予资质。企业名称企业官网 HTTPS URL加入监测∑ 本模块公式 / 分析依据▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-data",
+      "index": 3,
+      "title": "人工证据核验",
+      "id": "ss-data.ce0ad5d4",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "人工证据核验只能核实线索、关联 supplier/site/material。正式采购准入还须在受控质量系统独立审批。线索 ID（点击列表“核验”选择）审核结论需要更多信息来源已核验，关联实体拒绝线索审核人supplier_idsite_idmaterial_id备注提交核验记录发布为未准入寻源候选撤回候选发布必须先人工关联企业、厂址和物料，发布后仍是 UNQUALIFIED，不产生任何 ASL、GMP、CEP 或订单权限。∑ 本模块公式 / 分析依据▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-data",
+      "index": 4,
+      "title": "ERP 映射暂存",
+      "id": "ss-data.78efcb9c",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "ERP 映射暂存支持标准通用字段和 SAP S/4HANA 示例字段映射。仅支持 JSON 文件批量导入，不会写回 ERP 或覆盖已批准供应商。ERP 字段映射标准通用SAP S/4HANA上传 JSON 数组文件（≤1MB）查看已核验实体映射未接入真实企业 ERP 的 OAuth/数据网关。本入口用于未来集成验证，不是直接企业生产接口。∑ 本模块公式 / 分析依据▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    },
+    {
+      "route": "ss-data",
+      "index": 5,
+      "title": "EDQM CEP 官方导出数据集",
+      "id": "ss-data.176118ca",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "EDQM CEP 官方导出数据集2026 年 7 月 EDQM 开放完整 TXT 导出。请从 EDQM 证书官方数据库 点击“Download CEP data file”，将下载文件导入下方。证书数据状态变化进入人工复核，不授予 QA/GMP/ASL。官方 CEP 导出文件（TXT/CSV/TSV，≤30MB）CEP 编号 / 持有人 / 物质 / 状态检索查询导入记录从 EDQM 官网同步 TXT（需服务器联网）EDQM 数据集尚未导入；请管理员上传官方 TXT 或发起官网同步。来源标记为“管理员上传的官方导出文件（来源待独立确认）”；系统保存原文件 SHA-256、更新时间、证书状态变化和审计记录。EDQM 数据允许按其注明出处和免责声明要求使用，不能当作已取得原始 CEP 证书电子签"
+    },
+    {
+      "route": "ss-data",
+      "index": 6,
+      "title": "部署边界：静态 Bolt 预览可以展示页面，但不运行后台同步任务。实际定时更新需要 Node 持久化服务、出站网络，以及管理员启用同步或 SOURCING_AUTO_SYNC=1；企业官网还须配置 S",
+      "id": "ss-data.5719a5a9",
+      "tables": 0,
+      "svg": 0,
+      "ctx": "部署边界：静态 Bolt 预览可以展示页面，但不运行后台同步任务。实际定时更新需要 Node 持久化服务、出站网络，以及管理员启用同步或 SOURCING_AUTO_SYNC=1；企业官网还须配置 SOURCING_ALLOWED_DOMAINS。EMA/EDQM/NMPA 不会假定有无需授权的自动接口。∑ 本模块公式 / 分析依据\n▤ 展开全量计算依据和来源表↓ Excel 含真实公式"
+    }
+  ],
+  "errors": []
+}

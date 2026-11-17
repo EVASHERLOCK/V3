@@ -1,0 +1,4 @@
+﻿supplier_id,material_id,unit_price,currency,fx_to_usd,moq,lead_days,freight_usd,incoterm,payment_terms
+SUP-001,API-001,125.00,USD,1.00,800,45,2100,FCA,Net 60
+SUP-002,API-001,91.00,EUR,1.10,1500,37,3800,EXW,Net 30
+SUP-003,API-001,119.00,USD,1.00,1000,52,4400,CIP,Net 45

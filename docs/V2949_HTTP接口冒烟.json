@@ -1,0 +1,141 @@
+{
+  "version": "2.9.49",
+  "scope": "REAL_NODE_HTTP_ENDPOINTS_NOT_BROWSER_E2E",
+  "checks": [
+    {
+      "path": "/static/decision-center/01_KPI总览.html",
+      "status": 200,
+      "bytes": 95249,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/decision-center/02_深度分析.html",
+      "status": 200,
+      "bytes": 96198,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/decision-center/03_智能预警.html",
+      "status": 200,
+      "bytes": 95677,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/decision-center/04_行动闭环.html",
+      "status": 200,
+      "bytes": 95617,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/decision-center/05_指标治理.html",
+      "status": 200,
+      "bytes": 96661,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/procurement-execution/00_询价与报价比对.html",
+      "status": 200,
+      "bytes": 844,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/procurement-execution/01_合同核查.html",
+      "status": 200,
+      "bytes": 876,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/procurement-execution/02_PO创建与比对.html",
+      "status": 200,
+      "bytes": 867,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/procurement-execution/03_发运与到货.html",
+      "status": 200,
+      "bytes": 864,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/procurement-execution/04_发票核对.html",
+      "status": 200,
+      "bytes": 863,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/procurement-execution/05_付款与应付.html",
+      "status": 200,
+      "bytes": 863,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/procurement-execution/06_退货与索赔.html",
+      "status": 200,
+      "bytes": 867,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/procurement-execution/07_订单关闭与绩效.html",
+      "status": 200,
+      "bytes": 874,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/procurement-execution/08_异常处理中心.html",
+      "status": 200,
+      "bytes": 877,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/static/audit/audit_ui_v2949.js",
+      "status": 200,
+      "bytes": 1194,
+      "content_type": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "/static/audit/metric_catalog_v2949.json",
+      "status": 200,
+      "bytes": 327692,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "path": "/static/decision-center/offline_v2942.mjs",
+      "status": 200,
+      "bytes": 15699,
+      "content_type": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "/engine/simulation_kpi_v2942.mjs",
+      "status": 200,
+      "bytes": 21193,
+      "content_type": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "/engine/browser_xlsx_v2939.mjs",
+      "status": 200,
+      "bytes": 5964,
+      "content_type": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "/api/decision-center/module?kind=metric&id=KPI-01-01&supplier=SUP-001",
+      "status": 200,
+      "bytes": 63675,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "path": "/api/decision-center/workbook.xlsx?kind=metric&id=KPI-01-01&supplier=SUP-001",
+      "status": 200,
+      "bytes": 22113,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "path": "/api/procurement-execution/workbook.xlsx?page=orders&supplier=SUP-001",
+      "status": 200,
+      "bytes": 30367,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    }
+  ],
+  "errors": [],
+  "enterprise_db_verified": false,
+  "business_acceptance": "BLOCKED"
+}

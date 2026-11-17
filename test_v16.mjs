@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import {enterpriseAnalysis} from './enterprise_v08.mjs';
+const all=enterpriseAnalysis({});
+const approved=enterpriseAnalysis({supplier_class:'Approved'});
+const pending=enterpriseAnalysis({supplier_class:'Pending'});
+const jun=enterpriseAnalysis({month:'2026-06'});
+const empty=enterpriseAnalysis({year:'2025'});
+const amt=rows=>rows.reduce((t,p)=>t+Number(p.ordered_qty)*Number(p.unit_price),0);
+assert.equal(all.purchasing.orders.length,24);
+assert.equal(all.overview.current.spend,580704);
+assert.equal(approved.purchasing.orders.length+pending.purchasing.orders.length,24);
+assert.equal(approved.overview.current.spend+pending.overview.current.spend,all.overview.current.spend);
+assert.equal(approved.purchasing.orders.every(p=>['SUP-001','SUP-003'].includes(p.supplier_id)),true);
+assert.equal(pending.purchasing.orders.every(p=>p.supplier_id==='SUP-002'),true);
+assert.equal(pending.documents.register.every(x=>x.supplier_id==='SUP-002'),true);
+assert.equal(approved.sourcing.qualified_sources.every(x=>x.supplier_id!=='SUP-002'),true);
+assert.equal(jun.overview.current.spend,amt(jun.purchasing.orders));
+assert.equal(empty.purchasing.orders.length,0);
+assert.equal(empty.documents.register.length,0);
+for(const x of [all,approved,pending,jun,empty]){
+ assert.equal(x.overview.current.spend,amt(x.purchasing.orders));
+ assert.equal(x.supplier.scorecards.reduce((t,s)=>t+s.spend,0),x.overview.current.spend);
+ assert.equal(x.purchasing.late.reduce((t,p)=>t+p.amount,0),x.purchasing.orders.filter(p=>p.delay_days>0).reduce((t,p)=>t+p.amount,0));
+}
+const html=fs.readFileSync('./static/index.html','utf8'),app=fs.readFileSync('./static/app.js','utf8'),js=fs.readFileSync('./static/v16_overview.js','utf8');
+for(const token of ['v16_overview.js','v16_overview.css'])assert.ok(html.includes(token));
+assert.ok(app.includes("S.view==='overview'&&window.PharmaV16Overview"));
+for(const token of ['data-v16-filter','supplier_class','data-v16-detail','exportPDF','exportPPTX','generateReport','evidenceRows','periods(d)','Non-GxP','risk-group','csv(rows','data-v16-go'])assert.ok(js.includes(token),token);
+execFileSync(process.execPath,['--check','./static/v16_overview.js']);
+console.log('PASS V1.6: canonical PO math, supplier category, shared filters, zero-result period, linked records, 11 charts, 5 filters and exports');

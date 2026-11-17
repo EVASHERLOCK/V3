@@ -1,0 +1,23 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const app=fs.readFileSync('static/app.js','utf8');
+const idx=fs.readFileSync('static/index.html','utf8');
+const css=fs.readFileSync('static/v20_site_theme.css','utf8');
+const visual=fs.readFileSync('static/v19_visual.css','utf8');
+const overview=fs.readFileSync('static/v16_overview.js','utf8');
+const routes=['m01','m02','m05','m06','m08','m09','m10','documents','regulatory','workflow','reports','access','master','alerts'];
+for(const route of routes)assert.ok(app.includes(`id:'${route}'`),`missing ${route}`);
+assert.ok(app.includes('function navigation(){')&&app.includes('controlZh'));
+assert.ok(app.includes('window.PharmaV16Overview.render()'));
+assert.ok(app.includes('window.EnterpriseV08.render(S.view)'));
+assert.ok(app.includes('window.PharmaSuite?.renderPage'));
+assert.ok(app.includes('setNavCompact('));
+assert.ok(idx.includes('id="navigation"')&&idx.includes('id="support-navigation"'));
+assert.ok(idx.includes('v20_site_theme.css')&&idx.includes('v19_visual.css'));
+assert.ok(css.includes('body.v16-overview-mode #sidebar{display:flex!important}'));
+assert.ok(css.includes('body:not(.v16-overview-mode) .workspace'));
+assert.ok(visual.includes('v17-health'));
+assert.ok(overview.includes('window.PharmaV16Overview'));
+assert.ok(fs.existsSync('dist/static/v20_site_theme.css'));
+assert.ok(fs.existsSync('dist/static/v19_visual.css'));
+for(const file of ['demo_master.json','rules.json','v08_demo.json']){let d=JSON.parse(fs.readFileSync(file,'utf8'));assert.ok(d)}
+console.log('PASS V2.0 compatibility: retained business modules + 7 control centers, V19 overview, persistent sidebar, unified CSS and dataset packaging');

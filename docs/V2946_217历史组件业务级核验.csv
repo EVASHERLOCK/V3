@@ -1,0 +1,218 @@
+﻿route,component_id,title,snapshot_has_formula_label,snapshot_has_source_label,snapshot_has_excel_label,source_tables,charts_svg,runtime_clicked,formula_variables_approved,source_rows_full_checked,web_excel_same_cell_verified,business_status,next_action
+portfolio,portfolio.64f51145,Top30 产品线采购结构矩阵当前 2 / 2 条可追溯产品线,True,True,True,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+portfolio,portfolio.d3e8e73a,原料库存与消耗健康度基于批次与生产需求,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+portfolio,portfolio.88bf8e48,Top10 原料采购金额排行｜ABC 分类按当前范围采购金额,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+portfolio,portfolio.268a11c8,战略行动清单6 条源任务 · 点击可追溯,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m01,m01.6cc6eaa5,月度物料需求 vs 当前可用库存,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m01,m01.3f69953c,缺料物料 TOP10,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m01,m01.111fc4fe,误差根因追溯矩阵,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m01,m01.162bc906,偏差根因追溯矩阵,True,True,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 已检测到部分按钮"
+m02,m02.274e1477,"期末批次库存估算金额 ⓘ137,070 USD源于批次数量 × 关联 PO 单价?采购价差 PPV ⓘ2.5%价差金额 14,304 USD?库存周转天数 ⓘ未接入正式期间平均库存与耗用成本不足?呆滞",True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.60e574be,月度库存资金估算趋势｜三类库存ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.36ae8018,月度库存资金估算趋势｜三类库存ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.33ab85b7,ABC 分类库存金额占比ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.38862302,ABC 分类库存金额占比ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.25c076cb,呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.4febb572,呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.bb27ec9c,呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.b245852e,采购差异原因拆分ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.bfc5032b,采购差异原因拆分ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.c181cb26,库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,2,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.23dcfec,库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.a43cf4ce,库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.5e4cca98,滚动预算准确率复盘ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.a244c095,滚动预算准确率复盘ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.813eab27,月度滚动预算复盘｜消耗数量与金额ⓘ∑ 本模块公式 / 分析依据,True,True,True,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.5e4fdfc8,月度滚动预算复盘｜消耗数量与金额ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.e0e26acb,物料库存金额排行ⓘ∑ 本模块公式 / 分析依据,True,True,True,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.5f747895,物料库存金额排行ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.786b1a74,呆滞 / 临期批次处置明细ⓘ∑ 本模块公式 / 分析依据,True,True,True,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.26388c66,呆滞 / 临期批次处置明细ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.4ced5692,滚动预算准确率复盘表ⓘ∑ 本模块公式 / 分析依据,True,True,True,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.961b995f,滚动预算准确率复盘表ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.10c1ce46,年度采购预算编制 ｜Annual Procurement Budget Planning,False,False,False,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m02,m02.cc23eeca,♧供应侧参数⌄,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.a29c2c89,▧价格侧参数⌄,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.840e7579,品类预算占比,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.10b565f,月度预算资金分布ⓘ∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m02,m02.2a78929e,预算编制说明ⓘ,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m06,m06.51f53479,库存状态分层统计区,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m06,m06.4c75aaba,ABC 关键物料分层管控,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m06,m06.1ce016b,01 · 批次总台账,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m06,m06.90ac0575,02 · 安全库存缺口清单,True,True,True,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m06,m06.81fc3f1c,03 · 呆滞 / 效期处置行动,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m06,m06.b3ba053a,04 · 批次追溯明细,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m09,m09.6d7eec95,变更类型结构,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m09,m09.643115a6,开放变更账龄 vs 60天目标线,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+m09,m09.6c93d7bf,变更与行动台账,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m09,m09.eb351d3d,搜索 ?列设置 ▾每页,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m09,m09.8f402240,变更类型,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+m09,m09.154104ce,变更行动与责任台账,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+documents,documents.76815ef9,供应商 GMP / CEP 证据核对台,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+documents,documents.2118dba3,供应商 PDF 文件文本提取与版本差异,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+documents,documents.1bd6d2f3,EDQM · CEP 官方注册库,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+documents,documents.e7f75cd7,EMA · EudraGMDP GMP,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+documents,documents.b9a76f6b,FDA · Inspection Classification,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+documents,documents.108d713,NMPA · 药品生产许可 / 监管,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+documents,documents.faf394c9,有效期分布,False,False,False,4,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+documents,documents.78f4aab2,受控文档台账,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+documents,documents.b7a4003f,搜索 ?列设置 ▾每页,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+documents,documents.1cbfb7bd,文档类型占比,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+documents,documents.d6afb903,受控文件台账,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+regulatory,regulatory.8fe9d376,按目标市场分布,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+regulatory,regulatory.92b86434,法规影响 × Material × Site 台账,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+regulatory,regulatory.f1ca847d,搜索 ?列设置 ▾每页,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+regulatory,regulatory.a6dff66a,风险级别,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+regulatory,regulatory.84f5ace2,全球法规演示台账,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+workflow,workflow.2a31f289,源表与数据血缘 · 10张源表同一场景,False,False,False,3,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+workflow,workflow.a5b0d0f1,源表与数据血缘 · 10张源表同一场景,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+workflow,workflow.fbe9f8a8,搜索 ?列设置 ▾每页,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+workflow,workflow.cf1883fb,完成状态,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+workflow,workflow.f67d1544,执行历史,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+reports,reports.3218b936,报表类型与使用范围,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+reports,reports.de55251,可执行的报告模板库,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+reports,reports.3bdd1388,搜索 ?列设置 ▾每页,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+reports,reports.74be0353,统一报表模板,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+reports,reports.fbe4dd6a,管理汇报模板库 · 7 套均可手动生成,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+access,access.f57de64,角色结构,False,False,False,3,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+access,access.faecb057,角色×敏感数据能力,True,True,True,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+access,access.b1953415,搜索 ?列设置 ▾每页,True,True,True,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+access,access.80219bec,演示账户目录,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+access,access.b1953415,搜索 ?列设置 ▾每页,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+access,access.1ceb4815,账号角色台账,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+access,access.7d9bdbf1,体验角色切换,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+access,access.c66c90f2,价格/汇报导出操作记录（仅本机演示日志）,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+master,master.77fadda6,物料分类覆盖,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+master,master.11d359f4,关键字段校验 / 数据质量与影响面,True,True,True,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+master,master.5981f0bd,搜索 ?列设置 ▾每页,True,True,True,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+master,master.d4c88043,物料主数据,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+alerts,alerts.ce8ab4d1,告警分级与状态,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+alerts,alerts.c33ef0db,告警按证据关联金额降序（同一 PO 可能关联多个告警）,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+alerts,alerts.3d5f77e,搜索 ?列设置 ▾每页,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+alerts,alerts.41eaa0ac,来源/风险类型,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+alerts,alerts.71aca421,事件等级,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+alerts,alerts.2c04c64d,告警台账,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-overview,ss-overview.1b5641e0,官方供应商发现与同步状态,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-overview,ss-overview.71283571,寻源项目漏斗（项目数）,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-overview,ss-overview.9963dc10,供应链风险预警矩阵,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-overview,ss-overview.43c5616f,Kraljic 矩阵（品类分布）,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-overview,ss-overview.c9557816,商业得分 × Site/Material 资格二维矩阵,False,False,False,3,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-overview,ss-overview.b57040b6,快捷功能入口,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-market,ss-market.f8c12c52,原料药 / 零部件品类价格趋势,False,False,False,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-market,ss-market.dab0e191,全球供应商分布与产能格局,True,False,False,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 已检测到部分按钮"
+ss-market,ss-market.d4cc009f,技术情报与产业洞察,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-market,ss-market.2cc668b2,供给风险热力图（规则情景 · 未来 12 个月）,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-market,ss-market.5e33d1b8,官方来源发现与每日更新 · Official Discovery,True,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 已检测到部分按钮"
+ss-market,ss-market.88a2dc80,原材料供应商候选名录 · 80 家,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-kraljic,ss-kraljic.6c5fa48b,◉ 需求汇总归口汇总采购需求、归口来源与品类范围，为 Kraljic 分级与寻源路径提供输入,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-kraljic,ss-kraljic.690bd80e,品类分布概览,True,False,False,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 已检测到部分按钮"
+ss-kraljic,ss-kraljic.859feca6,品类分布概览,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-kraljic,ss-kraljic.595fe1aa,▥分支判断节点（寻源路径选择）根据项目类型自动进入相应的评审与寻源路径,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-kraljic,ss-kraljic.c5806b54,⚗ 在研新品（NPI）,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-kraljic,ss-kraljic.df23a29b,战略品 → 集中招标,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-kraljic,ss-kraljic.5a25ec28,⬡品类详情：战略品,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-kraljic,ss-kraljic.24c60452,品类名称API Alpha · simulated,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.72b08565,◉商业评分 × 准入资格矩阵Business Score × Qualification Matrix,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.a5a0abb0,商业得分 (Business Score) 纵轴 50–100分 · 商业门槛 ≥ 80分,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.a2726ebe,▤供应商评估结果Supplier Evaluation Results,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.11f4ea9e,TOP 10 · 按关键指标由高到低排序 · 全量 19 条可展开,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.279fa920,◷各维度评分对比（Top 10）Score Breakdown,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.11f4ea9e,价格质量交付供应风险,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.36fd315d,◴总成本对比Total Landed Cost,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.2217f332,"↓ 14.7% · 最优报价相对 Top 10 平均基准下降同物料 API-001 · 统一需求 1,000 kg · USD · 落地估算（含运费；MOQ按实际采购量） · 情景价格（不可作为正式报",False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.f82cef74,♧合规与资格检查Compliance & Qualification,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-ai,ss-ai.c1a5bcb3,TOP 10 · 保持业务优先顺序 · 全量 19 条可展开,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-cost,ss-cost.3849530a,研发BOM目标参考价（演示）118.00USD/kgV08 PO加权基准代理；非正式BOM∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.35986a97,最优供应商报价107.24USD/kg情景供应商-032 · API原料药 · Top1 落地报价∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.febce90b,统一候选供应商数19正式来源 3 家 / 其余为演示候选∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.fb107cca,目标达成率100.0%低于目标视为100%达成；高于目标按超支比例扣减∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.c6b69bda,▥BOM 成本拆解瀑布图,False,False,False,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-cost,ss-cost.fc5cdc07,演示核算：原站无批准研发BOM分项，当前以 PO 基准价/情景目标模拟六段拆解；最优候选价格不代表可下单报价。瀑布图按同一算式闭合，底部保留金额与占比。,False,False,False,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-cost,ss-cost.1ce10c1,◫目标成本 vs 供应商报价,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-cost,ss-cost.6382ad63,至少比较 5 家以上供应商，默认显示 Top10，从低到高比较落地单价、MOQ、交期和质量风险。,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-cost,ss-cost.125210b,≋物料历史价格基线与采购闭环,False,False,False,3,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-cost,ss-cost.bde01521,结论分析,False,False,False,3,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-cost,ss-cost.1d18e6f7,♙降本机会台账,True,True,True,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.91e7e662,此处 −6.0%、−3.5%、−4.0% 等是情景假设，而非已由报价算出的降本结果。点击每张机会卡可以看到假设、参与供应商、原始数字、计算过程；导出 .xlsx 后可在 Excel 公式栏复核。,True,True,True,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.2a19713c,⚗,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.dd636421,⚙,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.9b5e31b3,▤,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.5b0631ed,◈,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.167980bb,¤,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-cost,ss-cost.cdc23aba,◔降本监控与复盘（达成率 / 偏差分析）,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-cost,ss-cost.8c3d17af,原站DEMO采购价差分解（按供应商）,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-project,ss-project.d334ceb5,统一候选供应商19∑ 本模块公式 / 分析依据,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-project,ss-project.4d03a8c7,▦项目进度甘特图（全流程）,False,False,False,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-project,ss-project.b4c9e13d,16 步甘特排程 · 蓝绿状态仅依据计划日期推演，不代表真实签核。16 步规划情景：含 change control、样品接收静置、化学检测/机械实验、QA审计、RA核验与QC放行。未提供已签核的项目,False,False,False,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-project,ss-project.89690661,◫项目文档档案,False,False,False,3,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-project,ss-project.aae145f4,按供应商逐项检查 ✓ 有登记 / ✕ 未登记。22 类文件为准入检查清单，源站DEMO仅有登记元数据，没有可视为已提交/已批准的正式附件；Top10之外可展开。,False,False,False,3,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-project,ss-project.9e861b96,基础准入文件✓ 0 已登记   ✕ 6 待补,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-project,ss-project.c06bd961,商务与合同文件✓ 0 已登记   ✕ 3 待补,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-project,ss-project.86f93f44,技术 / 质量文件✓ 0 已登记   ✕ 6 待补,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-project,ss-project.a4db9265,合规 / 注册文件✓ 0 已登记   ✕ 4 待补,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-project,ss-project.dfe55c75,首批供货 / 收尾文件✓ 0 已登记   ✕ 3 待补,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-project,ss-project.a23a762d,◎多供应商评分对比矩阵,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-project,ss-project.8a4799d5,排序使用明确标记的五维情景评分；真实来源质量与交付使用原站DEMO字段，其他模拟分项不构成正式评估或准入结论。,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-project,ss-project.d61cd838,◉准入里程碑跟踪（关键节点）,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-project,ss-project.cff39aa7,▤后端产约束视图（产能、库存、排期）,True,True,True,3,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-project,ss-project.add96b51,供应商产能与排产负荷（情景）,True,True,True,3,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-project,ss-project.e7cff5bf,情景产能平均负荷74.1%,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.10cd4937,▣研发联合绩效,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.2e1a40e4,质量绩效,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.bb546065,质量绩效,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.ea85f424,交付绩效,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.63a41dc0,技术响应绩效,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.fa9c5927,商务配合绩效,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.515be40a,◔供应商分级分布,False,False,False,1,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-performance,ss-performance.5b23204c,80,False,False,False,1,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-performance,ss-performance.58cfefa9,◉CAPA 整改跟踪（含 GMP 审计整改）,False,False,False,3,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-performance,ss-performance.8ba7aaee,◫OTD 与 PPV 绩效分析（两行四图）,True,True,True,0,3,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.b4763fcf,OTD 趋势（近 6 个月）,True,True,True,0,3,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.cd495bb4,OTD 趋势（近 6 个月）,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.bbf58905,供应商五维能力雷达,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.ecbf9569,OTD × PPV 绩效矩阵,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.c93b3d5b,◎供应商质量事件台账,False,False,False,2,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-performance,ss-performance.59271ba6,▤替代覆盖（合格来源维度）与供应商依赖风险,True,True,True,0,2,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.39d01d80,替代覆盖（合格来源维度）,True,True,True,0,2,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.774eb335,替代覆盖（合格来源维度）,True,True,True,0,2,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.852d4015,◈风险管理与备选开发,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-performance,ss-performance.e78d30f9,◇风险可视化图表（6个）,True,True,True,1,3,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.fb256c28,图表1：风险等级 & 金额分布环形图,True,True,True,1,3,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.568a21bd,图表1：风险等级 & 金额分布环形图,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.3f6705b4,图表2：风险类型分布横向条形图,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.b8c4ff39,图表3：供应集中度 TOP5 条形图,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.ef6a17d5,图表4：备选开发阶段进度堆叠图,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.caae17ed,图表5：风险概率 - 影响矩阵,True,True,True,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-performance,ss-performance.f899be65,图表6：高风险项整改进度甘特图,False,False,False,1,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-performance,ss-performance.2e1e2144,✦管理建议与行动（推荐）,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-performance,ss-performance.a95bfe1d,以下是从当前风险台账按风险等级及 Spend 重要性自动排序的 Top10 管理建议。非已批准任务，不得作为正式 CAPA。,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-compliance,ss-compliance.1dbec0e1,受控文件ⓘ,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.5a9e3f5e,▣ 证据登记与官方核验,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.4dfbdeae,▣ 证据登记与官方核验,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.27124230,◫准入状态总览Qualification Status Overview,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-compliance,ss-compliance.3879957b,供应商	Site	物料	市场	登记有效率	原站ASL状态	明细,True,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 已检测到部分按钮"
+ss-compliance,ss-compliance.3c2af1df,◫全球法规动态与来源状态Regulatory monitoring · source status,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.6b7a20c2,EMA · 欧盟 ↗待接法规公告接口RA 责任人和影响产品仍需建立受控关联FDA · 美国 ↗已支持部分召回/短缺线索；不等于法规公告RA 责任人和影响产品仍需建立受控关联NMPA · 中国 ↗待接法,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.3071ab65,◫到期预警分布Expiry Distribution,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.61e64b18,18文件,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.8db91b36,◫文件类型结构Document Type Mix,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.61e64b18,18文件,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.44b439e4,◫审批闭环状态Approval Workflow Status,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.61e64b18,18登记,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-compliance,ss-compliance.eaecbb2f,◫合规文件主台账Site × Material / Document Ledger,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-compliance,ss-compliance.3808c6d2,＋ 新增登记⇩ 导出CSV批量补件批量状态打印⇩ 公式Excel,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-compliance,ss-compliance.5d30a960,◫补件与整改任务CAPA & Follow-up Tasks,True,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 已检测到部分按钮"
+ss-compliance,ss-compliance.df6700a0,◫操作审计日志Audit trail & Change history,True,True,True,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-technical,ss-technical.767a2180,一、公司全景,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-technical,ss-technical.f8690135,Aster Pharma Materials,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-technical,ss-technical.5efe12d4,Boreal Chemicals,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-technical,ss-technical.b4d545c0, 多选对比区?,False,False,False,1,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-technical,ss-technical.59d08e9f,供应商四维能力菱形评估图 ?,False,False,False,0,1,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-technical,ss-technical.425c2606,多供应商横向参数对比表格 ?,False,False,False,1,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-data,ss-data.8b9ea34a,安全连接,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-data,ss-data.a81bda8e,自动发现设置,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-data,ss-data.df8b36c8,企业官网监测清单,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-data,ss-data.ce0ad5d4,人工证据核验,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-data,ss-data.78efcb9c,ERP 映射暂存,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围
+ss-data,ss-data.176118ca,EDQM CEP 官方导出数据集,False,False,False,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,"逐项补入口并实测, 历史快照未识别三入口"
+ss-data,ss-data.5719a5a9,部署边界：静态 Bolt 预览可以展示页面，但不运行后台同步任务。实际定时更新需要 Node 持久化服务、出站网络，以及管理员启用同步或 SOURCING_AUTO_SYNC=1；企业官网还须配置 S,True,True,True,0,0,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_VERIFIED,NOT_FULLY_VERIFIED,逐格验证公式与Excel同源、文字分析与筛选范围

@@ -1,0 +1,120 @@
+{
+  "test_type": "CHROMIUM_OFFLINE_DOM_INJECTED_NOT_HTTP_E2E",
+  "execution": [
+    {
+      "page": "rfq",
+      "panels": 6,
+      "entry_clicks_formula": 6,
+      "variable_clicks": 6,
+      "source_clicks": 6,
+      "xlsx_links": 6,
+      "status": "OFFLINE_DOM_INTERACTION_OK"
+    },
+    {
+      "page": "contracts",
+      "panels": 7,
+      "entry_clicks_formula": 7,
+      "variable_clicks": 7,
+      "source_clicks": 7,
+      "xlsx_links": 7,
+      "status": "OFFLINE_DOM_INTERACTION_OK"
+    },
+    {
+      "page": "orders",
+      "panels": 7,
+      "entry_clicks_formula": 7,
+      "variable_clicks": 7,
+      "source_clicks": 7,
+      "xlsx_links": 7,
+      "status": "OFFLINE_DOM_INTERACTION_OK"
+    },
+    {
+      "page": "shipments",
+      "panels": 7,
+      "entry_clicks_formula": 7,
+      "variable_clicks": 7,
+      "source_clicks": 7,
+      "xlsx_links": 7,
+      "status": "OFFLINE_DOM_INTERACTION_OK"
+    },
+    {
+      "page": "invoices",
+      "panels": 7,
+      "entry_clicks_formula": 7,
+      "variable_clicks": 7,
+      "source_clicks": 7,
+      "xlsx_links": 7,
+      "status": "OFFLINE_DOM_INTERACTION_OK"
+    },
+    {
+      "page": "payments",
+      "panels": 7,
+      "entry_clicks_formula": 7,
+      "variable_clicks": 7,
+      "source_clicks": 7,
+      "xlsx_links": 7,
+      "status": "OFFLINE_DOM_INTERACTION_OK"
+    },
+    {
+      "page": "claims",
+      "panels": 7,
+      "entry_clicks_formula": 7,
+      "variable_clicks": 7,
+      "source_clicks": 7,
+      "xlsx_links": 7,
+      "status": "OFFLINE_DOM_INTERACTION_OK"
+    },
+    {
+      "page": "closing",
+      "panels": 7,
+      "entry_clicks_formula": 7,
+      "variable_clicks": 7,
+      "source_clicks": 7,
+      "xlsx_links": 7,
+      "status": "OFFLINE_DOM_INTERACTION_OK"
+    },
+    {
+      "page": "exceptions",
+      "panels": 7,
+      "entry_clicks_formula": 7,
+      "variable_clicks": 7,
+      "source_clicks": 7,
+      "xlsx_links": 7,
+      "status": "OFFLINE_DOM_INTERACTION_OK"
+    }
+  ],
+  "decision": [
+    {
+      "page": "01",
+      "entry_groups": 115,
+      "formula_click_behavior": "graceful_API_unavailable_error",
+      "status": "OFFLINE_DOM_INTERACTION_ONLY"
+    },
+    {
+      "page": "02",
+      "entry_groups": 22,
+      "formula_click_behavior": "graceful_API_unavailable_error",
+      "status": "OFFLINE_DOM_INTERACTION_ONLY"
+    },
+    {
+      "page": "03",
+      "entry_groups": 30,
+      "formula_click_behavior": "graceful_API_unavailable_error",
+      "status": "OFFLINE_DOM_INTERACTION_ONLY"
+    },
+    {
+      "page": "04",
+      "entry_groups": 24,
+      "formula_click_behavior": "graceful_API_unavailable_error",
+      "status": "OFFLINE_DOM_INTERACTION_ONLY"
+    },
+    {
+      "page": "05",
+      "entry_groups": 115,
+      "formula_click_behavior": "graceful_API_unavailable_error",
+      "status": "OFFLINE_DOM_INTERACTION_ONLY"
+    }
+  ],
+  "failures": [],
+  "verified_live_http_pages": 0
+}

@@ -1,0 +1,8 @@
+{
+  "component_id": "REPLACE_WITH_REAL_COMPONENT_ID",
+  "field": "excel_numeric_match",
+  "verified": false,
+  "method": "REPLACE_WITH_INDEPENDENT_RECALC_OR_REVIEW_METHOD",
+  "provenance": {"erp_snapshot": "REPLACE_WITH_REAL_DB_SNAPSHOT", "web_cell": "REPLACE_WITH_REAL_CELL", "xlsx_cell": "REPLACE_WITH_EXCEL_CELL", "numeric_delta": null},
+  "recorded_at": "REPLACE_WITH_UTC_TIME"
+}

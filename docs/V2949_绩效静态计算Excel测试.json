@@ -1,0 +1,13 @@
+{
+  "version": "2.9.49",
+  "scope": "SIMULATED_OFFLINE_STATIC_RUNTIME_NOT_HTTP",
+  "decision_kpi_definitions": 115,
+  "smoke_module_types": 6,
+  "generated_kpi_formulas": 236,
+  "formula_comparisons": 236,
+  "source_tables_with_complete_rows": 10,
+  "source_rows_inspected_in_six_exports": 110,
+  "live_browser_clicks": 0,
+  "enterprise_database_verified": false,
+  "failures": []
+}

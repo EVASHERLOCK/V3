@@ -1,0 +1,32 @@
+{
+  "_notice": "EXAMPLE ONLY. Never use this file as evidence. Real exports, query references, snapshot, row counts and SHA256 must be obtained from authorized ERP/QMS operators.",
+  "environment": "ENTERPRISE",
+  "environment_id": "REPLACE_WITH_VERIFIED_ERP_QMS_ENVIRONMENT",
+  "data_type": "REAL_ERP_QMS_EXPORT",
+  "test_data": true,
+  "dataset_version": "REPLACE_WITH_APPROVED_SNAPSHOT_VERSION",
+  "extracted_at": "REPLACE_WITH_ACTUAL_UTC_TIME",
+  "tables": [
+    {
+      "system": "ERP",
+      "name": "purchase_orders",
+      "file": "exports/purchase_orders.csv",
+      "scope": "FULL_TABLE",
+      "export_query": "SELECT * FROM purchase_orders",
+      "primary_key": ["po_id"],
+      "snapshot_id": "REPLACE_WITH_REAL_DB_SNAPSHOT_ID",
+      "row_count": 0,
+      "sha256": "REPLACE_WITH_ACTUAL_CSV_SHA256",
+      "count_evidence": {
+        "system": "ERP",
+        "query": "SELECT COUNT(*) FROM purchase_orders",
+        "query_ref": "REPLACE_WITH_DB_AUDIT_LOG_QUERY_ID",
+        "result": 0,
+        "snapshot_id": "REPLACE_WITH_SAME_REAL_DB_SNAPSHOT_ID"
+      }
+    }
+  ],
+  "component_source_coverage": {
+    "portfolio.64f51145": ["ERP.purchase_orders"]
+  }
+}

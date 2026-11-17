@@ -1,0 +1,250 @@
+{
+  "version": "2.9.52",
+  "acceptance_type": "SIMULATED_DEMO_ONLY",
+  "tested_at": "2026-11-14T03:28:24.605Z",
+  "overall": "DEMO_PARTIALLY_VERIFIED",
+  "no_erp_qms_or_enterprise_signatures_required": true,
+  "source_23_files_full_http_paginated": "PASS",
+  "source_rows": 21455,
+  "previous_independent_kpi_scoped": "115/115",
+  "previous_independent_execution_scoped": "1512 cells MATCH, 55 numeric KPI aggregate MATCH, 1 unverified",
+  "browser_level": "CHROMIUM_BUNDLED_SCRIPTS_PLUS_LIVE_NODE_API_BRIDGE_NOT_BROWSER_NATIVE_HTTP_NAVIGATION",
+  "registry_integrity": "PASS",
+  "registered": 585,
+  "legacy": 217,
+  "iframe": 368,
+  "legacy_dom_found": 211,
+  "legacy_offline_3_entry_normal": 202,
+  "legacy_offline_3_entry_forced": 0,
+  "legacy_xlsx_downloads_with_formula": 202,
+  "fully_accepted_demo": 0,
+  "route_progress": [
+    {
+      "route": "portfolio",
+      "registered": 4,
+      "normal_three_entry": 4,
+      "unverified": 0
+    },
+    {
+      "route": "m01",
+      "registered": 4,
+      "normal_three_entry": 4,
+      "unverified": 0
+    },
+    {
+      "route": "m02",
+      "registered": 29,
+      "normal_three_entry": 29,
+      "unverified": 0
+    },
+    {
+      "route": "m06",
+      "registered": 6,
+      "normal_three_entry": 6,
+      "unverified": 0
+    },
+    {
+      "route": "m09",
+      "registered": 6,
+      "normal_three_entry": 0,
+      "unverified": 6
+    },
+    {
+      "route": "documents",
+      "registered": 11,
+      "normal_three_entry": 11,
+      "unverified": 0
+    },
+    {
+      "route": "regulatory",
+      "registered": 5,
+      "normal_three_entry": 5,
+      "unverified": 0
+    },
+    {
+      "route": "workflow",
+      "registered": 5,
+      "normal_three_entry": 5,
+      "unverified": 0
+    },
+    {
+      "route": "reports",
+      "registered": 5,
+      "normal_three_entry": 5,
+      "unverified": 0
+    },
+    {
+      "route": "access",
+      "registered": 8,
+      "normal_three_entry": 8,
+      "unverified": 0
+    },
+    {
+      "route": "master",
+      "registered": 4,
+      "normal_three_entry": 4,
+      "unverified": 0
+    },
+    {
+      "route": "alerts",
+      "registered": 6,
+      "normal_three_entry": 6,
+      "unverified": 0
+    },
+    {
+      "route": "ss-overview",
+      "registered": 6,
+      "normal_three_entry": 6,
+      "unverified": 0
+    },
+    {
+      "route": "ss-market",
+      "registered": 6,
+      "normal_three_entry": 6,
+      "unverified": 0
+    },
+    {
+      "route": "ss-kraljic",
+      "registered": 8,
+      "normal_three_entry": 8,
+      "unverified": 0
+    },
+    {
+      "route": "ss-ai",
+      "registered": 10,
+      "normal_three_entry": 10,
+      "unverified": 0
+    },
+    {
+      "route": "ss-cost",
+      "registered": 19,
+      "normal_three_entry": 19,
+      "unverified": 0
+    },
+    {
+      "route": "ss-project",
+      "registered": 16,
+      "normal_three_entry": 16,
+      "unverified": 0
+    },
+    {
+      "route": "ss-performance",
+      "registered": 29,
+      "normal_three_entry": 25,
+      "unverified": 4
+    },
+    {
+      "route": "ss-compliance",
+      "registered": 17,
+      "normal_three_entry": 17,
+      "unverified": 0
+    },
+    {
+      "route": "ss-technical",
+      "registered": 6,
+      "normal_three_entry": 6,
+      "unverified": 0
+    },
+    {
+      "route": "ss-data",
+      "registered": 7,
+      "normal_three_entry": 2,
+      "unverified": 5
+    },
+    {
+      "route": "decision-01",
+      "registered": 115,
+      "normal_three_entry": 0,
+      "unverified": 115
+    },
+    {
+      "route": "decision-02",
+      "registered": 22,
+      "normal_three_entry": 0,
+      "unverified": 22
+    },
+    {
+      "route": "decision-03",
+      "registered": 30,
+      "normal_three_entry": 0,
+      "unverified": 30
+    },
+    {
+      "route": "decision-04",
+      "registered": 24,
+      "normal_three_entry": 0,
+      "unverified": 24
+    },
+    {
+      "route": "decision-05",
+      "registered": 115,
+      "normal_three_entry": 0,
+      "unverified": 115
+    },
+    {
+      "route": "exec-00",
+      "registered": 6,
+      "normal_three_entry": 0,
+      "unverified": 6
+    },
+    {
+      "route": "exec-01",
+      "registered": 7,
+      "normal_three_entry": 0,
+      "unverified": 7
+    },
+    {
+      "route": "exec-02",
+      "registered": 7,
+      "normal_three_entry": 0,
+      "unverified": 7
+    },
+    {
+      "route": "exec-03",
+      "registered": 7,
+      "normal_three_entry": 0,
+      "unverified": 7
+    },
+    {
+      "route": "exec-04",
+      "registered": 7,
+      "normal_three_entry": 0,
+      "unverified": 7
+    },
+    {
+      "route": "exec-05",
+      "registered": 7,
+      "normal_three_entry": 0,
+      "unverified": 7
+    },
+    {
+      "route": "exec-06",
+      "registered": 7,
+      "normal_three_entry": 0,
+      "unverified": 7
+    },
+    {
+      "route": "exec-07",
+      "registered": 7,
+      "normal_three_entry": 0,
+      "unverified": 7
+    },
+    {
+      "route": "exec-08",
+      "registered": 7,
+      "normal_three_entry": 0,
+      "unverified": 7
+    }
+  ],
+  "unresolved": [],
+  "blocked_conditions": [
+    "Each component must have independent source-row identity and filter scope",
+    "Each calculated web cell must be numerically reconciled to a true XLSX formula",
+    "Each narrative assertion and rule must be semantically checked"
+  ],
+  "evidence_sha256": {
+    "source_report": "af527ee7719e8ede23d8bdfb3ad70d4ff2b9d6ff4c719b4e480f020b7a4f963e",
+    "browser_report": "e99b3e6b8953c03ff52bfb47370dd8dd8a3fc96396340d7ecb57f5de8b282312"
+  },
+  "note": "此页不要求 ERP、QMS 或企业签名；离线 Chromium真实点击与真实 Node API 可证明可操作性，但不等同浏览器直接 HTTP 导航，也不等同所有公式和文字结论业务正确。"
+}

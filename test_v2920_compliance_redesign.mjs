@@ -1,0 +1,41 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {enterpriseAnalysis} from './enterprise_v08.mjs';
+import {exportComplianceWorkbook} from './compliance_formula_v2920.mjs';
+const raw=enterpriseAnalysis({});
+const callbacks={click:[],change:[]};
+const context={window:{},document:{addEventListener:(name,fn)=>{(callbacks[name]??=[]).push(fn)},getElementById:()=>null,body:{append(){}}},sessionStorage:{getItem:()=>null,setItem:()=>{}},location:{hash:'#ss-compliance'},fetch:()=>Promise.reject(Error('no network in vm')),
+ console,Date,Map,Set,Intl,Number,Math,Blob,URL:{createObjectURL:()=>'',revokeObjectURL(){}},setTimeout:()=>{}};
+context.window=context;context.window.render=()=>{};
+vm.createContext(context);
+for(const f of ['strategic_sourcing_universe.js','strategic_sourcing_compliance.js','strategic_sourcing_technical.js','evidence_registry_v2920.js','strategic_sourcing_compliance_v2916.js','supplier_database_schema.js','supplier_database_v2916.js','strategic_sourcing_compliance_v2920.js'])vm.runInContext(fs.readFileSync('static/'+f,'utf8'),context,{filename:f,timeout:15000});
+const c=context.PharmaSourcingCompliance,t=context.PharmaSupplierTechnical,r=context.PharmaEvidenceRegistry;
+c.hydrate(raw);t.hydrate(raw);
+const docs=r.getDocuments(raw,null);
+assert.equal(docs.length,18,'shared register must include all 18 original DEMO documents');
+assert.equal(new Set(docs.map(d=>d.id)).size,18,'no duplicate IDs');
+assert.ok(!docs.some(d=>d.approvedExternally),'no fabricated approvals');
+const html=c.render();
+for(const x of ['受控文件','示例合格组合','30天内到期','31–90天到期','文件登记有效率','登记风险缺口','审批规则配置区','合规状态自动管控规则','官方证据核验工作台','准入状态总览','合规文件主台账','补件与整改任务','操作审计日志','全球法规动态','上市市场准入路径'])assert.ok(html.includes(x),`missing module ${x}`);
+assert.equal((html.match(/class="c20-kpi /g)||[]).length,6);
+assert.equal((html.match(/class="c20-donut"/g)||[]).length,3,'visible charts are not hidden in details');
+assert.ok(!html.includes('<details class="c20'),'none of the new page modules should be collapsible');
+assert.ok((html.match(/data-cg-action="timeline"/g)||[]).length>=18,'approval route per document');
+const metrics=r.getLineage('coverage',docs);
+assert.equal(metrics.rows.length,18);
+assert.ok(metrics.expression.includes('÷'));
+for(const key of ['documents','valid','within30','within90','risk'])assert.ok(r.getLineage(key,docs),'must have formula + raw rows '+key);
+const dbstate=context.PharmaSupplierDatabase.getState();dbstate.section='documents';const db=context.PharmaSupplierTechnical.render();
+for(const txt of ['负责审核部门','重要性','缺失造成的风险','同一文件编号','待收集'])assert.ok(db.includes(txt),'db missing '+txt);
+assert.equal((db.match(/<tr><td>(?:universal|pharma|regional|lifecycle|technical)<\/td>/g)||[]).length,38);
+assert.ok(db.includes('data-sd-doc-open'),'found records must link to same compliance document');
+assert.ok(!db.includes('已正式批准 GMP'),'must not invent approval');
+const book=exportComplianceWorkbook();assert.equal(book.subarray(0,4).toString('hex'),'504b0304');assert.ok(book.length>3000);
+assert.ok(!html.includes('✓ 已正式准入'));
+console.log('PASS V2.9.20 compliance: 6 KPIs, open panels, 18 linked docs, conservative 38 requirements, formula records, xlsx and safe approval boundary');
+if(process.argv.includes('--preview')){
+ const css=['strategic_sourcing_compliance_v2916.css','strategic_sourcing_compliance_v2920.css'].map(f=>fs.readFileSync('static/'+f,'utf8')).join('\n');
+ fs.writeFileSync('/mnt/data/V2920_Compliance_Isolated.html',`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>${css}</style><body style="margin:0;background:#eaf3ff"><main style="width:1500px;margin:auto">${html}</main></body></html>`);
+ fs.writeFileSync('/mnt/data/V2920_SupplierDB_Archive_Isolated.html',`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><style>${fs.readFileSync('static/supplier_database_v2916.css','utf8')}</style><body>${db}</body></html>`);
+}

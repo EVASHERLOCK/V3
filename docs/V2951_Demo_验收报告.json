@@ -1,0 +1,43 @@
+{
+  "version": "2.9.51",
+  "acceptance_type": "DEMO_SIMULATED_ONLY",
+  "tested_at": "2026-11-14T03:28:24.467Z",
+  "not_required": [
+    "REAL_ERP",
+    "REAL_QMS",
+    "ENTERPRISE_SIGNATURE",
+    "ENTERPRISE_DEPLOYMENT_HTTPS"
+  ],
+  "source_mode": "SIMULATED",
+  "source_version": "V2941-SIMULATED-20261111",
+  "stage_1_demo_full_source_and_catalog": "PASS",
+  "stage_2_scoped_formula_and_iframe_checks": "SCOPED_PASS",
+  "stage_3_all_585_demo_controls": "PENDING",
+  "overall": "DEMO_PARTIALLY_VERIFIED",
+  "source_tables": 23,
+  "source_rows": 21455,
+  "source_table_integrity": "PASS",
+  "canonical_source_tables": 21,
+  "auxiliary_source_files": 2,
+  "source_pagination_report": "21_CANONICAL_TABLES_PASS__2_AUX_FILES_LOCAL_AUDIT_ONLY",
+  "monthly_aux_summary_recalculated": true,
+  "metric_definitions": 171,
+  "decision_kpis_recalculated": 115,
+  "decision_kpis_total": 115,
+  "execution_sample_cells_reconciled": 1512,
+  "execution_numeric_aggregates_reconciled": 55,
+  "execution_aggregates_unverified": 1,
+  "real_demo_http_clicked": 0,
+  "iframe_pages_offline_sampled": 14,
+  "iframe_panels_offline_clicked": 62,
+  "components_registered": 585,
+  "components_fully_verified_demo": 0,
+  "legacy_components_unverified": 217,
+  "evidence_note": "DEMO: no enterprise ERP/QMS, credentials or signer required. Source and sample formulas PASS do not imply all 585 modules passed click, all filters, narrative or Excel checks. Optional real HTTP click tests may be on local localhost.",
+  "independent_recalculation_recorded_at": {
+    "decision": "2026-11-14T03:10:33.269433+00:00",
+    "execution": "2026-11-14T03:10:27.507178+00:00"
+  },
+  "browser_boundary": "Offline DOM smoke only. Full per-control browser click still missing. Enterprise network limitation is NOT a demo-data blocker.",
+  "errors": []
+}

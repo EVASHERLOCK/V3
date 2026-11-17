@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+const root='static/';
+const js=readFileSync(root+'v16_overview.js','utf8');
+const css=readFileSync(root+'v19_visual.css','utf8');
+const html=readFileSync(root+'index.html','utf8');
+assert(html.includes('/static/v19_visual.css'),'visual stylesheet must load after existing Overview CSS');
+for(const title of ['采购总概览','高风险事项 TOP10','风险根因分布','物料生命周期预警快照','供应商风险 × 交付绩效矩阵','优先改善任务 TOP10','改善任务进度'])assert(js.includes(title),title);
+for(const id of ['year','month','supplier_class','supplier','material_group'])assert(js.includes(`selectHtml('${id}'`),id);
+for(const name of ['lifecycle-expiry','lifecycle-docs','lifecycle-dmf','root-cause','spend-supplier','risk-group','score'])assert(js.includes(name),'missing data drill: '+name);
+assert(js.includes('return (d.actions?.alerts||[]).filter(x=>x.severity===\'HIGH\')'),'TOP10 must use HIGH alerts');
+assert(js.includes('alertAmount(d,b)-alertAmount(d,a)'),'TOP10 must sort by linked PO amount');
+assert(js.includes('const rows=rootCauseRows(d)'),'root cause must use grouped event counts');
+for(const section of ['.v17-health','.v17-risk-card','.v17-kpi-layout','.v17-analytics','.v17-supplier','.v17-improvement','.v17-issues','.v18-quicklinks'])assert(css.includes(section),section);
+for(const path of ['demo_master.json','v08_demo.json','rules.json','build_static.mjs','static/v16_overview.js','static/v19_visual.css'])assert(existsSync(path),path);
+console.log('PASS V1.9 visual-layout integration and existing dashboard data-contract assertions');

@@ -1,0 +1,9 @@
+/* Add-on only. The supplied prototype style.css is retained unmodified. */
+.pe-site-source-banner{margin:4px 24px 10px;padding:12px 16px;border:1px solid #91c1e9;border-radius:9px;background:linear-gradient(90deg,#e6f2ff,#f5fbff);color:#20486e;font:12px/1.6 system-ui,'Microsoft Yahei',sans-serif;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.pe-site-source-banner b{color:#0864b8;white-space:nowrap}
+.pe-site-source-banner span{flex:1;min-width:260px}
+.pe-site-source-banner a{color:#1367b7;font-weight:700}
+.site-embedded .topbar,.site-embedded .side{display:none!important}
+.site-embedded .shell{margin:0!important;max-width:none!important;padding:0 14px 32px!important;width:100%!important}
+.site-embedded body{overflow-x:hidden}
+@media(max-width:700px){.pe-site-source-banner{margin:5px 8px;display:block}.pe-site-source-banner span{display:block}}

@@ -1,0 +1,4958 @@
+{
+  "version": "2.9.47",
+  "registered": 291,
+  "legacy_active": 217,
+  "iframe_routes": 14,
+  "verified": 0,
+  "pending": 291,
+  "release": "BLOCKED",
+  "pending_details": [
+    {
+      "id": "portfolio.64f51145",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "portfolio.d3e8e73a",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "portfolio.88bf8e48",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "portfolio.268a11c8",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m01.6cc6eaa5",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m01.3f69953c",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m01.111fc4fe",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m01.162bc906",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.274e1477",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.60e574be",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.36ae8018",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.33ab85b7",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.38862302",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.25c076cb",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.4febb572",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.bb27ec9c",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.b245852e",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.bfc5032b",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.c181cb26",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.23dcfec",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.a43cf4ce",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.5e4cca98",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.a244c095",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.813eab27",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.5e4fdfc8",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.e0e26acb",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.5f747895",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.786b1a74",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.26388c66",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.4ced5692",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.961b995f",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.10c1ce46",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.cc23eeca",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.a29c2c89",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.840e7579",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.10b565f",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m02.2a78929e",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m06.51f53479",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m06.4c75aaba",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m06.1ce016b",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m06.90ac0575",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m06.81fc3f1c",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m06.b3ba053a",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m09.6d7eec95",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m09.643115a6",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m09.6c93d7bf",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m09.eb351d3d",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m09.8f402240",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "m09.154104ce",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.76815ef9",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.2118dba3",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.1bd6d2f3",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.e7f75cd7",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.b9a76f6b",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.108d713",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.faf394c9",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.78f4aab2",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.b7a4003f",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.1cbfb7bd",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "documents.d6afb903",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "regulatory.8fe9d376",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "regulatory.92b86434",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "regulatory.f1ca847d",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "regulatory.a6dff66a",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "regulatory.84f5ace2",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "workflow.2a31f289",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "workflow.a5b0d0f1",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "workflow.fbe9f8a8",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "workflow.cf1883fb",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "workflow.f67d1544",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "reports.3218b936",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "reports.de55251",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "reports.3bdd1388",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "reports.74be0353",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "reports.fbe4dd6a",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "access.f57de64",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "access.faecb057",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "access.b1953415",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "access.80219bec",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "access.b1953415__baseline_duplicate_2",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "access.1ceb4815",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "access.7d9bdbf1",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "access.c66c90f2",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "master.77fadda6",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "master.11d359f4",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "master.5981f0bd",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "master.d4c88043",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "alerts.ce8ab4d1",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "alerts.c33ef0db",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "alerts.3d5f77e",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "alerts.41eaa0ac",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "alerts.71aca421",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "alerts.2c04c64d",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-overview.1b5641e0",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-overview.71283571",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-overview.9963dc10",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-overview.43c5616f",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-overview.c9557816",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-overview.b57040b6",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-market.f8c12c52",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-market.dab0e191",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-market.d4cc009f",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-market.2cc668b2",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-market.5e33d1b8",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-market.88a2dc80",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-kraljic.6c5fa48b",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-kraljic.690bd80e",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-kraljic.859feca6",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-kraljic.595fe1aa",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-kraljic.c5806b54",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-kraljic.df23a29b",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-kraljic.5a25ec28",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-kraljic.24c60452",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.72b08565",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.a5a0abb0",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.a2726ebe",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.11f4ea9e",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.279fa920",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.11f4ea9e__baseline_duplicate_2",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.36fd315d",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.2217f332",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.f82cef74",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-ai.c1a5bcb3",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.3849530a",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.35986a97",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.febce90b",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.fb107cca",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.c6b69bda",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.fc5cdc07",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.1ce10c1",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.6382ad63",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.125210b",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.bde01521",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.1d18e6f7",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.91e7e662",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.2a19713c",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.dd636421",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.9b5e31b3",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.5b0631ed",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.167980bb",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.cdc23aba",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-cost.8c3d17af",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.d334ceb5",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.4d03a8c7",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.b4c9e13d",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.89690661",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.aae145f4",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.9e861b96",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.c06bd961",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.86f93f44",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.a4db9265",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.dfe55c75",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.a23a762d",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.8a4799d5",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.d61cd838",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.cff39aa7",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.add96b51",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-project.e7cff5bf",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.10cd4937",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.2e1a40e4",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.bb546065",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.ea85f424",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.63a41dc0",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.fa9c5927",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.515be40a",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.5b23204c",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.58cfefa9",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.8ba7aaee",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.b4763fcf",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.cd495bb4",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.bbf58905",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.ecbf9569",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.c93b3d5b",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.59271ba6",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.39d01d80",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.774eb335",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.852d4015",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.e78d30f9",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.fb256c28",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.568a21bd",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.3f6705b4",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.b8c4ff39",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.ef6a17d5",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.caae17ed",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.f899be65",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.2e1e2144",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-performance.a95bfe1d",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.1dbec0e1",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.5a9e3f5e",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.4dfbdeae",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.27124230",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.3879957b",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.3c2af1df",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.6b7a20c2",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.3071ab65",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.61e64b18",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.8db91b36",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.61e64b18__baseline_duplicate_2",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.44b439e4",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.61e64b18__baseline_duplicate_3",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.eaecbb2f",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.3808c6d2",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.5d30a960",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-compliance.df6700a0",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-technical.767a2180",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-technical.f8690135",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-technical.5efe12d4",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-technical.b4d545c0",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-technical.59d08e9f",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-technical.425c2606",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-data.8b9ea34a",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-data.a81bda8e",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-data.df8b36c8",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-data.ce0ad5d4",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-data.78efcb9c",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-data.176118ca",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "ss-data.5719a5a9",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-01.217",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-01.218",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-01.219",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-01.220",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-02.221",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-02.222",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-02.223",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-02.224",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-03.225",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-03.226",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-03.227",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-03.228",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-04.229",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-04.230",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-04.231",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-04.232",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-05.233",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-05.234",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-05.235",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "decision-05.236",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-00.237",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-00.238",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-00.239",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-00.240",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-00.241",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-00.242",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-01.243",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-01.244",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-01.245",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-01.246",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-01.247",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-01.248",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-02.249",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-02.250",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-02.251",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-02.252",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-02.253",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-02.254",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-03.255",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-03.256",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-03.257",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-03.258",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-03.259",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-03.260",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-04.261",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-04.262",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-04.263",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-04.264",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-04.265",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-04.266",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-05.267",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-05.268",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-05.269",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-05.270",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-05.271",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-05.272",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-06.273",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-06.274",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-06.275",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-06.276",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-06.277",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-06.278",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-07.279",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-07.280",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-07.281",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-07.282",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-07.283",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-07.284",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-08.285",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-08.286",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-08.287",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-08.288",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-08.289",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    },
+    {
+      "id": "exec-08.290",
+      "gaps": [
+        "click_formula",
+        "formula_variables",
+        "calculation_conditions",
+        "source_row_identity",
+        "source_row_count",
+        "full_source_pagination",
+        "cell_formula_web",
+        "cell_formula_xlsx",
+        "excel_numeric_match",
+        "narrative_steps",
+        "browser_e2e",
+        "business_signoff"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:18:36.930076+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "access",
+      "expected": 8,
+      "exact_ids_found": 8,
+      "rendered_module_count": 8,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "access.f57de64",
+      "route": "access",
+      "title": "角色结构",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2351,
+        "sha256": "2ad4de3b5d38b8c235ebeca1c474c7e824dae496c8385d69ecced54dcfc0cdc6"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 3694,
+        "sha256": "a954797e946526205e87360ae85c825e288af657f45163c8ff74a5bf3c45af9f"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 6,
+        "xlsx_sha256": "6d5449895a5da717277415452296ca7f55fdfab25dcbf37e9862a0be1f3de31c",
+        "bytes": 29080,
+        "filename_sha256": "ec77f1a15173fad74bc6b2d5dd09e6cb908ee3b000f88156303f10712eca50f3"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 12,
+        "displayed_figures": 5,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 5,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 4,
+        "narrative_unverified": 4,
+        "missing_count": 3,
+        "response_sha256": "a82bb769a7e964db6e4c50951ce1e5476412d6a630323ad16a9fda47073af73c"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "access.faecb057",
+      "route": "access",
+      "title": "角色×敏感数据能力",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1014,
+        "sha256": "6cbdc54f5f987a342be7ba8281d03f57374b90c91707cc3288c489bd3d1abc0c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1589,
+        "sha256": "e1d46f364e539ba8e9922615e25f11fc4aa3756c491088dc41209474327c7246"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 4,
+        "xlsx_sha256": "61933877deca02bbb6f86c2f0a2d6927311522831d022ef42042af64d0dffaba",
+        "bytes": 21830,
+        "filename_sha256": "ee596de7a02bc4d4bf9d00be7393a5eb1eb6e247134547ed961b749bc0aed0af"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 4,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "892b56378e0df65f7ae51fd2907c1252d8185ac09507b3f3b732bc46aab479db"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "access.b1953415",
+      "route": "access",
+      "title": "搜索 ?列设置 ▾每页",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 987,
+        "sha256": "7dcd358eec7e6eed11c404d1700f699d73b0f4e779a5846f2700753915048866"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1553,
+        "sha256": "cd6ffe470c21b243bac18095275860e8be09cf4c2fe14c8303696dc798554fa9"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 4,
+        "xlsx_sha256": "ba0a9eac08a9e693fdd8e38d9547b5e0e4f6bf582d29e959d9807ac387007231",
+        "bytes": 21628,
+        "filename_sha256": "abbd7df033e60e38402fa9dd1c8c5e8bb6bf364759679e6abbe89f92cf51d2fe"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 4,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "049039de7ec80d3bad39e868f04a18144078489925f5f7b40544efb4a68e9da9"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "access.80219bec",
+      "route": "access",
+      "title": "演示账户目录",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1104,
+        "sha256": "64f0b7590f4ded084f5fe9cb9183196eb47bc7bf23597cb8ddbfa77c8d3ba3be"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1806,
+        "sha256": "ddba4f8f2f61cf0bcf9a052830e2d6e8e4694fb6393f02293c633051f3013979"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 2,
+        "xlsx_sha256": "6b673b0f4755f1abe74c85932d8684c298a3cb13314f607bf652501526f43222",
+        "bytes": 21984,
+        "filename_sha256": "af852d4fd5f04f543af0613ef7d6bc02614fc6f2b80820de78e9dcd44a573f31"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 4,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "0f943fd41965f151cb61b6bac4de2f886b7ec35e24bcab9c4c2a0749ee738027"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "access.b1953415__baseline_duplicate_1",
+      "route": "access",
+      "title": "搜索 ?列设置 ▾每页",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1077,
+        "sha256": "2f694cb11f0546285c1c38a881ebe9beeba704614ffc6d8d7f3e155f94a5e77b"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1770,
+        "sha256": "d0d3aeb476d47c812f0164ffb41178699f2f9a458c1dc64d54587c181efb5c59"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 2,
+        "xlsx_sha256": "cee932344afe845d65508dca4d0a13f99ad390c8009c2ecdbd8175869f7b723c",
+        "bytes": 21799,
+        "filename_sha256": "f42fa464dbe523906340d77506792155b518aa1a292140ffb4979e0e257ca9c3"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 4,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "b5720bb344c8e57afc9d46c5584649819c3c217dcfb71cbe0e203a5480691788"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "access.1ceb4815",
+      "route": "access",
+      "title": "账号角色台账",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1013,
+        "sha256": "111fe2a7804e6dc656f2b4b191f810aaa75154ee06b94d5eef4229d7ce4e98e9"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1733,
+        "sha256": "f3e4447c67b4ea410ed315c0ab7904a016b10eee28725282264de74d573bf4e6"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 2,
+        "xlsx_sha256": "fe585f5a230b8cbf9607887bc37320b314f6f54359ca687ccddb3fbe0cfd1c79",
+        "bytes": 21825,
+        "filename_sha256": "2043ec0ffef4d21a0891125468021224f86aa678dbfdf3e85b9f34761c01a907"
+      },
+      "opened_disclosures": [
+        "NATIVE_DETAILS_SUMMARY_CLICK"
+      ],
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 4,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "bd64a5899d0b460e595fb4b7354aceee83dd1999ea61c795810b6bd96a741847"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "access.7d9bdbf1",
+      "route": "access",
+      "title": "体验角色切换",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 877,
+        "sha256": "80152e5381385d8d35a8084eb28439227cfc6ce8bf2f3cc51255a9bf79264608"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1231,
+        "sha256": "3021542ac22fd1aa038467d78419af37d5f99a6f423f104a4d46db6bc5551c1a"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "5c6d3d03ffd18dd620d38715965578ecf17490025d322d1d10b2cdaf783119b6",
+        "bytes": 20762,
+        "filename_sha256": "ff5eb0355faeaf3abe6221c5f1e7f1fc41e594306c0bbe8d787971a50f4bebd1"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 3,
+        "response_sha256": "8bad0bc22eb8a415d513d914fd7bd6c9760d91b20bded95040311ffae3501f0f"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "access.c66c90f2",
+      "route": "access",
+      "title": "价格/汇报导出操作记录（仅本机演示日志）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 748,
+        "sha256": "bcb16cf2c3e6e7a18cf43d52ad04fc9d1830eef81faf8bc0ecf542f0b6929ba4"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1102,
+        "sha256": "b5d7c2b1cc2dbbe5dc308329602cb3b87a9dd8f34d3defdc0cf618f858b70b43"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "9a8829b462ffef52adf771518b749a4ccbf153addd868e24f11e8fa5454e0a1e",
+        "bytes": 19987,
+        "filename_sha256": "a28873485f329af48f4ce113e53c1dd3bb3d2582e9ba222b640f955f8289ecf4"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "fd078d9118543b080cc6e54513c0ef86ad41cd1f4f39e6801812b347e792346c"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:18:42.504589+00:00",
+  "exact_rendered": 8,
+  "three_entry_click_verified": 8,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 8,
+  "api_trace_received": 8,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

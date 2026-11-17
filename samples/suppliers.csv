@@ -1,0 +1,4 @@
+﻿supplier_id,supplier_name,manufacturer,site,country,approved_status,quality_score,delivery_score,risk_level
+SUP-001,Aster Pharma Materials,Aster API Manufacturing Ltd.,Basel Site 01,Switzerland,Approved,94,89,Low
+SUP-002,Boreal Chemicals,Boreal Active Ingredients GmbH,Linz Site 02,Austria,Pending,86,95,Medium
+SUP-003,Cedar Life Sciences,Cedar BioPharma Co.,Singapore Site 01,Singapore,Approved,91,81,Medium

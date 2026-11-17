@@ -1,0 +1,18 @@
+﻿supplier_id,document_type,status,expiry_date,filename
+SUP-001,DOC-001,Accepted,,Aster_Spec_v4.pdf
+SUP-001,DOC-002,Accepted,,Aster_CoA_Example.pdf
+SUP-001,DOC-003,Accepted,,Site_Declaration.pdf
+SUP-001,DOC-004,Accepted,2027-10-14,GMP_Evidence.pdf
+SUP-001,DOC-006,Accepted,2028-01-22,Quality_Agreement.pdf
+SUP-001,DOC-009,Under review,,Residual_Solvent_Risk.pdf
+SUP-001,DOC-011,Received,,US_DMF_Reference.pdf
+SUP-001,DOC-012,Accepted,,EU_ASMF_LOA.pdf
+SUP-002,DOC-001,Accepted,,Boreal_Spec.pdf
+SUP-002,DOC-002,Under review,,Boreal_CoA.pdf
+SUP-002,DOC-003,Accepted,,Boreal_Site.pdf
+SUP-002,DOC-004,Expired,2026-09-04,Boreal_GMP_Evidence.pdf
+SUP-002,DOC-011,Received,,Boreal_DMF_Ref.pdf
+SUP-003,DOC-001,Accepted,,Cedar_Spec.pdf
+SUP-003,DOC-002,Accepted,,Cedar_CoA.pdf
+SUP-003,DOC-003,Accepted,,Cedar_Site.pdf
+SUP-003,DOC-006,Accepted,2027-05-17,Cedar_QA.pdf

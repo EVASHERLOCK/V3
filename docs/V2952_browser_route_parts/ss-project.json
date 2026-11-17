@@ -1,0 +1,751 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:18:52.257657+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-project",
+      "expected": 16,
+      "exact_ids_found": 16,
+      "rendered_module_count": 16,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-project.d334ceb5",
+      "route": "ss-project",
+      "title": "统一候选供应商19∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 724,
+        "sha256": "7149165c2786a6dfb62241009b819aa2ae6f310f30b9174038a32efb92404516"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1078,
+        "sha256": "548273ddec161a053da5798462dc44217f9fe380c52f4d72bc09b0ae1037b8bd"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "79809776a0fafbde2bc541c49de4607e7c7d28fe3e0ee16d47cf04a59b0b5917",
+        "bytes": 20111,
+        "filename_sha256": "3e7ee716e588abad6753c669acbf0ca0867b677c52e64cdb440942ce5abd105a"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "6140fc13195fb4fffbe365f57bff5d43dfea31af534070bf0076330bd94ae757"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.4d03a8c7",
+      "route": "ss-project",
+      "title": "▦项目进度甘特图（全流程）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1853,
+        "sha256": "5ff52aa51b543bb0dd360e940dfb98d490a32a5b80dc3583b69598684fbc4c4f"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 2270,
+        "sha256": "33b20d38b0e0f21cf7c6483bf9b5de95a0a718f5b5e93df1441b4b7353d2c529"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 98,
+        "xlsx_sha256": "c2d02fdd42dcbef845de077c44e0afedc22a3127533e1a5470375860e48e507b",
+        "bytes": 58433,
+        "filename_sha256": "0f17d2c250c43c1af015ed98f0eb7f64a2e0910779d52312f0a5bfe5e712489a"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 2,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 25,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 25,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 3,
+        "response_sha256": "50a741972a2176e749ffdc82da99846eaf77abc4af9c1829fb83c10fa452a6f4"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.b4c9e13d",
+      "route": "ss-project",
+      "title": "16 步甘特排程 · 蓝绿状态仅依据计划日期推演，不代表真实签核。16 步规划情景：含 change control、样品接收静置、化学检测/机械实验、QA审计、RA核验与QC放行。未提供已签核的项目",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2715,
+        "sha256": "89f575062fb4e797bbbc442e31ef6459d205a0e75d832848bc55ce9d2c2817d0"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 4261,
+        "sha256": "fb2be793103636b2e3dafb83d9ea003b840f9767ee168214e575d5a3906cda0e"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 100,
+        "xlsx_sha256": "b7f730ab601c69a4e0c6f109ddc51a1c6a76102e8aff033de9200b1919c5723e",
+        "bytes": 60054,
+        "filename_sha256": "84b670c7fcd0440330bb6c6742daecece254b5bd2c219299fc1b7e0cbe3d7cd3"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 25,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 25,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 5,
+        "response_sha256": "acb12c13d04cbe2cf5f8ebbfef27cacd2c70fc2e2eed1adc1580546da3fa6f76"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.89690661",
+      "route": "ss-project",
+      "title": "◫项目文档档案",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3847,
+        "sha256": "5c6dd1a4a8f1093704715a1a4b83ae50734a41a715ec4ae4a176d93e504a0a0e"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 9911,
+        "sha256": "2bf916dec144f9691e8942ff8927ac5ff3dd74555eebe244f83679895472e5c1"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 103,
+        "xlsx_sha256": "127d2ab1df8288ec8936ee8bcbce5f0fc794becab507281c3f79946856f86030",
+        "bytes": 61531,
+        "filename_sha256": "3b191dfc58a9e160db6ea75e048d9796ed76627f9b3cd05135e4bf14ab67efe2"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 3,
+        "computed_metrics": 2,
+        "visible_dom_rows": 22,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 6,
+        "narrative_unverified": 6,
+        "missing_count": 2,
+        "response_sha256": "267d0bcf8f4b7ae3c8cbe3c8a9935a01eb2af034f183546ff1149379e2579a6b"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.aae145f4",
+      "route": "ss-project",
+      "title": "按供应商逐项检查 ✓ 有登记 / ✕ 未登记。22 类文件为准入检查清单，源站DEMO仅有登记元数据，没有可视为已提交/已批准的正式附件；Top10之外可展开。",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4792,
+        "sha256": "a8db1299c7b9b78145358359a8ed2eccceb851ef53af39d73b15a63240b9c445"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 14963,
+        "sha256": "8326d385ec04d26c65dea0d9fc9b48d13405d1310c8c587cfd083dc0050e91f4"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 105,
+        "xlsx_sha256": "8594b678385eae608d61839714c1e41e28a30d1413570d1fc97df7138f55628d",
+        "bytes": 62730,
+        "filename_sha256": "f28e62daccd9e2c668c421298b898d383bdd6de55a37bb222f938e2c167a82ac"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 22,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 6,
+        "narrative_unverified": 6,
+        "missing_count": 3,
+        "response_sha256": "302418e538103d3049e8305eaaca26c8b6a4dc5d052191587f85985fdaeece5a"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.9e861b96",
+      "route": "ss-project",
+      "title": "基础准入文件✓ 0 已登记   ✕ 6 待补",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2402,
+        "sha256": "7406efa38d97e5d1da57d2849e504e3061c5433ad3b8f752f594100e7a989027"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10896,
+        "sha256": "cfc3581fe981268a603eef62b84c8db2e81fc10df9df91e1cd14d5b8343b54c7"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 102,
+        "xlsx_sha256": "caf9e86789bb09e2346d0ecb0203e165d76c6fffa8627318353b3ca4389d7737",
+        "bytes": 54405,
+        "filename_sha256": "2c25ba3110b33c039cf47e29008940a69fb60f0762c9c053641b9dfe4c169593"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 3,
+        "response_sha256": "01f45d40a6cb983d7ce839d38f7dda6e2d760293642d230505d49983a6019c7b"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.c06bd961",
+      "route": "ss-project",
+      "title": "商务与合同文件✓ 0 已登记   ✕ 3 待补",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3171,
+        "sha256": "ed3171c472c1676542a81b6eb85068e0299c6bc96cd26a195a85b37067b521f2"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 13588,
+        "sha256": "059eccff73030a946ed722cdca1ebd8eaad3cbd73c702dbe337be49269f599ca"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 105,
+        "xlsx_sha256": "9ed22c2e0c5cd1fa08466119c10c85544a50aba93f2c69d920406ff3eee4697f",
+        "bytes": 55317,
+        "filename_sha256": "c4e5c1f235f44e6ac2230a1cc73ee998a6a8e222c5319324fa492d540df5d293"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 9,
+        "computed_metrics": 7,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "fd6439311fd2fcfc25a6242f12333ecc29b48895b07687d1fd2de0a3503595ed"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.86f93f44",
+      "route": "ss-project",
+      "title": "技术 / 质量文件✓ 0 已登记   ✕ 6 待补",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2413,
+        "sha256": "77e7ae25994a62a8d8cb0c30d59c704155ad7529fb96040170ecdd7da6913536"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10907,
+        "sha256": "36c97edd8ecf2ab51a56ed117a7ee8cce17678e425261a735644470cc72e8339"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 102,
+        "xlsx_sha256": "d56da16725dcf522807c1d741988463d9cfc271dbd204881d10b3300aebac4ba",
+        "bytes": 54441,
+        "filename_sha256": "1dc9332f5eac80bbaff64567ca9c878b274c4dfe07b39bce49551031009fd8e6"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 3,
+        "response_sha256": "21242a9ba0fcb85c7e01f7b9faabb8c225621bf1aa56bf4adca74f162a70d512"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.a4db9265",
+      "route": "ss-project",
+      "title": "合规 / 注册文件✓ 0 已登记   ✕ 4 待补",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3586,
+        "sha256": "b4656235feabf360680981f2a95a39db843ccf4abb0d53fbbceca65c4748efe5"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 13659,
+        "sha256": "3f0055c700587e67abca6a0a3f55335e898a4f688f018c8a77abf88d5b36aac6"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 105,
+        "xlsx_sha256": "6253612d2e7488be30f04557a5927c46fb1b238c862959504387f4f585384e9a",
+        "bytes": 56871,
+        "filename_sha256": "58a80d70eaefd50e5de55b69abde45490b08dbbb2933fd99ccbb70de9d3321c0"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 10,
+        "computed_metrics": 7,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 4,
+        "response_sha256": "cfeab98637b82e8690442c2d21b93cddcd60f9d15ea1cd9c2a45c52ab60bf5e6"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.dfe55c75",
+      "route": "ss-project",
+      "title": "首批供货 / 收尾文件✓ 0 已登记   ✕ 3 待补",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2173,
+        "sha256": "ab81d3f9a474292ae0b674909df4129357e85f193b70cd317e38f1c28310f342"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10667,
+        "sha256": "82ca6a436a8314054b779279f154b90d5e2abce69120dea8c1101266929ef6c6"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 102,
+        "xlsx_sha256": "b167ee3b3be6613bf28894ec879ae6f36ca0bd3b33caa1969215f8624260809f",
+        "bytes": 53547,
+        "filename_sha256": "1420cd69f01a365c42bfeafba90a1a434f2e5e42d73e395d17d8e896e1366cdd"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "4d972bfd21f991ba1c1c2c7d01fe20ca209043142a38db954ccb1a8a6670d672"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.a23a762d",
+      "route": "ss-project",
+      "title": "◎多供应商评分对比矩阵",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3573,
+        "sha256": "a973c303f638bbcfa807353a267bab04391f745c5e10fb7624828ebeac0a06d3"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 7604,
+        "sha256": "a97cc82398202dd9c74dd9ea103b17c1c0866fc6e45849ab864a5b868a6ac42f"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 102,
+        "xlsx_sha256": "fe7210e8f49fc0e358d891ede2b7d50ef847265bd21702b34f9f74f4cc0a8237",
+        "bytes": 61765,
+        "filename_sha256": "bc5f3166c3d2358fd4a49f51a08d038524424f542f424fd2229386be85ad2862"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 0,
+        "visible_dom_rows": 19,
+        "displayed_figures": 17,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 17,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 7,
+        "response_sha256": "88ef6eb6428d50bf351e34b2d47b70c053bceaf149d3f90f6c392aed71ac59c9"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.8a4799d5",
+      "route": "ss-project",
+      "title": "排序使用明确标记的五维情景评分；真实来源质量与交付使用原站DEMO字段，其他模拟分项不构成正式评估或准入结论。",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3549,
+        "sha256": "7bff8a5ec382f7122ae19369a36be40cdf98ee36ccf246bb4df942dd6bd39e27"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 7568,
+        "sha256": "db2d7beac49d305e1431e3dff224a82ff62a66b48364d7585099d7435c1fe810"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 102,
+        "xlsx_sha256": "20ac79a4149c143c93c6c46c9edeb921f9026d628d088a3e77a3ff3d9e9ccfa0",
+        "bytes": 61679,
+        "filename_sha256": "8be6168b606611b0d7e44a53b4ed0ac066bc5f8c20efaaf28e8e972e8f184274"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 0,
+        "visible_dom_rows": 19,
+        "displayed_figures": 17,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 17,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 7,
+        "response_sha256": "b694e27a7370b5a96c3919698ca03126c1c2402c2e0dd3a5b3cdf868511591b3"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.d61cd838",
+      "route": "ss-project",
+      "title": "◉准入里程碑跟踪（关键节点）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4676,
+        "sha256": "a5bd0c478fd4f7f5814664d56860c9a093067bb8520e14b5ab2bf99a49a37213"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 15253,
+        "sha256": "831c29c26f538e37ccb5e2a3873fe5face3a49dc3a7ee7256a819a9238c256aa"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 108,
+        "xlsx_sha256": "c8379d59988f65964b713b7052e7e973ce67614181af38a90b7d1035656668cd",
+        "bytes": 62047,
+        "filename_sha256": "6bd55a7162774d417a9e1dae72d470f26e29561873d5e7a8c081b35f9d54c23a"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 12,
+        "computed_metrics": 6,
+        "visible_dom_rows": 12,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 7,
+        "response_sha256": "1cd17f9cb6accf62ceb14220017fb6e190ae12d7749585701386a330bfcf96ef"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.cff39aa7",
+      "route": "ss-project",
+      "title": "▤后端产约束视图（产能、库存、排期）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3886,
+        "sha256": "af88490472dab9c2511ee1e9e8545e3f071a6ae5ae6259b6923d78100371e736"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 16288,
+        "sha256": "8f3b44b6b4b97fe6fcde09de0b08a402a1e9f7b30810993f86232a7d4619ca35"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 109,
+        "xlsx_sha256": "4fa315c0203f5480bece3d690d04f5557cd6d1af947df30884ef32fa878b9dd4",
+        "bytes": 61925,
+        "filename_sha256": "3197078fd0752c7e90ff6c9cdcda40932249f07836d2d80501079bc3d6ee118d"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 7,
+        "computed_metrics": 6,
+        "visible_dom_rows": 22,
+        "displayed_figures": 5,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 5,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 2,
+        "response_sha256": "eff163290a5ef5fd44c73ff0e1b6a7fa42cbc6c47614708c896efdd979149a44"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.add96b51",
+      "route": "ss-project",
+      "title": "供应商产能与排产负荷（情景）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3926,
+        "sha256": "5317332aae754a1124209b52e1d04053d88e4e3c7e3fce7d13324efa30cfcf18"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 16352,
+        "sha256": "3960e0ac9202cb0f3f2b28b27afb2e142578146a36abdad5c031970a212bcf87"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 109,
+        "xlsx_sha256": "385e53fddb4f81bfd2dcfc7b713d2afa6c7cfff4b28313b928168bfdea64d296",
+        "bytes": 61855,
+        "filename_sha256": "231690d90f30205dc4f92f41e7f614321af7bca2e3764198311ebbfd64ea788c"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 7,
+        "computed_metrics": 6,
+        "visible_dom_rows": 22,
+        "displayed_figures": 5,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 5,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 2,
+        "response_sha256": "60c5b3cc673d55be65e7f104f7ebf5d90a2f445bc5cb564e818048d7e2a6439d"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-project.e7cff5bf",
+      "route": "ss-project",
+      "title": "情景产能平均负荷74.1%",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 730,
+        "sha256": "65f6ab0807822fb37f2d48656d816f5acea9e008858d2bce12509e1bd9137704"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1084,
+        "sha256": "9ad63baf3d1bcd41626a3fc858d3856a35160fa6f6d90f6f6cf53f1262466864"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "af4abd5c8106fe92aed586e1ea6978cd34f8b958aa3d7d02613fd7477888f832",
+        "bytes": 20335,
+        "filename_sha256": "8fb6924bbd14497e67d3275d9d6d5aec01ab61d0768d249bac629d642615dce0"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 5,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 5,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "c695a9fa47b4ea222ad54f6ed4bce7984bd855c9f83b65f62cb7f7eeae79c0a1"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:19:03.361027+00:00",
+  "exact_rendered": 16,
+  "three_entry_click_verified": 16,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 16,
+  "api_trace_received": 16,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

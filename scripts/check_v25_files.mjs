@@ -1,0 +1,3 @@
+import fs from 'node:fs';
+const files=['package.json','build_static.mjs','enterprise_v08.mjs','suite.mjs','calculations.mjs','executive.mjs','browser_api.mjs','browser_api_boot.js','demo_master.json','v08_demo.json','rules.json','static/index.html','static/app.js','static/enterprise_v08.js','static/m02_spend_strategy.js','static/m02_spend_strategy.css','static/portfolio_strategy.js','static/m01_planning.js','static/material_lifecycle_v23.js','scripts/regenerate-inline.mjs','test_v25.mjs'];
+const missing=files.filter(x=>!fs.existsSync(x));if(missing.length){console.error('V2.5 导入不完整：\n'+missing.join('\n'));process.exitCode=1}else console.log('PASS: V2.5 '+files.length+' key files present');

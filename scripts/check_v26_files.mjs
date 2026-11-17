@@ -1,0 +1,3 @@
+import fs from 'node:fs';
+const names=['package.json','demo_master.json','rules.json','v08_demo.json','enterprise_v08.mjs','calculations.mjs','build_static.mjs','preview_static.mjs','suite.mjs','browser_api_boot.js','scripts/regenerate-inline.mjs','static/index.html','static/app.js','static/m02_spend_strategy.css','static/m02_spend_strategy.js','static/material_lifecycle_v23.js','static/m01_planning.js','static/portfolio_strategy.js','test_v25.mjs','test_v26.mjs'];
+const missing=names.filter(x=>!fs.existsSync(x));if(missing.length){console.error('Missing required V2.6 project files:',missing);process.exit(1)}console.log('PASS V2.6:',names.length,'required source files present');

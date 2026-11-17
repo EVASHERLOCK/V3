@@ -1,0 +1,47 @@
+{
+  "version": "2.9.49",
+  "basis": "ACTUAL_EXECUTABLE_EVIDENCE_WITH_EXPLICIT_SCOPE; NOT_SIGNOFF",
+  "criteria": {
+    "function": "三入口存在、离线交互操作与HTTP资源检查；不代表正式站点浏览器全覆盖",
+    "simulated": "在指定模拟筛选数据集上进行Excel独立公式复算和来源分页验证；不代表企业数据库",
+    "enterprise": "真实部署、数据库全量审计、逐个浏览器点击、业务Owner签字、每项12证据均具备"
+  },
+  "registered_actual_controls": 585,
+  "formal_component_passed": 0,
+  "canonical_metric_definitions": 171,
+  "tiers": [
+    {
+      "id": "FUNCTION_TESTED",
+      "status": "SCOPED_PASS",
+      "boundary": "14 iframe injected DOM + 22 running Node HTTP paths only; 217 historical components not live-clicked",
+      "iframe_execution_pages": 9,
+      "iframe_decision_pages": 5,
+      "offline_execution_panels": 62,
+      "offline_decision_entry_positions": 306,
+      "http_smoke_checks": 22
+    },
+    {
+      "id": "SIMULATED_RECONCILED",
+      "status": "SCOPED_PASS_WITH_UNVERIFIED_INDICATOR",
+      "boundary": "SUP-001 static filtered samples + deterministic simulated source, not all filters or enterprise data",
+      "decision_metric_formula_matches": 115,
+      "decision_metric_formula_total": 115,
+      "execution_cell_formula_matches": 1512,
+      "execution_metric_aggregations": 55,
+      "execution_metric_unverified": 1,
+      "simulated_tables": 21,
+      "simulated_rows": 21363
+    },
+    {
+      "id": "ENTERPRISE_BUSINESS_SIGNED",
+      "status": "BLOCKED",
+      "reason": [
+        "217 legacy modules still lack live deployment end-to-end click evidence",
+        "585 control-level formal evidence sets still unverified",
+        "No ERP/QMS real full-table connection, provenance or snapshots",
+        "No business-owner sign-off"
+      ]
+    }
+  ],
+  "officially_accepted": false
+}

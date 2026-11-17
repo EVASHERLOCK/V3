@@ -1,0 +1,118 @@
+{
+  "version": "2.9.48",
+  "tested_at_utc": "2026-11-14T03:10:27.507178+00:00",
+  "method": "Import real Excel XLSX; artifact_tool.recalculate(); inspect all web-vs-Excel per-cell formula comparison rows and KPI aggregation rows.",
+  "scope": "SIMULATED_FILTER_SUP_001_ONLY_NOT_FULL_DATASET_NOT_LIVE_BROWSER",
+  "pages": [
+    {
+      "page": "rfq",
+      "filtered_source_ids": 54,
+      "cell_compare_rows": 756,
+      "match": 756,
+      "diff": 0,
+      "missing": 0,
+      "numeric_kpi_reconciled": 8,
+      "non_numeric_kpi_unverified": 0,
+      "source": "SIMULATED"
+    },
+    {
+      "page": "contracts",
+      "filtered_source_ids": 18,
+      "cell_compare_rows": 108,
+      "match": 108,
+      "diff": 0,
+      "missing": 0,
+      "numeric_kpi_reconciled": 6,
+      "non_numeric_kpi_unverified": 0,
+      "source": "SIMULATED"
+    },
+    {
+      "page": "orders",
+      "filtered_source_ids": 18,
+      "cell_compare_rows": 126,
+      "match": 126,
+      "diff": 0,
+      "missing": 0,
+      "numeric_kpi_reconciled": 6,
+      "non_numeric_kpi_unverified": 0,
+      "source": "SIMULATED"
+    },
+    {
+      "page": "shipments",
+      "filtered_source_ids": 18,
+      "cell_compare_rows": 126,
+      "match": 126,
+      "diff": 0,
+      "missing": 0,
+      "numeric_kpi_reconciled": 6,
+      "non_numeric_kpi_unverified": 0,
+      "source": "SIMULATED"
+    },
+    {
+      "page": "invoices",
+      "filtered_source_ids": 18,
+      "cell_compare_rows": 126,
+      "match": 126,
+      "diff": 0,
+      "missing": 0,
+      "numeric_kpi_reconciled": 6,
+      "non_numeric_kpi_unverified": 0,
+      "source": "SIMULATED"
+    },
+    {
+      "page": "payments",
+      "filtered_source_ids": 18,
+      "cell_compare_rows": 108,
+      "match": 108,
+      "diff": 0,
+      "missing": 0,
+      "numeric_kpi_reconciled": 6,
+      "non_numeric_kpi_unverified": 0,
+      "source": "SIMULATED"
+    },
+    {
+      "page": "claims",
+      "filtered_source_ids": 1,
+      "cell_compare_rows": 5,
+      "match": 5,
+      "diff": 0,
+      "missing": 0,
+      "numeric_kpi_reconciled": 6,
+      "non_numeric_kpi_unverified": 0,
+      "source": "SIMULATED"
+    },
+    {
+      "page": "closing",
+      "filtered_source_ids": 18,
+      "cell_compare_rows": 108,
+      "match": 108,
+      "diff": 0,
+      "missing": 0,
+      "numeric_kpi_reconciled": 6,
+      "non_numeric_kpi_unverified": 0,
+      "source": "SIMULATED"
+    },
+    {
+      "page": "exceptions",
+      "filtered_source_ids": 7,
+      "cell_compare_rows": 49,
+      "match": 49,
+      "diff": 0,
+      "missing": 0,
+      "numeric_kpi_reconciled": 5,
+      "non_numeric_kpi_unverified": 1,
+      "source": "SIMULATED"
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "pages_recalculated": 9,
+    "derived_cell_matches": 1512,
+    "kpi_aggregations_reconciled": 55,
+    "unverified_aggregations": 1,
+    "business_full_acceptance": "NOT_PASSED",
+    "enterprise_database_full_coverage": false,
+    "deployed_http_browser_coverage": false,
+    "failures": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "2.9.49",
+  "control_source": "static/audit/audit_ui_v2949.js",
+  "iframe_pages": 14,
+  "canonical_metric_definitions": 171,
+  "decision_metrics": 115,
+  "execution_metrics": 56,
+  "decision_source_tables_checked": 9,
+  "compile_gate": "PASS",
+  "simulated_formula_recalc": "SEPARATE_TEST",
+  "live_browser_http_e2e": "NOT_TESTED",
+  "enterprise_db": "NOT_CONNECTED",
+  "official_signoff": "PENDING",
+  "formal_business_acceptance": "BLOCKED"
+}

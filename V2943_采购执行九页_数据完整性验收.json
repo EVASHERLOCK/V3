@@ -1,0 +1,166 @@
+{
+  "version": "V2.9.43",
+  "mode": "SIMULATED / NON-GXP",
+  "months": [
+    "2025-11",
+    "2026-10"
+  ],
+  "sqlite_foreign_key_violations": 0,
+  "table_count": 23,
+  "total_records": 21455,
+  "tables": [
+    {
+      "table": "change_controls",
+      "records": 102,
+      "columns": 10,
+      "empty_cells": 0
+    },
+    {
+      "table": "claim_settlements",
+      "records": 84,
+      "columns": 12,
+      "empty_cells": 0
+    },
+    {
+      "table": "claims",
+      "records": 84,
+      "columns": 9,
+      "empty_cells": 0
+    },
+    {
+      "table": "contract_documents",
+      "records": 1440,
+      "columns": 20,
+      "empty_cells": 0
+    },
+    {
+      "table": "contracts",
+      "records": 1440,
+      "columns": 11,
+      "empty_cells": 0
+    },
+    {
+      "table": "exceptions",
+      "records": 679,
+      "columns": 10,
+      "empty_cells": 0
+    },
+    {
+      "table": "inventory",
+      "records": 1440,
+      "columns": 10,
+      "empty_cells": 0
+    },
+    {
+      "table": "invoices",
+      "records": 1440,
+      "columns": 11,
+      "empty_cells": 0
+    },
+    {
+      "table": "materials",
+      "records": 120,
+      "columns": 9,
+      "empty_cells": 0
+    },
+    {
+      "table": "metric_events",
+      "records": 1440,
+      "columns": 99,
+      "empty_cells": 0
+    },
+    {
+      "table": "monthly_kpi_summary",
+      "records": 12,
+      "columns": 11,
+      "empty_cells": 0
+    },
+    {
+      "table": "payment_authorizations",
+      "records": 1440,
+      "columns": 14,
+      "empty_cells": 0
+    },
+    {
+      "table": "payments",
+      "records": 1440,
+      "columns": 10,
+      "empty_cells": 0
+    },
+    {
+      "table": "product_lines",
+      "records": 30,
+      "columns": 4,
+      "empty_cells": 0
+    },
+    {
+      "table": "production",
+      "records": 1440,
+      "columns": 11,
+      "empty_cells": 0
+    },
+    {
+      "table": "projects",
+      "records": 24,
+      "columns": 6,
+      "empty_cells": 0
+    },
+    {
+      "table": "purchase_orders",
+      "records": 1440,
+      "columns": 15,
+      "empty_cells": 0
+    },
+    {
+      "table": "qc_lots",
+      "records": 1440,
+      "columns": 10,
+      "empty_cells": 0
+    },
+    {
+      "table": "quotes",
+      "records": 1440,
+      "columns": 15,
+      "empty_cells": 0
+    },
+    {
+      "table": "rfq_alternates",
+      "records": 2880,
+      "columns": 16,
+      "empty_cells": 0
+    },
+    {
+      "table": "shipment_documents",
+      "records": 1440,
+      "columns": 15,
+      "empty_cells": 0
+    },
+    {
+      "table": "supplier_documents",
+      "records": 80,
+      "columns": 9,
+      "empty_cells": 0
+    },
+    {
+      "table": "suppliers",
+      "records": 80,
+      "columns": 10,
+      "empty_cells": 0
+    }
+  ],
+  "page_rows": {
+    "rfq": 4320,
+    "contracts": 1440,
+    "orders": 1440,
+    "shipments": 1440,
+    "invoices": 1440,
+    "payments": 1440,
+    "claims": 84,
+    "closing": 1440,
+    "exceptions": 679
+  },
+  "execution_kpi_count": 56,
+  "supplier_count": 80,
+  "material_count": 120,
+  "project_count": 24
+}

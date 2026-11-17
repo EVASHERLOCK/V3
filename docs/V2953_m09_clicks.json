@@ -1,0 +1,1872 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T10:11:20.717314+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "m09",
+      "expected": 6,
+      "exact_ids_found": 6,
+      "rendered_module_count": 6,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "m09.6d7eec95",
+      "route": "m09",
+      "title": "变更类型结构",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2244,
+        "sha256": "7028f16c14231db0a2e6d6fcfd3368789c6913a44bce1a7475f34444d8f2625c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5689,
+        "sha256": "605cf8819ea2deccf43b7dddc25904bb1bf962996c6868c5bde6ba4fa19bfee5"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 161,
+        "xlsx_sha256": "302e879cdc9d3df12cbc20208912cf6acc55c2a096a8b27129a62832225494ca",
+        "bytes": 60417,
+        "filename_sha256": "dd57d1f106a301c070d6e6bb2309e2648edf39f22ee42b7cece41a7838027d25",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/m09.6d7eec95.xlsx"
+      },
+      "opened_disclosures": [
+        "NATIVE_DETAILS_SUMMARY_CLICK"
+      ],
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 3,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "formula": "COUNT(change_id)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "formula": "COUNTIF(change_status<>Closed)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "formula": "COUNTIF(severity=HIGH)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "formula": "COUNT(变更关联的法规申报记录)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[0]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[1]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[2]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [
+          {
+            "status": "DATA_AVAILABLE_BUT_CAUSALITY_UNPROVEN",
+            "rule_id": null
+          }
+        ],
+        "response_sha256": "66800fc484a5e3b1f9870ae09d6eadc6b41c1abbd760f1e472a237d0da0a7bd2"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m09.643115a6",
+      "route": "m09",
+      "title": "开放变更账龄 vs 60天目标线",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4218,
+        "sha256": "ac1db329621d8c4608da2c7cad28af0963dd846538ef5abdcd7e543f99ee2d7c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 32485,
+        "sha256": "822df620ce69ab8a6b7a0d250ce9339ef3fe7f222361716cafc91ac0cbfe1802"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 166,
+        "xlsx_sha256": "21f3ce9750788854a8aa4a8677d5051086e084bd2eacbb0f355ceb43a98bbc5f",
+        "bytes": 64023,
+        "filename_sha256": "e1826a56cf38c04969a6abdff5049561b817895e5a1f28fe2cdbe09ac316c8a5",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/m09.643115a6.xlsx"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 9,
+        "computed_metrics": 9,
+        "visible_dom_rows": 3,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.INVOICE.COUNT",
+            "formula": "COUNT(发票登记ID)",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "invoice_id": "INV-0001",
+                "po_id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[0]"
+              },
+              {
+                "invoice_id": "INV-0002",
+                "po_id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[1]"
+              },
+              {
+                "invoice_id": "INV-0003",
+                "po_id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[2]"
+              },
+              {
+                "invoice_id": "INV-0004",
+                "po_id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[3]"
+              },
+              {
+                "invoice_id": "INV-0005",
+                "po_id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[4]"
+              },
+              {
+                "invoice_id": "INV-0006",
+                "po_id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[5]"
+              },
+              {
+                "invoice_id": "INV-0007",
+                "po_id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[6]"
+              },
+              {
+                "invoice_id": "INV-0008",
+                "po_id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[7]"
+              },
+              {
+                "invoice_id": "INV-0009",
+                "po_id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[8]"
+              },
+              {
+                "invoice_id": "INV-0010",
+                "po_id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[9]"
+              },
+              {
+                "invoice_id": "INV-0011",
+                "po_id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[10]"
+              },
+              {
+                "invoice_id": "INV-0012",
+                "po_id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[11]"
+              },
+              {
+                "invoice_id": "INV-0013",
+                "po_id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[12]"
+              },
+              {
+                "invoice_id": "INV-0014",
+                "po_id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[13]"
+              },
+              {
+                "invoice_id": "INV-0015",
+                "po_id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[14]"
+              },
+              {
+                "invoice_id": "INV-0016",
+                "po_id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[15]"
+              },
+              {
+                "invoice_id": "INV-0017",
+                "po_id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[16]"
+              },
+              {
+                "invoice_id": "INV-0018",
+                "po_id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[17]"
+              },
+              {
+                "invoice_id": "INV-0019",
+                "po_id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[18]"
+              },
+              {
+                "invoice_id": "INV-0020",
+                "po_id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[19]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.INVOICE.MATCH_RATE",
+            "formula": "100×匹配发票数/全部发票数",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "invoice_id": "INV-0001",
+                "po_id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[0]"
+              },
+              {
+                "invoice_id": "INV-0002",
+                "po_id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[1]"
+              },
+              {
+                "invoice_id": "INV-0003",
+                "po_id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[2]"
+              },
+              {
+                "invoice_id": "INV-0004",
+                "po_id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[3]"
+              },
+              {
+                "invoice_id": "INV-0005",
+                "po_id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[4]"
+              },
+              {
+                "invoice_id": "INV-0006",
+                "po_id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[5]"
+              },
+              {
+                "invoice_id": "INV-0007",
+                "po_id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[6]"
+              },
+              {
+                "invoice_id": "INV-0008",
+                "po_id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[7]"
+              },
+              {
+                "invoice_id": "INV-0009",
+                "po_id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[8]"
+              },
+              {
+                "invoice_id": "INV-0010",
+                "po_id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[9]"
+              },
+              {
+                "invoice_id": "INV-0011",
+                "po_id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[10]"
+              },
+              {
+                "invoice_id": "INV-0012",
+                "po_id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[11]"
+              },
+              {
+                "invoice_id": "INV-0013",
+                "po_id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[12]"
+              },
+              {
+                "invoice_id": "INV-0014",
+                "po_id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[13]"
+              },
+              {
+                "invoice_id": "INV-0015",
+                "po_id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[14]"
+              },
+              {
+                "invoice_id": "INV-0016",
+                "po_id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[15]"
+              },
+              {
+                "invoice_id": "INV-0017",
+                "po_id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[16]"
+              },
+              {
+                "invoice_id": "INV-0018",
+                "po_id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[17]"
+              },
+              {
+                "invoice_id": "INV-0019",
+                "po_id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[18]"
+              },
+              {
+                "invoice_id": "INV-0020",
+                "po_id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[19]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.INVOICE.EXCEPTIONS",
+            "formula": "COUNTIF(match_status<>\"Matched\")",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "invoice_id": "INV-0001",
+                "po_id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[0]"
+              },
+              {
+                "invoice_id": "INV-0002",
+                "po_id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[1]"
+              },
+              {
+                "invoice_id": "INV-0003",
+                "po_id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[2]"
+              },
+              {
+                "invoice_id": "INV-0004",
+                "po_id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[3]"
+              },
+              {
+                "invoice_id": "INV-0005",
+                "po_id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[4]"
+              },
+              {
+                "invoice_id": "INV-0006",
+                "po_id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[5]"
+              },
+              {
+                "invoice_id": "INV-0007",
+                "po_id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[6]"
+              },
+              {
+                "invoice_id": "INV-0008",
+                "po_id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[7]"
+              },
+              {
+                "invoice_id": "INV-0009",
+                "po_id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[8]"
+              },
+              {
+                "invoice_id": "INV-0010",
+                "po_id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[9]"
+              },
+              {
+                "invoice_id": "INV-0011",
+                "po_id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[10]"
+              },
+              {
+                "invoice_id": "INV-0012",
+                "po_id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[11]"
+              },
+              {
+                "invoice_id": "INV-0013",
+                "po_id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[12]"
+              },
+              {
+                "invoice_id": "INV-0014",
+                "po_id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[13]"
+              },
+              {
+                "invoice_id": "INV-0015",
+                "po_id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[14]"
+              },
+              {
+                "invoice_id": "INV-0016",
+                "po_id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[15]"
+              },
+              {
+                "invoice_id": "INV-0017",
+                "po_id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[16]"
+              },
+              {
+                "invoice_id": "INV-0018",
+                "po_id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[17]"
+              },
+              {
+                "invoice_id": "INV-0019",
+                "po_id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[18]"
+              },
+              {
+                "invoice_id": "INV-0020",
+                "po_id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[19]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.INVOICE.OVERDUE",
+            "formula": "COUNTIF(paid=false 且 due_date<统计基准日)",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "invoice_id": "INV-0001",
+                "po_id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[0]"
+              },
+              {
+                "invoice_id": "INV-0002",
+                "po_id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[1]"
+              },
+              {
+                "invoice_id": "INV-0003",
+                "po_id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[2]"
+              },
+              {
+                "invoice_id": "INV-0004",
+                "po_id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[3]"
+              },
+              {
+                "invoice_id": "INV-0005",
+                "po_id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[4]"
+              },
+              {
+                "invoice_id": "INV-0006",
+                "po_id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[5]"
+              },
+              {
+                "invoice_id": "INV-0007",
+                "po_id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[6]"
+              },
+              {
+                "invoice_id": "INV-0008",
+                "po_id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[7]"
+              },
+              {
+                "invoice_id": "INV-0009",
+                "po_id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[8]"
+              },
+              {
+                "invoice_id": "INV-0010",
+                "po_id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[9]"
+              },
+              {
+                "invoice_id": "INV-0011",
+                "po_id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[10]"
+              },
+              {
+                "invoice_id": "INV-0012",
+                "po_id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[11]"
+              },
+              {
+                "invoice_id": "INV-0013",
+                "po_id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[12]"
+              },
+              {
+                "invoice_id": "INV-0014",
+                "po_id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[13]"
+              },
+              {
+                "invoice_id": "INV-0015",
+                "po_id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[14]"
+              },
+              {
+                "invoice_id": "INV-0016",
+                "po_id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[15]"
+              },
+              {
+                "invoice_id": "INV-0017",
+                "po_id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[16]"
+              },
+              {
+                "invoice_id": "INV-0018",
+                "po_id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[17]"
+              },
+              {
+                "invoice_id": "INV-0019",
+                "po_id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[18]"
+              },
+              {
+                "invoice_id": "INV-0020",
+                "po_id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[19]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.INVOICE.AMOUNT",
+            "formula": "SUM(invoice_amount)",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "invoice_id": "INV-0001",
+                "po_id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[0]"
+              },
+              {
+                "invoice_id": "INV-0002",
+                "po_id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[1]"
+              },
+              {
+                "invoice_id": "INV-0003",
+                "po_id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[2]"
+              },
+              {
+                "invoice_id": "INV-0004",
+                "po_id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[3]"
+              },
+              {
+                "invoice_id": "INV-0005",
+                "po_id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[4]"
+              },
+              {
+                "invoice_id": "INV-0006",
+                "po_id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[5]"
+              },
+              {
+                "invoice_id": "INV-0007",
+                "po_id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[6]"
+              },
+              {
+                "invoice_id": "INV-0008",
+                "po_id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[7]"
+              },
+              {
+                "invoice_id": "INV-0009",
+                "po_id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[8]"
+              },
+              {
+                "invoice_id": "INV-0010",
+                "po_id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[9]"
+              },
+              {
+                "invoice_id": "INV-0011",
+                "po_id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[10]"
+              },
+              {
+                "invoice_id": "INV-0012",
+                "po_id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[11]"
+              },
+              {
+                "invoice_id": "INV-0013",
+                "po_id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[12]"
+              },
+              {
+                "invoice_id": "INV-0014",
+                "po_id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[13]"
+              },
+              {
+                "invoice_id": "INV-0015",
+                "po_id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[14]"
+              },
+              {
+                "invoice_id": "INV-0016",
+                "po_id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[15]"
+              },
+              {
+                "invoice_id": "INV-0017",
+                "po_id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[16]"
+              },
+              {
+                "invoice_id": "INV-0018",
+                "po_id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[17]"
+              },
+              {
+                "invoice_id": "INV-0019",
+                "po_id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "p2p.invoices[18]"
+              },
+              {
+                "invoice_id": "INV-0020",
+                "po_id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "p2p.invoices[19]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "formula": "COUNT(change_id)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "formula": "COUNTIF(change_status<>Closed)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "formula": "COUNTIF(severity=HIGH)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "formula": "COUNT(变更关联的法规申报记录)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[0]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[1]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[2]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.INVOICE.COUNT",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.INVOICE.MATCH_RATE",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.INVOICE.EXCEPTIONS",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.INVOICE.OVERDUE",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.INVOICE.AMOUNT",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [
+          {
+            "status": "DATA_AVAILABLE_BUT_CAUSALITY_UNPROVEN",
+            "rule_id": null
+          }
+        ],
+        "response_sha256": "aa3990778b41a126601d9dace23641216bd89020c26686bb4b3104fa21a00132"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m09.6c93d7bf",
+      "route": "m09",
+      "title": "变更与行动台账",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2247,
+        "sha256": "fc35a44bac21aa8c36b44a8bcec1138e1d9dabb95c159c55ddd6591295e5e83f"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5693,
+        "sha256": "ebcea53864ca76280ead756bb74b3331da451ca97a10b7d1a9146548d944ae62"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 161,
+        "xlsx_sha256": "52eb3dde8fddeff8f3a4fc5537e651fd120892ce86d9949ba75ff17ffe341f0b",
+        "bytes": 60437,
+        "filename_sha256": "fc45d7b280c0cd3359567492e6acf60846bc010fe687ed3a66f36a7f99d4ef6d",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/m09.6c93d7bf.xlsx"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 3,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "formula": "COUNT(change_id)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "formula": "COUNTIF(change_status<>Closed)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "formula": "COUNTIF(severity=HIGH)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "formula": "COUNT(变更关联的法规申报记录)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[0]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[1]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[2]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [
+          {
+            "status": "DATA_AVAILABLE_BUT_CAUSALITY_UNPROVEN",
+            "rule_id": null
+          }
+        ],
+        "response_sha256": "e7527c98325b0a8490ee3f79f37711851f8e254b1e140d2489982bd8fbe3bff7"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m09.eb351d3d",
+      "route": "m09",
+      "title": "搜索 ?列设置 ▾每页",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2253,
+        "sha256": "22dfd16aead88a6d6c0b2c2b60631a0f9d884e163a5d7dfbb54c5ea55ad90257"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5701,
+        "sha256": "6b5faa728f7c37bb1b879cc106b0b91ed5a10aa61c046fad8d207081707fb00a"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 161,
+        "xlsx_sha256": "c7ade56a49662d2c4bbf94386fd68c85c0efb5a0063b96dbc4546e2d0ed9eb65",
+        "bytes": 60471,
+        "filename_sha256": "3481bed24bbcfd1fa9979ba7ded0ab6d71d5efcaee5dc8d4ace0299b13658acd",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/m09.eb351d3d.xlsx"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 3,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "formula": "COUNT(change_id)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "formula": "COUNTIF(change_status<>Closed)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "formula": "COUNTIF(severity=HIGH)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "formula": "COUNT(变更关联的法规申报记录)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[0]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[1]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[2]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [
+          {
+            "status": "DATA_AVAILABLE_BUT_CAUSALITY_UNPROVEN",
+            "rule_id": null
+          }
+        ],
+        "response_sha256": "bf783d9b09130f28c514cb41700141ea5086cb163d4bd4c20dbcfbfbcbaea39c"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m09.8f402240",
+      "route": "m09",
+      "title": "变更类型",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2238,
+        "sha256": "dbcf9c690d095f1e0aa86515dd438ce50f24c1883e5b2435a656420d3a703871"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5681,
+        "sha256": "6515a387c04202d7ceb59f1b9b0781b0d20114ddc3c230b349492b4c3a84e321"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 161,
+        "xlsx_sha256": "76f8bf8f01f52fe49e306b8bfa101b9bbf6f2c52737438dc55da4a99ab9e92c7",
+        "bytes": 60401,
+        "filename_sha256": "76436eb5a948da15b9eb732193b1ab49559d740507217e3540c9cd7ffbdfe478",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/m09.8f402240.xlsx"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 3,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "formula": "COUNT(change_id)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "formula": "COUNTIF(change_status<>Closed)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "formula": "COUNTIF(severity=HIGH)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "formula": "COUNT(变更关联的法规申报记录)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[0]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[1]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[2]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [
+          {
+            "status": "DATA_AVAILABLE_BUT_CAUSALITY_UNPROVEN",
+            "rule_id": null
+          }
+        ],
+        "response_sha256": "0e1606f73a5720972a264f253006bfd880560d839589a9189cb6aa3a308f3c6a"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m09.154104ce",
+      "route": "m09",
+      "title": "变更行动与责任台账",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2300,
+        "sha256": "250bd1483eb6c04373f35d9f2026d45098a2fb9f1c9e75f1db34818f6bff5f1c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5748,
+        "sha256": "f23d19d596dc9ab4e54bb2d5e65eedae58149333d51857b5c1df903fac9778bb"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 161,
+        "xlsx_sha256": "9ea75090079e6803da3f30b54aeec3f403c05e193486cb6902f17b6b7ae5021e",
+        "bytes": 60556,
+        "filename_sha256": "61fa27c977a72bd08a072511fe7828ee2d8bc5af1113510a3c2b17b75af1b129",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/m09.154104ce.xlsx"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 3,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "formula": "COUNT(change_id)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "formula": "COUNTIF(change_status<>Closed)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "formula": "COUNTIF(severity=HIGH)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "material_id": "API-001",
+                "supplier_id": "SUP-002",
+                "source_row": "change.changes[0]"
+              },
+              {
+                "change_id": "CC-2026-015",
+                "material_id": "API-001",
+                "supplier_id": "SUP-001",
+                "source_row": "change.changes[1]"
+              },
+              {
+                "change_id": "CC-2026-011",
+                "material_id": "API-002",
+                "supplier_id": "SUP-003",
+                "source_row": "change.changes[2]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "formula": "COUNT(变更关联的法规申报记录)",
+            "row_count_returned": 3,
+            "source_key_sample": [
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[0]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[1]"
+              },
+              {
+                "change_id": "CC-2026-014",
+                "source_row": "change.filings[2]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.CHANGE.COUNT",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.OPEN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.CHANGE.HIGH",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.REG.FILINGS",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [
+          {
+            "status": "DATA_AVAILABLE_BUT_CAUSALITY_UNPROVEN",
+            "rule_id": null
+          }
+        ],
+        "response_sha256": "db555f37bc278460296d48ff6850eaff0141ec9c8c64a17b593f88904c123861"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T10:11:25.926347+00:00",
+  "exact_rendered": 6,
+  "three_entry_click_verified": 6,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 6,
+  "api_trace_received": 6,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

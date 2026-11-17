@@ -1,0 +1,17 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';import {enterpriseAnalysis} from './enterprise_v08.mjs';
+const kv=new Map();let rerenders=0;let elements={'v9-template-name':{value:'Emergency API Approved'},'v9-doc-id':{value:'DOCREG-01-01'},'v9-doc-version':{value:'v2'},'v9-task-status':{value:'已验证关闭'},'v9-task-owner':{value:'Buyer 01'},'v9-task-due':{value:'2026-12-01'},'v9-task-note':{value:'CoA received; still QA controlled'}};
+const ctx={console,Math,JSON,Intl,Date,Number,URL,URLSearchParams,Blob,TextEncoder,setTimeout(){},window:{render(){rerenders++},location:{hash:''},print(){}},document:{readyState:'loading',addEventListener(){},getElementById(k){return elements[k]||{textContent:'',className:''}}},localStorage:{getItem(k){return kv.get(k)||null},setItem(k,v){kv.set(k,v)}},navigator:{clipboard:{writeText:async()=>{}}}};
+vm.runInNewContext(fs.readFileSync('static/enterprise_v08.js','utf8'),ctx,{filename:'enterprise_v08.js'});
+vm.runInNewContext(fs.readFileSync('static/v09_ui.js','utf8'),ctx,{filename:'v09_ui.js'});
+ctx.window.EnterpriseV08.state.data=enterpriseAnalysis();let app=ctx.window.PharmaV09,source={master:JSON.parse(fs.readFileSync('demo_master.json')),extension:JSON.parse(fs.readFileSync('v08_demo.json'))};app.state.seed=source;
+app.handle('task:Supplier development SUP-002');assert.equal(app.state.actions.length,1);assert.equal(app.state.actions[0].status,'待处理');
+app.handle('save-template');assert.equal(app.state.templates.length,1);assert.equal(app.state.templates[0].weights.price,35);
+app.handle('docversion');assert.equal(app.state.docVersions[0].status,'待QA审阅 / demo');
+app.handle('action:'+app.state.actions[0].id);assert(app.state.open.actions.includes('save-action'));
+app.handle('save-action:'+app.state.actions[0].id);assert.equal(app.state.actions[0].status,'待验证','must not bypass 2-period validation');
+app.handle('verify-period');app.handle('verify-period');
+app.handle('save-action:'+app.state.actions[0].id);assert.equal(app.state.actions[0].status,'已验证关闭');
+app.handle('alert:AL-DELIVERY');assert(app.state.open.title.includes('告警'));
+app.handle('alert-task:AL-DELIVERY');assert.equal(app.state.actions.length,2);
+const qp=app.eligibility('SUP-001','API-001'),bad=app.eligibility('SUP-003','API-001');assert(typeof qp.ok==='boolean');assert.equal(bad.ok,false);
+assert(rerenders>=5);console.log('PASS V09 actions: create, alert conversion, template, document version request, verification gate, qualification block');

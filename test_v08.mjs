@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {enterpriseAnalysis} from './enterprise_v08.mjs';
+let a=enterpriseAnalysis();
+assert.equal(a.overview.current.spend,580704);
+assert.equal(a.overview.current.po_lines,24);
+assert.equal(a.overview.current.otd,91.7);
+assert.equal(a.overview.current.ready,41.7);
+assert.equal(a.overview.current.ppv,2.53);
+assert.equal(a.documents.register.length,18);
+assert.equal(a.master.materials.length,2);
+assert.ok(a.actions.alerts.length>=5);
+assert.ok(a.qualification.sources.length>0);
+console.log('PASS V0.8 enterprise baseline / joins / dashboard');

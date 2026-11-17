@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: pharma-procurement-api
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: node server.mjs
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: '22'
+      - key: PHARMA_ALLOWED_ORIGINS
+        value: https://evasherlock-pharma-p-h7kx.bolt.host

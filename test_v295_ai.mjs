@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {enterpriseAnalysis} from './enterprise_v08.mjs';
+const listeners={};const window={},document={addEventListener:(name,cb)=>{listeners[name]=cb}};
+const globals={window,document,sessionStorage:{getItem:()=>null,setItem:()=>{}},location:{hash:'#ss-ai'},Date,Math,Number,Set,Map,Intl,URL,Blob,console};
+for(const file of ['static/strategic_sourcing_universe.js','static/strategic_sourcing_ai.js'])vm.runInNewContext(fs.readFileSync(file,'utf8'),globals,{filename:file,timeout:8000});
+const U=window.PharmaSourcingUniverse,AI=window.PharmaAISourcing;assert(AI&&U);assert.equal(U.catalog.length,80);
+const raw=enterpriseAnalysis({});const model=AI.build(raw,{},U.catalog);
+assert.equal(model.material,'API-001');assert.equal(model.baseSupplierCount,3);assert.equal(model.scenarioSupplierCount,77);
+assert.equal(model.po.length,16);assert(model.rows.length>=3);assert.equal(model.qualified.length,1);
+assert.equal(model.recommend?.supplier_id,'SUP-001');
+for(const r of model.rows){assert(!r.is_scenario||(!r.qualified&&r.source==null));if(r.qualified)assert(r.source?.in_asl_for_site);}
+assert(model.ranked.length===3,'default source-only ranking must score exactly three sourced quotes');
+assert(model.ranked.every(x=>x.score>=0&&x.score<=100));
+assert.equal(model.evidence.quoteCount,3);
+const imported=AI.build(raw,{},U.catalog,{quotes:[{supplier_id:'SUP-001',material_id:'API-001',unit_price:'135',currency:'USD',fx_to_usd:'1',moq:'800',freight_usd:'2100',lead_days:'40'}]});
+assert.equal(imported.evidence.quoteCount,3,'local CSV overrides quote evidence rather than double counting');
+assert(imported.rows.find(x=>x.supplier_id==='SUP-001').calc.total>model.rows.find(x=>x.supplier_id==='SUP-001').calc.total);
+const swiss=AI.build(raw,{region:'Switzerland'},U.catalog);assert(swiss.rows.every(r=>r.country==='Switzerland'||r.region==='Switzerland'));
+
+assert(model.rows.filter(r=>r.is_scenario).every(r=>r.score==null&&r.calc==null));
+assert.equal(model.savingsQualified,null,'only 1 qualified supplier: no qualified comparable savings');
+const other=AI.build(raw,{material:'API-002',category:'API',quantity:1000},U.catalog);assert.equal(other.qualified.length,1);assert.equal(other.recommend,null,'no original quote for API-002; do not fake supplier recommendation');
+const exc=AI.build(raw,{material:'EXC-MKT-01',category:'Excipient'},U.catalog);assert.equal(exc.qualified.length,0);assert(exc.rows.every(r=>r.score==null));
+const changed=AI.build(raw,{material:'API-001',weights:{price:100,quality:0,delivery:0,risk:0}},U.catalog);assert(changed.ranked.some(r=>Math.abs(r.score-r.priceScore)<.00001));
+const qty=AI.build(raw,{material:'API-001',quantity:2000},U.catalog);assert(qty.rows.find(x=>x.supplier_id==='SUP-001').calc.total>model.rows.find(x=>x.supplier_id==='SUP-001').calc.total);
+AI.hydrate(raw);const html=AI.render();for(const title of ['AI 供应商智能寻源与评估','寻源分析配置','数据导入','项目基础信息','Kraljic 分类结果','评分规则','强制资格要求','商业评分 × 准入资格矩阵','供应商评估结果','各维度评分对比','总成本对比','合规与资格检查','推荐定点','备选供应商','风险提示','GMP 认证','CEP 证书','ASL 状态','Site/Material 资格'])assert(html.includes(title),`missing ${title}`);
+assert(html.includes('data-ai-open')&&html.includes('data-ai-filter')&&html.includes('data-ai-weight')&&html.includes('data-ai-file'));
+assert(!html.includes('92.3%')&&!html.includes('4 Candidates'));
+const idx=fs.readFileSync('static/index.html','utf8'),app=fs.readFileSync('static/app.js','utf8'),regen=fs.readFileSync('scripts/regenerate-inline.mjs','utf8');
+assert(idx.includes('/static/strategic_sourcing_ai.css'));assert(idx.includes('window.PharmaAISourcing={build'));assert(app.includes("S.view==='ss-ai'&&window.PharmaAISourcing"));assert(regen.includes('strategic_sourcing_ai.js'));
+assert.equal((idx.match(/<script data-bundled-src/g)||[]).length,21);assert.equal((idx.match(/<script\b/g)||[]).length,(idx.match(/<\/script>/g)||[]).length);
+console.log('PASS V2.9.5: exact API quotes, 80 shared candidates (3 source +77 scenario), Site × Material qualification gate, deterministic business scores, weights, MOQ/FX/freight cost, all reference panels, upload and drilldown UI, 21 safe bundled scripts, no invented approvals.');

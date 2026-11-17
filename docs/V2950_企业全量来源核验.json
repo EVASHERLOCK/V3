@@ -1,0 +1,14 @@
+{
+  "version": "2.9.50",
+  "kind": "SOURCE_EXPORT_INTEGRITY",
+  "source": "NOT_CONNECTED",
+  "table_count": 0,
+  "rows_total": 0,
+  "verified_tables": 0,
+  "status": "BLOCKED",
+  "tables": [],
+  "errors": [
+    "No external ERP/QMS source_manifest.json. Demo/simulation data cannot fulfill enterprise acceptance."
+  ],
+  "test_data": false
+}

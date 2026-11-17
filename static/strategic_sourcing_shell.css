@@ -1,0 +1,32 @@
+/* V2.9.1: Strategic Sourcing always-expanded navigation, no accordion/collapse state. */
+@media (min-width:901px){.sidebar{width:338px!important;min-width:338px!important}body.v20-nav-compact .sidebar{width:67px!important;min-width:67px!important}}
+#navigation .ss-nav-group{margin:10px 0 13px;border-radius:14px;background:linear-gradient(140deg,#0b3782,#164a94);border:1px solid #4a83cb55;padding:8px 7px;box-shadow:0 3px 12px #07265a35}
+#navigation .ss-nav-parent{min-height:48px;background:#1959a9a8;border:1px solid #63a4ea55;margin:0 0 5px;}
+#navigation .ss-nav-parent .nav-text strong{font-size:13px;white-space:normal;overflow:visible;line-height:1.3}
+#navigation .ss-nav-parent .nav-text small{font-size:10px}
+#navigation .ss-nav-parent.active{background:linear-gradient(96deg,#2a83ea,#1a60ae)}
+#navigation .ss-nav-count{margin-left:auto;font-size:11px;font-weight:800;color:#d9edff;border:1px solid #80b9f36b;background:#064b96;border-radius:999px;min-width:26px;height:26px;display:flex;align-items:center;justify-content:center}
+#navigation .ss-nav-children{display:flex!important;flex-direction:column;gap:3px;padding:3px 2px 5px 13px;border-left:2px solid #69aafc66;margin-left:12px;visibility:visible!important;height:auto!important;opacity:1!important}
+#navigation .ss-nav-child{min-height:38px;padding:7px 9px;gap:9px;margin:0;border:1px solid transparent;align-items:center;line-height:1.25;white-space:normal}
+#navigation .ss-nav-child .ss-nav-index{font-variant-numeric:tabular-nums;flex:0 0 20px;font-size:10px;color:#a3c9f6;font-weight:800}
+#navigation .ss-nav-child .ss-nav-child-text{min-width:0;font-size:11.3px;line-height:1.45;font-weight:610;overflow-wrap:anywhere;white-space:normal;color:#e6f2ff}
+#navigation .ss-nav-child.active{background:#2986e8;border:1px solid #93c5ff7d}
+#navigation .ss-nav-child.active .ss-nav-child-text{color:white;font-weight:800}
+#navigation .ss-nav-child:hover{background:#226cb4}
+body.v20-nav-compact #navigation .ss-nav-children{display:none!important}
+body.v20-nav-compact #navigation .ss-nav-group{padding:3px;margin:8px 0}
+body.v20-nav-compact #navigation .ss-nav-parent{padding:9px 0;min-height:44px;justify-content:center}
+body.v20-nav-compact #navigation .ss-nav-count{display:none}
+/* Mobile is a scrollable sidebar drawer, but the nine child entries stay expanded. */
+@media(max-width:900px){.sidebar{width:min(342px,90vw)!important;min-width:0!important}body.v16-overview-mode #sidebar,.sidebar,body.v20-nav-compact .sidebar{width:min(342px,90vw)!important;min-width:0!important}#navigation .ss-nav-child .ss-nav-child-text{font-size:11px}}
+/* Placeholder pages: only navigation and routing are created in this iteration. */
+.ss-placeholder-page{max-width:1080px;margin:0 auto;min-height:500px}
+.ss-placeholder-page .page-head{background:linear-gradient(105deg,#e6f3ff 0%,#d1e7ff 100%);border:1px solid #bbd8fc;border-radius:14px;padding:18px 21px;margin-bottom:16px}
+.ss-placeholder-panel{overflow:hidden;background:#fff!important;border:1px solid #c9ddf8!important;border-radius:16px!important}
+.ss-placeholder-panel .panel-head{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.ss-pending-chip{font-size:12px;font-weight:800;color:#b97624;background:#fff1d9;border:1px solid #f8d99c;padding:7px 12px;border-radius:99px;flex:0 0 auto}
+.ss-placeholder-inner{text-align:center;max-width:620px;margin:54px auto 70px;padding:0 18px}
+.ss-placeholder-art{display:grid;place-items:center;width:76px;height:76px;margin:0 auto 18px;color:#1976d8;background:linear-gradient(135deg,#e1f3ff,#f8fbff);border:1px solid #b4d8f8;border-radius:22px}
+.ss-placeholder-inner h2{font-size:24px;color:#0f397d;margin:0 0 16px;font-weight:900}
+.ss-placeholder-inner p{font-size:14px;line-height:1.9;color:#577097;margin:0 0 8px}
+.ss-placeholder-inner .ss-placeholder-note{font-size:12px;color:#7c8da6}

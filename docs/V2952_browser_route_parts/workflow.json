@@ -1,0 +1,259 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:18:30.758558+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "workflow",
+      "expected": 5,
+      "exact_ids_found": 5,
+      "rendered_module_count": 5,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "workflow.2a31f289",
+      "route": "workflow",
+      "title": "源表与数据血缘 · 10张源表同一场景",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4011,
+        "sha256": "b453ee3da069d8c302544a35693abb4d4659c8c86cbf66a6c10efc28eb80b270"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 8534,
+        "sha256": "37730ef31add8e14040e2f8f5f319b6c579aa227cebf8ff83618a6cf2c493d29"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "8cb6e3d392a8a05a1f25f72bc1f334f66ddb67e1d1108c1dbfac2d9df00bd5a4",
+        "bytes": 68349,
+        "filename_sha256": "3cb3a70b2721edf4c8ef4eb5424b8a917c963597958aa6292c423becb5791097"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 2,
+        "computed_metrics": 2,
+        "visible_dom_rows": 22,
+        "displayed_figures": 8,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 8,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 3,
+        "narrative_unverified": 3,
+        "missing_count": 1,
+        "response_sha256": "30e7374dde9117e377968f309df9d61239689764517bf3daa847e1821c5dda56"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "workflow.a5b0d0f1",
+      "route": "workflow",
+      "title": "源表与数据血缘 · 10张源表同一场景",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1175,
+        "sha256": "5473ad805fce4ef3062879780c98cc328022dc6020f181a756221199ad6b830e"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 2210,
+        "sha256": "438340594623f34522c9bb28cfd8f542768214664be5fcceb670a3736e4f9356"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 2,
+        "xlsx_sha256": "a5fc9dd8bbe1fe219ae1fac4539e0d72f722e3db950f9a7c6dec4dcd1df639fd",
+        "bytes": 22317,
+        "filename_sha256": "967020a20e919bc545e1f3ab588dc10370c54b83112d7659f5ffb30226610e28"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 10,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "29c0cda1d8697becc3359459a397ac559e37a4b44665481685be8106015ac99e"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "workflow.fbe9f8a8",
+      "route": "workflow",
+      "title": "搜索 ?列设置 ▾每页",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1148,
+        "sha256": "ee16635e3d8faa43953f24c3de0de9d76a801d50d5e53af8d0d97240447ce659"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 2174,
+        "sha256": "3b3f5a35d99e885af35668c5c4d8bbf8d627ee78fe0b1a0753b026a98c8f549f"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 2,
+        "xlsx_sha256": "f3d4666b61b4dfb294cd5f67bd19f907d4f16ca37c503c99f36ca1a1bba91692",
+        "bytes": 22255,
+        "filename_sha256": "3c04bfbfc73a45860e2f9ea3e3ae07c1603caaac4e3760fe5b33dd4b53a5e4a4"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 10,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "70b7e46060d527beccb55818540c840815eeae7aef556259b6e765974c7cbfb0"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "workflow.cf1883fb",
+      "route": "workflow",
+      "title": "完成状态",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 744,
+        "sha256": "0dcdf63ccc8c377c3cd492077ef93966ad1ea7e480142194571c7922d17bf548"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1098,
+        "sha256": "da798e032c6011730ff2a4c50c861b63d3dfd483c8755866a53013d7975b8857"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "0412a431550cf15c5f0ccbdb36c17480668a2327c6c5ee2bb6768b668d77b334",
+        "bytes": 20668,
+        "filename_sha256": "be8ecf051adda8d271e369e46e31c2f171420f8a221252c9af5aede1b3e00518"
+      },
+      "opened_disclosures": [
+        "NATIVE_DETAILS_SUMMARY_CLICK"
+      ],
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "e4f84b02132d68dfa8437cc3a8cb7487f29dfee7355924a6401d1f685d29e850"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "workflow.f67d1544",
+      "route": "workflow",
+      "title": "执行历史",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2248,
+        "sha256": "365fe5acfb0324856e6bf35b8adec7f505a6a99ebc5c8703ceb532d188d32b74"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 7352,
+        "sha256": "ac3d7763970dc69a3951cc145dd890d851a49e02cf361adfbfe2abf05ca28dbf"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "fd90d9fc775a87620c9dc46c1f0e4adb4a5dddd13b56cbbe25c982575a229d06",
+        "bytes": 60909,
+        "filename_sha256": "596a7813f3a86f6f2a2e0000f9f98facf87436d8bb6663d355a485eb4ceb03fb"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 12,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "becbdc2a8d55fc2c580d27bfb8ae084ac22425fcc6fa4afdff156adbdbe096ae"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:18:35.907173+00:00",
+  "exact_rendered": 5,
+  "three_entry_click_verified": 5,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 5,
+  "api_trace_received": 5,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

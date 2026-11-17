@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';
+const ls={getItem(){return null},setItem(){}};
+const ctx={console,localStorage:ls,window:{addEventListener(){}},document:{addEventListener(){}},Intl,Date,setTimeout,clearTimeout,URL,Blob};
+vm.runInNewContext(fs.readFileSync('static/v10_ui.js','utf8'),ctx,{filename:'v10_ui.js'});
+let v=ctx.window.PharmaV10;assert(v,'verification UI module exposed');
+v.state.rows=[{number:'CEP 2025-001 Rev 00',holder:'Example Pharma',status:'VALID',substance:'API'}, {number:'CEP 2024-404 Rev 01',holder:'Old Ltd',status:'WITHDRAWN BY EDQM - GMP NON-COMPLIANCE'}];
+assert.equal(v.compare({certificate:'CEP 2025-001 Rev 00',holder:'Example Pharma'}).status,'MATCHED_UNREVIEWED');
+assert.equal(v.compare({certificate:'CEP 2025-001',holder:'Other Ltd'}).status,'HOLDER_MISMATCH');
+assert.equal(v.compare({certificate:'CEP 2024-404'}).status,'BLOCKED');
+assert.equal(v.compare({certificate:'CEP 2025-001 Rev 01',holder:'Example Pharma'}).status,'REVISION_MISMATCH');
+assert.equal(v.compare({certificate:'CEP 2010-999'}).status,'NOT_FOUND');
+v.state.rows=[];assert.equal(v.compare({certificate:'CEP 2025-001'}).status,'NO_DATA');
+assert(v.certPanel().includes('EudraGMDP')&&v.certPanel().includes('EDQM')&&v.certPanel().includes('GMP'));
+console.log('PASS V1.0 certificate controls: VALID remains unapproved, withdrawn blocked, holder mismatch, no data, not found');

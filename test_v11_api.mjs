@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';
+import {handleApi} from './dist/engine/browser_api.mjs';
+import {enterpriseAnalysis} from './enterprise_v08.mjs';
+const parse=name=>{let rows=fs.readFileSync('samples/'+name,'utf8').replace(/^\ufeff/,'').trim().split(/\r?\n/),header=rows.shift().split(',');return rows.map(line=>Object.fromEntries(line.split(',').map((v,i)=>[header[i],v])))};
+const files={po:parse('purchase_orders.csv'),qc:parse('qc_lots.csv'),production:parse('production_scenario_b.csv'),inventory:parse('inventory.csv'),changes:parse('change_controls.csv')};
+globalThis.PharmaExcel={readFile:async()=>files,detect:val=>({sheets:val,diagnostics:Object.keys(val).map(k=>({sheet:k,mapped:k,type:'ok'}))})};
+const fetchSample=async url=>new Response(fs.readFileSync('samples/'+url.split('/').pop()),{status:200});
+const form=new FormData();form.set('workbook_file',new File(['fake'],'scenario_b.xlsx'));
+let r=await handleApi(new URL('https://example.test/api/kpi/analyze'),{method:'POST',body:form},fetchSample);assert.equal(r.status,200);const k=await r.json();
+assert.equal(k.metrics.find(x=>x.key==='availability').value,75);assert.equal(k.shared_scenario.counts.po,24);
+let out=await (await handleApi(new URL('https://example.test/api/v08'),{},fetchSample)).json();assert.equal(out.base.metrics.ready,75);assert(out.meta.data_scope.includes('UPLOADED WORKBOOK'));
+const status=await (await handleApi(new URL('https://example.test/api/scenario/status'),{},fetchSample)).json();assert.equal(status.active,true);
+r=await handleApi(new URL('https://example.test/api/scenario/reset'),{method:'POST',body:new FormData()},fetchSample);assert.equal(r.status,200);
+out=await (await handleApi(new URL('https://example.test/api/v08'),{},fetchSample)).json();assert.equal(out.base.metrics.ready,41.7);
+console.log('PASS V1.1 E2E API: workbook -> KPI 75 -> all modules 75 -> reset 41.7');

@@ -1,0 +1,61 @@
+{
+  "scope": "NODE_HTTP_SMOKE_NOT_BROWSER_E2E_NOT_ENTERPRISE",
+  "tested_utc": "2026-11-12T18:24:54.860545+00:00",
+  "endpoints": [
+    {
+      "route": "/static/sim_data_center.html",
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "verified": true
+    },
+    {
+      "route": "/static/sim_full_source_v2948.js",
+      "http": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "verified": true
+    },
+    {
+      "route": "/static/decision-center/lineage_entry_v2948.js",
+      "http": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "verified": true
+    },
+    {
+      "route": "/static/procurement-execution/assets/full_formula_xlsx_v2948.mjs",
+      "http": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "verified": true
+    },
+    {
+      "route": "/engine/browser_xlsx_v2939.mjs",
+      "http": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "verified": true
+    },
+    {
+      "route": "/api/sim-data/overview",
+      "http": 200,
+      "content_type": "application/json; charset=utf-8",
+      "verified": true
+    },
+    {
+      "route": "/api/sim-data/complete-page?table=payments&limit=10",
+      "http": 200,
+      "content_type": "application/json; charset=utf-8",
+      "verified": true
+    },
+    {
+      "route": "/api/decision-center/evidence?metric=KPI-01-01",
+      "http": 200,
+      "content_type": "application/json; charset=utf-8",
+      "verified": true
+    },
+    {
+      "route": "/api/decision-center/workbook.xlsx?kind=metric&id=KPI-01-01",
+      "http": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "verified": true
+    }
+  ],
+  "failures": []
+}

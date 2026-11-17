@@ -1,0 +1,4 @@
+﻿change_id,material_id,supplier_id,status,opened_date,target_date,markets,category
+CC-2026-014,API-001,SUP-002,RA Assessment,2026-08-20,2026-11-18,US;EU;CN,Manufacturing site change
+CC-2026-015,API-001,SUP-001,QA Review,2026-09-24,2026-11-28,JP;CA,Specification update
+CC-2026-011,API-002,SUP-003,Closed,2026-07-26,2026-09-24,EU,Packaging change

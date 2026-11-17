@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const html=fs.readFileSync('dist/index.html','utf8');
+const sources=[...html.matchAll(/<script data-bundled-src="\/static\/([^"]+\.js)">/g)].map(x=>x[1]);
+assert.equal(sources.length,21,'21 browser scripts including permanent global help must be embedded in production HTML');
+for(const name of ['app.js','m01_planning.js','enterprise_v08.js','v16_overview.js','browser_api_boot.js'])assert(sources.includes(name));
+assert(!/<script\s+src="\/static\/[^"]+\.js"/.test(html),'no classic external browser JS requests after build');
+assert(sources.indexOf('enterprise_v08.js')<sources.indexOf('m01_planning.js'));
+assert(sources.indexOf('m01_planning.js')<sources.indexOf('app.js'));
+assert(sources.indexOf('portfolio_strategy.js')<sources.indexOf('app.js'));
+assert(sources.includes('portfolio_strategy.js'));
+assert(sources.includes('global_help.js'));
+assert(sources.indexOf('global_help.js')>sources.indexOf('app.js'));
+assert(html.includes('页面初始化未完成'),'visible fallback required if UI boot fails');
+console.log('PASS V2.1.2: pre-bundled classic UI boot, preserved ordering, fallback diagnostics');

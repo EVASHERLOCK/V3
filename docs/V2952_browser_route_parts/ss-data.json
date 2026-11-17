@@ -1,0 +1,686 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:19:05.851019+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-data",
+      "expected": 7,
+      "exact_ids_found": 7,
+      "rendered_module_count": 7,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-data.8b9ea34a",
+      "route": "ss-data",
+      "title": "安全连接",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 885,
+        "sha256": "691ccfa1c4ad8dee4bc605a622da37f8576c8e752877dee7790240842ba68644"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1239,
+        "sha256": "529f975be370427a593505bdcf7151c6306aec994db1cdd511b2c0d52a11879a"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "5a1e339bac8530119224c5cbe382dbad2aa8758d33c717de91b94351dc973eb0",
+        "bytes": 20674,
+        "filename_sha256": "a451e550e22f2f5dce072e1094c3b4b3a0d5740ba8d00e4887a4343bbaf9010e"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 4,
+        "response_sha256": "19c671ef24fc7ab966fa19d43d512f0bbd0a4372fdd31109a6f468da245166e0"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-data.a81bda8e",
+      "route": "ss-data",
+      "title": "自动发现设置",
+      "status": "CLICK_BLOCKED",
+      "clicked": [],
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "error": "Locator.click: Element is not visible",
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "sd-card pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-grid sd-main-grid",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-admin",
+          "display": "none",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            258,
+            1060,
+            991
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            62,
+            1102,
+            1313
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "workspace",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            0,
+            1102,
+            1375
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "MISSING_API_TRACE"
+      }
+    },
+    {
+      "id": "ss-data.df8b36c8",
+      "route": "ss-data",
+      "title": "企业官网监测清单",
+      "status": "CLICK_BLOCKED",
+      "clicked": [],
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "error": "Locator.click: Element is not visible",
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "sd-card pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-admin",
+          "display": "none",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            258,
+            1060,
+            991
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            62,
+            1102,
+            1313
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "workspace",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            0,
+            1102,
+            1375
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "app-shell",
+          "display": "flex",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            1440,
+            1375
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "MISSING_API_TRACE"
+      }
+    },
+    {
+      "id": "ss-data.ce0ad5d4",
+      "route": "ss-data",
+      "title": "人工证据核验",
+      "status": "CLICK_BLOCKED",
+      "clicked": [],
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "error": "Locator.click: Element is not visible",
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "sd-card pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-grid sd-main-grid",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-admin",
+          "display": "none",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            258,
+            1060,
+            991
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            62,
+            1102,
+            1313
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "workspace",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            0,
+            1102,
+            1375
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "MISSING_API_TRACE"
+      }
+    },
+    {
+      "id": "ss-data.78efcb9c",
+      "route": "ss-data",
+      "title": "ERP 映射暂存",
+      "status": "CLICK_BLOCKED",
+      "clicked": [],
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "error": "Locator.click: Element is not visible",
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "sd-card pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-grid sd-main-grid",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-admin",
+          "display": "none",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            258,
+            1060,
+            991
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            62,
+            1102,
+            1313
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "workspace",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            0,
+            1102,
+            1375
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "MISSING_API_TRACE"
+      }
+    },
+    {
+      "id": "ss-data.176118ca",
+      "route": "ss-data",
+      "title": "EDQM CEP 官方导出数据集",
+      "status": "CLICK_BLOCKED",
+      "clicked": [],
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "error": "Locator.click: Element is not visible",
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "sd-card pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-admin",
+          "display": "none",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "sd-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            258,
+            1060,
+            991
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            62,
+            1102,
+            1313
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "workspace",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            0,
+            1102,
+            1375
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "app-shell",
+          "display": "flex",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            0,
+            0,
+            1440,
+            1375
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "MISSING_API_TRACE"
+      }
+    },
+    {
+      "id": "ss-data.5719a5a9",
+      "route": "ss-data",
+      "title": "部署边界：静态 Bolt 预览可以展示页面，但不运行后台同步任务。实际定时更新需要 Node 持久化服务、出站网络，以及管理员启用同步或 SOURCING_AUTO_SYNC=1；企业官网还须配置 S",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 719,
+        "sha256": "fd9aa479e62cdb95be999066de5c17fe478ddfab92225e2889ae1812257fccd2"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1073,
+        "sha256": "da1fcedec39ffeaae7b8b290f769e044ed00eecd737df0feb3da3df1e71bd44d"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "0b9f51aa7a2a3d309e3e429314a1ef8e4115e4c6eafcd0e8e5df56ca815f0526",
+        "bytes": 19764,
+        "filename_sha256": "7ce26b8019e41fd1b66ea9947d36f0872eb74eb499b65d7ae769a8006f765cfd"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "e2856a9ff4ba6de7a0b30d08c04055d2bea86659da0a693c837788f1f1e3248b"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:19:16.915916+00:00",
+  "exact_rendered": 7,
+  "three_entry_click_verified": 2,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 2,
+  "api_trace_received": 2,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

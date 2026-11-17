@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+for(const f of ['formula_workbook.mjs','static/metric_audit_ui.js','static/metric_audit_ui.css','docs/FORMULA_TRACEABILITY_V2918.md','test_v2918_formula_trace.mjs'])assert(fs.existsSync(f),f);
+const cost=fs.readFileSync('static/strategic_sourcing_cost.js','utf8');
+for(const s of ['情景降幅假设','橙色竖线＝研发 BOM 目标参考价','downloadFormulaExcel','opportunity:','review:'])assert(cost.includes(s),s);
+assert(fs.readFileSync('static/app.js','utf8').includes('PharmaMetricAudit?.apply?.(c)'));
+assert(fs.readFileSync('scripts/regenerate-inline.mjs','utf8').includes('metric_audit_ui.js'));
+assert(fs.readFileSync('server.mjs','utf8').includes("'/api/formulas/cost.xlsx'"));
+assert(fs.readFileSync('browser_api_boot.js','utf8').includes("'/api/formulas/'"));
+console.log('PASS V2.9.18 permanent product rule: xlsx formula generation, formula/source/assumption states, cost drilldowns, Node-only file export');

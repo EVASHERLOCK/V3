@@ -1,0 +1,15 @@
+{
+  "version": "2.9.55",
+  "data_mode": "SIMULATED_DEMO_ONLY",
+  "total_registered": 585,
+  "legacy_components": 217,
+  "performance_components": 306,
+  "execution_components": 62,
+  "performance_components_with_full_csv_kpi_lineage": 306,
+  "execution_components_with_full_csv_primary_keys": 62,
+  "full_115_kpi_numeric_match": 115,
+  "full_56_execution_aggregate_match": 56,
+  "full_585_business_pass": 0,
+  "strict_status": "BLOCKED_PENDING_FULL_WEB_XLSX_NARRATIVE",
+  "notes": "Historical V08 pages still contain legacy sample data and cannot be silently mapped to current 23 CSVs. Full browser-cell, full-scope XLSX and narrative checks remain distinct requirements."
+}

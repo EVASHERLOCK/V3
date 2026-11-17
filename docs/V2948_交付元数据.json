@@ -1,0 +1,24 @@
+{
+  "version": "2.9.48",
+  "generated_at_utc": "2026-11-12T18:26:00.911223+00:00",
+  "release_status": "BLOCKED_BUSINESS_ACCEPTANCE",
+  "actual_audit_units": 585,
+  "legacy_units": 217,
+  "decision_iframe_units": 306,
+  "execution_iframe_units": 62,
+  "full_sim_source_tables": 21,
+  "full_sim_source_rows": 21363,
+  "node_and_static_excel_matches_each": 1512,
+  "node_and_static_kpi_matches_each": 55,
+  "unverified_sample_kpi_count": 1,
+  "docs": [
+    "README_FIRST_V2948_逐格复算_全量模拟来源_严格门禁.md",
+    "docs/V2948_Excel重算逐格对账.json",
+    "docs/V2948_静态Excel重算逐格对账.json",
+    "docs/V2948_来源公式结构测试.json",
+    "docs/V2948_离线浏览器交互测试.json",
+    "docs/V2948_HTTP接口冒烟.json",
+    "docs/V2948_逐实际控件验收清单.json",
+    "docs/V2948_严格验收门禁报告.json"
+  ]
+}

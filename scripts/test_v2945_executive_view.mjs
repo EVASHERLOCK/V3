@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+const js=fs.readFileSync('static/module_traceability_v2928.js','utf8');
+const a=js.indexOf('const rowTable='),b=js.indexOf('function renderAudit(');
+assert.ok(a>=0&&b>a,'管理层网页渲染函数必须存在');
+const code=js.slice(a,b);
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const example={route:'overview',title:'采购金额',scope:{supplier:'SUP-001'},metrics:[],executive:{calculations:[{id:'M1',name:'采购金额',formula:'SUM(订单数量×含税前单价)',numerator:100,denominator:1,result:100,unit:'模拟USD',source_rows:2,source:'SIMULATED'}],terms:[['PO','采购订单']],steps:['读取PO源行，再计算金额'],analysis:[],narrativeAnalysis:[{number:1,text:'成本风险有上升迹象',inputs:['采购金额=100'],method:'先计算采购金额并检查基准',conclusion:'基准未审批，不可断定风险'}],tables:[{title:'PO输入',sheet:'模块表1',headers:['PO','数量','单价'],modes:[{name:'金额=数量×单价'}],row_count:1,rows:[{excel_row:4,values:['PO-1',5,20],derived:[{cell:'D4',formula:'=IF(AND(ISNUMBER(B4),ISNUMBER(C4)),B4*C4,"")',result:100}]}],totals:[]}],source_note:'SIMULATED'},missing:[]};
+const html=vm.runInNewContext(code+'\nexecutiveView(input, mode)',{E:esc,input:example,mode:'full',Intl,JSON});
+for(const x of ['采购金额','读取PO源行','PO输入','D4','=IF(AND(ISNUMBER(B4),ISNUMBER(C4))','成本风险有上升迹象','基准未审批'])assert.ok(html.includes(x),`管理层面板缺失: ${x}`);
+const brief=vm.runInNewContext(code+'\nexecutiveView(input, mode)',{E:esc,input:example,mode:'explain',Intl,JSON});
+assert.ok(brief.includes('变量、缩写及术语解释'));assert.ok(brief.includes('成本风险有上升迹象'));
+const without=structuredClone(example);without.executive.narrativeAnalysis=[];
+assert.ok(vm.runInNewContext(code+'\nexecutiveView(input, mode)',{E:esc,input:without,mode:'explain',Intl,JSON}).includes('采购金额'));
+console.log('PASS V2.9.45 真实运行渲染函数：公式、变量、逐格Excel、文字分析、空叙述均不报错');

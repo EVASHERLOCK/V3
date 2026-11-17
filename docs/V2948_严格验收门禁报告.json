@@ -1,0 +1,12 @@
+{
+  "version": "2.9.48",
+  "registered": 585,
+  "legacy": 217,
+  "iframe": 368,
+  "verified": 0,
+  "pending": 585,
+  "status": "BLOCKED",
+  "browser_e2e_verified": 0,
+  "enterprise_db_coverage_verified": false,
+  "note": "只有全部12项具有独立证据，且真实企业数据/浏览器环境业务Owner复核，才可提交签核；当前不准 PASS。"
+}

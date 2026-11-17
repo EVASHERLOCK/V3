@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {enterpriseAnalysis} from './enterprise_v08.mjs';
+const source=fs.readFileSync('static/m02_spend_strategy.js','utf8');
+const data=enterpriseAnalysis();
+let store={};const window={EnterpriseV08:{state:{data,filters:{}},load(){},},render(){}};
+const context={window,document:{readyState:'loading',addEventListener(){}},localStorage:{getItem:k=>store[k]??null,setItem:(k,v)=>store[k]=v},console,Intl,Number,String,Math,Date,Set,Map,JSON};
+vm.runInNewContext(source,context);
+const page=window.PharmaSpendV25;
+assert(page,'Spend interface exported');let m=page.model(data);
+assert.equal(m.po.length,24);assert.equal(m.total,580704);
+assert.equal(m.lotScope.length,12);assert.equal(m.lotsValue,137070);
+assert.equal(m.budget,620000);assert.equal(m.comparable,true);
+assert.equal(m.monthly.reduce((a,x)=>a+x.spend,0),m.total);
+assert.equal(m.spendBySupplier.reduce((a,x)=>a+x.spend,0),m.total);
+assert.equal(m.abcGroups.reduce((a,x)=>a+x.value,0),m.lotsValue);
+assert.equal(m.priceLines.reduce((a,x)=>a+x.variance_amount,0),m.actualVariance);
+assert.equal(m.budgetMonthly.reduce((a,x)=>a+x.spend,0),m.total);
+const html=page.render();for(const phrase of ['支出与品类策略','年度采购预算编制','库存资金','ABC 分类库存金额占比','月度滚动预算复盘','呆滞 / 临期批次处置明细'])assert(html.includes(phrase),phrase);
+assert(!/NaN/.test(html));assert((html.match(/class="sp-kpi"/g)||[]).length===8);
+for(const supplier of ['SUP-001','SUP-002','SUP-003']){
+ window.EnterpriseV08.state.filters={supplier};const d=enterpriseAnalysis({supplier});window.EnterpriseV08.state.data=d;const x=page.model(d);assert.equal(x.total,d.overview.current.spend);assert.equal(x.comparable,false);assert.equal(x.budgetMonthly.every(r=>r.deviation===null),true);
+}
+window.EnterpriseV08.state.filters={};window.EnterpriseV08.state.data=data;
+page.state.month='2026-07';m=page.model(data);assert(m.po.length>0&&m.po.length<24);assert(m.po.every(r=>r.created_date.startsWith('2026-07')));assert.equal(m.total,m.monthly[0].spend);page.state.month='all';
+page.state.abc='A';m=page.model(data);assert(m.po.length>0);assert(m.po.every(r=>m.abc[r.material_id]==='A'));page.state.abc='all';
+const monthScoped=enterpriseAnalysis({supplier:'SUP-001',month:'2026-07'});window.EnterpriseV08.state.filters={supplier:'SUP-001',month:'2026-07'};m=page.model(monthScoped);assert.equal(m.total,monthScoped.overview.current.spend);assert.equal(m.po.length,monthScoped.purchasing.orders.length);assert.equal(m.comparable,false);window.EnterpriseV08.state.filters={};
+const baselineScenario=page.model(data).baseScenario;page.state.assumptions.price=5;assert(page.model(data).baseScenario>baselineScenario);page.state.assumptions.price=0;window.PharmaLifecycleV23={model:()=>({coverDays:28.7})};page.state.assumptions.safety=2;assert(page.model(data).baseScenario>baselineScenario);page.state.assumptions.safety=0;
+const index=fs.readFileSync('static/index.html','utf8');assert(index.includes('data-bundled-src="/static/m02_spend_strategy.js"'));assert(index.includes('/static/m02_spend_strategy.css'));
+assert(index.includes('data-bundled-src="/static/app.js"'));assert(fs.readFileSync('static/app.js','utf8').includes("S.view==='m02'&&window.PharmaSpendV25"));
+const scripts=(index.match(/<script data-bundled-src=/g)||[]).length;assert.equal(scripts,21);
+console.log('PASS V2.5: same PO/lot source, inventory and ABC reconciliation, supplier/month/ABC filters, budget scope limits, 8 KPI and full M02 layout.');

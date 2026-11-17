@@ -1,0 +1,32 @@
+# Single-host non-GxP demo with persistent app records.
+# For production-like use protect the port behind HTTPS reverse proxy and IdP;
+# do not expose directly to the public internet.
+services:
+  procurement-ai:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      PORT: "3000"
+      NODE_ENV: production
+      SOURCING_ADMIN_TOKEN: ${SOURCING_ADMIN_TOKEN:-}
+      OPENFDA_API_KEY: ${OPENFDA_API_KEY:-}
+      SOURCING_AUTO_SYNC: ${SOURCING_AUTO_SYNC:-0}
+      SOURCING_EDQM_AUTO_SYNC: ${SOURCING_EDQM_AUTO_SYNC:-0}
+      SOURCING_REGISTRY_PATH: /app/.runtime/sourcing_registry.json
+      ENTERPRISE_CONNECTOR_PATH: /app/.runtime/enterprise_sources_v2923.json
+      ENTERPRISE_ALLOWED_HOSTS: ${ENTERPRISE_ALLOWED_HOSTS:-}
+      ERP_PO_API_URL: ${ERP_PO_API_URL:-}
+      QMS_EVENTS_API_URL: ${QMS_EVENTS_API_URL:-}
+      ERP_API_TOKEN: ${ERP_API_TOKEN:-}
+      QMS_API_TOKEN: ${QMS_API_TOKEN:-}
+    volumes:
+      - procurement_runtime:/app/.runtime
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+volumes:
+  procurement_runtime:

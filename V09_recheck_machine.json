@@ -1,0 +1,1342 @@
+{
+  "counts": {
+    "完成": 53,
+    "未完成": 23,
+    "部分": 80
+  },
+  "modules": {
+    "00 Overview": {
+      "完成": 5,
+      "未完成": 1,
+      "部分": 4
+    },
+    "01 Demand Planning": {
+      "部分": 5,
+      "完成": 3
+    },
+    "02 Spend & Category": {
+      "完成": 6,
+      "部分": 9,
+      "未完成": 1
+    },
+    "03 Supplier Sourcing": {
+      "完成": 4,
+      "部分": 5
+    },
+    "04 Supplier Qualification": {
+      "部分": 4,
+      "未完成": 2,
+      "完成": 2
+    },
+    "05 Contract & Purchasing": {
+      "部分": 5,
+      "完成": 1,
+      "未完成": 1
+    },
+    "06 Raw Material": {
+      "部分": 7,
+      "完成": 3
+    },
+    "07 Supplier Performance": {
+      "完成": 6,
+      "部分": 3
+    },
+    "08 Invoice & P2P": {
+      "部分": 4,
+      "完成": 3
+    },
+    "09 Change Control": {
+      "部分": 5,
+      "完成": 2
+    },
+    "10 KPI & Action Hub": {
+      "部分": 6,
+      "完成": 4
+    },
+    "Control Document": {
+      "未完成": 4,
+      "部分": 5,
+      "完成": 1
+    },
+    "Control Regulatory": {
+      "未完成": 2,
+      "部分": 4,
+      "完成": 2
+    },
+    "Control Workflow": {
+      "未完成": 2,
+      "完成": 3,
+      "部分": 3
+    },
+    "Control Reports": {
+      "未完成": 3,
+      "部分": 4,
+      "完成": 2
+    },
+    "Support Access": {
+      "部分": 3,
+      "完成": 2,
+      "未完成": 2
+    },
+    "Support Master": {
+      "部分": 2,
+      "完成": 2,
+      "未完成": 2
+    },
+    "Support Alerts": {
+      "部分": 2,
+      "完成": 2,
+      "未完成": 3
+    }
+  },
+  "items": [
+    {
+      "module": "00 Overview",
+      "number": 1,
+      "requirement": "最高风险通栏和处理跳转",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：home(): rootBanner + jump:actions；只取前2个风险"
+    },
+    {
+      "module": "00 Overview",
+      "number": 2,
+      "requirement": "8张经营KPI卡",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：home(): 8个 sc() 指标卡"
+    },
+    {
+      "module": "00 Overview",
+      "number": 3,
+      "requirement": "8张卡均有同比环比升降箭头",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：home() 未计算/渲染8项同比环比"
+    },
+    {
+      "module": "00 Overview",
+      "number": 4,
+      "requirement": "采购金额柱状+同比折线双轴图及周下钻",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "金额柱+增长率文字标注与月份PO下钻已接入；缺真实同比折线轴及同期数据"
+    },
+    {
+      "module": "00 Overview",
+      "number": 5,
+      "requirement": "品类支出环形图点击进入Spend并携带筛选",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "物料结构旁有可点击下钻按钮，环图扇区本身尚不能点击"
+    },
+    {
+      "module": "00 Overview",
+      "number": 6,
+      "requirement": "供应商CR3/CR5集中度显示",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：home() 输出 CR3 / CR5"
+    },
+    {
+      "module": "00 Overview",
+      "number": 7,
+      "requirement": "交付OTD环形/进度可视化",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "独立OTD环形达标/差距展示"
+    },
+    {
+      "module": "00 Overview",
+      "number": 8,
+      "requirement": "物料PPV正负分色且按偏差排序",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "正负价差分色并按绝对偏差排序"
+    },
+    {
+      "module": "00 Overview",
+      "number": 9,
+      "requirement": "逾期PO优先级列及催办动作",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：home() 显示优先级；催办只是复制邮件草稿"
+    },
+    {
+      "module": "00 Overview",
+      "number": 10,
+      "requirement": "全链路环形流程导航及节点跳转",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "七节点可跳转业务链，水平布局而非要求的环形"
+    },
+    {
+      "module": "01 Demand Planning",
+      "number": 1,
+      "requirement": "需求行和紧急需求占比",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：planning() 显示需求行数，紧急占比待接入"
+    },
+    {
+      "module": "01 Demand Planning",
+      "number": 2,
+      "requirement": "齐套率目标、环比及采购/生产口径区分",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：目标与职责说明存在，未提供环比和严格双口径历史"
+    },
+    {
+      "module": "01 Demand Planning",
+      "number": 3,
+      "requirement": "高风险7日内与中风险缺口拆分",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：enterpriseAnalysis() 生成 priority，但页面未分区统计"
+    },
+    {
+      "module": "01 Demand Planning",
+      "number": 4,
+      "requirement": "近3个月滚动预测准确率",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "已按模拟Forecast/Actual计算三期准确率；不是企业真实滚动预测"
+    },
+    {
+      "module": "01 Demand Planning",
+      "number": 5,
+      "requirement": "12周双线齐套趋势与目标线",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "12周采购/生产双线和75%目标虚线；明确模拟历史"
+    },
+    {
+      "module": "01 Demand Planning",
+      "number": 6,
+      "requirement": "缺料根因结构环形图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：planning() 调用 donut(root_causes)"
+    },
+    {
+      "module": "01 Demand Planning",
+      "number": 7,
+      "requirement": "缺口明细全字段、责任与行动状态",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "缺口量、影响额、分级和任务按钮增加；精确恢复ETA仍未接入"
+    },
+    {
+      "module": "01 Demand Planning",
+      "number": 8,
+      "requirement": "齐套与在检独立Tab和WO关联",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：planning(d,'qc') 展示关联lot/WO/预计放行与任务入口"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 1,
+      "requirement": "Spend/Price/Savings三Tab",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：T.m02 三个Tab"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 2,
+      "requirement": "Spend六张KPI含预算、CR5、价格指数",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：6张但指数待接入，预算是模拟"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 3,
+      "requirement": "Spend双轴金额与同比、周下钻",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "柱形采购金额+模拟环比标签及按月份PO下钻；尚非双轴同比线"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 4,
+      "requirement": "品类结构点击下钻",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "环图旁物料入口可下钻；点击扇区本身尚未联动"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 5,
+      "requirement": "CR3、CR10占比",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：spend() 集中度说明"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 6,
+      "requirement": "品类×供应商交叉热力图可切明细",
+      "v08": "未完成",
+      "v09": "完成",
+      "evidence": "Supplier×Material交叉热力表格，点击单元格可查看对应PO"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 7,
+      "requirement": "Price四张KPI（偏差、异常、损失、节约）",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：4项已有，但低于基准不是财务确认节约"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 8,
+      "requirement": "四档价差环形图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：spend(price) 四档 donut"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 9,
+      "requirement": "多品类年初100价格指数趋势",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "新增多品类指数线，但无真实分类同期价格，使用明确模拟指数"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 10,
+      "requirement": "基准价与实际价双柱对比",
+      "v08": "未完成",
+      "v09": "完成",
+      "evidence": "实际价/基准价两组柱图，并标记价差百分比"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 11,
+      "requirement": "月度价格环比变动柱状",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：模拟PPV折线代替"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 12,
+      "requirement": "价格异常表含全部指定字段/风险",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：价差表已存在，缺名称、明确风险等级与详尽口径"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 13,
+      "requirement": "Savings四张核心KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：有模拟财务账与机会金额，非真实财务已实现"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 14,
+      "requirement": "Savings类型分布与季度计划vs实际",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：类型环形图已实现；项目金额条形图不等于季度成对柱状"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 15,
+      "requirement": "制药降本机会清单合规门槛",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "季度计划/实际分组柱已出现，但数字仍由演示总额分摊，非实际季度台账"
+    },
+    {
+      "module": "02 Spend & Category",
+      "number": 16,
+      "requirement": "Savings项目执行台账",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：spend(savings) 项目、金额、owner、due、状态表"
+    },
+    {
+      "module": "03 Supplier Sourcing",
+      "number": 1,
+      "requirement": "原RFQ上传、评分、TCO逻辑保留",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：static/app.js 原有 runSourcing + calculations.mjs 逻辑"
+    },
+    {
+      "module": "03 Supplier Sourcing",
+      "number": 2,
+      "requirement": "供应商综合评分排序状态彩条",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "综合评分按合规门槛排序并带否决图标；评分图未使用完整三色资质分类"
+    },
+    {
+      "module": "03 Supplier Sourcing",
+      "number": 3,
+      "requirement": "成本分解堆叠柱（原料/汇率/MOQ/运费）",
+      "v08": "未完成",
+      "v09": "完成",
+      "evidence": "货价/MOQ额外/汇率影响/运输费堆叠拆解，修正重复计价"
+    },
+    {
+      "module": "03 Supplier Sourcing",
+      "number": 4,
+      "requirement": "四维多供应商雷达叠加",
+      "v08": "未完成",
+      "v09": "完成",
+      "evidence": "四维多候选雷达图，两个候选叠加"
+    },
+    {
+      "module": "03 Supplier Sourcing",
+      "number": 5,
+      "requirement": "资格门槛GMP/ASL/工艺验证/过期阻断",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：enterpriseAnalysis() sourceRows 检查多项，但文档适用范围/正式市场批准不足"
+    },
+    {
+      "module": "03 Supplier Sourcing",
+      "number": 6,
+      "requirement": "严重缺失/可补件/齐全三级区分及排序后置",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "GMP/ASL否决可阻断RFQ演示动作，但没有完整三档材料证据评估"
+    },
+    {
+      "module": "03 Supplier Sourcing",
+      "number": 7,
+      "requirement": "场景模板保存并还原权重市场门槛",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "模板保存并恢复价格/质量/交付/风险权重和情景"
+    },
+    {
+      "module": "03 Supplier Sourcing",
+      "number": 8,
+      "requirement": "生成带图评分资质建议的正式PDF",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "打印为PDF的入口，非独立排版审核版PDF"
+    },
+    {
+      "module": "03 Supplier Sourcing",
+      "number": 9,
+      "requirement": "Excel格式补件清单（含截止日）",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "补件清单可导出Excel兼容CSV，但非原生XLSX"
+    },
+    {
+      "module": "04 Supplier Qualification",
+      "number": 1,
+      "requirement": "已批准/临时批准/待评估等细分KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：现有5卡但无临时批准、同比、优先等级细分"
+    },
+    {
+      "module": "04 Supplier Qualification",
+      "number": 2,
+      "requirement": "资质状态五分类环图",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：qualification() 只有两类状态环图"
+    },
+    {
+      "module": "04 Supplier Qualification",
+      "number": 3,
+      "requirement": "证书到期3/6/12/>12月分析",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "按0-3/3-6/6-12/>12月证书到期四档展示"
+    },
+    {
+      "module": "04 Supplier Qualification",
+      "number": 4,
+      "requirement": "资格矩阵新增有效期、年审及风险",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "Site/Material+最近到期日期、源资格及复核任务；审计状态未完全贯通"
+    },
+    {
+      "module": "04 Supplier Qualification",
+      "number": 5,
+      "requirement": "年审管理独立Tab",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：T.m04.audit"
+    },
+    {
+      "module": "04 Supplier Qualification",
+      "number": 6,
+      "requirement": "审计完成中逾期、发现项、CAPA闭环",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "年审计划/CAPA状态与本地跟进任务可见，不是受控双人QA审批"
+    },
+    {
+      "module": "04 Supplier Qualification",
+      "number": 7,
+      "requirement": "全链路源资格批准真实审批及阻断",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：演示的资格规则阻断存在，没有受控QA/RA审批"
+    },
+    {
+      "module": "04 Supplier Qualification",
+      "number": 8,
+      "requirement": "证书到期自动持续提醒",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：界面在打开时计算，不存在后台推送"
+    },
+    {
+      "module": "05 Contract & Purchasing",
+      "number": 1,
+      "requirement": "PO数本月新增、OTD环比、高逾期、合同到期KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：高逾期/OTD/总PO有，月增和环比欠缺"
+    },
+    {
+      "module": "05 Contract & Purchasing",
+      "number": 2,
+      "requirement": "订单六状态分布环图",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：只有在途/延期到货/已收货三类"
+    },
+    {
+      "module": "05 Contract & Purchasing",
+      "number": 3,
+      "requirement": "6个月供应商OTD目标线趋势",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：有6期模拟折线和目标，非真实OTD历史"
+    },
+    {
+      "module": "05 Contract & Purchasing",
+      "number": 4,
+      "requirement": "供应商交付比较与逾期Top图",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "交付供应商对比条图与逾期PO Top条图"
+    },
+    {
+      "module": "05 Contract & Purchasing",
+      "number": 5,
+      "requirement": "催货清单完整影响工单/未交额/负责人/动作",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "影响WO示例联动、优先级催办、草稿生成；缺真实未交金额与责任采购员"
+    },
+    {
+      "module": "05 Contract & Purchasing",
+      "number": 6,
+      "requirement": "合同3/6月到期与待续签",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "合同90天内预警与续签动作，6个月窗口缺失"
+    },
+    {
+      "module": "05 Contract & Purchasing",
+      "number": 7,
+      "requirement": "合同执行率按框架承诺金额计算",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：代码明确显示待接入/无分母"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 1,
+      "requirement": "呆滞临期批次和风险金额KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：批次/金额已估算，报废金额非已评估金额"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 2,
+      "requirement": "QC周期0-5/6-10/11-15/>15柱图",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "用GR/Release日期计算四档QC周期"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 3,
+      "requirement": "库龄0-3/3-6/6-12/>12月环图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：enterpriseAnalysis.age_bins + donut"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 4,
+      "requirement": "效期<3/3-6/6-12/>1年分布",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "复检/效期最早风险日按四档分布"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 5,
+      "requirement": "批次明细加库龄效期风险建议",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "批次增加库龄、复检剩余、到期风险与追踪操作"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 6,
+      "requirement": "Inventory资金5项KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：估值/Released/待检3项，周转天数与安全库存缺口待接入"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 7,
+      "requirement": "库存金额+周转天数真正双轴趋势",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "库存估值与天数情景双线；未做到独立双坐标轴及真实周转历史"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 8,
+      "requirement": "采存采购金额×可用天数四象限气泡",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "采购额×可用覆盖天数四象限气泡（数据量仅2物料，覆盖天数按需求假设）"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 9,
+      "requirement": "到货已放行30天未消耗金额趋势",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "增加超过30天Released存货清单，缺消耗事件历史无法确认长期未领用"
+    },
+    {
+      "module": "06 Raw Material",
+      "number": 10,
+      "requirement": "正向/反向批次追溯链路可视化",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "增加正反追溯的关联主键台账，非图形链路、无正式MES记录"
+    },
+    {
+      "module": "07 Supplier Performance",
+      "number": 1,
+      "requirement": "高风险/独家物料/议价来源KPI",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "高风险/单来源/议价线索三项规则统计"
+    },
+    {
+      "module": "07 Supplier Performance",
+      "number": 2,
+      "requirement": "四象限策略矩阵含资质颜色/建议",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "供应商风险×支出四象限气泡含资格颜色，指向具体来源"
+    },
+    {
+      "module": "07 Supplier Performance",
+      "number": 3,
+      "requirement": "依赖度CR3/CR5与30%阈值",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：supplier() 显示CR3/CR5/超30%判据"
+    },
+    {
+      "module": "07 Supplier Performance",
+      "number": 4,
+      "requirement": "OTD条形图含目标线",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "Supplier OTD条形及90%目标线"
+    },
+    {
+      "module": "07 Supplier Performance",
+      "number": 5,
+      "requirement": "质量事件表带风险及整改状态",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：事件表有CAPA状态，不具完整风险分级和闭环审批"
+    },
+    {
+      "module": "07 Supplier Performance",
+      "number": 6,
+      "requirement": "替代难度四档环形图",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "按合格来源数量区分单源/双源/多源，仅三类"
+    },
+    {
+      "module": "07 Supplier Performance",
+      "number": 7,
+      "requirement": "五维多供应商雷达图",
+      "v08": "未完成",
+      "v09": "完成",
+      "evidence": "五维雷达并列多供应商"
+    },
+    {
+      "module": "07 Supplier Performance",
+      "number": 8,
+      "requirement": "四类供应商管理动作独立清单",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "统一管理动作清单按状态给出策略，未分四张独立表格"
+    },
+    {
+      "module": "07 Supplier Performance",
+      "number": 9,
+      "requirement": "管理动作生成任务",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：supplier() task: 跟进按钮"
+    },
+    {
+      "module": "08 Invoice & P2P",
+      "number": 1,
+      "requirement": "6项P2P KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：发票、匹配、逾期已有，待开票额与部分付款周期无数据"
+    },
+    {
+      "module": "08 Invoice & P2P",
+      "number": 2,
+      "requirement": "异常类型占比环形",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：p2p() donut(match_status)"
+    },
+    {
+      "module": "08 Invoice & P2P",
+      "number": 3,
+      "requirement": "平均付款周期逐月趋势折线",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "新增模拟付款周期折线，尚无真实付款时间明细"
+    },
+    {
+      "module": "08 Invoice & P2P",
+      "number": 4,
+      "requirement": "账龄4档分布柱状",
+      "v08": "部分",
+      "v09": "完成",
+      "evidence": "发票账龄0-30/31-60/61-90/>90四档条图"
+    },
+    {
+      "module": "08 Invoice & P2P",
+      "number": 5,
+      "requirement": "异常发票全字段与处理责任期限",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "异常发票表加责任人和对账任务，差异金额和处理截至日尚不完整"
+    },
+    {
+      "module": "08 Invoice & P2P",
+      "number": 6,
+      "requirement": "真实三单匹配及付款控制",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：规则模拟三单匹配，真实ERP/AP系统未接入"
+    },
+    {
+      "module": "08 Invoice & P2P",
+      "number": 7,
+      "requirement": "付款异常转责任人处理任务",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：task:发票异常 可生成本地任务"
+    },
+    {
+      "module": "09 Change Control",
+      "number": 1,
+      "requirement": "5项变更经营KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：开放、关联、高风险有；处理周期用已用天数，非完整关闭周期"
+    },
+    {
+      "module": "09 Change Control",
+      "number": 2,
+      "requirement": "变更类型环形图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：change() donut(types)"
+    },
+    {
+      "module": "09 Change Control",
+      "number": 3,
+      "requirement": "变更处理周期趋势图",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "新增变更周期情景线图，缺已关闭变更真实周期样本"
+    },
+    {
+      "module": "09 Change Control",
+      "number": 4,
+      "requirement": "受影响市场条形图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：change(markets) bar()"
+    },
+    {
+      "module": "09 Change Control",
+      "number": 5,
+      "requirement": "变更表风险/目标日/逾期/销售额/owner",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "增加风险/目标/逾期与RA任务，产品销售影响金额不可算"
+    },
+    {
+      "module": "09 Change Control",
+      "number": 6,
+      "requirement": "变更转RA行动任务跟踪",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：可建本地任务，无真实QA/RA审批"
+    },
+    {
+      "module": "09 Change Control",
+      "number": 7,
+      "requirement": "各市场MA文件要求+批准文件清单",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：模拟市场申报路径及文档字段，没有真实各市场法规批准文件来源"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 1,
+      "requirement": "跨模块按金额/紧急程度排序Top3风险",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "显示Top3 HIGH风险，但尚未按影响金额×紧急度排序"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 2,
+      "requirement": "高风险/待办/收益/闭环四KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：有KPI，但闭环为本地模拟、收益是模拟ledger"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 3,
+      "requirement": "六大风险分区卡带跳转",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：actions() 6类风险 card, goto"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 4,
+      "requirement": "统一行动清单全部字段",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：缺关键数据、部门岗位、预计收益/状态完整性，关联不足"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 5,
+      "requirement": "行动指派责任人、状态、备注",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：drawer + save-task 存本地"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 6,
+      "requirement": "行动清单导出",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：csv:current"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 7,
+      "requirement": "新增vs关闭近12周双线",
+      "v08": "未完成",
+      "v09": "完成",
+      "evidence": "12周新增/闭环双线改为独立模拟告警数，不再冒用PO趋势"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 8,
+      "requirement": "累计实际降本/减损面积趋势",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "以模拟Savings账本累加作累计收益线；非实际银行/财务收益"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 9,
+      "requirement": "任务完成需连续2周期KPI恢复",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：有模拟periods判断，但不是真实KPI和服务器持久化"
+    },
+    {
+      "module": "10 KPI & Action Hub",
+      "number": 10,
+      "requirement": "保留5个/多子页、原始KPI上传",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：有多个Tab，Original KPI 链接逻辑需联动验证"
+    },
+    {
+      "module": "Control Document",
+      "number": 1,
+      "requirement": "供应商/Site/物料/文件/市场/状态/责任筛选",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：仅全局Supplier/Material/Month筛选"
+    },
+    {
+      "module": "Control Document",
+      "number": 2,
+      "requirement": "5项文档KPI和环比",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：五卡有，未实现逐期环比"
+    },
+    {
+      "module": "Control Document",
+      "number": 3,
+      "requirement": "到期条形和文档类型环图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：documents(register) bins/type图"
+    },
+    {
+      "module": "Control Document",
+      "number": 4,
+      "requirement": "完整受控文档台账字段",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：有效期/版本/风险有，ASL关联/寻源任务/复审人/变更链接不足"
+    },
+    {
+      "module": "Control Document",
+      "number": 5,
+      "requirement": "与寻源/资格联动的文件缺口清单",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "补件清单统一显示与新任务草稿；尚未动态扫描每次寻源上传结果"
+    },
+    {
+      "module": "Control Document",
+      "number": 6,
+      "requirement": "已过期自动拦截新RFQ与ASL批准",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：critical GMP expiry 加入某些sourceRows规则，未完整覆盖市场与文档类型"
+    },
+    {
+      "module": "Control Document",
+      "number": 7,
+      "requirement": "上传新版本、比较两版、驳回记录",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "可输入文档编号记录新版本待QA，但不上传原件、无差异比对；仅演示"
+    },
+    {
+      "module": "Control Document",
+      "number": 8,
+      "requirement": "审计完整证书ZIP+索引XLSX",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：只导出不含证书的演示CSV索引ZIP"
+    },
+    {
+      "module": "Control Document",
+      "number": 9,
+      "requirement": "操作/下载日志不可篡改审计记录",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：匿名 localStorage 日志非GxP Audit Trail"
+    },
+    {
+      "module": "Control Document",
+      "number": 10,
+      "requirement": "文档到期自动推送订阅与责任复核",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：本地数据可显示到期，未实现邮件/定时通知"
+    },
+    {
+      "module": "Control Regulatory",
+      "number": 1,
+      "requirement": "市场/类别/生效时间/风险等级筛选",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：只有统一Supplier/Material/Month筛选"
+    },
+    {
+      "module": "Control Regulatory",
+      "number": 2,
+      "requirement": "法规5项KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：五卡存在，但计算日期硬编码演示，不是真实时窗"
+    },
+    {
+      "module": "Control Regulatory",
+      "number": 3,
+      "requirement": "市场条形图与风险环图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：regulatory(register) bar/donut"
+    },
+    {
+      "module": "Control Regulatory",
+      "number": 4,
+      "requirement": "完整法规台账字段与整改关联",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "监管台账含来源/市场/来源Site/风险/整改动作；生效风险为模拟情景"
+    },
+    {
+      "module": "Control Regulatory",
+      "number": 5,
+      "requirement": "法规冲击影响矩阵并联变更行动",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：影响表有且 task 能生成本地任务，没有变更记录写入"
+    },
+    {
+      "module": "Control Regulatory",
+      "number": 6,
+      "requirement": "法规生效时间轴",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：regulatory(timeline)"
+    },
+    {
+      "module": "Control Regulatory",
+      "number": 7,
+      "requirement": "高优法规差距自动进入统一行动",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：静态fixtures合并high alerts，但非实时变化后自动联动"
+    },
+    {
+      "module": "Control Regulatory",
+      "number": 8,
+      "requirement": "自动抓取各国法规及订阅推送",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：代码明确声明不支持实时抓取/订阅"
+    },
+    {
+      "module": "Control Workflow",
+      "number": 1,
+      "requirement": "来源/状态/时间/触发人多维筛选",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：全局筛选不覆盖工作流任务"
+    },
+    {
+      "module": "Control Workflow",
+      "number": 2,
+      "requirement": "5项运行KPI",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：workflow(runs)有总量、成功率、失败、平均耗时、超时"
+    },
+    {
+      "module": "Control Workflow",
+      "number": 3,
+      "requirement": "日周提交/成功/失败趋势",
+      "v08": "未完成",
+      "v09": "部分",
+      "evidence": "增加按日运行量趋势，未分成功、失败的独立序列"
+    },
+    {
+      "module": "Control Workflow",
+      "number": 4,
+      "requirement": "按模块任务量条形图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：workflow(runs) 模块频次条形"
+    },
+    {
+      "module": "Control Workflow",
+      "number": 5,
+      "requirement": "日志参数/耗时/错误/重试/SLA/告警完整字段",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "扩充重试/任务关联/失败摘要列，但缺参数快照与告警发送记录"
+    },
+    {
+      "module": "Control Workflow",
+      "number": 6,
+      "requirement": "失败原因结构与清单",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：workflow(failures) donut/table"
+    },
+    {
+      "module": "Control Workflow",
+      "number": 7,
+      "requirement": "管理员阈值配置产生真实告警",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：设置写入localStorage，但后台告警不执行"
+    },
+    {
+      "module": "Control Workflow",
+      "number": 8,
+      "requirement": "失败任务真正重试机制",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：retry:* 只创建演示日志，无队列或计算重试"
+    },
+    {
+      "module": "Control Reports",
+      "number": 1,
+      "requirement": "类型/模块/时间/owner/订阅多筛选",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：没有报表专用过滤"
+    },
+    {
+      "module": "Control Reports",
+      "number": 2,
+      "requirement": "4项报表KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：模板、导出、订阅有，审批请求无队列"
+    },
+    {
+      "module": "Control Reports",
+      "number": 3,
+      "requirement": "报表调用频次按模块图",
+      "v08": "未完成",
+      "v09": "完成",
+      "evidence": "以本地生成记录按模板/类型统计导出频次"
+    },
+    {
+      "module": "Control Reports",
+      "number": 4,
+      "requirement": "7种预置模板",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：EXT.report_templates 七类"
+    },
+    {
+      "module": "Control Reports",
+      "number": 5,
+      "requirement": "按模板生成对应专业PDF与XLSX",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：仅通用CSV导出+整页浏览器打印；非设计的PDF/XLSX"
+    },
+    {
+      "module": "Control Reports",
+      "number": 6,
+      "requirement": "历史导出记录与操作人",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "生成文件时记录时间与固定匿名操作者，仍然不是受控审计日志"
+    },
+    {
+      "module": "Control Reports",
+      "number": 7,
+      "requirement": "定时订阅管理配置与暂停",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：可以本地保存配置并切换状态，不真正发送"
+    },
+    {
+      "module": "Control Reports",
+      "number": 8,
+      "requirement": "服务器端角色数据与导出权限",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：静态页面无服务端身份与行级过滤"
+    },
+    {
+      "module": "Control Reports",
+      "number": 9,
+      "requirement": "订阅自动定时邮件附件",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：无后台任务与SMTP/API"
+    },
+    {
+      "module": "Support Access",
+      "number": 1,
+      "requirement": "用户/角色/待复核/权限变更KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：有用户/角色/复核，30天变更没有计算"
+    },
+    {
+      "module": "Support Access",
+      "number": 2,
+      "requirement": "角色分布环形图",
+      "v08": "未完成",
+      "v09": "完成",
+      "evidence": "按角色数量的环形分布图（模拟用户主数据）"
+    },
+    {
+      "module": "Support Access",
+      "number": 3,
+      "requirement": "账户表行级/模块/有效期/复核",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：表格字段有示意scope，但没有强制执行"
+    },
+    {
+      "module": "Support Access",
+      "number": 4,
+      "requirement": "角色权限矩阵视图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：access(matrix) 基础角色×模块表"
+    },
+    {
+      "module": "Support Access",
+      "number": 5,
+      "requirement": "权限变更完整操作日志",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：展示模拟 fixture，并非真正的身份事件"
+    },
+    {
+      "module": "Support Access",
+      "number": 6,
+      "requirement": "权限修改需第二人复核",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：没有可操作的受控双人审批"
+    },
+    {
+      "module": "Support Access",
+      "number": 7,
+      "requirement": "真实认证、行级隔离、不可删日志",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：公开静态前端不具备后台强制权限"
+    },
+    {
+      "module": "Support Master",
+      "number": 1,
+      "requirement": "物料/Site/待审核/重复/缺陷5项KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：物料、Site、缺陷有，待审核与重复检测未实现"
+    },
+    {
+      "module": "Support Master",
+      "number": 2,
+      "requirement": "物料品类图+供应商国家分布",
+      "v08": "未完成",
+      "v09": "完成",
+      "evidence": "增加物料品类条图和供应商Site国家环图"
+    },
+    {
+      "module": "Support Master",
+      "number": 3,
+      "requirement": "物料与供应商Site主数据台账",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：master(materials/suppliers) 结构记录存在"
+    },
+    {
+      "module": "Support Master",
+      "number": 4,
+      "requirement": "缺失关键字段、脏数据预警",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：仅简单null字段检查，issues始终为空"
+    },
+    {
+      "module": "Support Master",
+      "number": 5,
+      "requirement": "物料/供应商重复识别算法",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：没有去重匹配"
+    },
+    {
+      "module": "Support Master",
+      "number": 6,
+      "requirement": "主数据变更审批及日志",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：只能查看记录，不能审批修改"
+    },
+    {
+      "module": "Support Alerts",
+      "number": 1,
+      "requirement": "未读/高优/本周/闭环四项KPI",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：总数/高优/已读/转任务有，但本周新增和正式闭环无"
+    },
+    {
+      "module": "Support Alerts",
+      "number": 2,
+      "requirement": "告警来源结构环图",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：alerts(center) donut"
+    },
+    {
+      "module": "Support Alerts",
+      "number": 3,
+      "requirement": "告警时间趋势图",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：无时间趋势图"
+    },
+    {
+      "module": "Support Alerts",
+      "number": 4,
+      "requirement": "告警明细状态+证据+处理链接",
+      "v08": "部分",
+      "v09": "部分",
+      "evidence": "增加来源/严重程度和本地已读转任务；没有真实告警事件时间轴"
+    },
+    {
+      "module": "Support Alerts",
+      "number": 5,
+      "requirement": "已读及告警转任务",
+      "v08": "完成",
+      "v09": "完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：read:与create-alert: 写本地"
+    },
+    {
+      "module": "Support Alerts",
+      "number": 6,
+      "requirement": "告警免打扰规则",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：未提供免打扰逻辑"
+    },
+    {
+      "module": "Support Alerts",
+      "number": 7,
+      "requirement": "持续阈值监控与自动推送",
+      "v08": "未完成",
+      "v09": "未完成",
+      "evidence": "尚无完整实现变化；原V0.8问题依然成立：阈值仅localStorage，后台无检测或邮件"
+    }
+  ]
+}

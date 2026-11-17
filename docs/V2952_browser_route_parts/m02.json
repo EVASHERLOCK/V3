@@ -1,0 +1,1328 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:16:16.198980+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "m02",
+      "expected": 29,
+      "exact_ids_found": 29,
+      "rendered_module_count": 29,
+      "unmatched_ids": []
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "components": [
+    {
+      "id": "m02.274e1477",
+      "route": "m02",
+      "title": "期末批次库存估算金额 ⓘ137,070 USD源于批次数量 × 关联 PO 单价?采购价差 PPV ⓘ2.5%价差金额 14,304 USD?库存周转天数 ⓘ未接入正式期间平均库存与耗用成本不足?呆滞",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4579,
+        "sha256": "86455e39f4553a846bd5fb9dcc57cf293a64667218217a711542f2024667f865"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 34337,
+        "sha256": "88f0ba4504b8e9c70e9ac57252b170bc996338122e7c8207409ec626559faf89"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 164,
+        "xlsx_sha256": "12b12d10f1cc4b532578fa0175833c01e9c32a6385191d56c236f7692cdaabcd",
+        "bytes": 66426,
+        "filename_sha256": "edf935e212915a00b6ebe1d4a3ae724d2b9d6265e2decee17c7709ba890f785f"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 10,
+        "computed_metrics": 10,
+        "visible_dom_rows": 0,
+        "displayed_figures": 16,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 16,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "87329e8043c226e94f50a21e57b1730250a53a5e4e9b272e35353af677548eb3"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.60e574be",
+      "route": "m02",
+      "title": "月度库存资金估算趋势｜三类库存ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4579,
+        "sha256": "86455e39f4553a846bd5fb9dcc57cf293a64667218217a711542f2024667f865"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 34337,
+        "sha256": "88f0ba4504b8e9c70e9ac57252b170bc996338122e7c8207409ec626559faf89"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 164,
+        "xlsx_sha256": "0c12e9af38762b30a849fb4db3bc85f4c0d09681332cc8764186e33f02ea523d",
+        "bytes": 66027,
+        "filename_sha256": "50b0e43f646bd5634e288ef9c6b757b86680fcbc82087873d64420a596c76744"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 10,
+        "computed_metrics": 10,
+        "visible_dom_rows": 0,
+        "displayed_figures": 10,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 10,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "3585af6ebc7c538edcfa995cf965199dca69a4b3b8bfeeb9fa6332ae88f68cb6"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.36ae8018",
+      "route": "m02",
+      "title": "月度库存资金估算趋势｜三类库存ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4198,
+        "sha256": "7e881fe83751cebe282b1ad5126832f59dd019a34259f48ce3475a601025c4e7"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 33956,
+        "sha256": "8a45589d77713b6e8d175572def7448bc4ab37904735e35e233aea1411feb1b7"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 164,
+        "xlsx_sha256": "37283093612ef6b08244544094a6dd3d52e1b94ca7675de0909574799ab5f5b3",
+        "bytes": 62190,
+        "filename_sha256": "f5612e9381eaee838a072abd13f77d5434b5ce01aa6ace6a752e39cb5f53fb71"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 10,
+        "computed_metrics": 10,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "41e39ae5af25d9a62c2204af395c1083d59637d9756bc94b924de04b6cd5f109"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.33ab85b7",
+      "route": "m02",
+      "title": "ABC 分类库存金额占比ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4192,
+        "sha256": "c8ed220576422135e6891a3f0fccb6ae46585b5bcc9c312a047655c98f25e581"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 33950,
+        "sha256": "6d1ae244a9fee29affc922a91ee4fb954b47e32a4bac5cfa16907fa48252ff83"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 164,
+        "xlsx_sha256": "1f87bef96b3b7adf66a47ec49246c2bdbb2e8e56bbbe355360e8c6c4c66011ec",
+        "bytes": 62666,
+        "filename_sha256": "6a5a37324e753c42951a3c481b97562880699b7907d155f9fa2bed90599510a6"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 10,
+        "computed_metrics": 10,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "e1d2a8c08b419d2499dece472559260b4554039b57355c1b8ac390996aa536d4"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.38862302",
+      "route": "m02",
+      "title": "ABC 分类库存金额占比ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4192,
+        "sha256": "c8ed220576422135e6891a3f0fccb6ae46585b5bcc9c312a047655c98f25e581"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 33950,
+        "sha256": "6d1ae244a9fee29affc922a91ee4fb954b47e32a4bac5cfa16907fa48252ff83"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 164,
+        "xlsx_sha256": "ade21dbed17e3736086da62df1085dfbd2e797bbb1aa529488239c2591c28964",
+        "bytes": 62150,
+        "filename_sha256": "858399999e3075db30055ef550001baaed153bdeb7abc829d386645a91065891"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 10,
+        "computed_metrics": 10,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "96884461df930e89439719ab0b7f32be8ce2cc4a6dbd2844c73221f30ca9f74e"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.25c076cb",
+      "route": "m02",
+      "title": "呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2156,
+        "sha256": "da75f846a6e27cacd2130445b80ad37cdf125c150c5d70f7980f6608dc8d3bbf"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 12060,
+        "sha256": "fe6d38a031f7e16634995d3e3d75953960c954c405918a34bbb26cb7941efc28"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "71ee615ef5a335a8a8d33691be2afeeb9b265ef6484f94722681a820319cb603",
+        "bytes": 61504,
+        "filename_sha256": "5dfd0d03f8a20b16e538259a38944d13fbce2165ec1293f323d4e4216e6305e8"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 12,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 12,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "0ed19ca4877fe8d3f17f37af9593ba8d98cce560aabf3682255b29dfc8a771ec"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.4febb572",
+      "route": "m02",
+      "title": "呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1925,
+        "sha256": "e2ef988092811dd041152529f016e0443e5bfe0d6c1ac97fcf8bbbb5dcdfa96c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 11829,
+        "sha256": "94f69947d69d563f80789ea02670a3679b6b4652baf3dbb2e4bcf1ea0cf0db6e"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "5f5d3443e3e764be3b9ca6d44099cb03e714febadaa89f1033172e199c5841b1",
+        "bytes": 58927,
+        "filename_sha256": "fdfb2d92c5347cc4d8f0bdff32ad308e3657d1fe9399479155ac19412fa895cd"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 3,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 3,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "2cdba4f55e18aa34f1e86b28a9b3311905bcfe65817e45cc1ad1fd19fc8265d3"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.bb27ec9c",
+      "route": "m02",
+      "title": "呆滞金额分级条形图ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1925,
+        "sha256": "e2ef988092811dd041152529f016e0443e5bfe0d6c1ac97fcf8bbbb5dcdfa96c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 11829,
+        "sha256": "94f69947d69d563f80789ea02670a3679b6b4652baf3dbb2e4bcf1ea0cf0db6e"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "b924f8c4d5a774078d6bd9f09053aab7f05e0e7b4d34680e983907f593149d4d",
+        "bytes": 57996,
+        "filename_sha256": "c98d310ff354a5663464953435e78757927fcec054af87b155131ec297811bea"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "abd85a50f0339ddfe27e0dd09c5e6178b89cc56f2c8ca14582420b973ff8e368"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.b245852e",
+      "route": "m02",
+      "title": "采购差异原因拆分ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3079,
+        "sha256": "7d75701712b4c0836e01b4db4ac2de39dd54101fb55465ca3fec58273ff78023"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 23234,
+        "sha256": "486bd3788ae026c54668b12a509154763b341417ef3ef42e0ffc5141c2c22bd9"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "5e620bee8602d7ab0287e8ea7fc6bd2d48a32737866e03a3556afc93edbd0620",
+        "bytes": 63439,
+        "filename_sha256": "52785db3c641581b5753d47d4ee6e1426bc48a294a5d21339dd6020785497cdf"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 10,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 10,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "77d08fb866ebf0d04ea6494464726ceadabf0e3cc20680377a33d8a30d468302"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.bfc5032b",
+      "route": "m02",
+      "title": "采购差异原因拆分ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2810,
+        "sha256": "58ec111543d631c6e17dd516d3ab710466ec1b3b75636bceedbdd45912c68174"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 22965,
+        "sha256": "4bfc98225a05c30dc7425cce4e354e4603bcb268aa7ef754537dc9412aa0bdea"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "8702ea27c619d0bbcd5b057c232d08f7962b0fe79577f711a6a5b9d76d503e33",
+        "bytes": 59938,
+        "filename_sha256": "d1c05c4459251b4f5b1dca9d92919e4f893230fa960d9eee7dd02266e58f8196"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "42a7483380ee13401a303db1c0fc1ba29a03526a34093c5b837d78f6fb3816df"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.c181cb26",
+      "route": "m02",
+      "title": "库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4825,
+        "sha256": "77a66a615fe747bf43d84c7d94eff6bf738badcf6b0540fa8349cd1496f06f11"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 26697,
+        "sha256": "f35ea48ea88c23656fe931b1226dcf2df1f0a86fa157b4bdb746c051d4817c94"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 164,
+        "xlsx_sha256": "f57a32b295fbbe180c44661ebd5311236efabfc15541deeea579beeea14532fb",
+        "bytes": 68876,
+        "filename_sha256": "e004f06afabc631c4d2d34ec8364ebecdc7196f8b2db9e885595354fb1362d8b"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 10,
+        "computed_metrics": 10,
+        "visible_dom_rows": 0,
+        "displayed_figures": 27,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 27,
+        "charts_unverified": 2,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 1,
+        "response_sha256": "ba8da81901c44651815d76cebccd5bd2c45e5fe0fb73bd15c36fbc269c87c6de"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.23dcfec",
+      "route": "m02",
+      "title": "库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4469,
+        "sha256": "c6cfce5da326f154e95e47bb4ebfd65875ac3bf7156b35c6d6e4719de6533197"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 26341,
+        "sha256": "c7c420625f1a678a14d3f38f049c3e8eab89d66c0750b6a1ab9d86164b70bd63"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 164,
+        "xlsx_sha256": "7896c8f913deb05d7b344f02e39988353f8364ae172c6bd501f003b82a2499cf",
+        "bytes": 66013,
+        "filename_sha256": "6186ac69ebd4135e7a0bff544415eaf4693212955ffa5f4327423942c2414a39"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 10,
+        "computed_metrics": 10,
+        "visible_dom_rows": 0,
+        "displayed_figures": 11,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 11,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "c934639c76a63734051916fb7f12a4895f59608541c260d22c50c29ad11ccb69"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.a43cf4ce",
+      "route": "m02",
+      "title": "库存优化降本累计收益图ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4108,
+        "sha256": "b9b655770ebc82aa6d912ca33fb0d51ba5f378044d5f764bd6a53a762b06eba4"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 25980,
+        "sha256": "5349cad57abd1fd8bd49e7e96d8c5a0f40da67b79332706585a7bda5858ce430"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 164,
+        "xlsx_sha256": "215895c5719d526ba8d53013fb11fb67917026217d50eed5b676379ef20bad7c",
+        "bytes": 62264,
+        "filename_sha256": "4827ae29fc1ca4182b1d3b444f888755c5ba555538a49c9810954a518eb9768e"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 10,
+        "computed_metrics": 10,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "1e06c047673082cf5d6588c7bde4a53634a6e34793290ff4fa1793a205d280bf"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.5e4cca98",
+      "route": "m02",
+      "title": "滚动预算准确率复盘ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2775,
+        "sha256": "c45eba1475a1689334597287fedbf45c45f13e708ff9f1ea871a8852c1227581"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 21704,
+        "sha256": "0e98b061f1f1865ba81a1acff1010a61aead6d3320b8883cbccacac5fd8fa9a5"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "903c618eda2bbd2e65974c726067a36a4629f8fb025af41343700445f9bc3b19",
+        "bytes": 63081,
+        "filename_sha256": "282b18f8cae5d290aeb07e96d57d4f1167f0f31144258740297b65dac3cc9de7"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 17,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 17,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "6d95a8a7dd6926d7360ec6f632168348ae0776cdca95777a33fea0bce0fe7ce3"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.a244c095",
+      "route": "m02",
+      "title": "滚动预算准确率复盘ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2468,
+        "sha256": "6bbd389d6bb6b15dee08246c4f2a44e610b079c2042fd16dec6b805e7981c1b2"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 21397,
+        "sha256": "939119cb9919179c11a149bd32b2f85caccf09d6ee16d72e70bb221e163fa88a"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "deb99c8a4a0d7ea881a227ab8a5b6bb02d24fdd825f389266368f50559adf330",
+        "bytes": 58819,
+        "filename_sha256": "6e2fd3b1e2413b9c1d618266901669ec420b6a1aea763f6092b4a15d82c57b04"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "7f44c031081e466bb4b0b42606bd064b3dd7200c40542c08ad4b5d825793d2f3"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.813eab27",
+      "route": "m02",
+      "title": "月度滚动预算复盘｜消耗数量与金额ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3466,
+        "sha256": "23cc25cdac5b09ec90d89b88ea4b5d259ffea25b084a4ab824067bc28e898199"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 22554,
+        "sha256": "c14faff0ba108649aa0600426a92a117af3939b5bdfcff31dd104ca37b1bb69e"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 217,
+        "xlsx_sha256": "01336e79efa040b42a05805313f604807a14994012f2b17f6afa77e3b177fdc6",
+        "bytes": 66317,
+        "filename_sha256": "fd622db0cff088e253bba2a7523b20d11c4598f020788208f74c26538a9cda46"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 5,
+        "computed_metrics": 5,
+        "visible_dom_rows": 12,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "74daf91b9b9964d03cba25a7b5c47e88574cb264b5d63a03d936dc7dcf54b964"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.5e4fdfc8",
+      "route": "m02",
+      "title": "月度滚动预算复盘｜消耗数量与金额ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2269,
+        "sha256": "b0f777a4de179163ec36cecc75aee8e79d2abe40cc4bc1c366f861c31da81466"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 19093,
+        "sha256": "fa69c2c8fe347e675b6f9489eb03d4164bb6cc55cf5a4ba83a0d78d1ad81b0de"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "df242c6d1fe575321acf20a6d958eab1b69217586edd1125e4872ad9da726e33",
+        "bytes": 58478,
+        "filename_sha256": "1842f8bcf8e58c0233b4b07f6161b794d937d1564345ca127af02923871a6baf"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 5,
+        "computed_metrics": 5,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "e16b9c5b8b30ed8cdc07dc9430a693da774060bdf56ad3a1ec78c8d763c83db5"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.e0e26acb",
+      "route": "m02",
+      "title": "物料库存金额排行ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3195,
+        "sha256": "d4d528455819b0ffca462d987cef8e95f894d45f8059e069f13e3ce54452670c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 19984,
+        "sha256": "81946c344524f59560799512b6d1d9c33bd983e7fae5237fd93b4dd8aed6475d"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 165,
+        "xlsx_sha256": "e2c7633c488da6386114466938ffcdd67bebb052e3110c6477fe316be2d04205",
+        "bytes": 61990,
+        "filename_sha256": "a3fb58b7769cdc7be54e76171308001a63512a0d842426001eadb71fc5e7b970"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 2,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "26c5651189ab452c0181c65cb93c6aa282d002e4b342f46a3afcf39aca055216"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.5f747895",
+      "route": "m02",
+      "title": "物料库存金额排行ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2722,
+        "sha256": "599589065a87dd523b98501f686c68b999c5810df8e6a2ee904f845ef6018804"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 19247,
+        "sha256": "d3815cb3e80eeadc9bb2e5e9d0915e5a14faf87734022eef442ba049aa654e73"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "3a5c1bda59aa1413a154e49ca7a06f4ccccbdea9bf124978ddc672964d197843",
+        "bytes": 59588,
+        "filename_sha256": "9d3cc3476f0c71cd06f2594b4cff9e471093f98760b50d54c0bcff714199fcb1"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "0677970f976a40be9b0482528b492ad4f7166b5dea2d38e67715336900f617c9"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.786b1a74",
+      "route": "m02",
+      "title": "呆滞 / 临期批次处置明细ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2876,
+        "sha256": "6bb6d855306ba1dd05ca4663725d9ab44134220b6d98a2a97965aa224a270989"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 16636,
+        "sha256": "3420a7205386e590a2a7b1493d56a135792caa45a8213138d55514719c4629ee"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 162,
+        "xlsx_sha256": "a04183484a540adc202966133d96892ff148befdc7b95dcd4fedb5d10149f064",
+        "bytes": 61356,
+        "filename_sha256": "569c9ccc256e5ec7986671750944d915fd1ca64f03d165a696d5f62757176b00"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 5,
+        "computed_metrics": 5,
+        "visible_dom_rows": 7,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "992690eb832d58772f0fa74badab9c378229388cc33a2001dff4ffcf9c24138e"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.26388c66",
+      "route": "m02",
+      "title": "呆滞 / 临期批次处置明细ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2527,
+        "sha256": "ab724f6bda5e364fc478d806a065efffaa48676529f810d8af45213a0f02fb07"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 15751,
+        "sha256": "94ef6a8b4e605ac6dbbc472eef49d002f942a750277b8ef27160a8698474f09a"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "34936ee9278d520519d0d5d54a5084f5b0ffc714c3f38d97f7284134c4eab2a3",
+        "bytes": 58997,
+        "filename_sha256": "daf6990fbb8fa2cf0add8cee91fce4d7a0dc278f12158347346a2eadf130f33d"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 5,
+        "computed_metrics": 5,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "c21cc64fd6bd8c5e030b50e1fb51828253f83bb13fd7d8cca2209b82f899b273"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.4ced5692",
+      "route": "m02",
+      "title": "滚动预算准确率复盘表ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3274,
+        "sha256": "c92f576a299450d178d056c8a4a3b947a8c4a56f3b4e6a0c4d046439fcc1299d"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 23465,
+        "sha256": "85580d541145c74c5aed8d16a27ce2d2214bf237193a867245af5c9ac38a3fb4"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 188,
+        "xlsx_sha256": "ce71bb1265d15cc480d27eb848efe7518807d7b02982cea7d989e6274bbf4c5c",
+        "bytes": 64962,
+        "filename_sha256": "d3857a564195da5c9b0fa4ce29288af9dc681726bdffdbf0e01e0de0f92efbbd"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 12,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "2ccce897b8f44fc7bcd82004a7736e1e00b2f4ed2a911701aeb3778d5ef6abbc"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.961b995f",
+      "route": "m02",
+      "title": "滚动预算准确率复盘表ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2470,
+        "sha256": "5cb9c4e262bbb4fd84034088a08f690884ea4bbca9a2ef4e6df73db27c638a4f"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 21399,
+        "sha256": "e8a9afa0228ebcbceb85f7b2584ecf63d9fec07a4bc3e157bfcef139cef64a53"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "54eb36501193c3dd45bb8b05fadc92ffed109ec8b20a6878cbf092c6059a61fc",
+        "bytes": 58827,
+        "filename_sha256": "7810d933a6a1e18da2ff7535946a449f8a92f7e7c002a45d1ba8b0854571749f"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "48a80b6b4666862e4bc1bf9623a6595ca94f275f5778a8585dd80d45eda52730"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.10c1ce46",
+      "route": "m02",
+      "title": "年度采购预算编制 ｜Annual Procurement Budget Planning",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3798,
+        "sha256": "54afd58ca9b687f2c694c45891a3107e0236deb53f80acad03cf84cd17003d6a"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 22727,
+        "sha256": "99b3c015fa43c561124b81400600daeed0f7ecc34f833e6857f9b5047c28c2f3"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "84a2a9bf1d39fea0a8af4e31ba9c43f5fdef2a55eaec0248bab8a6db1561c5dd",
+        "bytes": 65132,
+        "filename_sha256": "abebab1c601e3f2c8eed4f6c1351a23cdbc7323219e8f9541b94171623797638"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 26,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 26,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 5,
+        "narrative_unverified": 5,
+        "missing_count": 1,
+        "response_sha256": "6b0fac5e8dc47cd496c293048a1f5f61a460877a9b2cdb72801c61c9ef424bef"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.cc23eeca",
+      "route": "m02",
+      "title": "♧供应侧参数⌄",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1903,
+        "sha256": "b68863b9723dae01cb1f877239990cf3eeaeb1ae0f8cc11e96ed1ebf41e902b3"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 9311,
+        "sha256": "49aff5fccf26c1b87d52d223d6a1324e264eb46934e0625c508435c8eeed2c68"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "dda9aa982f5e990b187302b4a614469bcec0af7a6b29a6b8cfebd147456ce9f5",
+        "bytes": 58809,
+        "filename_sha256": "b703223796da2af819171da039f2a9b19ddeeddebe7e48d60dd241fa140c748e"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 4,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "831c28099f41eabeba17e8a49685f545bb93137a07ca35de8819e86024e66685"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.a29c2c89",
+      "route": "m02",
+      "title": "▧价格侧参数⌄",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2254,
+        "sha256": "f3b18aaf4346d562cadff2914832749498ddbc26f5713454666d55e343988b4a"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 15836,
+        "sha256": "2f4525d6921499491eae2b27890d375af7d4da98f07c956fb862c874c925106b"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "956c6bb6c4ed3d13b702a43b540f330171c058bafe266ecf21d188897a999bd0",
+        "bytes": 59038,
+        "filename_sha256": "fa3e71248be8c74570ef1a705167f04951c94fea026aa1831d2f7b03d7aaef3c"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "f4d8c95092fe2bc2de8446ab4f461ace512db0c183216c565e09783ac707abfb"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.840e7579",
+      "route": "m02",
+      "title": "品类预算占比",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2466,
+        "sha256": "3ad894cfe1760189572a07066b7089f7db1e320e9cee9747d3cf76a0e3129d2b"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 21395,
+        "sha256": "05a04a592ca1b4f6c2d98a9aec139fc2f53ba623924d90f1214b01731f626f3b"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "3ee136ffee7c4b185673979462990cd3a2d1a08bd6bbe6ea7fa5342a329d0dc5",
+        "bytes": 61874,
+        "filename_sha256": "67f326f997ec5eaec4ca4448bf7c77a1cb75a6bff80232e143972d8953e7ca64"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 18,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 18,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "de0d657425a818b5f5f3befc6056ee96e0fbc9a60ad99c16b6aec5b69b81a773"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.10b565f",
+      "route": "m02",
+      "title": "月度预算资金分布ⓘ∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2466,
+        "sha256": "3ad894cfe1760189572a07066b7089f7db1e320e9cee9747d3cf76a0e3129d2b"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 21395,
+        "sha256": "05a04a592ca1b4f6c2d98a9aec139fc2f53ba623924d90f1214b01731f626f3b"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "b77888ec90c96d67e37cc00b98062b86d23ef831d2a9e5fe1f20e00fb99d5e66",
+        "bytes": 58810,
+        "filename_sha256": "440c5f0e2866b299dc85fcf076d83531dbde984c743f8a775d43097a19c02933"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "b044abea245126f8565e790ce4599adfbeccb35af5c1932d6582517ff99b8426"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "m02.2a78929e",
+      "route": "m02",
+      "title": "预算编制说明ⓘ",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 5455,
+        "sha256": "fd2bb4dec1590e813c516853530104ecebeca2d474254506187e073f35a3bf3c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 34383,
+        "sha256": "35da635d91ef6091091f22d3f3f158fa0500d99b8f8fdbd9eddadf2a0fcbfa46"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 162,
+        "xlsx_sha256": "bdfd73790611caf93caef0a6d0338fa8536f942674f30e94d15b2b8935d1063d",
+        "bytes": 65902,
+        "filename_sha256": "4cfdf9ce270cec170840428936ea2373fc9f01637535066e9fba968485c01fa9"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 10,
+        "computed_metrics": 9,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 5,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 4,
+        "narrative_unverified": 4,
+        "missing_count": 3,
+        "response_sha256": "4e36de34d516c28746072f5bee96d3ab03cf14861b6310d76f545de235e51aec"
+      },
+      "business_calculation_complete": false
+    }
+  ]
+}

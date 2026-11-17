@@ -1,0 +1,886 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:18:51.447167+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-cost",
+      "expected": 19,
+      "exact_ids_found": 19,
+      "rendered_module_count": 19,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-cost.3849530a",
+      "route": "ss-cost",
+      "title": "研发BOM目标参考价（演示）118.00USD/kgV08 PO加权基准代理；非正式BOM∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3166,
+        "sha256": "49a7d2e453a0b692d42f9cad3af8d1c4ea43e7437ec9cfaa2ce1f9403b60471a"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 12811,
+        "sha256": "7c21a6814e3b41cb0a688dcc28f4bd74c512550dbb05448b6de0ff006fab5e80"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 94,
+        "xlsx_sha256": "f13f3f191c921e72fcb15b8dc8dcb32f7eb071c58c898647e1ff30a8ef4a71a2",
+        "bytes": 54833,
+        "filename_sha256": "248112f005eef231ca3b627a42daa14fd3ff4c9ea3222dfb55ebe645c1e0d32b"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 9,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 6,
+        "response_sha256": "58e79143a48fe87e93fe8d44b7809884aa827bcf45b00bb06aeb921a709f0df1"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.35986a97",
+      "route": "ss-cost",
+      "title": "最优供应商报价107.24USD/kg情景供应商-032 · API原料药 · Top1 落地报价∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2841,
+        "sha256": "0b4525cd634cc49fc895bf213c1204a65eb45fd64402e6a4ac490a7d92849cb4"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 11303,
+        "sha256": "91a58cfe00a292aceb1fd0bc20ab9f72302654dab68e3cc189ccc9e802219162"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 95,
+        "xlsx_sha256": "c366355672b956d179aef5a6687111b4401aa6b53b29b4cec025dadc3e30a449",
+        "bytes": 54680,
+        "filename_sha256": "c0a33b56bb52cc2ed2d50ff366c222d975194edd61a0aa1f5103ef487f657f54"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 8,
+        "computed_metrics": 5,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 4,
+        "response_sha256": "73250b4dd6e24266782355b592765377ce50cfae7c7cf127294de7bb01dd6a2c"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.febce90b",
+      "route": "ss-cost",
+      "title": "统一候选供应商数19正式来源 3 家 / 其余为演示候选∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1899,
+        "sha256": "b2b221f624e322e7047ef94dfad989bac7cb5c00c0577d616aa436d601f24ffb"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10285,
+        "sha256": "6bf3bc9b5d3b61aea2881307175b4f04d13a402b614f9eecede1c76de9a350fa"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 94,
+        "xlsx_sha256": "b387e8cd53de65d3379dda02f13df9b2de9dc98a8f9caee8e0fea20c110b5acc",
+        "bytes": 52720,
+        "filename_sha256": "1e3b44edc259131299731c4beee867db6b4041ee0905fe575afd48cc79785d59"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "10c08367c7dbb0a4abc791807d72a857ecc4d7a6783d85c9d03fcbfa42b4d0cf"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.fb107cca",
+      "route": "ss-cost",
+      "title": "目标达成率100.0%低于目标视为100%达成；高于目标按超支比例扣减∑ 本模块公式 / 分析依据",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1359,
+        "sha256": "912e5ee017574e3eed71db784c5ccf930f3cceee66b596a3035ad7823cd42d98"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 3194,
+        "sha256": "ecc4395b8eee4066707354bf2dbeff15eece9187074a80933e9336742d2d9f5a"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 93,
+        "xlsx_sha256": "409705f7901ec5f903114f60f776885a2709026296c4d45fbcaa4fb1213f4166",
+        "bytes": 50959,
+        "filename_sha256": "6d1f7c006a34f6b469c26b76b38beba790e1ceefcd3e6b9c0604daa09876a672"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "521393c5c52910517a73f3b2dbf287ddb0c853de96a22e371b7ca5506f0f5c6f"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.c6b69bda",
+      "route": "ss-cost",
+      "title": "▥BOM 成本拆解瀑布图",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4522,
+        "sha256": "9af89d502cc91bfdf7776c3279cd593a68fc2143ffa2b9895fb81220ee64c83e"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 14167,
+        "sha256": "f010f236be32d2bdafd970795b070888da28922999f4d234f8e90a64af1469ce"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 94,
+        "xlsx_sha256": "aafc0104978b3c4238805c5ab03f56b1f3021831e86f2d91d41dac105637ac3d",
+        "bytes": 59504,
+        "filename_sha256": "24970028d00aef537b7ef75cefe460d22d866c6599bdf0f927eebaf785b6b814"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 9,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 14,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 14,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 4,
+        "narrative_unverified": 4,
+        "missing_count": 6,
+        "response_sha256": "16e9e471b6e396cbee2a17d7c041431693d0dd5fd92382711c6ceef4f8dc8425"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.fc5cdc07",
+      "route": "ss-cost",
+      "title": "演示核算：原站无批准研发BOM分项，当前以 PO 基准价/情景目标模拟六段拆解；最优候选价格不代表可下单报价。瀑布图按同一算式闭合，底部保留金额与占比。",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4550,
+        "sha256": "dd820bc683103f8292c801fc21170db3c4f537d84d7558fef1423f09fe9cb667"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 14195,
+        "sha256": "c65befb085022f1cd7ee049702335e1d22496434e5de380616cdf04576b19786"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 94,
+        "xlsx_sha256": "5d61ddfbdf78a06bc46b22af0586fc42446f57ce60686f6365b5bbf95d63f4ca",
+        "bytes": 59568,
+        "filename_sha256": "489078bf8a79d8794fb01189f722eea8254fe6353d8585064d46d19b6cbf97ec"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 9,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 14,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 14,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 4,
+        "narrative_unverified": 4,
+        "missing_count": 6,
+        "response_sha256": "81bc45ad565b08ff3a3b6bce05cc00285b1f725692458658f218fb1a17f30aa5"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.1ce10c1",
+      "route": "ss-cost",
+      "title": "◫目标成本 vs 供应商报价",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 7645,
+        "sha256": "e0972df2c47ad6ae18b784fa78a8de5de94a613f76c5061d7bc9433ac306448d"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 20713,
+        "sha256": "b80916521d80f1bea710eeab3d5ffbc4c2bc4ce01355d53844d9b07b94ac2af4"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 102,
+        "xlsx_sha256": "b2349a90dec4511a8164396a6a9c8cd660b6e82c0471011147d91fb21eee0688",
+        "bytes": 66796,
+        "filename_sha256": "9c5fd5045c29e3dc1464178bce69f9b2072494e4e63b2563f1c85ee708316b16"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 14,
+        "computed_metrics": 6,
+        "visible_dom_rows": 19,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 4,
+        "narrative_unverified": 4,
+        "missing_count": 9,
+        "response_sha256": "f4c99524d36e0e2b6ec5b6b71c67a407c6ed294195dc568ffdfcdcbe0fcfd083"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.6382ad63",
+      "route": "ss-cost",
+      "title": "至少比较 5 家以上供应商，默认显示 Top10，从低到高比较落地单价、MOQ、交期和质量风险。",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 6241,
+        "sha256": "935dc7cc562be4b6c0f633813c6e1d4ef0f8afbf3da15204c4f9eea0c4cbeee6"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 17936,
+        "sha256": "f33f3a8d5e3f0e8cbd6f7203322b458cf08598552cf0299eddb9a4b3a42d5f89"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 100,
+        "xlsx_sha256": "b61f9b81e180cba16525d19667d2ea47a30d32cbbdaff563a5165587f8a46df3",
+        "bytes": 64564,
+        "filename_sha256": "18d0c41416ec7378ea1406af30fb9ff04ba76525b2bd4a5ffaa18df07129cba4"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 9,
+        "computed_metrics": 4,
+        "visible_dom_rows": 19,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 4,
+        "narrative_unverified": 4,
+        "missing_count": 6,
+        "response_sha256": "046fc23c74f99b1c92f8f57f95a4422dbcc76757a0c018d805546329fee03a40"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.125210b",
+      "route": "ss-cost",
+      "title": "≋物料历史价格基线与采购闭环",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3793,
+        "sha256": "b6adcf1fdff5699a8e1bf67a38a6402e86047cf5a4d349b4f578f702be75ae94"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10173,
+        "sha256": "d697d99d419a1144b6f2c2011cfb97933b53c241ef78a22b076bb1c47f80676a"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 97,
+        "xlsx_sha256": "c00c72dfca30c28b7bd9bcfa988de66914a5ebac9afdacb7b8864eecc08e65f5",
+        "bytes": 60707,
+        "filename_sha256": "579d060be96b09e2699c32c7a7ed089c6087e6bb88a72c82533575ba0b1cea9a"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 2,
+        "computed_metrics": 2,
+        "visible_dom_rows": 22,
+        "displayed_figures": 3,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 3,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 5,
+        "narrative_unverified": 5,
+        "missing_count": 1,
+        "response_sha256": "dddd272559b16bb10803cb87872204b87264143dc233be3356bd2ec081a9f59f"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.bde01521",
+      "route": "ss-cost",
+      "title": "结论分析",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3833,
+        "sha256": "5736776d53d3fd2c6a43567b0c5519077eda09a40367c36e79d1bec11f3f6718"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10237,
+        "sha256": "01edf66daaccc3a11ed84e44d60c26b63c2ea008955159a301865f37647e9a94"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 97,
+        "xlsx_sha256": "1a6de1a4a96b9e2e84e812067a1c5153ebc7a535bf2f98383562b0e4f2938964",
+        "bytes": 60828,
+        "filename_sha256": "76667257764e45bfa2eccfe1eb010ea29d6e4954ad5cfcd3bbd8eafb20c18bc7"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 2,
+        "computed_metrics": 2,
+        "visible_dom_rows": 22,
+        "displayed_figures": 3,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 3,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 5,
+        "narrative_unverified": 5,
+        "missing_count": 1,
+        "response_sha256": "02c8bae131c198769a5ff1c9706dbfad24ce9224fadb4e4ac1d03b5129c25b86"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.1d18e6f7",
+      "route": "ss-cost",
+      "title": "♙降本机会台账",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4711,
+        "sha256": "3e053e4c48500e214b3211f94c37e3bf4f6613e7d1549857877d870a102ea55e"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 7986,
+        "sha256": "7a282a48bf7a961845f4f8ec94d71e3d34aed3b626f4661c843bd69f2a8fdce6"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 94,
+        "xlsx_sha256": "a78871991002bf6b9bee19298dbd8e7856a723438b66c6af030c03186f9db7b5",
+        "bytes": 61417,
+        "filename_sha256": "5ad0ce62fd1d9b382c94a995b6e3e8681ac748b61b4a6b43250ab2d2c9081a69"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 2,
+        "computed_metrics": 2,
+        "visible_dom_rows": 19,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 9,
+        "narrative_unverified": 9,
+        "missing_count": 1,
+        "response_sha256": "4643a6d36c814cafb33dfc987c08e4eec950d2341c03e7fd669a6cfa5e7f93a0"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.91e7e662",
+      "route": "ss-cost",
+      "title": "此处 −6.0%、−3.5%、−4.0% 等是情景假设，而非已由报价算出的降本结果。点击每张机会卡可以看到假设、参与供应商、原始数字、计算过程；导出 .xlsx 后可在 Excel 公式栏复核。",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4201,
+        "sha256": "b99d3611e5c5b927a9227a2940e45c6283a203e140e4f32161745864d041ac5b"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 7470,
+        "sha256": "680c70c41048d9f8f1de3ebf613234f82e66a663e7f1b5b3837f7181266b47ae"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 94,
+        "xlsx_sha256": "dbdd996d3054d2843665669f102ef92b1c35023cbb0c6db662139b19431eb141",
+        "bytes": 60665,
+        "filename_sha256": "ebc9ce302230aca62666eab253e93225c3da032a3c8c06f3a3830e3005ddd3c5"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 2,
+        "computed_metrics": 2,
+        "visible_dom_rows": 19,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 9,
+        "narrative_unverified": 9,
+        "missing_count": 1,
+        "response_sha256": "9995af0ff207b53635ac7e2cfbf00fc36226f55430e0b852e75700a7b8a43e7b"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.2a19713c",
+      "route": "ss-cost",
+      "title": "⚗",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1639,
+        "sha256": "f67fbb96f11c313392345d2a866b50383e673cf960352c97f89601f84da4669e"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 2955,
+        "sha256": "bf6bed1aede4b9bbec7bd96812c7022cfcad7d7f4df49d977a1bd313fd05bc3e"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 92,
+        "xlsx_sha256": "a0288cb17344a209882233cf79ec7fbd8dc635638c1d80a58faed4a45a2878e8",
+        "bytes": 52250,
+        "filename_sha256": "e8230df61d27b91d39f5f97e6d6cf5bbe92cda1adf94ddce7da8b1b24ee51418"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 2,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "71c6ae899d52a0b5db2c72012084fab31cc85846514072a684401fa7558dd789"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.dd636421",
+      "route": "ss-cost",
+      "title": "⚙",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1720,
+        "sha256": "edee8abc3698278947a5389cee64c45bc93dd54d7ad6c036cbd7950eaea8ef46"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5292,
+        "sha256": "9f75c85a6e4f3fa0f197969bd21627f9b2653907f463ae5f9d411a282e71c831"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 93,
+        "xlsx_sha256": "ead7973506d08273710a0b1e3ea9b7dddc1653ae35418b43b31a5002e1558a80",
+        "bytes": 52269,
+        "filename_sha256": "88ad7d44d65cc526bed86939cb00e03c417d096fb52275f9f60f7e0d6c6bbaa3"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 2,
+        "response_sha256": "5b854c9a37f13cc3597caf076484c77db250ad820a9291d7909f05990d9374f8"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.9b5e31b3",
+      "route": "ss-cost",
+      "title": "▤",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1718,
+        "sha256": "626fbeeda91d69d2be238b3dfb13f1acfc4927eb54c80563ce179095b4965347"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5290,
+        "sha256": "6ecd9bbc77b212e3bdd201b2646a75b481c31fc72782e3055ae637afce67efab"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 93,
+        "xlsx_sha256": "c2090bccd898fb6a1114407c8af1d9312e010be7101052f278f127d27166df96",
+        "bytes": 52247,
+        "filename_sha256": "b06834506e0254ab45149f9f4e49c3a4aec59b169d3f01bf44459d33311614d3"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 2,
+        "response_sha256": "06f8fd3897163538f98fa1aaf9661bb8bc25e0b248b08d661d6e4b245346d80c"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.5b0631ed",
+      "route": "ss-cost",
+      "title": "◈",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1715,
+        "sha256": "644688d8719c39ce44d50d290be9d2c99a069d2d6cab19dcfc40c85ae601c50e"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5287,
+        "sha256": "dc41dcfea1be55dd43a73d35cd5e006584051c349e6dd801119ea4b9689b9bdf"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 93,
+        "xlsx_sha256": "e724b552dfe3fe2912100190ecd93c25ea9abbf533a7ea6f0534ceb47ce23d10",
+        "bytes": 52186,
+        "filename_sha256": "5a69bcda7797e60fb19f969e4cea6941c8d2aaf99bfb04694925a63f577ee291"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 2,
+        "response_sha256": "a8f7be0cb8b93bef4ddb00562e9789e82729187f85ed0bcf80ea71a91b5306b0"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.167980bb",
+      "route": "ss-cost",
+      "title": "¤",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3563,
+        "sha256": "a387e98ab48d4968861064332fe426c5551e56c0abb363f4ef093e81828416d7"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 24067,
+        "sha256": "27fce5b2d95d756d1c6cd0655ee96f3b8be2d0a1ed7d6a2f0611c5e4d84bd773"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 98,
+        "xlsx_sha256": "bda917d55443d4e381a6d05158771c1b9cb95966fc3bbb9659d492f9116148de",
+        "bytes": 56199,
+        "filename_sha256": "1888efbeed2d8d6c70d056cd4a0c0ac63ecb233ac557f1fe4d0a8880576c1806"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 8,
+        "computed_metrics": 8,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "d8d674381202f47025486a3a3d5bbbf3ac69f75cf62fdc92bd3d745e3f390fd7"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.cdc23aba",
+      "route": "ss-cost",
+      "title": "◔降本监控与复盘（达成率 / 偏差分析）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4721,
+        "sha256": "b078b8eb31ce1201f459ebb2c6c0e521bf4eb8659777e3a628a8c81664611e08"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 13883,
+        "sha256": "9e9ffcd9bb109b8cc8076d796ca0dcf4b52d09eb19205f2ef69e5d19f6497a8b"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 100,
+        "xlsx_sha256": "125a236dcbc8350757e004a7751ebf20bc316eea606adbc00192c0afe38908cd",
+        "bytes": 60490,
+        "filename_sha256": "4f940ac8b27f143b926db44231e56ed9f74d857971a0acbeb132dace12fcc3cf"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 2,
+        "displayed_figures": 5,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 5,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 3,
+        "narrative_unverified": 3,
+        "missing_count": 2,
+        "response_sha256": "c982e7b727ea775ce7bf515b9d4d488cca34e9e6f58302aa35aaef1339808a49"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-cost.8c3d17af",
+      "route": "ss-cost",
+      "title": "原站DEMO采购价差分解（按供应商）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3168,
+        "sha256": "88c24306d6929d6e22bed05f7d213e402dafd4c6f4f58b441ab04380b37e4ae2"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10792,
+        "sha256": "42b2500d586334708b0339fc5697b39f4610c21627131f91b94e4bddb82daa05"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 97,
+        "xlsx_sha256": "723432181260908dc9128d78aaf304a70b94f3e50e942c1d2e1953ead582831e",
+        "bytes": 57094,
+        "filename_sha256": "9e4ba5f29ab891648c1e1c32fabbd34761c26e87825445133edf93e130abcfc9"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 2,
+        "displayed_figures": 5,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 5,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 3,
+        "narrative_unverified": 3,
+        "missing_count": 1,
+        "response_sha256": "7904eb87ae2df474c20613941f1332b4cfa2476a1ad8601af249f3fc8d2fe172"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:19:04.593269+00:00",
+  "exact_rendered": 19,
+  "three_entry_click_verified": 19,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 19,
+  "api_trace_received": 19,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

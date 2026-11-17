@@ -1,0 +1,366 @@
+{
+  "rules": [
+    {
+      "id": "DOC-001",
+      "name": "API Specification / Approved Grade",
+      "category": "Quality",
+      "owner": "Supplier / QC",
+      "scope": "all",
+      "rationale": "规格版本及目标用途核对",
+      "basis": "ICH Q7 / Company Quality System",
+      "conditional": false
+    },
+    {
+      "id": "DOC-002",
+      "name": "Representative Batch CoA",
+      "category": "Quality",
+      "owner": "Supplier / QC",
+      "scope": "all",
+      "rationale": "批次身份、方法及规格比较",
+      "basis": "ICH Q7 / Company Quality System",
+      "conditional": false
+    },
+    {
+      "id": "DOC-003",
+      "name": "Actual Manufacturer & Site Details",
+      "category": "Qualification",
+      "owner": "Supplier / SQM",
+      "scope": "all",
+      "rationale": "核对真实制造商、生产地点与工艺职责",
+      "basis": "ICH Q7 / Company Quality System",
+      "conditional": false
+    },
+    {
+      "id": "DOC-004",
+      "name": "GMP Evidence / Inspection Information",
+      "category": "Qualification",
+      "owner": "Supplier / SQM",
+      "scope": "all",
+      "rationale": "按适用要求评价制造地点的质量体系证据",
+      "basis": "ICH Q7 / Company Quality System",
+      "conditional": true
+    },
+    {
+      "id": "DOC-005",
+      "name": "Supplier Qualification Questionnaire",
+      "category": "Qualification",
+      "owner": "Supplier / SQM",
+      "scope": "all",
+      "rationale": "对供应商管理体系及供货范围开展初评",
+      "basis": "Company SOP — illustrative",
+      "conditional": true
+    },
+    {
+      "id": "DOC-006",
+      "name": "Quality Agreement / Change Notification Terms",
+      "category": "Qualification",
+      "owner": "Supplier / QA",
+      "scope": "all",
+      "rationale": "明确质量责任、重大变更告知要求",
+      "basis": "Company SOP — illustrative",
+      "conditional": true
+    },
+    {
+      "id": "DOC-007",
+      "name": "Analytical Methods & Impurity Profile",
+      "category": "Quality",
+      "owner": "Supplier / QC",
+      "scope": "all",
+      "rationale": "评估质量控制和已知/潜在杂质信息",
+      "basis": "ICH Q7 / ICH Q3A — applicability review",
+      "conditional": true
+    },
+    {
+      "id": "DOC-008",
+      "name": "Stability / Retest Period & Storage Conditions",
+      "category": "Quality",
+      "owner": "Supplier / QC",
+      "scope": "all",
+      "rationale": "复验/稳定性、包装与储存条件支持",
+      "basis": "ICH Q7 / Company SOP",
+      "conditional": true
+    },
+    {
+      "id": "DOC-009",
+      "name": "Residual Solvents / Elemental Impurities",
+      "category": "Quality",
+      "owner": "Supplier / QA",
+      "scope": "chemical",
+      "rationale": "相关杂质的适用性、风险及控制依据",
+      "basis": "ICH Q3C / ICH Q3D — as applicable",
+      "conditional": true
+    },
+    {
+      "id": "DOC-010",
+      "name": "Mutagenic Impurities / Nitrosamine Risk Information",
+      "category": "Quality",
+      "owner": "Supplier / QA",
+      "scope": "chemical",
+      "rationale": "按工艺与产品风险评估，不以简单声明替代评估",
+      "basis": "ICH M7 / FDA-EMA guidance — as applicable",
+      "conditional": true
+    },
+    {
+      "id": "DOC-011",
+      "name": "US Type II DMF Reference & LOA",
+      "category": "Regulatory",
+      "owner": "Supplier / RA",
+      "scope": "US",
+      "rationale": "仅在适用且引用 DMF 时核对编号及授权；DMF 本身不是获批准文件",
+      "basis": "FDA DMF framework — confirm product applicability",
+      "conditional": true
+    },
+    {
+      "id": "DOC-012",
+      "name": "EU ASMF + Letter of Access OR Applicable CEP",
+      "category": "Regulatory",
+      "owner": "Supplier / RA",
+      "scope": "EU",
+      "rationale": "按注册路径确认适用机制及被引用版本",
+      "basis": "EMA ASMF procedure / EDQM CEP — as applicable",
+      "conditional": true
+    },
+    {
+      "id": "DOC-013",
+      "name": "China API Registration / Reference Information",
+      "category": "Regulatory",
+      "owner": "Supplier / RA",
+      "scope": "CN",
+      "rationale": "核对适用的原料药登记与制剂关联审评信息",
+      "basis": "NMPA/CDE — market-specific RA review",
+      "conditional": true
+    },
+    {
+      "id": "DOC-014",
+      "name": "Japan MF / Applicable Reference Evidence",
+      "category": "Regulatory",
+      "owner": "Supplier / RA",
+      "scope": "JP",
+      "rationale": "按日本产品注册与 MF 适用情况核对",
+      "basis": "PMDA — market-specific RA review",
+      "conditional": true
+    },
+    {
+      "id": "DOC-015",
+      "name": "UK MA / API Regulatory Reference Review",
+      "category": "Regulatory",
+      "owner": "Internal RA",
+      "scope": "UK",
+      "rationale": "确认英国产品注册基线与 API 支持路径",
+      "basis": "MHRA — market-specific RA review",
+      "conditional": true
+    },
+    {
+      "id": "DOC-016",
+      "name": "Canada Master File / NOC Reference Review",
+      "category": "Regulatory",
+      "owner": "Internal RA",
+      "scope": "CA",
+      "rationale": "核对产品注册支持资料和适用引用",
+      "basis": "Health Canada — market-specific RA review",
+      "conditional": true
+    },
+    {
+      "id": "DOC-017",
+      "name": "Change Notification / Change History",
+      "category": "Change Control",
+      "owner": "Supplier / QA",
+      "scope": "all",
+      "rationale": "核对变更范围、生效时间及影响证据",
+      "basis": "ICH Q10 / ICH Q12 — applicability review",
+      "conditional": true
+    },
+    {
+      "id": "DOC-018",
+      "name": "Pre-Post Change Comparability Package",
+      "category": "Change Control",
+      "owner": "Supplier / QA/RA",
+      "scope": "change",
+      "rationale": "识别工艺、地点、规格变化的必要支持证据",
+      "basis": "ICH Q9/Q10/Q12 — risk-based assessment",
+      "conditional": true
+    }
+  ],
+  "markets": {
+    "US": "美国 FDA",
+    "EU": "欧盟 EMA/NCA",
+    "UK": "英国 MHRA",
+    "CN": "中国 NMPA/CDE",
+    "JP": "日本 PMDA",
+    "CA": "加拿大 Health Canada"
+  },
+  "kpi_dictionary": {
+    "otd": {
+      "name": "供应商交付 OTD",
+      "formula": "到货日 ≤ 供应商承诺到货日的 PO 行数 ÷ 两个日期有效的已收货 PO 行数",
+      "date_basis": "supplier promised_date → actual receipt_date",
+      "granularity": "PO 行",
+      "owner": "采购（供应商交货执行）",
+      "target": 90,
+      "warning": 85,
+      "grace_days": 0,
+      "unit": "%",
+      "denominator_basis": "仅完整到货日期的订单行；部分收货需后续拆分收货记录"
+    },
+    "po_need_otd": {
+      "name": "PO 需求日 OTD",
+      "formula": "到货日 ≤ PO 需求日期的有效 PO 行数 ÷ 已提供需求日期的 PO 行数",
+      "date_basis": "PO required_delivery_date → actual receipt_date",
+      "granularity": "PO 行",
+      "owner": "采购 / Planning",
+      "target": 90,
+      "warning": 85,
+      "grace_days": 0,
+      "unit": "%",
+      "denominator_basis": "现有样例缺少 required_delivery_date，因此显示不可计算"
+    },
+    "availability": {
+      "name": "按期物料齐套率",
+      "formula": "按生产需求日已放行且 allocated_qty ≥ required_qty 的生产需求行数 ÷ 有效生产需求行数",
+      "date_basis": "production required_date，lot release_date",
+      "granularity": "生产需求行（非独立生产工单）",
+      "owner": "Planning 主责；QA/QC、仓库及采购协同",
+      "target": 75,
+      "warning": 60,
+      "grace_days": 0,
+      "unit": "%",
+      "denominator_basis": "演示只按行和关联批次，不等同正式完整 MRP/ATP 齐套"
+    },
+    "qc_lead": {
+      "name": "QC 放行平均周期",
+      "formula": "Σ(已放行批次放行日 − 收货日) ÷ 有效已放行批次数",
+      "date_basis": "lot gr_date → release_date",
+      "granularity": "QC 已放行批次",
+      "owner": "QA/QC；采购监控依赖",
+      "target": 10,
+      "warning": 12,
+      "unit": "天",
+      "denominator_basis": "不包含待检/拒收批次，需结合队列年龄解读"
+    },
+    "ppv": {
+      "name": "采购价格差异 PPV",
+      "formula": "Σ(实际单价 − 基准单价)×采购数量 ÷ Σ(基准单价×采购数量) × 100%",
+      "date_basis": "PO dated transactions",
+      "granularity": "PO 行（基准价值加权）",
+      "owner": "采购 / 财务确认",
+      "target": 3,
+      "warning": 4,
+      "unit": "%",
+      "denominator_basis": "必须统一币种、计量单位和基准适用范围；正数为不利"
+    },
+    "spend": {
+      "name": "采购订单金额",
+      "formula": "Σ PO 行 ordered_qty × unit_price",
+      "date_basis": "PO created_date",
+      "granularity": "PO 行",
+      "owner": "采购 / 财务确认",
+      "target": null,
+      "warning": null,
+      "unit": "未定义币种",
+      "denominator_basis": "订单金额而非付款金额；上传数据未提供统一币种"
+    },
+    "savings": {
+      "name": "年度降本达成率",
+      "formula": "经财务确认的已实现降本金额 ÷ 当年正式降本目标金额",
+      "date_basis": "已核准财年",
+      "granularity": "Savings 项目",
+      "owner": "采购 / 财务",
+      "target": 100,
+      "warning": 90,
+      "unit": "%",
+      "denominator_basis": "缺少 savings ledger 和正式目标，不能编造"
+    },
+    "at_risk_inventory": {
+      "name": "库存临期/复验风险批次",
+      "formula": "非零库存中，未来设置窗口内进入最早复验/有效期节点的批次数",
+      "date_basis": "分析日期对比 retest_date / expiry_date",
+      "granularity": "库存批次",
+      "owner": "仓库 / QA / Planning",
+      "target": null,
+      "warning": null,
+      "unit": "批",
+      "denominator_basis": "风险批次不等于将过期报废批次"
+    },
+    "open_changes": {
+      "name": "未关闭变更控制",
+      "formula": "状态未标记完成/关闭的 Change Control 记录数",
+      "date_basis": "变更当前状态",
+      "granularity": "变更记录",
+      "owner": "QA / RA；采购跟进来源",
+      "target": null,
+      "warning": null,
+      "unit": "项",
+      "denominator_basis": "未关闭不代表不可采购，需关联实施批准范围"
+    }
+  },
+  "alt_sources": [
+    {
+      "material_id": "API-001",
+      "supplier_id": "SUP-B",
+      "supplier_name": "模拟备用来源 B",
+      "gmp_audit_status": "已通过",
+      "process_validation": "已完成",
+      "in_asl_for_site": true,
+      "market_clearance": "待 RA 核对",
+      "estimated_lead_days": 9,
+      "base_unit_price": 120,
+      "premium_pct_assumption": 8
+    },
+    {
+      "material_id": "API-001",
+      "supplier_id": "SUP-C",
+      "supplier_name": "模拟备用来源 C",
+      "gmp_audit_status": "已通过",
+      "process_validation": "进行中",
+      "in_asl_for_site": false,
+      "market_clearance": "未确认",
+      "estimated_lead_days": 14,
+      "base_unit_price": 116,
+      "premium_pct_assumption": 6
+    },
+    {
+      "material_id": "API-002",
+      "supplier_id": null,
+      "supplier_name": "无批准备用来源",
+      "gmp_audit_status": null,
+      "process_validation": null,
+      "in_asl_for_site": false,
+      "market_clearance": "未知",
+      "estimated_lead_days": null,
+      "base_unit_price": null,
+      "premium_pct_assumption": null
+    }
+  ],
+  "causes": {
+    "Quality hold / not released": [
+      "QC_HOLD",
+      "质量状态未放行",
+      "QA/QC",
+      "高"
+    ],
+    "QC release after need date": [
+      "QC_CYCLE_LONG",
+      "晚于需求日放行",
+      "QA/QC",
+      "高"
+    ],
+    "Allocation shortage": [
+      "ALLOC_SHORT",
+      "已分配数量不足",
+      "Planning / Warehouse",
+      "中"
+    ],
+    "Missing QC lot link": [
+      "DATA_MISSING",
+      "缺少检验批次关联",
+      "主数据维护",
+      "低"
+    ],
+    "Release / date not verifiable": [
+      "DATA_MISSING",
+      "放行/日期无法核实",
+      "主数据维护",
+      "低"
+    ]
+  }
+}

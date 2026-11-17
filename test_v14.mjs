@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { execFileSync } from 'node:child_process';
+const read=f=>fs.readFileSync(new URL(f,import.meta.url),'utf8');
+for(const file of ['./static/v12_ui.js','./static/v14_ui.js','./static/v10_excel.js'])execFileSync(process.execPath,['--check',new URL(file,import.meta.url).pathname]);
+const v12=read('./static/v12_ui.js'),v14=read('./static/v14_ui.js'),css=read('./static/v14_ui.css'),html=read('./static/index.html');
+assert.ok(html.includes('v14_ui.js')&&html.includes('v14_ui.css'),'Browser build includes new analytic layer');
+assert.ok(v12.includes('String(x[key])===String(S.drill.id)')&&!v12.includes('items[0]'),'Drawer must use target record key and never first-row fallback');
+for(const token of ['activeFilters','between','rowsExcept','data-v14="remove-filter"','per:25','aria-pressed','reportHTML','RPT-','window.print()','P().state.rules','S.rules','inboxTriggers','closeAlert','syncFacetScope','reportData','data-v14="meeting"'])assert.ok(v14.includes(token),`Missing feature token ${token}`);
+for(const key of ['tax_rate','freight_usd','duty_usd'])assert.ok(read('./static/v10_excel.js').includes(`${key}:[`),`Excel parser missing ${key}`);
+for(const screen of ['.v14-meeting-panel','@media(max-width:768px)','.v14-paper','v14-reportcards'])assert.ok(css.includes(screen));
+const expectedSheets=['samples/kpi_5_sheets_with_cost_basis_demo.xlsx','V14_原文逐条需求追踪.csv','SPEC_V14_ANALYTICS_REPORTING.md'];
+for(const file of expectedSheets)assert.ok(fs.existsSync(new URL('./'+file,import.meta.url)),`Missing delivery evidence ${file}`);
+assert.match(read('./static/v12_ui.js'),/Non-GxP/);
+console.log('PASS V1.4: script syntax, safe drill identity, BI/filters, onepager, reminders, role preset transparency, cost template, compliance and traceability artifacts');

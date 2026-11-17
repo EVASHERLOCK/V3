@@ -1,0 +1,36 @@
+{
+  "version": "2.9.54",
+  "data_mode": "BUNDLED_SIMULATED_DEMO",
+  "components": 585,
+  "legacy": 217,
+  "iframe": 368,
+  "verified_demo_source_files": 23,
+  "source_rows": 21455,
+  "source_tables_all_unique": true,
+  "browser_proof_records": 217,
+  "with_metric_source_key_samples": 14,
+  "source_key_samples_checked": 576,
+  "source_key_samples_found_in_csv": 147,
+  "api_independent_metric_recalc_reported": 0,
+  "full_business_pass": 0,
+  "status": "FULL_DEMO_BUSINESS_ACCEPTANCE_PENDING",
+  "blockers": {
+    "FULL_COMPONENT_SOURCE_PRIMARY_KEYS_NOT_PROVEN": 585,
+    "INDEPENDENT_SOURCE_EVALUATOR_NOT_PROVEN": 585,
+    "VISIBLE_WEB_CELLS_NOT_RECONCILED": 585,
+    "XLSX_VS_WEB_INDEPENDENT_CELL_RECALC_NOT_PROVEN": 585,
+    "NARRATIVE_CONDITIONS_NOT_VERIFIED": 585,
+    "NO_PER_METRIC_KEYS": 571,
+    "COMPONENT_UI_NOT_CURRENTLY_PROVEN": 368
+  },
+  "verified_sample_xlsx_recalculation": {
+    "decision_kpi_formula_match": 115,
+    "execution_derived_cells_match": 1512,
+    "execution_aggregates_match": 55,
+    "execution_aggregates_unverified": 1,
+    "scope": "ONLY_SPECIFIC_SIMULATED_SUPPLIER_FILTERED_SAMPLES",
+    "is_all_585_component_reconciliation": false
+  },
+  "provenance": "V2952 historical test proof plus V2953 17 re-tests; no new browser clicks claimed. V2954 independently resolves returned source-key samples against 23 current Demo CSVs.",
+  "important": "Source-key samples, API self-reported recomputation, XLSX formula counts, and button clicks are distinct from complete source scope, independent workbook calculation, or narrative semantic correctness."
+}

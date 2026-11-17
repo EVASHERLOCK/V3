@@ -1,0 +1,43 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+import vm from 'node:vm';
+import {SourcingRegistry,ERP_MAP,SOURCES} from './sourcing_registry.mjs';
+const js=fs.readFileSync('static/strategic_sourcing_universe.js','utf8');
+const storage={getItem:()=>null};const w={};vm.runInNewContext(js,{window:w,localStorage:storage,Date,Number,Math,JSON},{timeout:4500});
+const universe=w.PharmaSourcingUniverse;
+assert.ok(universe?.catalog,'80 supplier registry available');
+assert.equal(universe.catalog.length,80,'exactly 80 initial supplier-site-material candidates');
+const origins=universe.catalog.reduce((a,x)=>(a[x.data_origin]=(a[x.data_origin]||0)+1,a),{});
+assert.equal(origins.BASE_DEMO,3);
+assert.equal(universe.catalog.filter(x=>x.is_scenario).length,77);
+const ids=new Set(universe.catalog.map(x=>x.profile_key));assert.equal(ids.size,80,'canonical composite keys unique');assert.equal(universe.catalog.filter(x=>x.site_id_status==='SYNTHETIC_SITE_KEY').length,80,'explicit synthetic site keys for 80 demo records');
+for(const p of universe.catalog){for(const k of ['profile_key','site_id','site_id_status','data_class','material_id','supplier_id','quote_status','gmp_status','cep_status','asl_status','site_material_status','quote_lead_days','risk_score','purchase_authorized','verified_supplier','provenance'])assert.ok(k in p,`missing ${k} in ${p.supplier_id}`);assert.equal(p.purchase_authorized,false);assert.equal(p.verified_supplier,false);assert.ok(p.provenance?.origin)}
+const official=universe.normalizeProfile({supplier_id:'FDA-0007',material_id:'API-999',site:'unverified',data_origin:'FDA_DEVICE_REGISTRATION'});
+assert.equal(official.quote_unit_price_usd,null);assert.equal(official.purchase_authorized,false);assert.equal(official.gmp_status,null);
+const dir=fs.mkdtempSync(path.join(os.tmpdir(),'pharma-v2912-reg-'));
+try{
+ const rows={FDA_DRUG_SHORTAGES:[{id:'SHORT-1',manufacturer_name:'Example Supplier',generic_name:'Compound X',shortage_status:'Current'}],FDA_DRUG_RECALLS:[{report_number:'RECALL-1',recalling_firm:'Example Company',classification:'Class I',product_description:'Product Y'}]};
+ const mock=async url=>new Response(JSON.stringify({meta:{last_updated:'2026-11-06'},results:rows[url.includes('/shortages.json')?'FDA_DRUG_SHORTAGES':'FDA_DRUG_RECALLS']}),{status:200,headers:{'Content-Type':'application/json'}});
+ const reg=new SourcingRegistry({file:path.join(dir,'register.json'),fetchImpl:mock});
+ assert.equal(Object.keys(SOURCES).length,3);assert.ok(ERP_MAP.SAP_S4HANA);
+ const result=await reg.sync({force:true});assert.equal(result.total_signals,2);assert.equal(result.pending_review,2);
+ assert.equal(reg.rankSignals()[0].priority,100);assert.equal(reg.rankSignals()[0].approved_for_purchase,false);
+ const one=reg.allSignals()[0];
+ assert.throws(()=>reg.review({id:one.id,decision:'ACCEPT_EVIDENCE',reviewer:'QA'}),/mapping required/);
+ const accepted=reg.review({id:one.id,decision:'ACCEPT_EVIDENCE',reviewer:'QA',supplier_id:'SUP-001',site_id:'SITE1',material_id:'API-001',notes:'仅官方风险线索复核'});
+ assert.equal(accepted.approved_for_purchase,false);assert.equal(accepted.asl_approved,false);
+ assert.equal(accepted.gmp_approved,false);assert.equal(accepted.cep_approved,false);
+ assert.equal(accepted.verified_material_id,'API-001');assert.ok(reg.data.audit.some(x=>x.action==='HUMAN_REVIEW'));
+ assert.throws(()=>reg.stageERP([{supplier_id:'SUP-001',site_id:'S',material_id:'M',unit_price:10},{supplier_id:'SUP-002',site_id:'S',material_id:'M',unit_price:-2}],{adapter:'GENERIC'}),/invalid price/);
+ assert.equal(reg.data.erp_staging.length,0,'invalid batch cannot partially stage');
+ const staged=reg.stageERP([{supplier_id:'ERP-101',site_id:'FACTORY-1',material_id:'API-001',unit_price:22,currency:'USD',lead_days:30}],{adapter:'GENERIC',actor:'INTEGRATION_TEST'});
+ assert.equal(staged.staged,1);assert.equal(reg.data.erp_staging[0].approved_for_purchase,false);
+ assert.equal(reg.data.erp_staging[0].state,'STAGED_UNREVIEWED');
+ assert.equal(reg.stageERP([{supplier_id:'ERP-101',site_id:'FACTORY-1',material_id:'API-001',unit_price:22,currency:'USD',lead_days:30}],{adapter:'GENERIC'}).staged,0);
+ assert.equal(new SourcingRegistry({file:path.join(dir,'register.json'),fetchImpl:mock}).getSummary().total_signals,2,'persistence');
+ const str=fs.readFileSync('static/strategic_sourcing_ai.js','utf8');
+ for(const k of ['strategyCard(m)','slice(0,10)','ai-bd-segment','ai-cost-v2912','mean','delta'])assert.ok(str.includes(k),k);
+ console.log('PASS V2.9.12: 80 canonical demo profiles; official evidence remains unapproved; provenance/priority/audit; 2 fake FDA risk sources and a configurable NDC discovery source; manual review; atomic ERP staging; Top10 chart code.');
+}finally{fs.rmSync(dir,{recursive:true,force:true})}

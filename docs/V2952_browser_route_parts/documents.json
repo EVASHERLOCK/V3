@@ -1,0 +1,529 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:15:56.579976+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "documents",
+      "expected": 11,
+      "exact_ids_found": 11,
+      "rendered_module_count": 11,
+      "unmatched_ids": []
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:16:06.938183+00:00",
+  "exact_rendered": 17,
+  "three_entry_click_verified": 17,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 17,
+  "api_trace_received": 17,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0,
+  "components": [
+    {
+      "id": "documents.76815ef9",
+      "route": "documents",
+      "title": "供应商 GMP / CEP 证据核对台",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4344,
+        "sha256": "a7a24786e6ce9a7bcb3b00167a8382f0f3b19e742f7924a95cc4b06e5670b239"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 19838,
+        "sha256": "83b130855296482f30d7173e85ebad49caefa6f62e4385a008d3694088356491"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "426bf053a1452fcc2bdd2ffe70b47fbc3a8d82bf05d23b70d09de1018eec682b",
+        "bytes": 62077,
+        "filename_sha256": "45a1e83614ef83e9688b54256c3f46d8e684ea6e5fcbd8b64cbed8ffecb4d986"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 8,
+        "narrative_unverified": 8,
+        "missing_count": 3,
+        "response_sha256": "1301b133c045ff5dfa95a12b602e35dda4949961d0e2fdaf9bfcc19d72a9c66b"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.2118dba3",
+      "route": "documents",
+      "title": "供应商 PDF 文件文本提取与版本差异",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 5511,
+        "sha256": "33666815cbe380a9ba1977a30aa5a1b840fe747a582ad6f647ad9ec282db2e3a"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 23946,
+        "sha256": "4ec9263ad4f053104f8f494f039abdeeec7004103cbdaf8e3e6f7a65b0271711"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 162,
+        "xlsx_sha256": "9dac0e1fd221df278f0b5024df066029679b8fe2326e2f168c249ef603e72c78",
+        "bytes": 64029,
+        "filename_sha256": "1a5ffe893e4426e6c4e9333ad819a481e089515b90c70b9898ff0be11e9dbd37"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 10,
+        "computed_metrics": 8,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 7,
+        "narrative_unverified": 7,
+        "missing_count": 3,
+        "response_sha256": "a0fdd79d2e504d9094c602f1ab3f79a7272a98f15efb0c950939c9aafbb61c57"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.1bd6d2f3",
+      "route": "documents",
+      "title": "EDQM · CEP 官方注册库",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3913,
+        "sha256": "ed48f6b2f9192e4534fffe88ae1ec77a300411d5fbcad7fff67e1ecc845f856d"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 22348,
+        "sha256": "e59056c2d6f6b7fd4f0657aea3e15838245017617ca8a22523e8e7e31999b4ab"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 162,
+        "xlsx_sha256": "d5a244262b28b6de84e2695b2dd10cbdd564867339cde2d8aa8a8cfc8fda34cc",
+        "bytes": 62178,
+        "filename_sha256": "6eb0e33ca6cc08c6dc5230d5cb54f05f73693dbf34eab99f72983e95c48f5233"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 10,
+        "computed_metrics": 8,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 3,
+        "response_sha256": "3152affbcd2af83a4cd834d08032f7fe6a35e155d105e15172d98cea2c7318fb"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.e7f75cd7",
+      "route": "documents",
+      "title": "EMA · EudraGMDP GMP",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2543,
+        "sha256": "886f9a80089ae4eee5b8244f5032ab88a2b6af676291e3a6f74472eee4085cf6"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 18037,
+        "sha256": "53ab7e0ad4151d6eeb1d7e0cd955526cb6709734a56532587d8d856b6288142d"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "7792ddc23cc05a71004ed0e9c7581aed3dc36117af2eafa258a7917868d1f770",
+        "bytes": 59674,
+        "filename_sha256": "8500526f23300cb3a88818e3f741c53508f2005776f1dca6c9569c1a1ac44ccf"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 3,
+        "response_sha256": "6081d5d68b15560c02b08b05296f3e08f010b221656456e94f95f0cd01f0ffab"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.b9a76f6b",
+      "route": "documents",
+      "title": "FDA · Inspection Classification",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1909,
+        "sha256": "d611f8172875b6855dbc713c9daf3576ce0be4203894e8a12af549e624430018"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 4168,
+        "sha256": "dc3ef51f2b158d608b7dd3bc8ebe068bbfdcf3ec17a220e9b1d5085f702a010a"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 157,
+        "xlsx_sha256": "213665fdc26e99766bb855bbe51f8cf3ed8450569c6562325a94197e0ea06234",
+        "bytes": 58181,
+        "filename_sha256": "2c26c1f7911fa594fdbbb88b872547a7c2ec448de08c9c9a4f26c24d454052c5"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "d77be4b4e4f779b7c382d122bb32a7ad26e9f0da76ca8dc6f8aec894f0218de0"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.108d713",
+      "route": "documents",
+      "title": "NMPA · 药品生产许可 / 监管",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2000,
+        "sha256": "1c42ac817476ecb58df05286ee859a79805aa1fe483893c4581ac4a8e0f6aace"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5240,
+        "sha256": "e8623550861557129a3d7a6463eafa4363c8ba51882f2eeb986e3486a584abf6"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "4c2d5851b896a70af0050b01da468d64f9b70d05eddbe7cbdbefb6c00efedaaf",
+        "bytes": 58449,
+        "filename_sha256": "7a39bbb2da705f196c39b8731631b9f28bcc87cd9869b74d2f63795e6a67cfce"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "4409aadd3418e5ce56cde3a1871208cae5031b8430ffb1d4c0ecb3d28947574f"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.faf394c9",
+      "route": "documents",
+      "title": "有效期分布",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 6537,
+        "sha256": "8084e910ff7e0137ee0219e62ac7a4aaffabe03759c3dc1147c60a31df8b91b2"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 38786,
+        "sha256": "155bd8815ff694c370d6b27805669108a60e6611ba2b61ee5eaa27fa25d87ada"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 175,
+        "xlsx_sha256": "5906dfdbaa141288eccfa17489b704dfc9e25e50991a6f4b42e05be1f7ee91ea",
+        "bytes": 75983,
+        "filename_sha256": "20ae59133a419383fbeb18cef680107dff7b3777863a88e56a3e8f5b9ccbdedd"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 11,
+        "computed_metrics": 9,
+        "visible_dom_rows": 36,
+        "displayed_figures": 7,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 7,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 3,
+        "narrative_unverified": 3,
+        "missing_count": 3,
+        "response_sha256": "aa4816df3930e6bb9794d475547783fbd85766c07766594fa4a1043e6f4facbd"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.78f4aab2",
+      "route": "documents",
+      "title": "受控文档台账",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4678,
+        "sha256": "4f03107a28f7456ad31443de417319c71f0074de62fa2b768f030a1daa5058c4"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 34916,
+        "sha256": "e7062db41b0a7cf5c2043edcc28a19a8942c14f510785b3a4792a76a64d82bbe"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 169,
+        "xlsx_sha256": "6b6326640484cfae2ac84703b088450b907832a215d52231fe7cc301bafe6723",
+        "bytes": 66963,
+        "filename_sha256": "9779884e45ed7f040fb7481c67da8bd5096f888941640074ff7bcf3d13ed2d4e"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 11,
+        "computed_metrics": 9,
+        "visible_dom_rows": 18,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "6ebe7ffe362f0c4f89ec428b54d2cd30fd0910600662c0a832ddd8105e743479"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.b7a4003f",
+      "route": "documents",
+      "title": "搜索 ?列设置 ▾每页",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1314,
+        "sha256": "43530cd44e08c6192731afbd59485043fbee7aa515bd28a311701ee43ebbcef6"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 3467,
+        "sha256": "1dcac53329b08adfacc7c219e84ce8c94006fd99f4164074454ce9eb46bfc542"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 7,
+        "xlsx_sha256": "74c6e96f755d8c2afb42752f3a291a9942606be97373d0ac2d34f18693614363",
+        "bytes": 24479,
+        "filename_sha256": "853b0ed480087b8d0e953cdf6a5b7c0505489282633d5cfd2943a018b2a6de5d"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 18,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "5e57a6b85b4673451589aa8e0d71324e0a1552c690d37009b659ad3844eeb413"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.1cbfb7bd",
+      "route": "documents",
+      "title": "文档类型占比",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1742,
+        "sha256": "d70d71106e29371eadef9d839929746b2e21b434ca9ab1c7b3e761e52c58fbe7"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 17089,
+        "sha256": "2524ed06f81abe4150732dc67616bd8c8d518235f360f7c0759be60c5b6d2e46"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "1d6bca57441b10d32e5ac8dc0d0b4a50ec8ee9278104009fd92cd869bd4ac6c3",
+        "bytes": 57996,
+        "filename_sha256": "058a551348603e15e5b3aeae3835b4fb82f2aac486db43b84554f5fd551b0410"
+      },
+      "opened_disclosures": [
+        "NATIVE_DETAILS_SUMMARY_CLICK"
+      ],
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "5eaf92e30e0045f48d5703d96aeb3a6d9ead6d4c7b39b7a37567a023f4a680a5"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "documents.d6afb903",
+      "route": "documents",
+      "title": "受控文件台账",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2793,
+        "sha256": "2ed3610088388a113dc8f56a464ec836ac0140a5722362a856a618e3b1996b20"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 20276,
+        "sha256": "b1da009746ecbb8dc694ac1d3fd24f9dda3360447c1be2e8b2341cae0009d8e8"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 164,
+        "xlsx_sha256": "6114c875e69523d9de389145ee0128a346aa6838b590a5ad18e26d5c68c47cd4",
+        "bytes": 63697,
+        "filename_sha256": "dc53f28f84fcd40eed453ac3225ac8dd9eb3d6332cdce3c44784ee2398d80b3f"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 18,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "92784c1ecf1b6344849902bc070aa95617bee4ee92c210ef9fccbede9bf45061"
+      },
+      "business_calculation_complete": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import net from 'node:net';import {spawn} from 'node:child_process';
+const dir=fs.mkdtempSync(path.join(os.tmpdir(),'pharma-v2926-http-'));
+const port=await new Promise((resolve,reject)=>{const s=net.createServer();s.once('error',reject);s.listen(0,'127.0.0.1',()=>{const p=s.address().port;s.close(()=>resolve(p))})});
+const token='v2926-test-admin-only-token-1234';const proc=spawn(process.execPath,['server.mjs'],{cwd:process.cwd(),env:{...process.env,PORT:String(port),HOST:'127.0.0.1',SOURCING_ADMIN_TOKEN:token,ENTERPRISE_CONNECTOR_PATH:path.join(dir,'enterprise.json'),SOURCING_REGISTRY_PATH:path.join(dir,'sourcing.json'),COMPLIANCE_WORKFLOW_PATH:path.join(dir,'compliance.json')},stdio:['ignore','pipe','pipe']});
+let logs='';proc.stderr.on('data',d=>logs+=d.toString());proc.stdout.on('data',d=>logs+=d.toString());
+const request=(u,{method='GET',auth=true,data}={})=>fetch(`http://127.0.0.1:${port}${u}`,{method,headers:{...(auth?{Authorization:'Bearer '+token}:{}),...(data?{'Content-Type':'application/json'}:{})},body:data?JSON.stringify(data):undefined});
+const wait=async()=>{for(let i=0;i<80;i++){try{const res=await request('/api/health');if(res.status<500)return;}catch{}await new Promise(r=>setTimeout(r,120))}throw Error('Node server failed to start: '+logs)};
+const base={supplier_id:'SUP-A',site_id:'SITE-A',material_id:'API-001',currency:'USD'};
+const domains={bom:[{...base,id:'BOM-1',category:'API',qty:3,target_unit_usd:100,quoted_unit_usd:110,as_of:'2026-11-01',evidence_ref:'EDOC-1'}],stages:[{...base,id:'ST-1',project_id:'PR-1',stage:'SQM',start_date:'2026-10-05',end_date:'2026-10-11',status:'DONE',evidence_ref:'PM-1'}],scores:[{...base,id:'S-1',quality:90,delivery:80,technical:70,compliance:60,commercial:50,weights:{quality:24,delivery:18,technical:22,compliance:22,commercial:14},evidence_ref:'SCORE-1'}],documents:[{...base,id:'DOC-1',document_type:'EU GMP',market:'EU',expiry_date:'2026-12-01',review_status:'PENDING',evidence_ref:'DOC-1'}],quotes:[{...base,id:'RFQ-1',quote_date:'2026-11-01',unit_price_usd:110,moq:10,freight_usd:20,review_status:'REVIEWED',evidence_ref:'QUO-1'}]};
+try{
+ await wait();
+ let res=await request('/api/enterprise/evidence/schema',{auth:false});assert.equal(res.status,403);
+ res=await request('/api/enterprise/evidence/schema');assert.equal(res.status,200);let body=await res.json();assert.equal(body.domain_names.length,5);
+ res=await request('/api/enterprise/evidence/workbook.xlsx');assert.equal(res.status,409);
+ res=await request('/api/enterprise/reconciliation');assert.equal(res.status,409);
+ res=await request('/api/integrations/enterprise/stage',{method:'POST',auth:false,data:{enterprise_domains:domains}});assert.equal(res.status,403);
+ res=await request('/api/integrations/enterprise/stage',{method:'POST',data:{enterprise_domains:domains}});assert.equal(res.status,200);body=await res.json();const id=body.staged.snapshot_id;assert.equal(body.staged.domain_counts.bom,1);assert.equal(body.staged.po_count,0);
+ res=await request('/api/integrations/enterprise/release',{method:'POST',data:{snapshot_id:id,reviewer:'QA evidence reviewer',reason:'Supplemental evidence verified for isolated integration test'}});assert.equal(res.status,200);
+ res=await request('/api/enterprise/dashboard?route=ss-cost');assert.equal(res.status,200);body=await res.json();assert.equal(body.metrics.find(x=>x.id==='SRC.BOM.VARIANCE').value,30);assert.ok(body.specialist.panels.some(x=>x.kind==='bom_waterfall'));assert.equal(body.charts.length,0,'no fake Spend without PO');
+ res=await request('/api/enterprise/dashboard?route=ss-project');body=await res.json();assert.ok(body.specialist.panels.find(x=>x.kind==='project_gantt'));
+ res=await request('/api/enterprise/dashboard?route=ss-compliance');body=await res.json();assert.ok(body.specialist.panels.find(x=>x.kind==='evidence_matrix'));
+ res=await request('/api/metrics/detail?source=enterprise&id=SRC.SCORE.WEIGHTED_MEAN');body=await res.json();assert.equal(body.result,71.6);assert.equal(body.rows[0].evidence_ref,'SCORE-1');
+ res=await request('/api/metrics/detail?source=enterprise&id=SRC.BOM.VARIANCE',{auth:false});assert.equal(res.status,403);
+ res=await request('/api/enterprise/reconciliation');assert.equal(res.status,200);body=await res.json();assert.equal(body.passed_pages,26);assert.equal(body.pages.length,26);assert.equal(new Set(body.pages.map(x=>x.snapshot_id)).size,1);
+ res=await request('/api/enterprise/evidence/workbook.xlsx');assert.equal(res.status,200);assert.match(res.headers.get('content-type'),/spreadsheetml/);assert.equal(Buffer.from(await res.arrayBuffer()).subarray(0,2).toString(),'PK');
+ res=await request('/api/metrics/workbook.xlsx?source=enterprise&id=SRC.BOM.VARIANCE');assert.equal(res.status,200);assert.equal(Buffer.from(await res.arrayBuffer()).subarray(0,2).toString(),'PK');
+ res=await request('/api/integrations/enterprise/revoke',{method:'POST',data:{reviewer:'QA evidence reviewer',reason:'End test release'}});assert.equal(res.status,200);
+ res=await request('/api/enterprise/dashboard?route=ss-project');assert.equal(res.status,409);
+ res=await request('/api/enterprise/evidence/workbook.xlsx');assert.equal(res.status,409);
+ console.log('PASS V2926 real Node HTTP: 5 controlled domains, 26-page reconciliation, special charts, source formulas/XLSX, 403, revoke and no mock fallback');
+}finally{proc.kill('SIGTERM');fs.rmSync(dir,{recursive:true,force:true});}

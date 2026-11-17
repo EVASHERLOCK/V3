@@ -1,0 +1,304 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:18:37.260337+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "alerts",
+      "expected": 6,
+      "exact_ids_found": 6,
+      "rendered_module_count": 6,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "alerts.ce8ab4d1",
+      "route": "alerts",
+      "title": "告警分级与状态",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2052,
+        "sha256": "3915fdc0e8520f73fcb54766ace8bfb91b252e3b2a66aaf92a2c22b5ad4d188b"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 4168,
+        "sha256": "41a6085aafec1bb5493e4d51fec2b9dfb4290c372d913af9d75659379d6f4258"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 5,
+        "xlsx_sha256": "4afbebcf855bb7de6cc25f20f7a07a1a717e1269c6e0011d09f6df1728e1a2f3",
+        "bytes": 28613,
+        "filename_sha256": "779f2a78e82c5d1305605116c309addc1cfb0641ea1bddacefc54c74271dd6b7"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 18,
+        "displayed_figures": 5,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 5,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 3,
+        "narrative_unverified": 3,
+        "missing_count": 3,
+        "response_sha256": "597662ebda8d2bd602af03942aa6c800ba220e0f06223d3e900899b5115e16f5"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "alerts.c33ef0db",
+      "route": "alerts",
+      "title": "告警按证据关联金额降序（同一 PO 可能关联多个告警）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1168,
+        "sha256": "5092e990631022d37a829641c5cf8b589d6d73aebc5b7d3c298f4c3955d6c752"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 2340,
+        "sha256": "c6917ff406627451293f59ae4b56ede86b5adec5cb2511aa9d1c1e126aa96545"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 4,
+        "xlsx_sha256": "8ecf1fb2122ed5f8c5f55b3190c4d7f029c690a362f2f42e809d9d595f419c4e",
+        "bytes": 22827,
+        "filename_sha256": "87330cf4419a82dd33460e0c434b1b050947972addae57be1aa4d816f7a68125"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 9,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "7deb878cd31336c1dc2f5b84448cdd5f27f51bf091d38cb15f28bca19d0e9460"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "alerts.3d5f77e",
+      "route": "alerts",
+      "title": "搜索 ?列设置 ▾每页",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1138,
+        "sha256": "355c4c4ad63a516db4c55a5a81cf53155d9582d6c79afe4b949f4437e1fb6b94"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 2300,
+        "sha256": "2f265ef98a073542e7f02070de2e7aa4a0511716352580504962660d7cb45446"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 4,
+        "xlsx_sha256": "1f421c7e83b6961c325ffd131aa9da21a67c64ac4f95edf71fac249211ed46f8",
+        "bytes": 22664,
+        "filename_sha256": "506b3a8ece533bb4cf8d386bc884a3a6a4ad0e8aa1a3bf58d73c8c47f41bdbe5"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 9,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "fc04c6f7223dcd211e2ea2619eed20840d647ec2b89b663f95fb5e41eff3be66"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "alerts.41eaa0ac",
+      "route": "alerts",
+      "title": "来源/风险类型",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 722,
+        "sha256": "0e65390d28f6ffa4cfc8f64f82673e82e22ab01721f616bc47484139c7b35166"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1076,
+        "sha256": "54f75a42960ae14bde5ca325310cfaf5286909157fd3dae68722f316fe731264"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "13dba0772223f4a337a90c38f2779107833b22d4446ae3d5bfdc6c30984b1ec3",
+        "bytes": 20512,
+        "filename_sha256": "e3e0e92f6d3c8d66528d8f567c803553d97ce0d63868f81d26639be9d9a66145"
+      },
+      "opened_disclosures": [
+        "NATIVE_DETAILS_SUMMARY_CLICK"
+      ],
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "aded8f4a914436ae21f75d4bfa57c09d29567fa9757f6745562d2dfb5c867da7"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "alerts.71aca421",
+      "route": "alerts",
+      "title": "事件等级",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 716,
+        "sha256": "ca221446a3b29b83be5bfafd7af2f1965ca16f11f5b928a1bb4045e56ebf0029"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1070,
+        "sha256": "58ba9595942b4f850fbc9aa68bf008c94203b849a79f25cca0b244ab01a40fdc"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "26c37cdc2c8662cfc44df86cb675a3721a8648827b2aeb64fc7ea4f82ce383fc",
+        "bytes": 20618,
+        "filename_sha256": "1a98e98e737cebe44f690bdc31d8289fbaf62d91fad9797d5cb51c48c96f8fd2"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "bcdfb0339f9b01f7a6b24a6d8c8e901c4f733721a24ea9ba898d42428b7e18cb"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "alerts.2c04c64d",
+      "route": "alerts",
+      "title": "告警台账",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2160,
+        "sha256": "b04d13cea9c557cdf2f221a4841fae3dc5e32fb6766af24011de1fd128598231"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 12289,
+        "sha256": "79d8dc76005118c147f825768cc1db84bcdefd772c620b0e2a2b7a21a2315dd6"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "a42d8ec1b4d69c5fa0571998db3217661b66e1c67ac3a762593ca29111977f0a",
+        "bytes": 60657,
+        "filename_sha256": "3f357dd64cea55e4f72387d2f3f22d388c725c83062c1adab724a01e908dcd58"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 4,
+        "computed_metrics": 3,
+        "visible_dom_rows": 9,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "64df54535f7c5cb59f7ebb395fc1ebced121470a704f6e6db5a7d759ba55f3b9"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:18:42.310511+00:00",
+  "exact_rendered": 6,
+  "three_entry_click_verified": 6,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 6,
+  "api_trace_received": 6,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

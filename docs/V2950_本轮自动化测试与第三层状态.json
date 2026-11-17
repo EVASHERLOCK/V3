@@ -1,0 +1,46 @@
+{
+  "version": "2.9.50",
+  "date_utc": "2026-11-13T04:55:02.349796+00:00",
+  "inventory_total": 585,
+  "legacy": 217,
+  "iframe": 368,
+  "code_checks": {
+    "npm_run_build": "PASS",
+    "npm_run_check_governance": "PASS",
+    "npm_run_check_v2950_unit": "PASS",
+    "npm_run_check_v2949_http": "PASS 22/22",
+    "npm_run_check_v2949_fast": "PASS",
+    "npm_run_check_v2948_components": "PASS registration unchanged"
+  },
+  "streaming_source_test": {
+    "csv_test_rows": 2601,
+    "csv_and_provenance_tamper_tests": "PASS",
+    "enterprise_erp_qms_data": "NOT_PROVIDED"
+  },
+  "browser_in_current_environment": {
+    "real_navigation": "ERR_BLOCKED_BY_ADMINISTRATOR",
+    "registered_legacy_controls": 217,
+    "verified_clicks": 0,
+    "status": "BLOCKED_BY_BROWSER_POLICY"
+  },
+  "formal_enterprise": {
+    "state": "BLOCKED",
+    "formal_passed": 0,
+    "registered": 585,
+    "blocking_gates": [
+      "separately_governed_trusted_signers",
+      "live_browser_585_controls",
+      "erp_qms_full_export_count_pk_hash_snapshot",
+      "enterprise_source_585_component_coverage",
+      "real_source_origin_data_steward_signature",
+      "component_12_evidence_fields_each",
+      "separate_signatures_data_steward_business_owner"
+    ]
+  },
+  "limit": "Cannot claim real-site E2E/ERP-QMS full coverage/business-owner signoff without customer deployment, real authorized source extracts and human approvals.",
+  "not_run": [
+    "full npm test suite: dependency install timed out in sandbox",
+    "real ERP/QMS credentialed query",
+    "business-owner / data-steward signature"
+  ]
+}

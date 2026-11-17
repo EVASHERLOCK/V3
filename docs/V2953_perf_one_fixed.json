@@ -1,0 +1,76 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T10:05:31.338951+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-performance",
+      "expected": 1,
+      "exact_ids_found": 1,
+      "rendered_module_count": 29,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-performance.bb546065",
+      "route": "ss-performance",
+      "title": "质量绩效",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2438,
+        "sha256": "cabf2d0066cc2e63d373948facfa2fc837ef2e426133adf9ba241838e0c9a153"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 9537,
+        "sha256": "84334638d709d503dbd498d0a304a0d279da74175d0642dda96a9f15f65ec272"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 155,
+        "xlsx_sha256": "42181f17062b0472801a856166d5b4ca244801f5c329bd78e2747363097816fc",
+        "bytes": 60048,
+        "filename_sha256": "2ccd8a25e395f85f812edba73f2195b061e3d6971056805b6ccf5ae11e455110"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 5,
+        "response_sha256": "7fed8c686364263615286390d15fa8264a2bb55f61037fb6e1276523eaddd33e"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T10:05:34.409225+00:00",
+  "exact_rendered": 1,
+  "three_entry_click_verified": 1,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 1,
+  "api_trace_received": 1,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

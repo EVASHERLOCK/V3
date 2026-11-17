@@ -1,0 +1,172 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T10:04:24.946926+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-performance",
+      "expected": 1,
+      "exact_ids_found": 1,
+      "rendered_module_count": 29,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-performance.bb546065",
+      "route": "ss-performance",
+      "title": "质量绩效",
+      "status": "CLICK_BLOCKED",
+      "clicked": [
+        "formula",
+        "sources"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2438,
+        "sha256": "cabf2d0066cc2e63d373948facfa2fc837ef2e426133adf9ba241838e0c9a153"
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "forced_pointer_controls": [
+        "sources"
+      ],
+      "error": "Page.wait_for_function: Timeout 10500ms exceeded.",
+      "inline_diagnostic": {
+        "loaded": "yes",
+        "view": "explain",
+        "hidden": false,
+        "text": "本模块公式、变量与业务解释\n\n模块：质量绩效 / 90.3% · 统计条件 {\"supplier\":\"all\",\"material\":\"all\",\"year\":\"all\",\"as_of\":\"2026-11-13\"}。每个数值按所列数据范围解释；原始字段是输入，不会伪装成 Excel 公式。\n\n① 本模块指标：定义 → 变量 → 公式 → 结果\n指标ID\t业务名称\t计算公式\t分子/变量A\t分母/变量B\t计算结果\t单位\t源行数\t来源类型\nSRC.QMS.EVENT_COUNT\tQMS质量事件数量\tCOUNT(QMS.event_id)\t不适用/无记录\t不适用/无记录\t本范围不可计算\t条\t0\tV08"
+      },
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            436,
+            397,
+            141,
+            29
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-card c0 pharma-module-ready gh-annotated gh-help-host",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            386,
+            215,
+            244,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-grid",
+          "display": "flex",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            386,
+            215,
+            1006,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-section-body pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            372,
+            201,
+            1034,
+            1349
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "spf-section full pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "hidden",
+          "rect": [
+            371,
+            145,
+            1036,
+            1508
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            -181,
+            1060,
+            11333
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            -377,
+            1102,
+            11656
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 5,
+        "response_sha256": "7fed8c686364263615286390d15fa8264a2bb55f61037fb6e1276523eaddd33e"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T10:04:40.192403+00:00",
+  "exact_rendered": 1,
+  "three_entry_click_verified": 0,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 0,
+  "api_trace_received": 1,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

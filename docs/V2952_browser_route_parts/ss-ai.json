@@ -1,0 +1,481 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:18:50.659275+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-ai",
+      "expected": 10,
+      "exact_ids_found": 10,
+      "rendered_module_count": 10,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-ai.72b08565",
+      "route": "ss-ai",
+      "title": "◉商业评分 × 准入资格矩阵Business Score × Qualification Matrix",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4726,
+        "sha256": "4ae3c850882c30f30abea1f4becf4d7b5bcc7f0e3cf1c5265e1dfd3a4a32b30f"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 23965,
+        "sha256": "3450db213076da8d1e50af985dc9dc228c0d28aae76f19a50ced2b8890ac4b8b"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 108,
+        "xlsx_sha256": "4f682bc7c44a1bb0bf33b8210141e4c8c33f3bedfc1bd07ebaea0a1d6178e169",
+        "bytes": 61903,
+        "filename_sha256": "d8c9261a62690fe26319f57d21c3ed6198a895a73fdc8f370faba41a7a8e6689"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 12,
+        "computed_metrics": 8,
+        "visible_dom_rows": 9,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 5,
+        "response_sha256": "063c16fed255e2bfb2c204de3a83a86e0fca1aff8e148926caa2ebe5de94fc96"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-ai.a5a0abb0",
+      "route": "ss-ai",
+      "title": "商业得分 (Business Score) 纵轴 50–100分 · 商业门槛 ≥ 80分",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4696,
+        "sha256": "d873525fd534826ec93ab67a874ddc1278aeb0ff254d1192bdd4b7facb9e6d44"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 23925,
+        "sha256": "9a9712c944a2976a9b22d5213a7bb3b31efc4fa5768125e8433aaa452a4596df"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 108,
+        "xlsx_sha256": "9c183e6392b1a49c8850b33da015e9328c87db0dcceabd106eaefe6813d87e00",
+        "bytes": 61767,
+        "filename_sha256": "23affcfaadfcd3536e97b03deba1c83cee4e7064cc9b1ad731f0195088b9e226"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 12,
+        "computed_metrics": 8,
+        "visible_dom_rows": 9,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 5,
+        "response_sha256": "c332c21388bbbc3c6869001f6eb6f72cc19eec22513d8244bc84ea9005cdb96b"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-ai.a2726ebe",
+      "route": "ss-ai",
+      "title": "▤供应商评估结果Supplier Evaluation Results",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2447,
+        "sha256": "361496efaf351b54f0c0ee55915ca8fc6e4173831f511ebdd40130056236e2ee"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 13350,
+        "sha256": "ef0e0799374457e3dfa5fae0aa8374e0431d5ed0496f0a220b658af7e479d8d8"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 108,
+        "xlsx_sha256": "861c0725fccb0aca4c5a13b1800a916bfb54077d050e412e2b9d28bb842d6c3b",
+        "bytes": 58869,
+        "filename_sha256": "b2323d1b90bfe81b06311917e005d9e9a3e9967d5d1f5f19329519fdc94dbc65"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 4,
+        "computed_metrics": 4,
+        "visible_dom_rows": 19,
+        "displayed_figures": 19,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 19,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "30e13c5b0602cae7a2f7907499bd722e19f2c64e954f8cfd6cc7da949b3bf37a"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-ai.11f4ea9e",
+      "route": "ss-ai",
+      "title": "TOP 10 · 按关键指标由高到低排序 · 全量 19 条可展开",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2381,
+        "sha256": "bd83e01e42f48c1f1c96eeb514b6026ff4c2648e1b9fef1ccd5da728a4118357"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 11562,
+        "sha256": "c8f9a4fcf960ada618ab230f4aacfade2227c218cc3968491be28f4fb1025913"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 107,
+        "xlsx_sha256": "f7538aa2a8cd1b13a54d814afcc1a94add2b3d03f9203e6f38a6ba3b01ffe955",
+        "bytes": 58781,
+        "filename_sha256": "8bed3c40b1eaa1c72ced386df0d071d712e8783ef75bfe4ddd91503cf2dc232e"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 4,
+        "computed_metrics": 3,
+        "visible_dom_rows": 19,
+        "displayed_figures": 19,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 19,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "d0ab2c42ad880562fb5c8b7d19f0755802a41acd4c89d47970262d5551903052"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-ai.279fa920",
+      "route": "ss-ai",
+      "title": "◷各维度评分对比（Top 10）Score Breakdown",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2139,
+        "sha256": "556f8ce72cf6e9d75f4601cbbd438096dc694f2a0a04871ead48ed6f8304512c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 2726,
+        "sha256": "1cef058fd1720baf0ef9976213b01977bcc56abb060ea2ddb7e2561abf07cad5"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 98,
+        "xlsx_sha256": "0b871ea92da8ffba712d5a2cda1eb3f2024e17a5cc5716215d80c9b0a16b7efe",
+        "bytes": 55603,
+        "filename_sha256": "67d6b70c818261a4ed2ea0d0f0581c1bd842d9aacb226334334942ad3da6cb5d"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 19,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 19,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 7,
+        "response_sha256": "8d790d59bc0db6e6d241f744856a783411328e990cdedbcc24ea83a0cafe323d"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-ai.11f4ea9e__baseline_duplicate_1",
+      "route": "ss-ai",
+      "title": "价格质量交付供应风险",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2058,
+        "sha256": "8a1859cb722ebf55c4d7fe128806660fb044a79e431b0e008cda6c4047cfe264"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 8694,
+        "sha256": "fbb303e07e77d8359e91602c1d21889c47a74b8a80c3c12229fb510b908ffef6"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 101,
+        "xlsx_sha256": "a22fb0c75398172921de807ce92b5437580d2a58419c85b411334d7537523dfc",
+        "bytes": 55768,
+        "filename_sha256": "287c1b75f2c6962e207cca55a24d0f5301bc206154b5a7b938d5f620564d759a"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 4,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 19,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 19,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 2,
+        "response_sha256": "f5377715e6507ac7f75c4719f963c5c5dbaf49ff5c65b645aa1d9039c1467e51"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-ai.36fd315d",
+      "route": "ss-ai",
+      "title": "◴总成本对比Total Landed Cost",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2747,
+        "sha256": "e62ea690cc3a2fe5e488332b5268ff0d68c8c37f237c23178d86bbe76cf54e19"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10153,
+        "sha256": "3399d56e95fce3d6a3e9098a032612649436e693b66c8058896bf93126e349ce"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 102,
+        "xlsx_sha256": "f72f483280e1d0e04f77730d5a75d371d63c11bb90207a017fbdbf1832188be2",
+        "bytes": 57691,
+        "filename_sha256": "003c2ca18faa2822fb23a464c5b1807e22e9b235f80a33199905b74387372ab7"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 3,
+        "visible_dom_rows": 6,
+        "displayed_figures": 10,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 10,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 3,
+        "response_sha256": "82468d0076ddc97fb93cb17b53f812dfd61d6f97fb3929e9083b6886cc710fa0"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-ai.2217f332",
+      "route": "ss-ai",
+      "title": "↓ 14.7% · 最优报价相对 Top 10 平均基准下降同物料 API-001 · 统一需求 1,000 kg · USD · 落地估算（含运费；MOQ按实际采购量） · 情景价格（不可作为正式报",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3515,
+        "sha256": "775b39b4120ea9eda8b5ff7d0063c7b475030c403d31a7fa071e9dc0c04bca51"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 12224,
+        "sha256": "27ec45fe155248f063e003e2a585f08cc355ba8eb77688d474a5eb9046ff7814"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 104,
+        "xlsx_sha256": "f2640958982e840efdc7f8d2db6dd0d1cd99ba9e471efb226f5a699344cfb9b8",
+        "bytes": 59140,
+        "filename_sha256": "a4367e230029b286ce930c07a80b20f0f104cdd7de8522ec51dd93c86ea8723f"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 8,
+        "computed_metrics": 5,
+        "visible_dom_rows": 6,
+        "displayed_figures": 10,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 10,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 4,
+        "response_sha256": "40be8f6903206e679f97885821a95de4e7948d55d0aaf84efd86c4653803f916"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-ai.f82cef74",
+      "route": "ss-ai",
+      "title": "♧合规与资格检查Compliance & Qualification",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2819,
+        "sha256": "5cba09b0bbc0fe62c39cad6569eca5690b7076661f689cdc20cefd7b37d656ea"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 11876,
+        "sha256": "57aae9a6ce8492c8a3d8ec945b4b5c97dc5458898958895190119d64528bed4e"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 104,
+        "xlsx_sha256": "3aed311f2e2fa900a278c738606ece7851f6227631d5028b1758dcf4224084a1",
+        "bytes": 58099,
+        "filename_sha256": "dfb71e440402bfe464749fc10986b640b72f1117e8d8e82607a6d9ae2f5295c6"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 19,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 3,
+        "response_sha256": "7ae5bd41ca3f90382f62be323a39de9ca6a13c729e52db1dbd928d88f3758446"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-ai.c1a5bcb3",
+      "route": "ss-ai",
+      "title": "TOP 10 · 保持业务优先顺序 · 全量 19 条可展开",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2807,
+        "sha256": "1891784f64194ceff0a3b32d9a10b7b1ff7cc26f87eb2dae410858f85b8960a2"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 11858,
+        "sha256": "a78f9fb31801540ae798d41c88cec487f63f421aca7efae27bdacb3eac4f136f"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 104,
+        "xlsx_sha256": "d0cbf953ac048d7c77f4bce892682f89448196a6426dd9d2205f33a159413b47",
+        "bytes": 58015,
+        "filename_sha256": "d80db5b70a4b62c31248b6fc83c6f34ddf2b75306e06c630be2f36916f3e7be3"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 19,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 3,
+        "response_sha256": "0e70f36cf4f6cf77d9a78d102851496d46e889280f32d65d2628d6b2144ef668"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:18:59.478418+00:00",
+  "exact_rendered": 10,
+  "three_entry_click_verified": 10,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 10,
+  "api_trace_received": 10,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

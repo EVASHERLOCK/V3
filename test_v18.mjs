@@ -1,0 +1,43 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {enterpriseAnalysis} from './enterprise_v08.mjs';
+const code=fs.readFileSync('static/v16_overview.js','utf8');
+const CSS=fs.readFileSync('static/v16_overview.css','utf8');
+const make=(filters={})=>{
+  const d=enterpriseAnalysis(filters);
+  const e={state:{data:d,filters,loading:false},load:()=>{}};
+  const p={state:{rules:{otd:90,ready:75,price:10},tasks:[]}};
+  const win={EnterpriseV08:e,PharmaV12:p,PharmaV14:{scopedBasis:x=>x,begin:()=>{}},render:()=>{}};
+  vm.runInNewContext(code,{window:win,document:{addEventListener:()=>{},querySelector:()=>null},setTimeout,console,location:{hash:''},URL,Blob,Intl});
+  return {d,api:win.PharmaV16Overview,html:win.PharmaV16Overview.render()};
+};
+for(const marker of ['采购总概览','风险根因分布','物料生命周期预警快照','重点风险预警','PVV 价差','购买','v18-root-bars'].filter(x=>x!=='购买'))assert.ok(code.includes(marker),marker);
+assert.ok(CSS.includes('.v18-issues-grid'));
+const base=make();
+assert.ok(base.html.includes('物料生命周期预警快照'));assert.ok(base.html.includes('DMF 状态异常'));assert.ok(base.html.includes('未接入'));
+assert.equal((base.html.match(/class="v18-lifecycle-item"/g)||[]).length,3);
+assert.equal((base.html.match(/class="v18-root-track"/g)||[]).length,Math.min(5,new Set(base.d.actions.alerts.map(x=>x.root_cause||'UNCLASSIFIED')).size));
+assert.ok(!base.html.includes('异常问题 TOP5'));
+assert.ok(!base.html.includes('高额风险 TOP5 问题'));
+assert.ok(base.html.includes('高风险事项 TOP10'));
+assert.ok(base.html.includes('健康评分'));assert.ok(base.html.includes('40%'));
+const late=base.d.purchasing.late.reduce((v,r)=>v+Number(r.amount),0);
+assert.equal(late,51512);assert.equal(base.d.overview.current.spend,580704);
+const alertAmt=a=>base.d.purchasing.orders.filter(x=>(a.evidence||[]).includes(x.po_id)).reduce((v,r)=>v+Number(r.amount),0);
+const ranked=base.d.actions.alerts.filter(x=>x.severity==='HIGH').sort((a,b)=>alertAmt(b)-alertAmt(a)||String(a.id).localeCompare(String(b.id))).slice(0,10);
+const displayed=[...base.html.matchAll(/<tr data-v16-detail="alert" data-v16-id="([^"]+)"/g)].map(x=>x[1]);
+assert.deepEqual(displayed.slice(0,ranked.length),ranked.map(x=>x.id));
+const lots=base.d.material.lots.filter(x=>[x.days_to_expiry,x.days_to_retest,x.days_to_control].some(x=>x!=null&&Number(x)<=90));
+assert.equal(base.api.collectDetail('lifecycle-expiry','',base.d).rows.length,lots.length);
+assert.equal(base.api.collectDetail('lifecycle-dmf','',base.d).rows.length,0);
+const chosen=base.d.actions.alerts[0];assert.deepEqual(base.api.collectDetail('root-cause',chosen.root_cause||'UNCLASSIFIED',base.d).rows.map(x=>x.id),base.d.actions.alerts.filter(x=>(x.root_cause||'UNCLASSIFIED')===(chosen.root_cause||'UNCLASSIFIED')).map(x=>x.id));
+assert.equal(base.api.overviewScore(base.d).components.length,4);
+assert.equal(base.api.overviewScore(base.d).components.map(x=>x.权重).join('/'),'40%/30%/20%/10%');
+for(const f of [{supplier:'SUP-001'},{material:'API-001'},{month:'2026-06'},{year:'2025'}]){
+  const x=make(f);assert.equal(x.d.overview.current.spend,x.d.purchasing.orders.reduce((v,r)=>v+Number(r.amount),0));
+  assert.equal(x.api.collectDetail('lifecycle-expiry','',x.d).rows.every(r=>x.d.material.lots.some(l=>l.lot_id===r.lot_id)),true);
+  assert.equal(x.api.collectDetail('lifecycle-docs','',x.d).rows.every(r=>x.d.documents.register.some(z=>z.doc_id===r.doc_id)),true);
+  assert.ok(x.html.includes('物料生命周期预警快照'));
+}
+console.log('PASS V1.8: live calculated metrics, HIGH monetary ranking, root-cause frequency, material lifecycle drilldowns, DMF missing-data treatment, four-factor score, scoped filters');

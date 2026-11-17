@@ -1,0 +1,195 @@
+{
+  "version": "2.9.50",
+  "tier": "ENTERPRISE_BUSINESS_SIGNED",
+  "evaluated_at": "2026-11-13T04:54:30.872Z",
+  "component_total": 585,
+  "legacy_total": 217,
+  "iframe_total": 368,
+  "formal_passed": 0,
+  "status": "BLOCKED",
+  "not_validated_as_enterprise": true,
+  "checks": {
+    "separately_governed_trusted_signers": {
+      "ok": false,
+      "detail": "Trusted Ed25519 signer registry not configured externally"
+    },
+    "live_browser_585_controls": {
+      "ok": false,
+      "detail": "No actual HTTPS-deployment Chromium report; requires 585 clicked, downloaded, formula-bearing controls"
+    },
+    "erp_qms_full_export_count_pk_hash_snapshot": {
+      "ok": false,
+      "detail": "No real ERP/QMS exported source manifest"
+    },
+    "enterprise_source_585_component_coverage": {
+      "ok": false,
+      "covered": 0,
+      "required": 585
+    },
+    "real_source_origin_data_steward_signature": {
+      "ok": false,
+      "detail": "No signed real source manifest"
+    },
+    "component_12_evidence_fields_each": {
+      "ok": false,
+      "complete": 0,
+      "total": 585,
+      "verified_evidence_files": 0,
+      "examples": [
+        {
+          "id": "portfolio.64f51145",
+          "missing": [
+            "click_formula",
+            "formula_variables",
+            "calculation_conditions",
+            "source_row_identity",
+            "source_row_count",
+            "full_source_pagination",
+            "cell_formula_web",
+            "cell_formula_xlsx",
+            "excel_numeric_match",
+            "narrative_steps",
+            "browser_e2e",
+            "business_signoff"
+          ]
+        },
+        {
+          "id": "portfolio.d3e8e73a",
+          "missing": [
+            "click_formula",
+            "formula_variables",
+            "calculation_conditions",
+            "source_row_identity",
+            "source_row_count",
+            "full_source_pagination",
+            "cell_formula_web",
+            "cell_formula_xlsx",
+            "excel_numeric_match",
+            "narrative_steps",
+            "browser_e2e",
+            "business_signoff"
+          ]
+        },
+        {
+          "id": "portfolio.88bf8e48",
+          "missing": [
+            "click_formula",
+            "formula_variables",
+            "calculation_conditions",
+            "source_row_identity",
+            "source_row_count",
+            "full_source_pagination",
+            "cell_formula_web",
+            "cell_formula_xlsx",
+            "excel_numeric_match",
+            "narrative_steps",
+            "browser_e2e",
+            "business_signoff"
+          ]
+        },
+        {
+          "id": "portfolio.268a11c8",
+          "missing": [
+            "click_formula",
+            "formula_variables",
+            "calculation_conditions",
+            "source_row_identity",
+            "source_row_count",
+            "full_source_pagination",
+            "cell_formula_web",
+            "cell_formula_xlsx",
+            "excel_numeric_match",
+            "narrative_steps",
+            "browser_e2e",
+            "business_signoff"
+          ]
+        },
+        {
+          "id": "m01.6cc6eaa5",
+          "missing": [
+            "click_formula",
+            "formula_variables",
+            "calculation_conditions",
+            "source_row_identity",
+            "source_row_count",
+            "full_source_pagination",
+            "cell_formula_web",
+            "cell_formula_xlsx",
+            "excel_numeric_match",
+            "narrative_steps",
+            "browser_e2e",
+            "business_signoff"
+          ]
+        },
+        {
+          "id": "m01.3f69953c",
+          "missing": [
+            "click_formula",
+            "formula_variables",
+            "calculation_conditions",
+            "source_row_identity",
+            "source_row_count",
+            "full_source_pagination",
+            "cell_formula_web",
+            "cell_formula_xlsx",
+            "excel_numeric_match",
+            "narrative_steps",
+            "browser_e2e",
+            "business_signoff"
+          ]
+        },
+        {
+          "id": "m01.111fc4fe",
+          "missing": [
+            "click_formula",
+            "formula_variables",
+            "calculation_conditions",
+            "source_row_identity",
+            "source_row_count",
+            "full_source_pagination",
+            "cell_formula_web",
+            "cell_formula_xlsx",
+            "excel_numeric_match",
+            "narrative_steps",
+            "browser_e2e",
+            "business_signoff"
+          ]
+        },
+        {
+          "id": "m01.162bc906",
+          "missing": [
+            "click_formula",
+            "formula_variables",
+            "calculation_conditions",
+            "source_row_identity",
+            "source_row_count",
+            "full_source_pagination",
+            "cell_formula_web",
+            "cell_formula_xlsx",
+            "excel_numeric_match",
+            "narrative_steps",
+            "browser_e2e",
+            "business_signoff"
+          ]
+        }
+      ],
+      "unknown": []
+    },
+    "separate_signatures_data_steward_business_owner": {
+      "ok": false,
+      "detail": "No separately signed and hash-bound business-owner approval"
+    }
+  },
+  "blockers": [
+    "separately_governed_trusted_signers",
+    "live_browser_585_controls",
+    "erp_qms_full_export_count_pk_hash_snapshot",
+    "enterprise_source_585_component_coverage",
+    "real_source_origin_data_steward_signature",
+    "component_12_evidence_fields_each",
+    "separate_signatures_data_steward_business_owner"
+  ],
+  "notes": [],
+  "blocker_count": 7,
+  "boundary": "Technical test PASS cannot replace enterprise source authorization and individual business signoff"
+}

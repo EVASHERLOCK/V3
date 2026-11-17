@@ -1,0 +1,13 @@
+﻿month,po_count,po_spend_usd,otd_percent,infull_percent,invoiced_usd,paid_usd,po_formula,otd_formula,payment_formula,simulated
+2025-11,120,7600970.0,57.5,91.667,7483520.1,7483520.1,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2025-12,120,7949578.75,57.5,90.833,7822820.15,7822820.15,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-01,120,7332505.25,57.5,90.833,7244610.1,7244610.1,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-02,120,7279330.0,56.667,90.833,7196573.7,7196573.7,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-03,120,7275254.75,56.667,90.833,7163851.65,7163851.65,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-04,120,7038033.25,56.667,90.833,6951393.9,6951393.9,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-05,120,7429502.0,57.5,90.833,7316269.95,7316269.95,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-06,120,7016312.75,57.5,90.833,6917778.3,6917778.3,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-07,120,7810495.25,57.5,90.833,7698861.5,7698861.5,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-08,120,7370036.0,57.5,90.833,7274491.6,7274491.6,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-09,120,8383192.75,56.667,90.833,8296493.85,8296493.85,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE
+2026-10,120,7605607.25,56.667,91.667,7488017.85,592576.9,SUM(ordered_qty*unit_price),100*COUNT(receipt_date<=promised_date)/COUNT(PO),SUM(payment_amount_usd WHERE status=SIMULATED_SETTLED),TRUE

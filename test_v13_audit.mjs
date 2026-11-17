@@ -1,0 +1,12 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const spec=fs.readFileSync('requirements/采购看板逐页改进说明.md','utf8');
+const audit=fs.readFileSync('V13_170项逐条复核与无法完成原因.md','utf8');
+const lines=spec.split(/\r?\n/);const checkIds=lines.flatMap((x,i)=>x.startsWith('- [ ]')?[i+1]:[]);
+assert.equal(checkIds.length,170,'source checklist changed');
+const reportRows=[...audit.matchAll(/^\| (\d+) \| /gm)].map(m=>Number(m[1])).filter(x=>checkIds.includes(x));
+assert.equal(reportRows.length,170,'all checkbox items must appear exactly once');
+assert.equal(new Set(reportRows).size,170,'duplicate audit ids');
+assert.deepEqual([...reportRows].sort((a,b)=>a-b),[...checkIds].sort((a,b)=>a-b),'missing audit items');
+for(let i=1;i<=10;i++)assert.ok(audit.includes('G'+i+' '),'missing G'+i);
+for(let i=1;i<=5;i++)assert.ok(audit.includes('X'+i+' '),'missing X'+i);
+console.log('PASS V1.3 audit traceability: 170 original checkbox items, no missing/duplicate; G1–G10 and X1–X5 separately tracked');

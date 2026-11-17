@@ -1,0 +1,52 @@
+{
+  "version": "2.9.53",
+  "mode": "SIMULATED_DEMO_ONLY",
+  "overall": "CUMULATIVE_LEGACY_THREE_ENTRY_COMPLETE_FULL_DEMO_PENDING",
+  "generated_at": "2026-11-14T03:28:24.757Z",
+  "counts": {
+    "registered": 585,
+    "legacy": 217,
+    "iframe": 368,
+    "historical_three_entry_cumulative": 217,
+    "historical_new_retested": 17,
+    "historical_previous_15_repaired": 15,
+    "historical_prior_baseline_reused": 200,
+    "full_demo_acceptance_pass": 0
+  },
+  "source_csv": {
+    "files": 23,
+    "rows": 21455,
+    "full_http_paginated_verified": true
+  },
+  "previous_sample_recalculation": {
+    "decision_kpis_match": 115,
+    "execution_cells_match": 1512,
+    "scope": "PREVIOUS_SPECIFIC_FILTER_SAMPLES_ONLY"
+  },
+  "browser_mode": "CHROMIUM_INJECTED_SITE_HTML_PLUS_ACTUAL_NODE_HTTP_API_BRIDGE__NOT_NATIVE_HTTP_NAVIGATION",
+  "test_provenance": "15 previously missing IDs plus 2 already-passing ss-data controls freshly re-tested; remaining 200 retain V2952 evidence. Do not describe cumulative proof as a fresh full-site regression.",
+  "caveat": "Clicking three controls and checking XLSX formula count are not proof of independent formula equality, all source keys, or narrative correctness.",
+  "full_demo_release_gate": "BLOCKED",
+  "audit_issues": [],
+  "hashes": {
+    "previous_ui": "e99b3e6b8953c03ff52bfb47370dd8dd8a3fc96396340d7ecb57f5de8b282312",
+    "fresh": [
+      {
+        "route": "m09",
+        "path": "docs/V2953_m09_clicks.json",
+        "sha256": "ed5148e917e5faed4b3da8d0c01adb877675829120aeabb0f3d8f2b632e6c77d"
+      },
+      {
+        "route": "ss-data",
+        "path": "docs/V2953_ssdata_clicks.json",
+        "sha256": "382b040cebf9996aef84655c980d61d9728a8e4b29a80a11396e235e3ec3fc7e"
+      },
+      {
+        "route": "ss-performance",
+        "path": "docs/V2953_perf_four.json",
+        "sha256": "2dec78b1869b9dcd7ce4f71952a58002c346be3857a56d280a8ad67f13fdf6d5"
+      }
+    ],
+    "source": "af527ee7719e8ede23d8bdfb3ad70d4ff2b9d6ff4c719b4e480f020b7a4f963e"
+  }
+}

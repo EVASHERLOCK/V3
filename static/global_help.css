@@ -1,0 +1,35 @@
+/* NON-NEGOTIABLE: per-module '?' knowledge entry for Pharma AI. */
+.gh-help-host{position:relative!important;min-width:0}
+.gh-annotated>.gh-help-host:not(.gh-filter-host){padding-right:38px!important}
+.gh-annotated.gh-help-host{padding-right:42px!important}
+.gh-trigger{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;position:absolute;top:8px;right:8px;width:24px;height:24px;line-height:1;border:1.5px solid #8da7cd;border-radius:50%;background:linear-gradient(180deg,#fff,#e8f1ff);color:#1764ac;font-family:Arial,sans-serif;font-weight:800;font-size:14px;box-shadow:0 2px 5px #1d68a921;cursor:pointer;z-index:10;user-select:none}
+.gh-trigger:hover,.gh-trigger:focus-visible{background:#236dee;color:#fff;border-color:#236dee;outline:2px solid #8dc6ff;outline-offset:2px}
+.gh-filter-host{position:relative;min-width:0}
+.gh-filter-host>.gh-trigger{top:0;right:1px;width:19px;height:19px;font-size:11px}
+.gh-filter-host:has(>.gh-trigger)>span:first-child,.gh-filter-host:has(>.gh-trigger)>strong:first-child{padding-right:20px}
+.gh-annotated .v17-tip,.gh-annotated .m01-tip,.gh-annotated .sp-help{display:none!important}
+.gh-directory-button{border:1px solid #bfd4f1;border-radius:10px;background:#eff6ff;color:#1d528f;padding:7px 10px;font-size:12px;font-weight:750;cursor:pointer;white-space:nowrap}
+.gh-directory-button:hover{background:#dcecff}
+body.gh-modal-open{overflow:hidden}
+.gh-overlay{position:fixed;inset:0;z-index:2147483000;background:rgba(9,25,53,.52);display:flex;justify-content:flex-end;animation:ghfade .15s ease both}
+.gh-drawer{background:#f8fbff;width:min(660px,100vw);height:100%;max-height:100vh;display:flex;flex-direction:column;box-shadow:-12px 0 40px #071c3b38;outline:none;color:#17365d;font-family:inherit;overflow:hidden}
+.gh-dialog-header{background:linear-gradient(115deg,#073a82,#2277e4 58%,#7fbefe);color:#fff;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:22px 25px 18px;flex:0 0 auto}
+.gh-dialog-header h2{margin:5px 0 6px;font-size:23px;line-height:1.25;font-weight:800;color:#fff}
+.gh-dialog-header p{margin:0;font-size:12px;color:#e0edff;line-height:1.55}.gh-eyebrow{font-size:11px;letter-spacing:1px;color:#d5eaff;font-weight:800}
+.gh-close{font-size:28px;color:#fff;border:1px solid #ffffff66;border-radius:9px;background:#ffffff22;width:36px;height:36px;flex-shrink:0;cursor:pointer;line-height:1}
+.gh-body{overflow-y:auto;padding:20px 24px 34px;min-height:0}
+.gh-notice{background:linear-gradient(120deg,#e4f0ff,#f9fbff);border:1px solid #cde1ff;border-left:5px solid #267cef;border-radius:12px;padding:14px 15px;margin-bottom:16px;line-height:1.55}
+.gh-notice b{font-size:15px}.gh-notice p{font-size:12px;color:#436086;margin:8px 0 0}
+.gh-summary{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.gh-summary span{display:flex;align-items:center;gap:6px;background:#fff;border:1px solid #dae7f8;border-radius:10px;padding:9px 11px;font-size:12px;white-space:nowrap}.gh-summary b{font-size:17px;color:#176ce9}
+.gh-controls{display:flex;gap:6px;flex-wrap:wrap;margin:15px 0}.gh-tab{border:1px solid #c5d9f4;border-radius:9px;background:#fff;color:#1c528a;padding:8px 12px;font-size:12px;font-weight:750;cursor:pointer}.gh-tab.active{background:#2476f3;border-color:#2476f3;color:#fff}
+.gh-group{background:#fff;border:1px solid #d7e6f7;border-radius:13px;margin-bottom:10px;overflow:hidden}.gh-group>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:15px 16px;background:linear-gradient(100deg,#f3f8ff,#fff);font-size:15px;font-weight:800;color:#143e7a}.gh-group>summary::-webkit-details-marker{display:none}.gh-group>summary small{display:block;font-size:11px;font-weight:500;color:#778da9;margin-top:3px}.gh-group>summary i{font-style:normal;color:#7396c1}.gh-group[open]>summary i{transform:rotate(180deg)}
+.gh-group-desc{font-size:12px;line-height:1.65;color:#607693;padding:10px 16px;margin:0;background:#fbfdff;border-bottom:1px solid #e5edf7}
+.gh-group ul{list-style:none;padding:10px 13px 13px;margin:0;display:grid;gap:7px}
+.gh-item{display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:10px;align-items:start;padding:10px 11px;border:1px solid #e8eef6;border-radius:9px;background:#fff}
+.gh-item-status{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:#e8eff8;color:#73859e;font-size:12px;font-weight:800}
+.gh-item-seen{border-color:#b9e4cb;background:#f5fdf8}.gh-item-seen .gh-item-status{background:#d7f4df;color:#19884b}
+.gh-item b{font-size:12.5px;color:#243956}.gh-item small{display:block;font-size:11px;font-weight:400;line-height:1.6;color:#7588a5;margin-top:2px}.gh-item em{font-size:11px;color:#8899ad;font-style:normal;white-space:nowrap}.gh-item-seen em{color:#168b4d}.gh-empty{background:#f5f8ff;color:#6d829d;font-size:12px;padding:12px;border-radius:8px}
+.gh-audit{border:1px solid #f1dca7;background:#fff9ed;border-radius:12px;padding:14px 18px;margin-top:16px}.gh-audit b{color:#936008}.gh-audit ol{font-size:12px;color:#886f40;line-height:1.8;margin:8px 0 0;padding-left:18px}
+.gh-footer{margin-top:15px;font-size:11px;color:#7187a3;text-align:center;line-height:1.6}
+@keyframes ghfade{from{opacity:0}to{opacity:1}}
+@media(max-width:620px){.gh-dialog-header{padding:17px}.gh-dialog-header h2{font-size:19px}.gh-body{padding:16px 14px 32px}.gh-directory-button{padding:5px 7px;font-size:10px}.gh-item{grid-template-columns:20px 1fr}.gh-item em{grid-column:2}.gh-overlay .gh-drawer{width:100vw}}

@@ -1,0 +1,65 @@
+[
+  {
+    "page": "rfq",
+    "mainDocument": "visible",
+    "demoActions": "collapsed",
+    "fieldJump": "both readers",
+    "contractSource": "N/A"
+  },
+  {
+    "page": "contracts",
+    "mainDocument": "visible",
+    "demoActions": "collapsed",
+    "fieldJump": "both readers",
+    "contractSource": "collapsed"
+  },
+  {
+    "page": "orders",
+    "mainDocument": "visible",
+    "demoActions": "collapsed",
+    "fieldJump": "both readers",
+    "contractSource": "N/A"
+  },
+  {
+    "page": "shipments",
+    "mainDocument": "visible",
+    "demoActions": "collapsed",
+    "fieldJump": "both readers",
+    "contractSource": "N/A"
+  },
+  {
+    "page": "invoices",
+    "mainDocument": "visible",
+    "demoActions": "collapsed",
+    "fieldJump": "both readers",
+    "contractSource": "N/A"
+  },
+  {
+    "page": "payments",
+    "mainDocument": "visible",
+    "demoActions": "collapsed",
+    "fieldJump": "both readers",
+    "contractSource": "N/A"
+  },
+  {
+    "page": "claims",
+    "mainDocument": "visible",
+    "demoActions": "collapsed",
+    "fieldJump": "both readers",
+    "contractSource": "N/A"
+  },
+  {
+    "page": "closing",
+    "mainDocument": "visible",
+    "demoActions": "collapsed",
+    "fieldJump": "both readers",
+    "contractSource": "N/A"
+  },
+  {
+    "page": "exceptions",
+    "mainDocument": "visible",
+    "demoActions": "collapsed",
+    "fieldJump": "both readers",
+    "contractSource": "N/A"
+  }
+]

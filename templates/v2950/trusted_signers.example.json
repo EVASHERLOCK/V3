@@ -1,0 +1,8 @@
+{
+  "_notice": "EXAMPLE ONLY. Actual authorized public keys must be governed OUTSIDE the source repository and reviewed by enterprise IAM/compliance.",
+  "enterprise_id": "REPLACE_WITH_ENTERPRISE_ID",
+  "signers": [
+    {"key_id": "DATA_STEWARD_KEY_ID", "role": "DATA_STEWARD", "active": false, "public_key_pem": "EXTERNAL_SIGNER_ED25519_PUBLIC_PEM"},
+    {"key_id": "BUSINESS_OWNER_KEY_ID", "role": "BUSINESS_OWNER", "active": false, "public_key_pem": "EXTERNAL_SIGNER_ED25519_PUBLIC_PEM"}
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "source_type": "SIMULATED_CSV_DEMO",
+  "seed": "V2941-SIMULATED-20261111",
+  "table_count": 23,
+  "canonical_table_count": 21,
+  "auxiliary_table_count": 2,
+  "row_count": 21455,
+  "pk_unique": true,
+  "referential_valid": true,
+  "manifest_counts_equal": true,
+  "monthly_summary_reconciled": true,
+  "verified_tables": [
+    {
+      "table": "suppliers",
+      "file": "seed_simulated/suppliers.csv",
+      "primary_key": "supplier_id",
+      "expected_rows": 80,
+      "actual_rows": 80,
+      "unique_primary_keys": 80,
+      "source_sha256": "fd74f8be089ef60630395352f992779b8c0d141e1a4c398e0958e6c90cf8f879",
+      "status": "PASS"
+    },
+    {
+      "table": "materials",
+      "file": "seed_simulated/materials.csv",
+      "primary_key": "material_id",
+      "expected_rows": 120,
+      "actual_rows": 120,
+      "unique_primary_keys": 120,
+      "source_sha256": "0f94db3af4fe3f8026ab84a2162daf8c9db5d5741614e105c80ca1e4980151cd",
+      "status": "PASS"
+    },
+    {
+      "table": "projects",
+      "file": "seed_simulated/projects.csv",
+      "primary_key": "project_id",
+      "expected_rows": 24,
+      "actual_rows": 24,
+      "unique_primary_keys": 24,
+      "source_sha256": "e3252f20f6b8e6af15df090cdb0670378438401e5dd978161c52871ca1ccdcf1",
+      "status": "PASS"
+    },
+    {
+      "table": "product_lines",
+      "file": "seed_simulated/product_lines.csv",
+      "primary_key": "product_line_id",
+      "expected_rows": 30,
+      "actual_rows": 30,
+      "unique_primary_keys": 30,
+      "source_sha256": "30466696fad371b38e52f12e1865823cd70ae95c2bb0e9a8bf662b3732cb21b6",
+      "status": "PASS"
+    },
+    {
+      "table": "purchase_orders",
+      "file": "seed_simulated/purchase_orders.csv",
+      "primary_key": "po_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "4f5b88de969e7e7c6f14a9cf10f51aa6aa79cfdc5c9ee23d56acc47c2470ceb4",
+      "status": "PASS"
+    },
+    {
+      "table": "quotes",
+      "file": "seed_simulated/quotes.csv",
+      "primary_key": "quote_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "009f3857b9552315ff3a24c23f454e74b7c79fbea3a643106291fa6c20c9df10",
+      "status": "PASS"
+    },
+    {
+      "table": "rfq_alternates",
+      "file": "seed_simulated/rfq_alternates.csv",
+      "primary_key": "quote_id",
+      "expected_rows": 2880,
+      "actual_rows": 2880,
+      "unique_primary_keys": 2880,
+      "source_sha256": "379250428157473b90a07c3d7016adf9d52d8702821d722555b5748034959f62",
+      "status": "PASS"
+    },
+    {
+      "table": "contracts",
+      "file": "seed_simulated/contracts.csv",
+      "primary_key": "contract_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "c3db8ca77d6146c0b09eb825f912f2a9fd1df91da7bc246e3d7c2732c6e49659",
+      "status": "PASS"
+    },
+    {
+      "table": "contract_documents",
+      "file": "seed_simulated/contract_documents.csv",
+      "primary_key": "contract_document_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "85ac222bca4a2757a9f103584e35fa429488a383fb3321a2b4078da7f0e5a510",
+      "status": "PASS"
+    },
+    {
+      "table": "shipment_documents",
+      "file": "seed_simulated/shipment_documents.csv",
+      "primary_key": "shipment_document_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "cf779af3cabe6f4d4e9883a96171a5f2cb6d8e6587efd047b7211f5c0c5d876c",
+      "status": "PASS"
+    },
+    {
+      "table": "payment_authorizations",
+      "file": "seed_simulated/payment_authorizations.csv",
+      "primary_key": "payment_authorization_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "74ff8a1e3d6ef3645d783cfee7747b0b0409161852a226f6875f0b00da73ceb8",
+      "status": "PASS"
+    },
+    {
+      "table": "qc_lots",
+      "file": "seed_simulated/qc_lots.csv",
+      "primary_key": "lot_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "35457895ef142108d85729a02f2b9c6db7d05a898999f31971a7a53afbc8f89f",
+      "status": "PASS"
+    },
+    {
+      "table": "inventory",
+      "file": "seed_simulated/inventory.csv",
+      "primary_key": "lot_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "50d089f352d1a148daa9b2b35b319b027ac83b1936f925e53b03d417f92f5941",
+      "status": "PASS"
+    },
+    {
+      "table": "production",
+      "file": "seed_simulated/production.csv",
+      "primary_key": "production_order",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "fdfa8e47f40d3e971d512f402ccee8eb9b23970c8588dccf36b0ac6b6b79ba53",
+      "status": "PASS"
+    },
+    {
+      "table": "invoices",
+      "file": "seed_simulated/invoices.csv",
+      "primary_key": "invoice_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "a928e1cfe0e04286c15f3e4ddf96527dde2fe82d752352b03092db9a2219e374",
+      "status": "PASS"
+    },
+    {
+      "table": "payments",
+      "file": "seed_simulated/payments.csv",
+      "primary_key": "payment_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "3a7ef419e1a90814f1f22c76cabd3bda00a2143ad8a4be56d4f7f2d5af29f311",
+      "status": "PASS"
+    },
+    {
+      "table": "claims",
+      "file": "seed_simulated/claims.csv",
+      "primary_key": "claim_id",
+      "expected_rows": 84,
+      "actual_rows": 84,
+      "unique_primary_keys": 84,
+      "source_sha256": "7eb515c4d4e79cc89d7ef8b5b90a7ab70a8d558e455545b83b623011da016560",
+      "status": "PASS"
+    },
+    {
+      "table": "claim_settlements",
+      "file": "seed_simulated/claim_settlements.csv",
+      "primary_key": "settlement_id",
+      "expected_rows": 84,
+      "actual_rows": 84,
+      "unique_primary_keys": 84,
+      "source_sha256": "3f80d152cb9b5a550e85e3f9be0a69b22db383bc6da2e79866bbc027235faa91",
+      "status": "PASS"
+    },
+    {
+      "table": "change_controls",
+      "file": "seed_simulated/change_controls.csv",
+      "primary_key": "change_id",
+      "expected_rows": 102,
+      "actual_rows": 102,
+      "unique_primary_keys": 102,
+      "source_sha256": "550f077178cdf79c474dd3923e580e87f66de406935a6467a6cd3c67188da11e",
+      "status": "PASS"
+    },
+    {
+      "table": "exceptions",
+      "file": "seed_simulated/exceptions.csv",
+      "primary_key": "exception_id",
+      "expected_rows": 679,
+      "actual_rows": 679,
+      "unique_primary_keys": 679,
+      "source_sha256": "d5a3010ee535ba96d9ce4ed6209b00de47d30d873154b66c7db5b7a506205272",
+      "status": "PASS"
+    },
+    {
+      "table": "metric_events",
+      "file": "seed_simulated/metric_events.csv",
+      "primary_key": "event_id",
+      "expected_rows": 1440,
+      "actual_rows": 1440,
+      "unique_primary_keys": 1440,
+      "source_sha256": "5a4aee10253876f6c8ed8da73f2edbd523955485fb4c21cc2f29ee2f0a338e29",
+      "status": "PASS"
+    },
+    {
+      "table": "monthly_kpi_summary",
+      "file": "seed_simulated/monthly_kpi_summary.csv",
+      "primary_key": "month",
+      "expected_rows": 12,
+      "actual_rows": 12,
+      "unique_primary_keys": 12,
+      "source_sha256": "cde9d131e2262ee3b17905ffd916138748c267479cd16483080c69a319b0d760",
+      "status": "PASS",
+      "coverage": "AUXILIARY_FILE_NOT_IN_21_TABLE_API"
+    },
+    {
+      "table": "supplier_documents",
+      "file": "seed_simulated/supplier_documents.csv",
+      "primary_key": "document_id",
+      "expected_rows": 80,
+      "actual_rows": 80,
+      "unique_primary_keys": 80,
+      "source_sha256": "c6e70b01e1ccd184c3ba3363f1e4f69fc61781758dbfec2ada2374f68d22a851",
+      "status": "PASS",
+      "coverage": "AUXILIARY_FILE_NOT_IN_21_TABLE_API"
+    }
+  ],
+  "sha256_manifest": "2bff9e1214f6cb51ea6d2194ff87fb95d4da140b9a687e48d8c11aec82c42fdf"
+}

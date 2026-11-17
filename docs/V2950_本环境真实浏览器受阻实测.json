@@ -1,0 +1,3284 @@
+{
+  "version": "2.9.50",
+  "test_type": "LIVE_CHROMIUM_HTTP_BROWSER",
+  "environment": "DEVELOPMENT",
+  "url": "http://127.0.0.1:18779/",
+  "scope": "legacy",
+  "started_utc": "2026-11-13T04:45:54.389210+00:00",
+  "registered": 217,
+  "components": [
+    {
+      "id": "portfolio.64f51145",
+      "route": "portfolio",
+      "kind": "legacy_module",
+      "status": "BLOCKED",
+      "started_utc": "2026-11-13T04:45:55.158288+00:00",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:18779/#portfolio\n"
+    },
+    {
+      "id": "portfolio.d3e8e73a",
+      "route": "portfolio",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "portfolio.88bf8e48",
+      "route": "portfolio",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "portfolio.268a11c8",
+      "route": "portfolio",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m01.6cc6eaa5",
+      "route": "m01",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m01.3f69953c",
+      "route": "m01",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m01.111fc4fe",
+      "route": "m01",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m01.162bc906",
+      "route": "m01",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.274e1477",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.60e574be",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.36ae8018",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.33ab85b7",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.38862302",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.25c076cb",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.4febb572",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.bb27ec9c",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.b245852e",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.bfc5032b",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.c181cb26",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.23dcfec",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.a43cf4ce",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.5e4cca98",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.a244c095",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.813eab27",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.5e4fdfc8",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.e0e26acb",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.5f747895",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.786b1a74",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.26388c66",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.4ced5692",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.961b995f",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.10c1ce46",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.cc23eeca",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.a29c2c89",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.840e7579",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.10b565f",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m02.2a78929e",
+      "route": "m02",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m06.51f53479",
+      "route": "m06",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m06.4c75aaba",
+      "route": "m06",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m06.1ce016b",
+      "route": "m06",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m06.90ac0575",
+      "route": "m06",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m06.81fc3f1c",
+      "route": "m06",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m06.b3ba053a",
+      "route": "m06",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m09.6d7eec95",
+      "route": "m09",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m09.643115a6",
+      "route": "m09",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m09.6c93d7bf",
+      "route": "m09",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m09.eb351d3d",
+      "route": "m09",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m09.8f402240",
+      "route": "m09",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "m09.154104ce",
+      "route": "m09",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.76815ef9",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.2118dba3",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.1bd6d2f3",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.e7f75cd7",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.b9a76f6b",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.108d713",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.faf394c9",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.78f4aab2",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.b7a4003f",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.1cbfb7bd",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "documents.d6afb903",
+      "route": "documents",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "regulatory.8fe9d376",
+      "route": "regulatory",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "regulatory.92b86434",
+      "route": "regulatory",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "regulatory.f1ca847d",
+      "route": "regulatory",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "regulatory.a6dff66a",
+      "route": "regulatory",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "regulatory.84f5ace2",
+      "route": "regulatory",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "workflow.2a31f289",
+      "route": "workflow",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "workflow.a5b0d0f1",
+      "route": "workflow",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "workflow.fbe9f8a8",
+      "route": "workflow",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "workflow.cf1883fb",
+      "route": "workflow",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "workflow.f67d1544",
+      "route": "workflow",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "reports.3218b936",
+      "route": "reports",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "reports.de55251",
+      "route": "reports",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "reports.3bdd1388",
+      "route": "reports",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "reports.74be0353",
+      "route": "reports",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "reports.fbe4dd6a",
+      "route": "reports",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "access.f57de64",
+      "route": "access",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "access.faecb057",
+      "route": "access",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "access.b1953415",
+      "route": "access",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "access.80219bec",
+      "route": "access",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "access.b1953415__baseline_duplicate_1",
+      "route": "access",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "access.1ceb4815",
+      "route": "access",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "access.7d9bdbf1",
+      "route": "access",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "access.c66c90f2",
+      "route": "access",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "master.77fadda6",
+      "route": "master",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "master.11d359f4",
+      "route": "master",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "master.5981f0bd",
+      "route": "master",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "master.d4c88043",
+      "route": "master",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "alerts.ce8ab4d1",
+      "route": "alerts",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "alerts.c33ef0db",
+      "route": "alerts",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "alerts.3d5f77e",
+      "route": "alerts",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "alerts.41eaa0ac",
+      "route": "alerts",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "alerts.71aca421",
+      "route": "alerts",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "alerts.2c04c64d",
+      "route": "alerts",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-overview.1b5641e0",
+      "route": "ss-overview",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-overview.71283571",
+      "route": "ss-overview",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-overview.9963dc10",
+      "route": "ss-overview",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-overview.43c5616f",
+      "route": "ss-overview",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-overview.c9557816",
+      "route": "ss-overview",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-overview.b57040b6",
+      "route": "ss-overview",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-market.f8c12c52",
+      "route": "ss-market",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-market.dab0e191",
+      "route": "ss-market",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-market.d4cc009f",
+      "route": "ss-market",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-market.2cc668b2",
+      "route": "ss-market",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-market.5e33d1b8",
+      "route": "ss-market",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-market.88a2dc80",
+      "route": "ss-market",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-kraljic.6c5fa48b",
+      "route": "ss-kraljic",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-kraljic.690bd80e",
+      "route": "ss-kraljic",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-kraljic.859feca6",
+      "route": "ss-kraljic",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-kraljic.595fe1aa",
+      "route": "ss-kraljic",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-kraljic.c5806b54",
+      "route": "ss-kraljic",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-kraljic.df23a29b",
+      "route": "ss-kraljic",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-kraljic.5a25ec28",
+      "route": "ss-kraljic",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-kraljic.24c60452",
+      "route": "ss-kraljic",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.72b08565",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.a5a0abb0",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.a2726ebe",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.11f4ea9e",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.279fa920",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.11f4ea9e__baseline_duplicate_1",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.36fd315d",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.2217f332",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.f82cef74",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-ai.c1a5bcb3",
+      "route": "ss-ai",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.3849530a",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.35986a97",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.febce90b",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.fb107cca",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.c6b69bda",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.fc5cdc07",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.1ce10c1",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.6382ad63",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.125210b",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.bde01521",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.1d18e6f7",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.91e7e662",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.2a19713c",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.dd636421",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.9b5e31b3",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.5b0631ed",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.167980bb",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.cdc23aba",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-cost.8c3d17af",
+      "route": "ss-cost",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.d334ceb5",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.4d03a8c7",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.b4c9e13d",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.89690661",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.aae145f4",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.9e861b96",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.c06bd961",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.86f93f44",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.a4db9265",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.dfe55c75",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.a23a762d",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.8a4799d5",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.d61cd838",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.cff39aa7",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.add96b51",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-project.e7cff5bf",
+      "route": "ss-project",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.10cd4937",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.2e1a40e4",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.bb546065",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.ea85f424",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.63a41dc0",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.fa9c5927",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.515be40a",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.5b23204c",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.58cfefa9",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.8ba7aaee",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.b4763fcf",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.cd495bb4",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.bbf58905",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.ecbf9569",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.c93b3d5b",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.59271ba6",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.39d01d80",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.774eb335",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.852d4015",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.e78d30f9",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.fb256c28",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.568a21bd",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.3f6705b4",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.b8c4ff39",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.ef6a17d5",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.caae17ed",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.f899be65",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.2e1e2144",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-performance.a95bfe1d",
+      "route": "ss-performance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.1dbec0e1",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.5a9e3f5e",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.4dfbdeae",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.27124230",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.3879957b",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.3c2af1df",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.6b7a20c2",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.3071ab65",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.61e64b18",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.8db91b36",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.61e64b18__baseline_duplicate_1",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.44b439e4",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.61e64b18__baseline_duplicate_2",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.eaecbb2f",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.3808c6d2",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.5d30a960",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-compliance.df6700a0",
+      "route": "ss-compliance",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-technical.767a2180",
+      "route": "ss-technical",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-technical.f8690135",
+      "route": "ss-technical",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-technical.5efe12d4",
+      "route": "ss-technical",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-technical.b4d545c0",
+      "route": "ss-technical",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-technical.59d08e9f",
+      "route": "ss-technical",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-technical.425c2606",
+      "route": "ss-technical",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-data.8b9ea34a",
+      "route": "ss-data",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-data.a81bda8e",
+      "route": "ss-data",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-data.df8b36c8",
+      "route": "ss-data",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-data.ce0ad5d4",
+      "route": "ss-data",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-data.78efcb9c",
+      "route": "ss-data",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-data.176118ca",
+      "route": "ss-data",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    },
+    {
+      "id": "ss-data.5719a5a9",
+      "route": "ss-data",
+      "kind": "legacy_module",
+      "status": "NOT_ATTEMPTED_BROWSER_POLICY_BLOCK",
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": "BROWSER_NETWORK_BLOCKED_BY_ADMINISTRATOR",
+      "url_sha256": "abf980c8bf5f6cf081ab17a76be3a098111972e0d6a5637b665c079a3a774c14",
+      "message": "Browser policy blocked actual HTTP navigation; no E2E evidence possible in this environment."
+    }
+  ],
+  "browser_executable": "bundled Playwright chromium / installed Chromium",
+  "boundaries": [
+    "Only direct browser interactions + formula-bearing XLSX download are checked.",
+    "Not source-row completeness, formula correctness, business text judgment, or business signoff.",
+    "No screenshots unless --screenshots is provided, since the pages may contain business-sensitive data."
+  ],
+  "finished_utc": "2026-11-13T04:45:55.244256+00:00",
+  "verified_interaction_count": 0,
+  "failed_or_missing": 217
+}

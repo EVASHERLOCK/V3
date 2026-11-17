@@ -1,0 +1,1645 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:19:00.578154+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-performance",
+      "expected": 29,
+      "exact_ids_found": 29,
+      "rendered_module_count": 29,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-performance.10cd4937",
+      "route": "ss-performance",
+      "title": "▣研发联合绩效",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2680,
+        "sha256": "fd35d5ee5e7ba3074c35020af307098bce0f544d16536c91f3ebe7cee26b0722"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 9779,
+        "sha256": "319691b26a79b82e5bb3981fb001578bb05dae9011e92ede282ee51e7dd269e5"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 155,
+        "xlsx_sha256": "189127a692506f0d274c87e11e06fb553d11435a412b9ba9491d051e2467045a",
+        "bytes": 61499,
+        "filename_sha256": "8832a00ca5dd592bf7874273996556d0b928d7ccad042aea00decfb49a9eca2b"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 4,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 4,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 5,
+        "response_sha256": "5ff1d5a8b58f1a3c9518a329dd8f942341623e4fa4b14aeae917474ad7e110bd"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.2e1a40e4",
+      "route": "ss-performance",
+      "title": "质量绩效",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2674,
+        "sha256": "16a9bcfd428009a77390cc36c9eb3817b8508c74643f30fd1a47d326238f9855"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 9773,
+        "sha256": "13a71fe3fca4c3521a196098dfa200e7cf0f33a30ad7022a8537e13e5ee7373e"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 155,
+        "xlsx_sha256": "a3d19386bf7f74338c3302548a9a2e2aa554e2308775eb5fbfd0307016819898",
+        "bytes": 61468,
+        "filename_sha256": "40bf9467f133b9d7bac68466ccd5b2523a9834553332e1986ed1967b71bd37b4"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 4,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 4,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 5,
+        "response_sha256": "95289271eec7f88dc10ffeec9a0ed110ff85077949990d5ccdecb89d42092d57"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.bb546065",
+      "route": "ss-performance",
+      "title": "质量绩效",
+      "status": "CLICK_BLOCKED",
+      "clicked": [
+        "formula",
+        "sources"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2438,
+        "sha256": "cabf2d0066cc2e63d373948facfa2fc837ef2e426133adf9ba241838e0c9a153"
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "forced_pointer_controls": [
+        "sources"
+      ],
+      "error": "Page.wait_for_function: Timeout 3300ms exceeded.",
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            436,
+            397,
+            141,
+            29
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-card c0 pharma-module-ready gh-annotated gh-help-host",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            386,
+            215,
+            244,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-grid",
+          "display": "flex",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            386,
+            215,
+            1006,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-section-body pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            372,
+            201,
+            1034,
+            1349
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "spf-section full pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "hidden",
+          "rect": [
+            371,
+            145,
+            1036,
+            1508
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            -181,
+            1060,
+            11333
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            -377,
+            1102,
+            11656
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 5,
+        "response_sha256": "7fed8c686364263615286390d15fa8264a2bb55f61037fb6e1276523eaddd33e"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.ea85f424",
+      "route": "ss-performance",
+      "title": "交付绩效",
+      "status": "CLICK_BLOCKED",
+      "clicked": [
+        "formula"
+      ],
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "forced_pointer_controls": [
+        "formula"
+      ],
+      "error": "Page.wait_for_function: Timeout 3300ms exceeded.",
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            718,
+            395,
+            141,
+            170
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-card c1 pharma-module-ready",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            640,
+            -354,
+            244,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-grid",
+          "display": "flex",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            386,
+            -354,
+            1006,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-section-body pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            372,
+            -368,
+            1034,
+            1349
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "spf-section full pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "hidden",
+          "rect": [
+            371,
+            -424,
+            1036,
+            1508
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            -750,
+            1060,
+            11333
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            -946,
+            1102,
+            11656
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "MISSING_API_TRACE"
+      }
+    },
+    {
+      "id": "ss-performance.63a41dc0",
+      "route": "ss-performance",
+      "title": "技术响应绩效",
+      "status": "CLICK_BLOCKED",
+      "clicked": [
+        "formula"
+      ],
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "forced_pointer_controls": [
+        "formula"
+      ],
+      "error": "Page.wait_for_function: Timeout 3300ms exceeded.",
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            972,
+            393,
+            141,
+            173
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-card c2 pharma-module-ready",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            894,
+            -350,
+            244,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-grid",
+          "display": "flex",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            386,
+            -350,
+            1006,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-section-body pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            372,
+            -364,
+            1034,
+            1349
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "spf-section full pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "hidden",
+          "rect": [
+            371,
+            -420,
+            1036,
+            1508
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            -746,
+            1060,
+            11333
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            -942,
+            1102,
+            11656
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "MISSING_API_TRACE"
+      }
+    },
+    {
+      "id": "ss-performance.fa9c5927",
+      "route": "ss-performance",
+      "title": "商务配合绩效",
+      "status": "CLICK_BLOCKED",
+      "clicked": [
+        "formula"
+      ],
+      "formula": {
+        "ok": false
+      },
+      "sources": {
+        "ok": false
+      },
+      "excel": {
+        "ok": false
+      },
+      "forced_pointer_controls": [
+        "formula"
+      ],
+      "error": "Page.wait_for_function: Timeout 3300ms exceeded.",
+      "visibility_diagnostic": [
+        {
+          "tag": "BUTTON",
+          "cls": "pharma-module-top",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            1226,
+            393,
+            141,
+            173
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-card c3 pharma-module-ready",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            1148,
+            -350,
+            244,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-score-grid",
+          "display": "flex",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            386,
+            -350,
+            1006,
+            1189
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-section-body pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            372,
+            -364,
+            1034,
+            1349
+          ]
+        },
+        {
+          "tag": "SECTION",
+          "cls": "spf-section full pharma-module-ready",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "hidden",
+          "rect": [
+            371,
+            -420,
+            1036,
+            1508
+          ]
+        },
+        {
+          "tag": "DIV",
+          "cls": "spf-page",
+          "display": "grid",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            359,
+            -746,
+            1060,
+            11333
+          ]
+        },
+        {
+          "tag": "MAIN",
+          "cls": "content",
+          "display": "block",
+          "visibility": "visible",
+          "overflow": "visible",
+          "rect": [
+            338,
+            -942,
+            1102,
+            11656
+          ]
+        }
+      ],
+      "api_trace": {
+        "status": "MISSING_API_TRACE"
+      }
+    },
+    {
+      "id": "ss-performance.515be40a",
+      "route": "ss-performance",
+      "title": "◔供应商分级分布",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3508,
+        "sha256": "eecd40d561637a09e79d6eded40021b9bd092b5410b044de06089b1109658666"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10928,
+        "sha256": "9e8ea0f720b0d371f0ae49bef455072df6d3141fd32ebc832b9b43b6349822d5"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 161,
+        "xlsx_sha256": "d6c25d7c854418b540a59abcc2a27051b355ec0e6f60bd17f7ef7c92f65b0801",
+        "bytes": 63763,
+        "filename_sha256": "994064f503e63283e9f52e62d85a10150b660a5ecc18ce845df009f162513a47"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 4,
+        "displayed_figures": 3,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 3,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 5,
+        "narrative_unverified": 5,
+        "missing_count": 5,
+        "response_sha256": "d8f732d773c5e10b940230dca0c780d4cb3d21038cd08e2742e1d13621fb657f"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.5b23204c",
+      "route": "ss-performance",
+      "title": "80",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3496,
+        "sha256": "a96f60439c2c3a420c93d20184ace7d5892e78d53fbed4c7d0a53d57333682dd"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 10912,
+        "sha256": "dfd7790232af989eee6690d142e3a4498053e95020fe13a84e592524f58ab1a5"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 161,
+        "xlsx_sha256": "bc237bdb331866b7bc3df1a0aeb6e4e4d533a2b51ce0368dbf10fbc3bf2e18c5",
+        "bytes": 63730,
+        "filename_sha256": "c31dfe9bb073f74826f220c02eac3fe38c179be6f7d1c3671c5784092d1926e6"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 4,
+        "displayed_figures": 3,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 3,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 5,
+        "narrative_unverified": 5,
+        "missing_count": 5,
+        "response_sha256": "42743d51d8b048004b69790b41497a420a9613a318da77256db6d10358d10132"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.58cfefa9",
+      "route": "ss-performance",
+      "title": "◉CAPA 整改跟踪（含 GMP 审计整改）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3738,
+        "sha256": "66664cbbcd4b38795f937e8f9b42389926d58ded48167c0a05af0e73e36a0fbd"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 8693,
+        "sha256": "27c6d4f3f3bf5d7eccf428679f773eca11012746db1ae5fa698046cbe28abeaa"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 157,
+        "xlsx_sha256": "d84811be95326934064177ee522340cb8a944a723d2eac3a4d5fb94e5ed55760",
+        "bytes": 68121,
+        "filename_sha256": "c698eb52b728a154973c9aa3539d3c01b95e1a8533826e6d4d97e7a3861c94fb"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 2,
+        "computed_metrics": 0,
+        "visible_dom_rows": 23,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 4,
+        "response_sha256": "5f3d1790fe0df8477c4d203deb9deccddf72ddb87af7750188fdf3695c80620f"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.8ba7aaee",
+      "route": "ss-performance",
+      "title": "◫OTD 与 PPV 绩效分析（两行四图）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3479,
+        "sha256": "a554538758a4bd13f5e95d86ab2b03eea3929167e80adec3791d74b4a010e3c4"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 13701,
+        "sha256": "d6144d799069a9b9d78fa4636650d215593b5daa17111f92592d1241b81be8b5"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "adafba84b206e1acd92d66da290b7c47f5e999d996a3fc8c1dc32ef5cec9c4c6",
+        "bytes": 65264,
+        "filename_sha256": "7a0f26e34c2ee136486620cf7dccaa35109e8aa39117225d273656d7340613ef"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 17,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 17,
+        "charts_unverified": 3,
+        "narrative_paragraphs": 5,
+        "narrative_unverified": 5,
+        "missing_count": 1,
+        "response_sha256": "a8101924977495db81c1c5519984ebd46a125c9ac3ee5775c2be8faa44cc3b65"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.b4763fcf",
+      "route": "ss-performance",
+      "title": "OTD 趋势（近 6 个月）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3057,
+        "sha256": "b08a75c82c54cdb136791a89fcd78241438f06982f4272f318bb85342b6e901d"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 13279,
+        "sha256": "c692197a1dc3af2a8686af64a2eac5b039dd9b344cb60aee1266f6083e6fdc47"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "4d8292e82b490f3975621f17730ec047cdab85dc37110d08f219720622f310b6",
+        "bytes": 64291,
+        "filename_sha256": "142157d3808f4400e308623c972f3208b1331044d482d79205db13e9902f5056"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 17,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 17,
+        "charts_unverified": 3,
+        "narrative_paragraphs": 5,
+        "narrative_unverified": 5,
+        "missing_count": 1,
+        "response_sha256": "66fac81c4f2a7896abd79b7b30ca40ea251dbd67f9f8a9e5fbe2f50eb116743f"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.cd495bb4",
+      "route": "ss-performance",
+      "title": "OTD 趋势（近 6 个月）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1783,
+        "sha256": "b0c3b37c66a55cef411dcdfe6dd7af7b3bca2c1f3ece8c2b5ed637b70847d0a3"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 8703,
+        "sha256": "ea538332065c37d5394767071e38285bc404a61db275b4f702df7a19a94af378"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 155,
+        "xlsx_sha256": "d8a1a5ff08bc75696f4ff9bca7b37caff7a1e1663c9aab9f1535b5883ee3e563",
+        "bytes": 60115,
+        "filename_sha256": "c92ad98fe30d844beb7f824df5ade5549d7c099e198244ac4df32747b0c69fb8"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 2,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 10,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 10,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "19940409451c5b28893f7136beb96be81bcbe69f1279359d39b76825fdfcd181"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.bbf58905",
+      "route": "ss-performance",
+      "title": "供应商五维能力雷达",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2095,
+        "sha256": "5fc355ae68989bb1fffe503a84b7356bb914fa2fc212b419d7c2180037aeeebe"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 2682,
+        "sha256": "335360e01578f81095d574b84506e56b1b0b28dcd0ec821c0096b1948040c77c"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 154,
+        "xlsx_sha256": "e9d9c79763f94618c5cd67899beef880678fe736aa1f0ae24df1ecfd449c078f",
+        "bytes": 59478,
+        "filename_sha256": "83e5c326d73443fba0018d4a14f9194b7f9d4772c54ad1dcabe90fcbdf52c159"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 7,
+        "response_sha256": "80e3710ff00b96f9d92a5870a909105f59843783d696f36fbb1d510f07f95842"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.ecbf9569",
+      "route": "ss-performance",
+      "title": "OTD × PPV 绩效矩阵",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2778,
+        "sha256": "569bec555d251f4f337f90b966aaf7c7ed26feee455f9645b3088adc3786ffa9"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 13000,
+        "sha256": "5fc15ee21ad9ccf296d78742ac3cd6087896c5fca85372fe3cd947a6a969b453"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "8f480dd278863dfe2f58822a8acba78aeac5b9e6b3d31fc53cbc1a14a38d1825",
+        "bytes": 62683,
+        "filename_sha256": "5a95eec1aa243162553c7bf95a7951e75ce9d3b44fe0e1412c634150d0841dba"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 10,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 10,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 1,
+        "response_sha256": "638a38765489b78ea7335e424aac765f35db3ad9eb8b768f9415ed7e324ef243"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.c93b3d5b",
+      "route": "ss-performance",
+      "title": "◎供应商质量事件台账",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3453,
+        "sha256": "7354dc67f67c7bb734b0d04e48389e3b31f625fb03d11f7c089cb24a8da3ba41"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 8455,
+        "sha256": "31500bac7cdcdb7350e95ff3db482b1c09d2069147c99f665b62a1a8dbbc0d54"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "f154876d6f0938eef68a6a13a35cf9d37a1d7f67914447d1ae6eb8b4dd04543a",
+        "bytes": 65713,
+        "filename_sha256": "44f24ea7e27908b0eede384430b29cc9e3b9abcb217e2daefc0afeb906ecae1d"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 20,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 5,
+        "response_sha256": "f198f6a9e35d52b9d8bba367de3ef20e768390b860db748c582e41208966891c"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.59271ba6",
+      "route": "ss-performance",
+      "title": "▤替代覆盖（合格来源维度）与供应商依赖风险",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2350,
+        "sha256": "50c6959827560277594d9be068b11a8aa36478ebfb384d87b0e6113d32354a6c"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 7747,
+        "sha256": "d174fb26765c3dd09c238925fe6059a6230bb96cd78bb36b3460e3fdaa5ee3dd"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "80a1026e7a752321cdc67001a90992b795e5f23895c427f64467144586862f3e",
+        "bytes": 60936,
+        "filename_sha256": "ee4f02792baac72603832086179d7215e1704d524f00250e7090f6fbf2f19bb2"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 3,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 2,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 2,
+        "charts_unverified": 2,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 4,
+        "response_sha256": "bfff69f09a6dd3e21c4e355521f5671a7ed7d4dd524ebb0ab5be2616ec9a1cfc"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.39d01d80",
+      "route": "ss-performance",
+      "title": "替代覆盖（合格来源维度）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2332,
+        "sha256": "3035d0835f1084ba83e6f2c58951720f2e22c5dfa2199a730684a9a0e30038af"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 7729,
+        "sha256": "f04b8d62107b0909afdb3f6daa00d8011c0b576a9ec28d4cee6c4e28db91a3b6"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "6a58ebb9f687e02f9453564b3678508bc695b26e2660730eb54e9e9d533bac96",
+        "bytes": 60499,
+        "filename_sha256": "2a7b14815f0459a1fc5e61a8381aadd836e3f15aa789fe3f1ade6ab853c3761c"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 3,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 2,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 2,
+        "charts_unverified": 2,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 4,
+        "response_sha256": "212c7d36becde993d311bbdbf00a920cfa223c41af127eddcecf105cc6afc0a1"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.774eb335",
+      "route": "ss-performance",
+      "title": "替代覆盖（合格来源维度）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2887,
+        "sha256": "c7a58a67657fb2bd0357cad172dee8574b5ab9e5bef3aa6c199adcbb56c75767"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 13403,
+        "sha256": "f90d57066e042453564bee42005b3bfa081bdd8d60baadc07afdc605804249c9"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "5941c53206c11067eaf1fdb9759c7c52768663b822d3005fea3b2ab09dd0cf60",
+        "bytes": 61847,
+        "filename_sha256": "ef0acb0c7e81f5416971ed977a48536f679ecea056f0b123d46eb21298faf75e"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 2,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 2,
+        "charts_unverified": 2,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 5,
+        "response_sha256": "1500fe1a6ffb1933073abc1948481b5ca89ae2041119ac72e286162ef722f55c"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.852d4015",
+      "route": "ss-performance",
+      "title": "◈风险管理与备选开发",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4040,
+        "sha256": "62bb27bc06445b40f090b950cf30ed512f9eaae2e19fc597aea11ef3296864b3"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 17452,
+        "sha256": "1569b6559ea50b0a7afb0e8b73150d0d3c9c82917c5edb9ee352d152c0a75f0e"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 170,
+        "xlsx_sha256": "83e57816b2c958be57e73475c49c6681bb82ae819ae1640c6529caaf9d3bbe1d",
+        "bytes": 65293,
+        "filename_sha256": "34017de5c5f40d9974f74748489d072bb6ee821bdb5dacbf08372547c0474ce6"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 7,
+        "computed_metrics": 5,
+        "visible_dom_rows": 3,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 5,
+        "response_sha256": "b3586460d9cdc1a0f32beef240146e68baf8b608561c97f0546b8b6fc81b4639"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.e78d30f9",
+      "route": "ss-performance",
+      "title": "◇风险可视化图表（6个）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 6146,
+        "sha256": "129040acf6ea71e3ddd7e63dc9e224024e0e237ade0f7ff435590357df9670ea"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 15206,
+        "sha256": "e3a1a4e68bc449bc255924a7428f5c2753c13206803b575cc9d4208fd1a25333"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "584981026790c527365309a8df9caedcb83fd84bb21ed908fd9e5f5327f6174c",
+        "bytes": 69765,
+        "filename_sha256": "84a34cbb462bf26f967cc3863c179e114d43be5553cd7d31ee3aeea8e3b32591"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 3,
+        "visible_dom_rows": 3,
+        "displayed_figures": 19,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 19,
+        "charts_unverified": 3,
+        "narrative_paragraphs": 12,
+        "narrative_unverified": 12,
+        "missing_count": 6,
+        "response_sha256": "9039c776bc8e9f8874085a087ca78e7d3b15f526c8fafc09ce92de4cc4fb1121"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.fb256c28",
+      "route": "ss-performance",
+      "title": "图表1：风险等级 & 金额分布环形图",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 6164,
+        "sha256": "35038e25d34d27a8f16d3fc824246ef4033e5724409c21664645dd0bbf431238"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 15230,
+        "sha256": "7ec00160cd3f0ed131283aec73903e02ac423c5c1556290cda424f4cd9739780"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 158,
+        "xlsx_sha256": "3605d351c9c278f5ef923cb6bd6777e7f5a99914fac6182392477bc3fe0ac868",
+        "bytes": 69809,
+        "filename_sha256": "11aa2a6b78f8c89ef1528a7775fa6a983762ef2843cd0542b2a99fcd974b6cb0"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 3,
+        "visible_dom_rows": 3,
+        "displayed_figures": 19,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 19,
+        "charts_unverified": 3,
+        "narrative_paragraphs": 12,
+        "narrative_unverified": 12,
+        "missing_count": 6,
+        "response_sha256": "fb219e52e26ab56e1abbe84e991a64d99aebe4c0bfa06e56d36d012983190179"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.568a21bd",
+      "route": "ss-performance",
+      "title": "图表1：风险等级 & 金额分布环形图",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3409,
+        "sha256": "b23276acad5ab424af5d5888915e7f1378a7f3c88a4984a5dc3a94a8b9454444"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 18818,
+        "sha256": "4862b2319e92de3fe6177dd0e713c02e1103618bba72a4423d1322a4a8b0ec78"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "ff9f4c5edf381782630701786cea00c071189d22a9dea6dc5c2e1ae0bccd66ef",
+        "bytes": 63342,
+        "filename_sha256": "017a15da246652f8f8c123821b676ce4c977c45318e822d56d19ee067363285e"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 7,
+        "computed_metrics": 5,
+        "visible_dom_rows": 0,
+        "displayed_figures": 4,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 4,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 5,
+        "response_sha256": "2aa9cf54e681c1cb3d9893ba7262cd6d47970f0c2a28f2737bc97c59e140b6e8"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.3f6705b4",
+      "route": "ss-performance",
+      "title": "图表2：风险类型分布横向条形图",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3331,
+        "sha256": "f8c779ef0ef7df2e64e242db2c8107f273dec728ad82351ca7c1e9ec2cbfc5b8"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 18740,
+        "sha256": "7dafeca6565f7db197bd757a91606b4d307e8e9b67397dc6feffbd49cb300cb2"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "50aac45f15c83d0aa10121d16f1ff7851c4fb9c8d50df2b608bb79b67a555685",
+        "bytes": 61589,
+        "filename_sha256": "340108ffdc2d0f7d6155a4e34f5aa7b27058fb9a46cb477cba50109e5db9fea1"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 7,
+        "computed_metrics": 5,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 5,
+        "response_sha256": "dec7640b70f7cbed3237cf48792e4ed43f584167b3695a01fa758217863cbd33"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.b8c4ff39",
+      "route": "ss-performance",
+      "title": "图表3：供应集中度 TOP5 条形图",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1670,
+        "sha256": "a3cf083b60ddc1141035d122aeca00fd08c99585c4421760840885088450eacb"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5330,
+        "sha256": "4fd3e443667fed0e2dfbe303e21b416b0fbfe6ad3baaafe55a2fbbd12d24fc5d"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 155,
+        "xlsx_sha256": "739c684c8d0931788fee249c97cf26a7937e06c051d088fa2c358571045996b1",
+        "bytes": 58585,
+        "filename_sha256": "296a8d7e3f26ea48b98a4385f265063cc241a18f22c6da8a1992f68b4cab8721"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 2,
+        "computed_metrics": 1,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 3,
+        "response_sha256": "b1736bff475dbe70a33019e5313f3f1ec5e453878db7856819019e5b7bf0485c"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.ef6a17d5",
+      "route": "ss-performance",
+      "title": "图表4：备选开发阶段进度堆叠图",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2839,
+        "sha256": "a6b5abcd0af78e121da44a49bd196d968e921cfa0a9f0dc0b8fdc3b86b610396"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 8248,
+        "sha256": "9d04b87a8683b3684ec773dcbc36c0c1c3d010cd4e0d7369d700fe02836b6041"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "09cf1bf6c5a274150e6dfddf7030314776b4ec091015412376ea658168c88480",
+        "bytes": 61040,
+        "filename_sha256": "edd43aa816381c3be748b663f2319d93f150c4dc44a1343ddeaf346fa3e3ffd5"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 3,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 4,
+        "response_sha256": "6d53e3c538be0e21d67066ffc2e2109b323f0ae2647477e7f5afc3518c3d6fd9"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.caae17ed",
+      "route": "ss-performance",
+      "title": "图表5：风险概率 - 影响矩阵",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3331,
+        "sha256": "147debd536c5ba171358726803553ef7356ec7e761bd8eeac866dbbb2d458ef4"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 18740,
+        "sha256": "4ab42066e6613b9d7656ad66b9d9609dcaffae477656c95f3c92d8ea4ce05846"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "e36bfd227edd5eadea4a50c617264bab26f012e04869044333c0174f02004e12",
+        "bytes": 63082,
+        "filename_sha256": "96494a1904b1e1c521b52badb16af2a50ab0958dca59ece5fbc4c901037ddad2"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 7,
+        "computed_metrics": 5,
+        "visible_dom_rows": 0,
+        "displayed_figures": 7,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 7,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 5,
+        "response_sha256": "2e26c8e84e4bacce75dd5e28dfe489cf4aa866a2fe5a55e03604c912a8bc789f"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.f899be65",
+      "route": "ss-performance",
+      "title": "图表6：高风险项整改进度甘特图",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 5998,
+        "sha256": "86acf94718041ca5f6548176a2b0fb97bed089fd2c31561235e6756216c2c389"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 17998,
+        "sha256": "92c6c49f0ecf344c05add89b9517311704eecd7ac20c720880ca6a251eac541f"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 162,
+        "xlsx_sha256": "867e9a10cc50623e55aa00fa21bc2e1edf274b798bd0dcdc421fdafa3d5e26ca",
+        "bytes": 69081,
+        "filename_sha256": "4dfdd117ff210942b63ee64be7ba4c13d59e67fb3668bf6194050c0e85b1945c"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 14,
+        "computed_metrics": 7,
+        "visible_dom_rows": 3,
+        "displayed_figures": 8,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 8,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 9,
+        "response_sha256": "db2577ad426d905e84daa6eb1df8a06a481d966881567c0b2f76e40870bb293d"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.2e1e2144",
+      "route": "ss-performance",
+      "title": "✦管理建议与行动（推荐）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 5484,
+        "sha256": "abb450ebc8e2e3452e6a20e873036c854574f6c0d91d0120eb655fe1ed0bed4f"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 17514,
+        "sha256": "ddc1f77fb7ef811677188423bdebf262e4352296dfe60edc9edd55a26908e8db"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 157,
+        "xlsx_sha256": "817f652f2092253a3fdbf27cdce527acb25a7d8cde6ee0f01dd10ae4619dadec",
+        "bytes": 64945,
+        "filename_sha256": "eb5d92659ef420e17ed86ba5e4d5660d6f4e4ba82585285d74a7378e0d9dccb2"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 5,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 7,
+        "narrative_unverified": 7,
+        "missing_count": 4,
+        "response_sha256": "726f895eab3aca559d633240a922e5ba65d1218bedec92e5514bf385446a602a"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.a95bfe1d",
+      "route": "ss-performance",
+      "title": "以下是从当前风险台账按风险等级及 Spend 重要性自动排序的 Top10 管理建议。非已批准任务，不得作为正式 CAPA。",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 5247,
+        "sha256": "b27687265fd626050f8db7b743fec91586be0beace3a6146dad03e4e28b74903"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 17277,
+        "sha256": "e6272dcbc5cc515f32dd73198c7198d2f6dc34a403dfe20b37f646f47bce2b09"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 157,
+        "xlsx_sha256": "903b7c5aeeb7b19617aa7e488acc7439d22c0ae1019135bf91986559191090f9",
+        "bytes": 64246,
+        "filename_sha256": "71dca6e56ed60d844a92b388ec3ff639bc6cf1ef3a11f929e4445dcc2353fb4b"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 5,
+        "computed_metrics": 4,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 7,
+        "narrative_unverified": 7,
+        "missing_count": 3,
+        "response_sha256": "bbfa6b0d707cf2d9244f0137b5b26a3a59e84e5f3daf985c2dfb89fb5aa137c3"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:19:34.310682+00:00",
+  "exact_rendered": 29,
+  "three_entry_click_verified": 25,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 25,
+  "api_trace_received": 26,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

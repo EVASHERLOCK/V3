@@ -1,0 +1,15 @@
+Pharma Procurement AI V2.9.31 + Change Control Full Process Reference
+Visual asset: static/assets/change-control-full-process-reference.png
+Asset sha256: d579cf2152935b19e195fb7054db17cdb08b92ab3becf08cef922677c66b3fa2
+31 semantic hotspots / independent #m09-reference route / same canonical change-control API.
+Test outcomes:
+- npm run build: PASS
+- npm run check:change: PASS
+- npm run check:reference: PASS
+- npm run check:bolt: PASS
+- npm test: PASS (existing full-suite tests and the new reference-page VM DOM-event simulation)
+- GET /api/change-control/workbench: PASS, 3 changes, 2 open, 3 filings, 387008 DEMO exposure
+- GET /api/change-control/workbench?supplier=SUP-002: PASS, 1 open, 8 PO, 186144 DEMO exposure
+- GET /api/change-control/workbench.xlsx?supplier=SUP-002: PASS, valid XLSX ZIP with worksheet XML and formulas
+Not verified in this environment: real Chromium localhost interaction / exact Bolt responsive screenshot; browser localhost navigation was blocked by administrator policy.
+Strict boundary: screenshots are the user's reference workflow illustration. Actual sourced counts are V08 DEMO, not GxP approval or live production ERP/QMS data.

@@ -1,0 +1,1463 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T10:11:32.594061+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-performance",
+      "expected": 4,
+      "exact_ids_found": 4,
+      "rendered_module_count": 29,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-performance.bb546065",
+      "route": "ss-performance",
+      "title": "质量绩效",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2438,
+        "sha256": "cabf2d0066cc2e63d373948facfa2fc837ef2e426133adf9ba241838e0c9a153"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 9537,
+        "sha256": "84334638d709d503dbd498d0a304a0d279da74175d0642dda96a9f15f65ec272"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 155,
+        "xlsx_sha256": "42181f17062b0472801a856166d5b4ca244801f5c329bd78e2747363097816fc",
+        "bytes": 60048,
+        "filename_sha256": "2ccd8a25e395f85f812edba73f2195b061e3d6971056805b6ccf5ae11e455110",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/ss-performance.bb546065.xlsx"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 5,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.QMS.EVENT_COUNT",
+            "formula": "COUNT(QMS.event_id)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.SCORE.WEIGHTED_MEAN",
+            "formula": "AVG(∑维度分×维度权重/100)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.PO.OTD",
+            "formula": "100×COUNT(PO.delay_days<=0)/COUNT(有 delay_days 的 PO 行)",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[0]"
+              },
+              {
+                "id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[1]"
+              },
+              {
+                "id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[2]"
+              },
+              {
+                "id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[3]"
+              },
+              {
+                "id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[4]"
+              },
+              {
+                "id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[5]"
+              },
+              {
+                "id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[6]"
+              },
+              {
+                "id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[7]"
+              },
+              {
+                "id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[8]"
+              },
+              {
+                "id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[9]"
+              },
+              {
+                "id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[10]"
+              },
+              {
+                "id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[11]"
+              },
+              {
+                "id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[12]"
+              },
+              {
+                "id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[13]"
+              },
+              {
+                "id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[14]"
+              },
+              {
+                "id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[15]"
+              },
+              {
+                "id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[16]"
+              },
+              {
+                "id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[17]"
+              },
+              {
+                "id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[18]"
+              },
+              {
+                "id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[19]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.QMS.CRITICAL_COUNT",
+            "formula": "COUNTIF(QMS.severity=CRITICAL)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.ACTION.DELIVERY_REVIEW",
+            "formula": "IF(OTD<90%,\"建议调查交付\",\"未触发 OTD 低于90%预警\")",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[0]"
+              },
+              {
+                "id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[1]"
+              },
+              {
+                "id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[2]"
+              },
+              {
+                "id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[3]"
+              },
+              {
+                "id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[4]"
+              },
+              {
+                "id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[5]"
+              },
+              {
+                "id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[6]"
+              },
+              {
+                "id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[7]"
+              },
+              {
+                "id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[8]"
+              },
+              {
+                "id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[9]"
+              },
+              {
+                "id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[10]"
+              },
+              {
+                "id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[11]"
+              },
+              {
+                "id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[12]"
+              },
+              {
+                "id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[13]"
+              },
+              {
+                "id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[14]"
+              },
+              {
+                "id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[15]"
+              },
+              {
+                "id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[16]"
+              },
+              {
+                "id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[17]"
+              },
+              {
+                "id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[18]"
+              },
+              {
+                "id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[19]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.QMS.EVENT_COUNT",
+            "status": "SOURCE_ROWS_MISSING",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "当前筛选范围缺少完整、受控的源行，空数据不作为零"
+          },
+          {
+            "metric_id": "SRC.SCORE.WEIGHTED_MEAN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.PO.OTD",
+            "status": "DEMO_SOURCE_RECOMPUTED",
+            "source_row_count": 24,
+            "source_id_count_returned": 24,
+            "reason": "来源明细独立复算与指标引擎一致；尚需独立核对页面显示值和同口径元数据"
+          },
+          {
+            "metric_id": "SRC.QMS.CRITICAL_COUNT",
+            "status": "SOURCE_ROWS_MISSING",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "当前筛选范围缺少完整、受控的源行，空数据不作为零"
+          },
+          {
+            "metric_id": "SRC.ACTION.DELIVERY_REVIEW",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [],
+        "response_sha256": "7fed8c686364263615286390d15fa8264a2bb55f61037fb6e1276523eaddd33e"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.ea85f424",
+      "route": "ss-performance",
+      "title": "交付绩效",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2438,
+        "sha256": "ad02d0290294ebc6e2ec4961c28aef1327f116fa6a0b675a1544afa03e670648"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 9537,
+        "sha256": "57c253537ff3b1e2bd5d9dcd240545103d47a43323d3b86c97038d11afddab4e"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 155,
+        "xlsx_sha256": "733bc3970258caceea60a8575c5d20e2b1280f15286de414c1a9afbba70b68af",
+        "bytes": 60050,
+        "filename_sha256": "404727015019558d3509e5be4fb1c5cfa34ae5c8113c84809c2d731a9420cd75",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/ss-performance.ea85f424.xlsx"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 5,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.QMS.EVENT_COUNT",
+            "formula": "COUNT(QMS.event_id)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.SCORE.WEIGHTED_MEAN",
+            "formula": "AVG(∑维度分×维度权重/100)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.PO.OTD",
+            "formula": "100×COUNT(PO.delay_days<=0)/COUNT(有 delay_days 的 PO 行)",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[0]"
+              },
+              {
+                "id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[1]"
+              },
+              {
+                "id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[2]"
+              },
+              {
+                "id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[3]"
+              },
+              {
+                "id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[4]"
+              },
+              {
+                "id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[5]"
+              },
+              {
+                "id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[6]"
+              },
+              {
+                "id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[7]"
+              },
+              {
+                "id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[8]"
+              },
+              {
+                "id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[9]"
+              },
+              {
+                "id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[10]"
+              },
+              {
+                "id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[11]"
+              },
+              {
+                "id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[12]"
+              },
+              {
+                "id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[13]"
+              },
+              {
+                "id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[14]"
+              },
+              {
+                "id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[15]"
+              },
+              {
+                "id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[16]"
+              },
+              {
+                "id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[17]"
+              },
+              {
+                "id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[18]"
+              },
+              {
+                "id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[19]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.QMS.CRITICAL_COUNT",
+            "formula": "COUNTIF(QMS.severity=CRITICAL)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.ACTION.DELIVERY_REVIEW",
+            "formula": "IF(OTD<90%,\"建议调查交付\",\"未触发 OTD 低于90%预警\")",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[0]"
+              },
+              {
+                "id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[1]"
+              },
+              {
+                "id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[2]"
+              },
+              {
+                "id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[3]"
+              },
+              {
+                "id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[4]"
+              },
+              {
+                "id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[5]"
+              },
+              {
+                "id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[6]"
+              },
+              {
+                "id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[7]"
+              },
+              {
+                "id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[8]"
+              },
+              {
+                "id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[9]"
+              },
+              {
+                "id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[10]"
+              },
+              {
+                "id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[11]"
+              },
+              {
+                "id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[12]"
+              },
+              {
+                "id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[13]"
+              },
+              {
+                "id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[14]"
+              },
+              {
+                "id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[15]"
+              },
+              {
+                "id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[16]"
+              },
+              {
+                "id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[17]"
+              },
+              {
+                "id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[18]"
+              },
+              {
+                "id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[19]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.QMS.EVENT_COUNT",
+            "status": "SOURCE_ROWS_MISSING",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "当前筛选范围缺少完整、受控的源行，空数据不作为零"
+          },
+          {
+            "metric_id": "SRC.SCORE.WEIGHTED_MEAN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.PO.OTD",
+            "status": "DEMO_SOURCE_RECOMPUTED",
+            "source_row_count": 24,
+            "source_id_count_returned": 24,
+            "reason": "来源明细独立复算与指标引擎一致；尚需独立核对页面显示值和同口径元数据"
+          },
+          {
+            "metric_id": "SRC.QMS.CRITICAL_COUNT",
+            "status": "SOURCE_ROWS_MISSING",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "当前筛选范围缺少完整、受控的源行，空数据不作为零"
+          },
+          {
+            "metric_id": "SRC.ACTION.DELIVERY_REVIEW",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [],
+        "response_sha256": "cd2e89e6d1b06cfde82088fa1c9e666f19a6e0b28cfe36deb27515e511b201cd"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.63a41dc0",
+      "route": "ss-performance",
+      "title": "技术响应绩效",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2438,
+        "sha256": "90bbfc42ab5fce7b6fd24b90dceffb42aca195a07c8183d31d159a97520d8905"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 9537,
+        "sha256": "930a3e336429d52dd453d8514f4a2416ff8d240daa1d504db1b100847d94b236"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 155,
+        "xlsx_sha256": "e697009653b4101176a8253d859e055c26b87ebbeffeb87b0ad90c22de60dfa4",
+        "bytes": 60053,
+        "filename_sha256": "ad7f0329e00efa11a6e01f03ad6b85e7ed31e82aaec1d655fda5a03174ebbcc3",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/ss-performance.63a41dc0.xlsx"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 5,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.QMS.EVENT_COUNT",
+            "formula": "COUNT(QMS.event_id)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.SCORE.WEIGHTED_MEAN",
+            "formula": "AVG(∑维度分×维度权重/100)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.PO.OTD",
+            "formula": "100×COUNT(PO.delay_days<=0)/COUNT(有 delay_days 的 PO 行)",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[0]"
+              },
+              {
+                "id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[1]"
+              },
+              {
+                "id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[2]"
+              },
+              {
+                "id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[3]"
+              },
+              {
+                "id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[4]"
+              },
+              {
+                "id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[5]"
+              },
+              {
+                "id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[6]"
+              },
+              {
+                "id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[7]"
+              },
+              {
+                "id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[8]"
+              },
+              {
+                "id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[9]"
+              },
+              {
+                "id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[10]"
+              },
+              {
+                "id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[11]"
+              },
+              {
+                "id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[12]"
+              },
+              {
+                "id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[13]"
+              },
+              {
+                "id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[14]"
+              },
+              {
+                "id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[15]"
+              },
+              {
+                "id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[16]"
+              },
+              {
+                "id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[17]"
+              },
+              {
+                "id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[18]"
+              },
+              {
+                "id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[19]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.QMS.CRITICAL_COUNT",
+            "formula": "COUNTIF(QMS.severity=CRITICAL)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.ACTION.DELIVERY_REVIEW",
+            "formula": "IF(OTD<90%,\"建议调查交付\",\"未触发 OTD 低于90%预警\")",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[0]"
+              },
+              {
+                "id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[1]"
+              },
+              {
+                "id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[2]"
+              },
+              {
+                "id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[3]"
+              },
+              {
+                "id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[4]"
+              },
+              {
+                "id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[5]"
+              },
+              {
+                "id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[6]"
+              },
+              {
+                "id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[7]"
+              },
+              {
+                "id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[8]"
+              },
+              {
+                "id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[9]"
+              },
+              {
+                "id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[10]"
+              },
+              {
+                "id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[11]"
+              },
+              {
+                "id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[12]"
+              },
+              {
+                "id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[13]"
+              },
+              {
+                "id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[14]"
+              },
+              {
+                "id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[15]"
+              },
+              {
+                "id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[16]"
+              },
+              {
+                "id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[17]"
+              },
+              {
+                "id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[18]"
+              },
+              {
+                "id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[19]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.QMS.EVENT_COUNT",
+            "status": "SOURCE_ROWS_MISSING",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "当前筛选范围缺少完整、受控的源行，空数据不作为零"
+          },
+          {
+            "metric_id": "SRC.SCORE.WEIGHTED_MEAN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.PO.OTD",
+            "status": "DEMO_SOURCE_RECOMPUTED",
+            "source_row_count": 24,
+            "source_id_count_returned": 24,
+            "reason": "来源明细独立复算与指标引擎一致；尚需独立核对页面显示值和同口径元数据"
+          },
+          {
+            "metric_id": "SRC.QMS.CRITICAL_COUNT",
+            "status": "SOURCE_ROWS_MISSING",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "当前筛选范围缺少完整、受控的源行，空数据不作为零"
+          },
+          {
+            "metric_id": "SRC.ACTION.DELIVERY_REVIEW",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [],
+        "response_sha256": "2985fe6b7ca0bef7ba16344deed52ffa015b46da1a4e57357d672202e2840944"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-performance.fa9c5927",
+      "route": "ss-performance",
+      "title": "商务配合绩效",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2438,
+        "sha256": "8db08980fb75202adcda2565c561dc115fcb521097821728370789e6b5148f45"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 9537,
+        "sha256": "afd69d5d2afe67618b819e49ffc8bdcc69427bc2b6505bc4190e7263867be372"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 155,
+        "xlsx_sha256": "768cd5357e237df64c20d89b79bc831b86e7bf6c93c7fe0fcdc5592a3e9a122e",
+        "bytes": 60057,
+        "filename_sha256": "6568dc238418e0f03a94affad21403d577352c0ade7225be4782d9a1742be9f9",
+        "saved_test_workbook": "docs/V2953_15历史组件真实公式Excel/ss-performance.fa9c5927.xlsx"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 5,
+        "metric_source_key_evidence": [
+          {
+            "metric_id": "SRC.QMS.EVENT_COUNT",
+            "formula": "COUNT(QMS.event_id)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.SCORE.WEIGHTED_MEAN",
+            "formula": "AVG(∑维度分×维度权重/100)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.PO.OTD",
+            "formula": "100×COUNT(PO.delay_days<=0)/COUNT(有 delay_days 的 PO 行)",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[0]"
+              },
+              {
+                "id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[1]"
+              },
+              {
+                "id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[2]"
+              },
+              {
+                "id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[3]"
+              },
+              {
+                "id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[4]"
+              },
+              {
+                "id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[5]"
+              },
+              {
+                "id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[6]"
+              },
+              {
+                "id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[7]"
+              },
+              {
+                "id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[8]"
+              },
+              {
+                "id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[9]"
+              },
+              {
+                "id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[10]"
+              },
+              {
+                "id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[11]"
+              },
+              {
+                "id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[12]"
+              },
+              {
+                "id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[13]"
+              },
+              {
+                "id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[14]"
+              },
+              {
+                "id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[15]"
+              },
+              {
+                "id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[16]"
+              },
+              {
+                "id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[17]"
+              },
+              {
+                "id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[18]"
+              },
+              {
+                "id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[19]"
+              }
+            ]
+          },
+          {
+            "metric_id": "SRC.QMS.CRITICAL_COUNT",
+            "formula": "COUNTIF(QMS.severity=CRITICAL)",
+            "row_count_returned": 0,
+            "source_key_sample": []
+          },
+          {
+            "metric_id": "SRC.ACTION.DELIVERY_REVIEW",
+            "formula": "IF(OTD<90%,\"建议调查交付\",\"未触发 OTD 低于90%预警\")",
+            "row_count_returned": 24,
+            "source_key_sample": [
+              {
+                "id": "PO-0001",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[0]"
+              },
+              {
+                "id": "PO-0002",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[1]"
+              },
+              {
+                "id": "PO-0003",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[2]"
+              },
+              {
+                "id": "PO-0004",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[3]"
+              },
+              {
+                "id": "PO-0005",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[4]"
+              },
+              {
+                "id": "PO-0006",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[5]"
+              },
+              {
+                "id": "PO-0007",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[6]"
+              },
+              {
+                "id": "PO-0008",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[7]"
+              },
+              {
+                "id": "PO-0009",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[8]"
+              },
+              {
+                "id": "PO-0010",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[9]"
+              },
+              {
+                "id": "PO-0011",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[10]"
+              },
+              {
+                "id": "PO-0012",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[11]"
+              },
+              {
+                "id": "PO-0013",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[12]"
+              },
+              {
+                "id": "PO-0014",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[13]"
+              },
+              {
+                "id": "PO-0015",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[14]"
+              },
+              {
+                "id": "PO-0016",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[15]"
+              },
+              {
+                "id": "PO-0017",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[16]"
+              },
+              {
+                "id": "PO-0018",
+                "supplier_id": "SUP-001",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[17]"
+              },
+              {
+                "id": "PO-0019",
+                "supplier_id": "SUP-002",
+                "material_id": "API-001",
+                "source_row": "purchasing.orders[18]"
+              },
+              {
+                "id": "PO-0020",
+                "supplier_id": "SUP-003",
+                "material_id": "API-002",
+                "source_row": "purchasing.orders[19]"
+              }
+            ]
+          }
+        ],
+        "strict_metric_audit": [
+          {
+            "metric_id": "SRC.QMS.EVENT_COUNT",
+            "status": "SOURCE_ROWS_MISSING",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "当前筛选范围缺少完整、受控的源行，空数据不作为零"
+          },
+          {
+            "metric_id": "SRC.SCORE.WEIGHTED_MEAN",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          },
+          {
+            "metric_id": "SRC.PO.OTD",
+            "status": "DEMO_SOURCE_RECOMPUTED",
+            "source_row_count": 24,
+            "source_id_count_returned": 24,
+            "reason": "来源明细独立复算与指标引擎一致；尚需独立核对页面显示值和同口径元数据"
+          },
+          {
+            "metric_id": "SRC.QMS.CRITICAL_COUNT",
+            "status": "SOURCE_ROWS_MISSING",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "当前筛选范围缺少完整、受控的源行，空数据不作为零"
+          },
+          {
+            "metric_id": "SRC.ACTION.DELIVERY_REVIEW",
+            "status": "NO_INDEPENDENT_EVALUATOR",
+            "source_row_count": null,
+            "source_id_count_returned": 0,
+            "reason": "存在指标定义，不代表已实现独立复算器；不可标记PASS"
+          }
+        ],
+        "narrative_audit_statuses": [],
+        "response_sha256": "90592e22ec7c5844becf0883d6f888acb545c6e18b3203ef0558251ed2382214"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T10:11:35.940412+00:00",
+  "exact_rendered": 4,
+  "three_entry_click_verified": 4,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 4,
+  "api_trace_received": 4,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

@@ -1,0 +1,324 @@
+{
+  "version": "2.9.48",
+  "tested_at": "2026-11-13T03:16:12.225Z",
+  "scope": "SOURCE_API_AND_WORKBOOK_STRUCTURAL_NOT_BROWSER_E2E",
+  "tables": [
+    {
+      "table": "suppliers",
+      "local_records": 80,
+      "pages": 1,
+      "unique_keys": 80,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "materials",
+      "local_records": 120,
+      "pages": 1,
+      "unique_keys": 120,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "projects",
+      "local_records": 24,
+      "pages": 1,
+      "unique_keys": 24,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "product_lines",
+      "local_records": 30,
+      "pages": 1,
+      "unique_keys": 30,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "purchase_orders",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "quotes",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "rfq_alternates",
+      "local_records": 2880,
+      "pages": 22,
+      "unique_keys": 2880,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "contracts",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "contract_documents",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "shipment_documents",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "payment_authorizations",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "qc_lots",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "inventory",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "production",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "invoices",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "payments",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "claims",
+      "local_records": 84,
+      "pages": 1,
+      "unique_keys": 84,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "claim_settlements",
+      "local_records": 84,
+      "pages": 1,
+      "unique_keys": 84,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "change_controls",
+      "local_records": 102,
+      "pages": 1,
+      "unique_keys": 102,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "exceptions",
+      "local_records": 679,
+      "pages": 5,
+      "unique_keys": 679,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    },
+    {
+      "table": "metric_events",
+      "local_records": 1440,
+      "pages": 11,
+      "unique_keys": 1440,
+      "consistent_snapshot": true,
+      "all_simulated_rows_retrieved": true,
+      "enterprise_source_verified": false
+    }
+  ],
+  "execution_pages": [
+    {
+      "page": "rfq",
+      "records_in_test_scope": 54,
+      "derived_variables": 14,
+      "metrics": 8,
+      "workbook_sheets": 10,
+      "formula_cells": 2394,
+      "formula_structural_check": true,
+      "excel_recomputed_values_browser_verified": false
+    },
+    {
+      "page": "contracts",
+      "records_in_test_scope": 18,
+      "derived_variables": 6,
+      "metrics": 6,
+      "workbook_sheets": 10,
+      "formula_cells": 374,
+      "formula_structural_check": true,
+      "excel_recomputed_values_browser_verified": false
+    },
+    {
+      "page": "orders",
+      "records_in_test_scope": 18,
+      "derived_variables": 7,
+      "metrics": 6,
+      "workbook_sheets": 10,
+      "formula_cells": 428,
+      "formula_structural_check": true,
+      "excel_recomputed_values_browser_verified": false
+    },
+    {
+      "page": "shipments",
+      "records_in_test_scope": 18,
+      "derived_variables": 7,
+      "metrics": 6,
+      "workbook_sheets": 10,
+      "formula_cells": 428,
+      "formula_structural_check": true,
+      "excel_recomputed_values_browser_verified": false
+    },
+    {
+      "page": "invoices",
+      "records_in_test_scope": 18,
+      "derived_variables": 7,
+      "metrics": 6,
+      "workbook_sheets": 10,
+      "formula_cells": 428,
+      "formula_structural_check": true,
+      "excel_recomputed_values_browser_verified": false
+    },
+    {
+      "page": "payments",
+      "records_in_test_scope": 18,
+      "derived_variables": 6,
+      "metrics": 6,
+      "workbook_sheets": 10,
+      "formula_cells": 374,
+      "formula_structural_check": true,
+      "excel_recomputed_values_browser_verified": false
+    },
+    {
+      "page": "claims",
+      "records_in_test_scope": 1,
+      "derived_variables": 5,
+      "metrics": 6,
+      "workbook_sheets": 10,
+      "formula_cells": 31,
+      "formula_structural_check": true,
+      "excel_recomputed_values_browser_verified": false
+    },
+    {
+      "page": "closing",
+      "records_in_test_scope": 18,
+      "derived_variables": 6,
+      "metrics": 6,
+      "workbook_sheets": 10,
+      "formula_cells": 374,
+      "formula_structural_check": true,
+      "excel_recomputed_values_browser_verified": false
+    },
+    {
+      "page": "exceptions",
+      "records_in_test_scope": 7,
+      "derived_variables": 7,
+      "metrics": 6,
+      "workbook_sheets": 10,
+      "formula_cells": 175,
+      "formula_structural_check": true,
+      "excel_recomputed_values_browser_verified": false
+    }
+  ],
+  "decision_pages": [
+    {
+      "page": "01",
+      "three_entry_script": true,
+      "actual_click_browser_e2e": false
+    },
+    {
+      "page": "02",
+      "three_entry_script": true,
+      "actual_click_browser_e2e": false
+    },
+    {
+      "page": "03",
+      "three_entry_script": true,
+      "actual_click_browser_e2e": false
+    },
+    {
+      "page": "04",
+      "three_entry_script": true,
+      "actual_click_browser_e2e": false
+    },
+    {
+      "page": "05",
+      "three_entry_script": true,
+      "actual_click_browser_e2e": false
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "tables_ok": 21,
+    "table_rows": 21363,
+    "execution_pages_ok": 9,
+    "decision_pages_scripted": 5,
+    "failures": 0,
+    "all_business_verified": false
+  }
+}

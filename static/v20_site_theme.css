@@ -1,0 +1,186 @@
+/* V2.0 · CONSISTENT PHARMA PROCUREMENT DESIGN SYSTEM
+ * Original V15 business screens, selectors, IDs, table DOM and handlers are not replaced.
+ * This stylesheet only changes presentation, not the business process/data.
+ * Overview's already approved V19 visual skin remains untouched inside .v17-dashboard.
+ */
+:root{
+  --page:#eef5ff; --paper:#fff; --ink:#102a62; --ink2:#294779;
+  --muted:#607b9e;--line:#cfdef4;--line2:#bfd2ef;
+  --slate:#2473db; --slate-dark:#0752af;
+  --teal:#00a79c;--teal-bg:#e7faf1;
+  --blue-bg:#eaf3ff;--sand:#d88a26;--sand-bg:#fff4de;
+  --danger:#dc324b;--danger-bg:#fff0f3;
+  --sidebar:#092e70;--sidebar-hover:#1c60bf;
+  --shadow:0 4px 15px rgba(35,100,190,.09);--radius:12px;
+}
+html{scroll-behavior:auto}
+body{background:#edf5ff;color:#102a62}
+.app-shell{min-width:0}
+/* The V19 visual had intentionally hidden the left sidebar on Overview.
+ * Reinstate it; navigation is persistent and is accessible on every route. */
+body.v16-overview-mode #sidebar{display:flex!important}
+body.v16-overview-mode .workspace{width:auto!important;min-width:0;flex:1}
+body.v16-overview-mode #content{min-width:0;width:100%!important;max-width:none!important;box-sizing:border-box}
+.sidebar{
+  background:linear-gradient(175deg,#103f98 0%,#0c3074 50%,#082457 100%);
+  color:#eaf3ff;width:255px;min-width:255px;box-shadow:3px 0 15px #154aa11b;
+  border-right:1px solid #3a80d7;z-index:45
+}
+.brand{height:73px;min-height:73px;padding:0 10px 0 15px;gap:9px;border-color:#ffffff28;position:relative}
+.brand>div:nth-child(2){flex:1;min-width:0}
+.brand strong{font-weight:900;font-size:14px;color:#fff;letter-spacing:.8px}
+.brand strong span{color:#91ddff}
+.brand small{color:#c1dcff;font-size:9px}
+.brand-icon{flex:0 0 35px;height:35px;border-color:#76baff9c;background:linear-gradient(135deg,#178ff0,#1242b0);color:#fff;box-shadow:0 3px 8px #0519464f}
+#v20-nav-toggle{flex-shrink:0;border:1px solid #629ee8;background:#1556af;color:white;width:27px;height:32px;border-radius:7px;font-weight:900;font-size:22px;line-height:20px;cursor:pointer;transition:background .15s}
+#v20-nav-toggle:hover{background:#2e85df}
+.side-scroll{padding:14px 9px 8px;scrollbar-width:thin;scrollbar-color:#5988c6 transparent}
+.nav-label{color:#94b9eb;font-size:9px;letter-spacing:1.4px;font-weight:900;margin:6px 12px 7px}
+.nav-label-secondary{margin-top:19px}
+.nav-link{color:#e0ebff;display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:9px;min-height:49px;margin:3px 0;font-size:12px;border:1px solid transparent}
+.nav-link svg{height:19px;width:19px;stroke:#c8e5ff;flex:0 0 auto}
+.nav-link .nav-text{display:flex;flex-direction:column;min-width:0;flex:1;gap:1px;line-height:1.3}
+.nav-link .nav-text strong{font-weight:750;font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nav-link .nav-text small{color:#adc5e9;font-size:8.9px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nav-link .nav-num{font-size:9px;font-weight:800;color:#aecbf4;white-space:nowrap;margin-left:2px}
+.nav-link .live-mini{background:#0e8d9e;color:#fff;margin-left:2px}
+.nav-link:hover{background:#1e60b1;color:#fff;border-color:#5d9bee44}
+.nav-link.active{background:linear-gradient(95deg,#398ef3,#1463ca);border:1px solid #73b2ff6e;box-shadow:inset 3px 0 0 #cbf7ff,0 3px 8px #041c5944;color:#fff}
+.nav-link.active svg{stroke:#fff}
+.nav-link.active .nav-text small{color:#e8f4ff}
+.sidebar-footer{height:auto;min-height:54px;border-color:#ffffff2c;background:#08295c;padding:11px 14px;flex-wrap:wrap;font-size:10px}
+.sidebar-footer small{color:#abc8ec;font-size:9px}
+body.v20-nav-compact .sidebar{width:67px;min-width:67px}
+body.v20-nav-compact .brand{justify-content:center;padding:8px 3px;flex-direction:column;height:92px;gap:3px}
+body.v20-nav-compact .brand>div:nth-child(2){display:none}
+body.v20-nav-compact .brand-icon{height:34px;min-height:34px;width:34px;flex-basis:34px}
+body.v20-nav-compact #v20-nav-toggle{height:22px;width:37px;font-size:20px;line-height:17px}
+body.v20-nav-compact .side-scroll{padding:12px 5px}
+body.v20-nav-compact .nav-label,body.v20-nav-compact .sidebar-footer,body.v20-nav-compact .nav-text,body.v20-nav-compact .nav-num,body.v20-nav-compact .live-mini{display:none!important}
+body.v20-nav-compact .nav-link{padding:10px 0;justify-content:center;min-height:45px}
+body.v20-nav-compact .nav-link svg{width:20px;height:20px}
+/* On mobile, sidebar becomes an on-demand drawer. */
+#v20-overview-menu{display:none;position:fixed;left:8px;top:8px;z-index:55;border:1px solid #7fb2f6;background:linear-gradient(110deg,#1669cf,#0743a8);color:#fff;border-radius:9px;padding:8px 11px;box-shadow:0 3px 12px #06346c44;font-size:12px;font-weight:800}
+@media(max-width:900px){
+  body.v16-overview-mode #sidebar,.sidebar{position:fixed;left:0;top:0;bottom:0;height:100vh;width:260px!important;min-width:260px!important;transform:translateX(-105%);transition:transform .17s;box-shadow:5px 0 30px #08265455}
+  body.v16-overview-mode #sidebar.open,body:not(.v16-overview-mode) #sidebar.open{transform:translateX(0)!important}
+  body.v20-nav-compact .sidebar{width:260px!important;min-width:260px!important}
+  body.v20-nav-compact .brand{height:73px;flex-direction:row;padding:0 10px 0 15px}
+  body.v20-nav-compact .brand>div:nth-child(2){display:block}
+  body.v20-nav-compact .nav-label,body.v20-nav-compact .sidebar-footer,body.v20-nav-compact .nav-text,body.v20-nav-compact .nav-num,body.v20-nav-compact .live-mini{display:initial!important}
+  body.v20-nav-compact .nav-text{display:flex!important}
+  body.v20-nav-compact .nav-link{padding:8px 10px;justify-content:flex-start}
+  body.v16-overview-mode #content{padding:0 8px 12px!important}
+  #v20-overview-menu{display:block;top:auto;bottom:13px;left:12px}
+  body:not(.v16-overview-mode) .topbar .mobile-menu{display:inline-flex!important}
+}
+/* All NON-overview views receive the exact shared blue + tinted dashboard vocabulary. */
+body:not(.v16-overview-mode) .workspace{background:linear-gradient(165deg,#f5faff,#ebf4ff 65%,#f4f8ff)}
+body:not(.v16-overview-mode) .topbar{background:linear-gradient(105deg,#e5f3ff 0%,#d6eaff 50%,#b7dbff 100%);border-bottom:1px solid #bbd5f7;box-shadow:0 2px 8px #196dc61a;height:62px;padding:0 25px}
+body:not(.v16-overview-mode) #breadcrumb,body:not(.v16-overview-mode) #breadcrumb strong{color:#153776;font-weight:800}
+body:not(.v16-overview-mode) .topbar-help{color:#13519b;border-color:#a9c8eb}
+body:not(.v16-overview-mode) .avatar{background:linear-gradient(135deg,#1d86f3,#1151b8);color:white}
+body:not(.v16-overview-mode) .environment-label{color:#375e94}
+body:not(.v16-overview-mode) #content{max-width:1670px;min-width:0;padding:18px 21px 60px}
+/* Blue gradient chapter header matches the approved Overview header language. */
+body:not(.v16-overview-mode) .e8-title,
+body:not(.v16-overview-mode) .p12-page-head{
+  background:linear-gradient(106deg,#e3f2ff 0%,#d7eaff 58%,#c4e0ff 100%);
+  padding:12px 16px;border:1px solid #bddaff;border-radius:12px;
+  box-shadow:inset 0 1px 0 #fff,0 2px 8px #2f73bb13;
+}
+body:not(.v16-overview-mode) .e8-topnotes,
+body:not(.v16-overview-mode) .e8-mode{
+  background:linear-gradient(90deg,#f4faff,#eaf4ff);border-color:#cadff9;color:#5275a3;
+}
+body:not(.v16-overview-mode) .page-title,body:not(.v16-overview-mode) .e8-title h1,body:not(.v16-overview-mode) .p12-page-head h1{font-weight:900!important;color:#092e75!important;letter-spacing:-.5px}
+body:not(.v16-overview-mode) .page-subtitle,body:not(.v16-overview-mode) .e8-eyebrow{color:#4b75a1}
+body:not(.v16-overview-mode) .panel,
+body:not(.v16-overview-mode) .e8-box,
+body:not(.v16-overview-mode) .p12-box,
+body:not(.v16-overview-mode) .p12-kpi,
+body:not(.v16-overview-mode) .p12-filters,
+body:not(.v16-overview-mode) .e8-stat,
+body:not(.v16-overview-mode) .p12-source-upload,
+body:not(.v16-overview-mode) .kpi-panel,
+body:not(.v16-overview-mode) .v14-card{
+  border-color:#c5dcf8!important;border-radius:12px!important;
+  box-shadow:0 3px 10px #2779dc10!important;background:linear-gradient(135deg,#fff,#f9fcff)!important;
+}
+body:not(.v16-overview-mode) .e8-box>header,
+body:not(.v16-overview-mode) .panel-head,
+body:not(.v16-overview-mode) .p12-box-head{background:linear-gradient(90deg,#e9f3ff,#f8fbff)!important;border-bottom:1px solid #d1e3f8;padding-top:10px;padding-bottom:10px;border-radius:9px 9px 0 0}
+body:not(.v16-overview-mode) .panel-title,
+body:not(.v16-overview-mode) .e8-box h3,
+body:not(.v16-overview-mode) .p12-box-head h3,
+body:not(.v16-overview-mode) .p12-page-head h2{color:#0c3d93;font-weight:850}
+body:not(.v16-overview-mode) .e8-stat:nth-child(4n+1),body:not(.v16-overview-mode) .p12-kpi:nth-child(4n+1){background:linear-gradient(145deg,#eaf8ff,#fff)!important;border-color:#bddcff!important}
+body:not(.v16-overview-mode) .e8-stat:nth-child(4n+2),body:not(.v16-overview-mode) .p12-kpi:nth-child(4n+2){background:linear-gradient(145deg,#ebfbf3,#fff)!important;border-color:#b5e7cf!important}
+body:not(.v16-overview-mode) .e8-stat:nth-child(4n+3),body:not(.v16-overview-mode) .p12-kpi:nth-child(4n+3){background:linear-gradient(145deg,#fff6e4,#fff)!important;border-color:#f3d99f!important}
+body:not(.v16-overview-mode) .e8-stat:nth-child(4n+4),body:not(.v16-overview-mode) .p12-kpi:nth-child(4n+4){background:linear-gradient(145deg,#f3eeff,#fff)!important;border-color:#ddd0ff!important}
+body:not(.v16-overview-mode) .e8-stat-value{color:#0c3e92;font-weight:900}
+body:not(.v16-overview-mode) .button-primary,
+body:not(.v16-overview-mode) .p12-btn:not(.soft),
+body:not(.v16-overview-mode) .e8-btn.primary{background:linear-gradient(115deg,#1788eb,#0952b5)!important;border-color:#0b68c9!important;color:white!important;box-shadow:0 2px 6px #2069bf25}
+body:not(.v16-overview-mode) .button:not(.button-primary),
+body:not(.v16-overview-mode) .e8-btn:not(.primary),
+body:not(.v16-overview-mode) .p12-btn.soft{border-color:#abc9ee;color:#185098;background:linear-gradient(#fff,#edf6ff);border-radius:7px}
+body:not(.v16-overview-mode) .e8-tabs button.active{color:#0b54b4;background:#e1efff;font-weight:850}
+body:not(.v16-overview-mode) .p12-tabs button.active{color:#0b54b4;border-bottom-color:#1680ed}
+body:not(.v16-overview-mode) .e8-riskbar,
+body:not(.v16-overview-mode) .p12-notice{background:#fff0f1;border-color:#fac0c8;color:#bf3041}
+body:not(.v16-overview-mode) .e8-chip.danger{color:#c72b46;border-color:#ffb6bf;background:#fff0f3}
+body:not(.v16-overview-mode) .e8-chip.warn{color:#b9791b;background:#fff3df;border-color:#f1d49e}
+body:not(.v16-overview-mode) .e8-chip:not(.danger):not(.warn){color:#057d70;background:#e4f9ee;border-color:#bcebd7}
+body:not(.v16-overview-mode) .e8-table th,
+body:not(.v16-overview-mode) .p12-table th,
+body:not(.v16-overview-mode) table thead th{background:#e4f0ff!important;color:#174785!important;font-weight:820}
+body:not(.v16-overview-mode) .e8-table td,
+body:not(.v16-overview-mode) .p12-table td{border-color:#e0eafa}
+body:not(.v16-overview-mode) .e8-table tr:hover td,
+body:not(.v16-overview-mode) .p12-table tr:hover td{background:#eff7ff}
+body:not(.v16-overview-mode) .e8-bartrack,
+body:not(.v16-overview-mode) .p12-target-list button>div{background:#e7f0fd}
+body:not(.v16-overview-mode) .p12-insight{background:#eaf6ff;border-left-color:#1a7add;color:#245488}
+body:not(.v16-overview-mode) .footer-disclaimer{border-color:#d0e0f5;color:#7188a8}
+body:not(.v16-overview-mode) input:focus-visible,
+body:not(.v16-overview-mode) select:focus-visible,
+body:not(.v16-overview-mode) button:focus-visible{outline:2px solid #2589f2;outline-offset:2px}
+@media(max-width:760px){
+ body:not(.v16-overview-mode) #content{padding:14px 10px 45px}
+ body:not(.v16-overview-mode) .topbar{padding:0 10px}
+ body:not(.v16-overview-mode) .topbar-right{gap:6px}
+ body:not(.v16-overview-mode) .environment-label{display:none}
+}
+@media print{.sidebar,#v20-overview-menu,#v20-nav-toggle{display:none!important}.workspace{width:100%!important}.topbar{display:none!important}}
+
+/* V2.8 targeted responsive heights for the three screenshot-reference widgets */
+@media (min-width:1101px){
+ .v17-dashboard .v17-analytics .v17-panel{height:225px!important;min-height:225px!important}
+ .v17-dashboard .v17-two-grid>.v17-panel{height:215px!important;min-height:215px!important}
+}
+.v17-dashboard .v17-panel-spend .v17-panel-body{overflow:visible}
+.v17-dashboard .v27-spend-structure{display:flex;flex-direction:row;align-items:center;gap:10px;min-height:0;height:100%}
+.v17-dashboard .v27-spend-ring{flex:0 0 126px;width:126px;height:126px;min-width:126px;max-width:126px}
+.v17-dashboard .v27-spend-ring::after{inset:16px}
+.v17-dashboard .v27-spend-ring b{font-size:15px}
+.v17-dashboard .v27-spend-ring small{font-size:9px}
+.v17-dashboard .v27-spend-legend{flex:1;min-width:0;display:grid;align-content:center;max-height:170px;overflow:auto;gap:8px}
+.v17-dashboard .v27-spend-legend button{grid-template-columns:9px 1fr auto;gap:5px;font-size:10px;min-width:0}
+.v17-dashboard .v27-spend-legend button i{width:9px;height:9px}
+.v17-dashboard .v27-spend-legend button span{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;min-width:0}
+.v17-dashboard .v27-spend-legend button b{font-size:10px}
+.v17-dashboard .v27-supplier-card{height:100%;overflow:auto;padding:8px}
+.v17-dashboard .v27-matrix-note{font-size:10px;margin:0 0 4px}
+.v17-dashboard .v27-matrix-table{border-spacing:0 3px;font-size:10px}
+.v17-dashboard .v27-matrix-table thead th{padding:2px 3px;font-size:9px}
+.v17-dashboard .v27-matrix-table tbody td{padding:6px 3px;font-size:9.5px}
+.v17-dashboard .v27-risk-pill{padding:3px 6px;font-size:9px}
+.v17-dashboard .v27-progress-card{display:grid;grid-template-columns:112px minmax(0,1fr);gap:8px;min-height:0;height:100%;align-items:center}
+.v17-dashboard .v27-task-ring{width:104px;height:104px;min-width:104px}
+.v17-dashboard .v27-task-ring::after{inset:15px}
+.v17-dashboard .v27-task-ring b{font-size:18px}
+.v17-dashboard .v27-progress-card dl{gap:6px 8px;font-size:10px}
+.v17-dashboard .v27-progress-card dd{font-size:11px}
+@media(max-width:1100px){.v17-dashboard .v17-analytics .v17-panel-spend,.v17-dashboard .v17-two-grid>.v17-panel-supplier-matrix,.v17-dashboard .v17-two-grid>.v17-panel-progress{height:240px!important;min-height:240px!important}}
+@media(max-width:580px){.v17-dashboard .v27-spend-ring{flex-basis:104px;min-width:104px;width:104px;height:104px}.v17-dashboard .v27-progress-card{grid-template-columns:98px minmax(0,1fr)}.v17-dashboard .v27-task-ring{width:91px;height:91px;min-width:91px}}

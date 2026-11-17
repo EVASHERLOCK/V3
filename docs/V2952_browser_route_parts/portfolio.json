@@ -1,0 +1,203 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:16:16.198980+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "portfolio",
+      "expected": 4,
+      "exact_ids_found": 4,
+      "rendered_module_count": 4,
+      "unmatched_ids": []
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "components": [
+    {
+      "id": "portfolio.64f51145",
+      "route": "portfolio",
+      "title": "Top30 产品线采购结构矩阵当前 2 / 2 条可追溯产品线",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2699,
+        "sha256": "f6a6776e0a0a7b75d33f2efdf1076e05c1812cd8dc04bd3ff63b17c491ca7cc8"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 23127,
+        "sha256": "c4dc15d49031fd97c1bcc8d77d646dfba4991c7ef7769475c81efc5cb57f2c1c"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 165,
+        "xlsx_sha256": "072b4b8a2651b607eef9d532f8ebd6185b28aa459c169b8ed65b577ee13cef17",
+        "bytes": 61483,
+        "filename_sha256": "a15e806763a251cb6c4aa42619dbc07a9f3f633012b15aeeeadb6b2ab39cfb36"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 7,
+        "computed_metrics": 6,
+        "visible_dom_rows": 2,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 4,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "e081f284a815d16d24cc12952646803127fe37519b6d385af3310885dbebbb85"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "portfolio.d3e8e73a",
+      "route": "portfolio",
+      "title": "原料库存与消耗健康度基于批次与生产需求",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2527,
+        "sha256": "76b394703f5ccca7a7cfdd0091b46e29c2a523ff6da672e2805c99d6fdc835ce"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 15751,
+        "sha256": "5ff615fe4485bdd6c8929354c75948f32a02f28a55db47544e937efe9b573618"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "7307ccaad6e8d1929f40da533f43008f263e0bf30704e3db03ef8488b1bc1af2",
+        "bytes": 59321,
+        "filename_sha256": "32d01261dafac3afba293ce94381a154c743dab79e456b0a6340feee7c634511"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 5,
+        "visible_dom_rows": 0,
+        "displayed_figures": 4,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 4,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "1254cb07ecd6fbfab3321c7d1aa22ea114c679e594856552fda1b9c99d9986bf"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "portfolio.88bf8e48",
+      "route": "portfolio",
+      "title": "Top10 原料采购金额排行｜ABC 分类按当前范围采购金额",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2053,
+        "sha256": "5567c5bdb8bb7f77031f33a7f1a1f3645f1f4dc5448a5cb53818017e10f1babf"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 18962,
+        "sha256": "d5edee65dfd1b2c1bf976d3bb080ecd9b0eb556b6db35cd4f8a9208f937b602c"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 159,
+        "xlsx_sha256": "a824ab91c424484d146d5bab6f6a312e1ecff8223def1ea215d195f2930def1f",
+        "bytes": 58861,
+        "filename_sha256": "7dc5b39a3c72dc72eaf87a9ba3f1d040a1fd63833482e1a5f287c0ac94861d01"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 5,
+        "visible_dom_rows": 0,
+        "displayed_figures": 2,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 2,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "058ef45c116ba4e49c7c72e6da68b0ba64ace926ad1708db3ef5a1462f3904f8"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "portfolio.268a11c8",
+      "route": "portfolio",
+      "title": "战略行动清单6 条源任务 · 点击可追溯",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3747,
+        "sha256": "2ee66177422728669b6d1764242769d306fdff9d0b288521ebc8f796aeeaea9d"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 24524,
+        "sha256": "1fa18208e7d0c3c4e1c57b95701caefc9cb1c821a7b96244cff6249ee2582866"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "7e86ca1497d4c2dbf57147d706ddce554fd94caf218165f0838c414ecc4a4eff",
+        "bytes": 64008,
+        "filename_sha256": "f6548f86ae724f6befa6b6eb576fd3ed448eea91f4dca25c28e882376803889a"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 7,
+        "computed_metrics": 6,
+        "visible_dom_rows": 6,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "a74529b1c4f68fdc0b08c7f416841a433bf0a968cf7c9b0f911aedde9971bcdc"
+      },
+      "business_calculation_complete": false
+    }
+  ]
+}

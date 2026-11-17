@@ -1,0 +1,36 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {enterpriseAnalysis} from './enterprise_v08.mjs';
+const doc={readyState:'loading',addEventListener(){},querySelector(){return null}};
+const W={EnterpriseV08:{state:{data:enterpriseAnalysis({}),filters:{},loading:false}},render(){},PharmaV14:{scopedBasis:d=>d,begin(){}},PharmaV12:{state:{tabs:{},tasks:[]}}};
+const sandbox={window:W,document:doc,console,setTimeout,clearTimeout,URL,Blob,Intl,location:{hash:'#overview'},localStorage:{removeItem(){}}};
+for(const file of ['static/v16_overview.js','static/m01_planning.js','static/portfolio_strategy.js'])vm.runInNewContext(fs.readFileSync(file,'utf8'),sandbox,{filename:file});
+function has(str, expected, label){assert(str.includes(expected),`Missing ${label}: ${expected}`)}
+let d=W.EnterpriseV08.state.data;
+let over=W.PharmaV16Overview.render();
+for(const s of ['花费结构（Spend）','v27-spend-ring','v27-spend-legend','供应商风险 × 交付绩效矩阵','v27-matrix-table','改善任务进度','已完成','已逾期'])has(over,s,'Overview');
+let cats=[...new Set(d.master.materials.map(x=>x.category_group))],catTotal=cats.reduce((a,c)=>a+d.purchasing.orders.filter(x=>d.master.materials.find(m=>m.material_id===x.material_id)?.category_group===c).reduce((b,p)=>b+Number(p.amount),0),0);
+assert.equal(catTotal,d.base.metrics.spend);assert.equal((over.match(/data-v16-detail="spend-category"/g)||[]).length,cats.length);
+const fullSupplierCount=d.supplier.scorecards.length;
+assert.equal((over.match(/data-v16-detail="supplier"/g)||[]).length>=fullSupplierCount,true);
+const mat=W.PharmaM01.model(d),m01=W.PharmaM01.render();
+for(const s of ['缺料物料 TOP10','m01-refchart red','数量偏差 TOP10 · 标准 vs 实耗','m01-variance-ref','物料风险分类占比','m01-risk-donut-ref','偏差根因追溯矩阵','m01-trace-table','根因一级分类','根因二级分类','责任部门','当前状态'])has(m01,s,'M01');
+const uniqMats=new Set([...mat.mat.map(x=>x.id),...mat.lots.map(x=>x.material_id)]);
+assert.equal((m01.match(/class="m01-risk-ring"/g)||[]).length,1);
+has(m01,`<b>${uniqMats.size}</b><small>物料总数`, 'M01 exact material total');
+assert.equal((m01.match(/data-m01-open="risk-class:/g)||[]).length>=2,true);
+const p=W.PharmaPortfolio,model=p.makeModel(d),portfolio=p.render();
+for(const s of ['全球采购战略日历 · 未来 24 个月','cp-ref-calendar','参考图行动词条','Top10 原料采购金额排行｜ABC 分类','cp-rank-ref','战略行动清单','cp-actions-table ref','启动第二供应商开发','GMP审计','Change Control','新供应商导入'])has(portfolio,s,'Portfolio');
+const scheduled=(portfolio.match(/data-cp-event="/g)||[]).length;
+assert(scheduled<=model.events.length, 'calendar may not invent events');
+assert.equal((portfolio.match(/data-cp-actionrow="/g)||[]).length,model.actionRows.length,'each action should be linked to actual task');
+assert(!portfolio.includes('<td>2026-Q3</td>'),'fake example date must not render as factual action');
+assert(!portfolio.includes('<td>断供风险降低70%</td>'),'unrealized savings should remain only in reference examples');
+const sourceDateText=`基准日期 ${model.asOf}`;has(portfolio,sourceDateText,'Calendar data source');
+// material filtering must propagate through common source model into all three views
+let filtered=enterpriseAnalysis({material:'API-002'});
+W.EnterpriseV08.state.data=filtered;
+let fO=W.PharmaV16Overview.render();let fM=W.PharmaM01.render();let fP=p.render();
+assert.notEqual(fO,over,'overview should react to source filter');assert.notEqual(fM,m01,'M01 should react to source filter');assert.notEqual(fP,portfolio,'portfolio should react to source filter');
+console.log('PASS V2.8: 10 UI sections, source-linked calendar/actions, no invented outcomes, ABC reconciliation, cross-page filtering, drilldown bindings');

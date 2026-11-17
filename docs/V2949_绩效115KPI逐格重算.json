@@ -1,0 +1,17 @@
+{
+  "version": "2.9.49",
+  "scope": "115_KPIS_SIMULATED_SUP_001_FILTERED_STATIC_XLSX_INDEPENDENT_RECALC",
+  "tested_at_utc": "2026-11-14T03:10:33.269433+00:00",
+  "file": "/mnt/data/Pharma_Decision_V2949_115_KPI_Formula_Reconciliation_DEMO.xlsx",
+  "formula_rows": 115,
+  "match": 115,
+  "diff": 0,
+  "missing": 0,
+  "failures": [],
+  "enterprise_verified": false,
+  "full_business_acceptance": "BLOCKED",
+  "statuses": {
+    "MATCH": 115
+  },
+  "sheets": 15
+}

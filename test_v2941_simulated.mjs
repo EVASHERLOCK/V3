@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';
+import {overview,validateAll,list,parseCSV} from './sim_data_center_v2941.mjs';
+const o=overview();assert.equal(o.table_counts.suppliers,80);assert.equal(o.table_counts.materials,120);assert.equal(o.table_counts.projects,24);assert.equal(o.table_counts.purchase_orders,1440);assert.equal(o.table_counts.invoices,1440);assert.equal(o.table_counts.payments,1440);
+const audit=validateAll();assert.equal(audit.violation_count,0,JSON.stringify(audit.violations));
+const x=list('purchase_orders',{supplier:'SUP-018',limit:100});assert(x.total>0);assert(x.rows.every(r=>r.supplier_id==='SUP-018'));
+const app=fs.readFileSync('static/app.js','utf8');assert(app.includes("id:'sim-center'")&&app.includes('sim_data_center.html'));
+const html=fs.readFileSync('static/index.html','utf8');assert(html.includes('sim_data_center.html'));
+const monthly=new Set([0,500,1000].flatMap(offset=>list('purchase_orders',{limit:500,offset}).rows.map(r=>r.created_date.slice(0,7))));assert.equal(monthly.size,12);
+const qc=list('qc_lots',{limit:500}).rows;assert(qc.every(r=>r.po_id&&r.supplier_id&&r.material_id&&r.project_id));
+console.log('PASS V2.9.41 80 suppliers,120 materials,24 projects,12 months,1440 PO,all links,nav and seed');

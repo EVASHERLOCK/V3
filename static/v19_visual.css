@@ -1,0 +1,299 @@
+/* V1.9 pixel-guided visual layer — affects Overview only, never the other 17 business pages.
+   Visual fidelity target: user-approved 1536px procurement command-center screenshot.
+   Source of truth remains /api/v08 via PharmaV14.scopedBasis. */
+body.v16-overview-mode{background:#edf5ff!important;color:#092965}
+body.v16-overview-mode #content{padding:0 8px 8px!important;background:linear-gradient(180deg,#f1f7ff 0%,#e5f1ff 100%)}
+.v16-dashboard.v17-dashboard{max-width:1980px;width:100%;gap:6px;padding:0 0 5px;background:linear-gradient(145deg,#f7fbff 0%,#eef6ff 40%,#e3f0fe 100%);font-family:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC',sans-serif;color:#0d2b66;font-size:12px;line-height:1.27;font-weight:500}
+.v17-dashboard *{box-sizing:border-box}
+.v17-dashboard button{transition:transform .13s,filter .13s,box-shadow .13s}
+.v17-dashboard button:hover{filter:brightness(.98);box-shadow:0 2px 8px #1674d52a}
+.v17-dashboard button:focus-visible{outline:2px solid #057fff;outline-offset:1px}
+/* Masthead: large inky title and subtitle on one line, blue satin geometry */
+.v17-dashboard .v17-topbar{height:47px;min-height:47px;padding:3px 14px;background:linear-gradient(108deg,#e7f4ff 0%,#d8eaff 49%,#abd5fe 100%);border:0;border-bottom:1px solid #bbd9f8;box-shadow:inset 0 1px 0 #fff;overflow:hidden;border-radius:0}
+.v17-dashboard .v17-topbar:before{content:'';position:absolute;right:3%;top:-95px;width:460px;height:160px;transform:rotate(-21deg);background:linear-gradient(90deg,#ffffff22,#ffffff55,#ffffff10);border-radius:28px}
+.v17-dashboard .v17-topbar:after{right:70px;width:290px;opacity:.45}
+.v17-dashboard .v17-brand{flex:1;gap:0;min-width:0}
+.v17-dashboard .v17-brand>div{display:flex;align-items:baseline;gap:18px;min-width:0}
+.v17-dashboard .v17-brand h1{font-size:29px;letter-spacing:-.3px;color:#072968;text-shadow:0 1px #fff;margin:0;white-space:nowrap;line-height:1.25}
+.v17-dashboard .v17-brand small{font-size:13px;color:#436187;font-weight:750;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.v17-dashboard .v17-top-note{display:none}
+/* score rail; large semicircle, orange badge, red emphasized status and glass illustration */
+.v17-dashboard .v17-health{height:106px;min-height:106px;border-radius:13px;padding:7px 18px 7px 23px;gap:23px;background:linear-gradient(102deg,#d8e9ff 0%,#f8fbff 29%,#e9f5ff 64%,#bfdfff 100%);border:1px solid #b2d4ff;box-shadow:0 4px 11px #2c7dd526,inset 0 1px 0 #fff;overflow:visible;isolation:isolate}
+.v17-dashboard .v17-health:before{content:'';position:absolute;inset:4px 6px;z-index:-1;border-radius:10px;border:1px solid #ffffff9a;pointer-events:none}
+.v17-dashboard .v17-health-lead{height:87px;gap:18px;padding-right:21px;border-right:1px solid #b2c9e3}
+.v17-dashboard .v17-gauge-box{width:135px;height:91px}
+.v17-dashboard .v17-gauge-box svg{width:134px;height:91px;inset:0 0 0 0}
+.v17-dashboard .v17-gauge-box strong{font-size:27px;margin-top:30px;letter-spacing:-.6px;color:#081e4d}
+.v17-dashboard .v17-gauge-box small{font-size:11px;color:#41577b}
+.v17-dashboard .v18-score-help{left:126px;top:0px;box-shadow:0 1px 4px #2866bd24;width:20px;height:20px;font-size:13px;z-index:25}
+.v17-dashboard .v18-score-help>span{left:16px;top:-6px;width:266px;font-size:11px;line-height:1.45}
+.v17-dashboard .v17-health-tag{padding:8px 15px;background:linear-gradient(#ffebbd,#ffcd7d);border:1px solid #ffbe62;color:#88460b;font-size:19px;font-weight:950;box-shadow:0 2px 6px #e6952820;white-space:nowrap}
+.v17-dashboard .v17-health p{font-size:19px;line-height:1.6;font-weight:900;color:#0b1a40;letter-spacing:.1px;min-width:0;max-width:none}
+.v17-dashboard .v17-health .v19-status-summary strong{color:#f1202c;font-weight:950}
+.v17-dashboard .v19-pharma-art{width:113px;height:88px;flex-shrink:0;margin:0 4px 0 0;opacity:.9;filter:drop-shadow(0 2px 2px #176cc130)}
+/* filters all on one line */
+.v17-dashboard .v17-filter-actions{height:43px;min-height:43px;padding:3px 10px;background:linear-gradient(#fafdff,#eaf4ff);border:1px solid #e1eeff;border-radius:8px;gap:12px;align-items:center}
+.v17-dashboard .v17-filters{grid-template-columns:.71fr .85fr 1.13fr 1.16fr 1.07fr;gap:10px;align-items:center}
+.v17-dashboard .v17-filters .v16-filter{flex-direction:row;align-items:center;gap:7px;max-width:none;white-space:nowrap}
+.v17-dashboard .v17-filters .v16-filter span{font-size:12px;color:#082f75;font-weight:900;line-height:1.3;flex-shrink:0}
+.v17-dashboard .v17-filters .v16-filter select{min-width:0;flex:1;height:28px;padding:0 18px 0 7px;border:1px solid #a8c6ee;background:#fafdff;color:#122f65;font-size:11px;font-weight:800;border-radius:5px;box-shadow:inset 0 1px 1px #fff}
+.v17-dashboard .v17-controls{padding-left:12px;gap:6px;border-left:1px solid #bccde7;align-items:center;margin:0}
+.v17-dashboard .v17-controls button{font-size:11px;font-weight:900;height:27px;border:1px solid #92bde7;background:linear-gradient(#f9fdff,#e7f3ff);color:#124b80;border-radius:5px;padding:0 7px;box-shadow:0 1px 3px #3183cb1a}
+.v17-dashboard .v17-controls .v17-reset{color:#7394b4;background:#eaf2fc;border-color:#cdddf0;margin-right:5px}
+.v17-dashboard .v17-controls .v17-action-primary{background:linear-gradient(#067e97,#005477);color:#fff;border-color:#0b6689;box-shadow:0 2px 6px #005d802b}
+/* red priority alert rail */
+.v17-dashboard .v17-risk-card{height:59px;min-height:59px;padding:5px 6px;gap:7px;background:linear-gradient(#ffeef0,#ffe9ee);border-radius:11px;border-color:#ffbac5;box-shadow:0 3px 11px #ef536916}
+.v17-dashboard .v17-risk-count{font-size:17px;min-width:275px;display:flex;align-items:center;background:linear-gradient(115deg,#ff5365,#f6344d);border-radius:9px;padding:0 13px;box-shadow:0 3px 9px #e52d4d2e}
+.v17-dashboard .v17-risk-item{border:1px solid #ffcad0;background:linear-gradient(#fff8f9,#ffeef0);border-radius:9px;padding:4px 10px;gap:3px}
+.v17-dashboard .v17-risk-item b{font-size:13px;color:#c81a27;font-weight:950}
+.v17-dashboard .v17-risk-item span{font-size:10.5px;color:#465675;font-weight:750}
+.v17-dashboard .v17-risk-cta{min-width:120px;padding:4px 9px;border-color:#ff8d96;background:linear-gradient(#ff4050,#e92f44);color:#fff;font-size:13px;box-shadow:0 2px 6px #d9284833}
+.v17-dashboard .v17-risk-cta small{color:#6c7085;background:#fff6f7;border-radius:3px;margin-top:4px;padding:1px 0;font-size:9px}
+/* three tinted KPI category panels */
+.v17-dashboard .v17-kpi-layout{grid-template-columns:1.45fr 1fr .67fr;gap:8px}
+.v17-dashboard .v17-kpi-group{height:115px;min-height:115px;padding:5px 9px 8px;border-radius:13px;box-shadow:inset 0 1px 0 #fff7,0 2px 8px #2384c713}
+.v17-dashboard .v17-kpi-delivery{background:linear-gradient(113deg,#e5f9ed,#d5f3e2);border-color:#b3e2c6}
+.v17-dashboard .v17-kpi-cost{background:linear-gradient(113deg,#fff8df,#ffedc2);border-color:#f8db9b}
+.v17-dashboard .v17-kpi-compliance{background:linear-gradient(113deg,#fff0f3,#ffe2e7);border-color:#f7c6ce}
+.v17-dashboard .v17-group-title{height:25px;min-height:25px;margin:0 0 2px 6px;line-height:24px;font-size:17px;letter-spacing:.1px;font-weight:950}
+.v17-dashboard .v17-group-title span{font-size:19px;line-height:1}
+.v17-dashboard .v17-kpi-grid{gap:7px}
+.v17-dashboard .v17-kpi{grid-template-columns:42px minmax(0,1fr) auto;grid-template-rows:31px 24px 18px;height:76px;min-height:76px;padding:3px 6px 3px;border:1px solid #e2eaf4;border-radius:9px;background:linear-gradient(115deg,#fff,#f4f8ff);box-shadow:0 1px 4px #2954a810;gap:0 4px}
+.v17-dashboard .v17-kpi-icon{width:36px;height:36px;grid-row:1/3;grid-column:1;display:grid;place-items:center;background:linear-gradient(135deg,#3389ff,#1658ef);border:1px solid #ffffff95;border-radius:8px;color:#fff;box-shadow:0 2px 5px #3a6ed343;font-size:0}
+.v17-dashboard .v17-kpi-icon svg{width:24px;height:24px;display:block}
+.v17-dashboard .v17-kpi[data-v16-id="otd"] .v17-kpi-icon,.v17-dashboard .v17-kpi[data-v16-id="late"] .v17-kpi-icon{background:linear-gradient(135deg,#bb63ff,#713cf0)}
+.v17-dashboard .v17-kpi[data-v16-id="ready"] .v17-kpi-icon{background:linear-gradient(135deg,#34d3dc,#00a4ac)}
+.v17-dashboard .v17-kpi[data-v16-id="ppv"] .v17-kpi-icon{background:linear-gradient(135deg,#ffae17,#ff6900)}
+.v17-dashboard .v17-kpi-name{font-size:12.5px;font-weight:900;grid-row:1;grid-column:2;white-space:nowrap;color:#082967;align-self:center}
+.v17-dashboard .v17-kpi-arrow{color:#0751a5;font-size:19px;grid-column:3;grid-row:1;align-self:center}
+.v17-dashboard .v17-kpi-value{font-size:18px;line-height:24px;grid-column:2;grid-row:2;font-weight:950;color:#061f58;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;align-self:center}
+.v17-dashboard .v17-kpi .v17-pill{grid-row:2;grid-column:3;font-size:10px;padding:1px 4px;border-radius:8px}
+.v17-dashboard .v17-kpi-extra{grid-row:3;grid-column:1/-1;font-size:10px;line-height:15px;padding-top:2px;color:#526886;font-weight:750;border-color:#d8e6f8}
+/* four cards across: blue category, shadows, dense table and infographics */
+.v17-dashboard .v17-zone{min-width:0;border-radius:13px;padding:4px 8px 7px;box-shadow:inset 0 1px 0 #fff8,0 2px 7px #1f7ccc17}
+.v17-dashboard .v17-analytics{background:linear-gradient(118deg,#e5f3ff,#cbe4ff);border-color:#a9d0ff}
+.v17-dashboard .v17-zone-title{display:flex;align-items:center;gap:5px;margin:0 3px 3px;font-size:17px;line-height:23px;height:23px;min-height:23px;font-weight:950;color:#04499f;white-space:nowrap}
+.v17-dashboard .v19-zone-icon{width:22px;height:22px;border-radius:50%;display:inline-grid;place-items:center;background:linear-gradient(#30a1ff,#0a66ea);color:#fff;font-size:15px;font-weight:900;box-shadow:0 1px 3px #206df554}
+.v17-dashboard .v17-four-grid{grid-template-columns:1.26fr 1.53fr .98fr .96fr;gap:8px}
+.v17-dashboard .v17-panel{border:1px solid #c4ddf9;border-radius:10px;background:linear-gradient(155deg,#fff,#f8fbff);padding:5px 8px;gap:3px;box-shadow:inset 0 1px 0 #fff,0 2px 6px #286ac012}
+.v17-dashboard .v17-panel>header{height:20px;min-height:20px;gap:3px}
+.v17-dashboard .v17-panel-title{font-size:12.5px;font-weight:950;color:#092f74;line-height:18px}
+.v17-dashboard .v17-tip{width:17px;height:17px;border-radius:50%;border:1.5px solid #789fc6;color:#31558f;background:#fafcff;font-weight:950;line-height:13px;font-size:12px}
+.v17-dashboard .v17-analytics .v17-panel{height:135px!important;min-height:135px}
+.v17-dashboard .v17-analytics .v17-panel-risk .v16-table{font-size:9.5px;line-height:1.15}
+.v17-dashboard .v17-analytics .v17-panel-risk .v16-table td,.v17-dashboard .v17-analytics .v17-panel-risk .v16-table th{padding:1.5px 3px!important}
+.v17-dashboard .v19-top6-note{font-size:9px;color:#5376a4;line-height:14px;height:14px}
+.v17-dashboard .v16-table{font-size:10px;line-height:1.15}
+.v17-dashboard .v16-table th{background:#e5f0ff!important;font-weight:900;color:#274b82;padding:3px 4px!important}
+.v17-dashboard .v16-table td{padding:3px 4px!important;border-color:#e1eaf8;font-weight:650}
+.v17-dashboard .v16-table th:first-child,.v17-dashboard .v16-table td:first-child{border-radius:4px}
+.v17-dashboard .v16-table-scroll{scrollbar-width:thin}
+.v17-dashboard .v16-combo{height:105px;min-height:100px;max-height:106px;flex:1}
+.v17-dashboard .v16-chart-legend{font-size:9.5px;gap:12px;font-weight:750;color:#406090}
+.v17-dashboard .v17-split-donut{gap:6px;justify-content:space-around}
+.v17-dashboard .v17-circle{height:102px;width:102px;min-width:102px;box-shadow:none}
+.v17-dashboard .v17-circle>span{height:65px;width:65px;box-shadow:0 0 3px #f5fcff}
+.v17-dashboard .v17-circle b{font-size:16px;letter-spacing:-.5px}
+.v17-dashboard .v17-circle small{font-size:9px;white-space:normal;text-align:center}
+.v17-dashboard .v17-spend-legend{gap:3px}
+.v17-dashboard .v17-spend-legend button{font-size:9px;font-weight:700;min-height:15px}
+.v17-dashboard .v17-spend-legend i{width:9px;height:9px}
+/* left purple + right green band; exactly paired */
+.v17-dashboard .v17-two-zones{grid-template-columns:1.04fr 1fr;gap:8px}
+.v17-dashboard .v17-supplier{background:linear-gradient(115deg,#eadfff,#d9d7ff);border-color:#bfaaff}
+.v17-dashboard .v17-improvement{background:linear-gradient(115deg,#e2f9e7,#cef1d5);border-color:#a6dfbc}
+.v17-dashboard .v17-supplier .v17-zone-title{color:#6131bf}
+.v17-dashboard .v17-improvement .v17-zone-title{color:#168035}
+.v17-dashboard .v17-supplier .v19-zone-icon{background:linear-gradient(#ad53ff,#7633d5)}
+.v17-dashboard .v17-improvement .v19-zone-icon{background:linear-gradient(#28cb61,#15923d)}
+.v17-dashboard .v17-two-grid{grid-template-columns:.85fr 1.2fr;gap:8px}
+.v17-dashboard .v17-two-grid.tasks-progress{grid-template-columns:1.37fr .86fr}
+.v17-dashboard .v17-two-grid>.v17-panel{height:110px!important;min-height:110px}
+.v17-dashboard .v17-score-grid{grid-template-columns:113px 1fr;gap:3px}
+.v17-dashboard .v17-score-arco{width:109px;height:79px;min-height:79px;padding-top:10px}
+.v17-dashboard .v17-score-arco:before{inset:10px 10px 7px}
+.v17-dashboard .v17-score-arco strong{font-size:22px}
+.v17-dashboard .v17-weights{gap:2px}
+.v17-dashboard .v17-weights button{font-size:9.5px;padding:1px 3px;background:#eae9ff;border-color:#e8e5fd}
+.v17-dashboard .v17-progress-content{gap:6px}
+.v17-dashboard .v17-ring{height:83px;width:83px;min-width:83px}
+.v17-dashboard .v17-ring span{height:62px;width:62px}
+.v17-dashboard .v17-ring strong{font-size:19px}
+.v17-dashboard .v17-progress-content dl{font-size:10px;gap:5px 7px}
+.v17-dashboard .v17-supplier .v16-table,.v17-dashboard .v17-improvement .v16-table{font-size:9.5px}
+.v17-dashboard .v17-supplier .v16-table td,.v17-dashboard .v17-improvement .v16-table td{padding:3px 3px!important}
+/* red issue band: root-cause small snapshot, lifecycle, key risks, and horizontal quick launch */
+.v17-dashboard .v17-issues{background:linear-gradient(110deg,#ffedf0,#ffe0e4);border-color:#ffb7c3}
+.v17-dashboard .v17-issues .v17-zone-title{color:#e42a42}
+.v17-dashboard .v17-issues .v19-zone-icon{background:linear-gradient(#ff5a6e,#e72c40)}
+.v17-dashboard .v17-issues .v18-issues-grid{grid-template-columns:.97fr 1.08fr 1.02fr 1.05fr;gap:7px}
+.v17-dashboard .v17-issues .v18-issues-grid>.v17-panel{height:133px!important;min-height:133px;background:linear-gradient(160deg,#fffafd,#ffeff2);border:1px solid #ffccd2;border-radius:11px;padding:5px 8px;gap:2px}
+.v17-dashboard .v17-issues .v18-issues-grid>.v17-panel-root-causes{border-color:#f96d86;box-shadow:inset 0 0 0 1px #ffcad2}
+.v17-dashboard .v17-issues .v18-issues-grid>.v17-panel-quicklinks{background:linear-gradient(135deg,#f2f8ff,#cfe5ff);border-color:#c4dfff}
+.v17-dashboard .v17-issues .v17-panel-title{font-size:13px}
+.v17-dashboard .v18-root-bars{gap:5px;align-content:center}
+.v17-dashboard .v18-root-bars button{grid-template-columns:minmax(60px,31%) 1fr 34px;gap:6px;line-height:14px;padding:0;font-size:10px}
+.v17-dashboard .v18-root-track{height:10px;background:#ffebee;border-radius:4px}
+.v17-dashboard .v18-root-track i{background:linear-gradient(90deg,#ff3351,#f85c63)!important;border-radius:4px}
+.v17-dashboard .v18-root-bars button:nth-child(n+2) .v18-root-track i{background:linear-gradient(90deg,#fa6077,#ff9fa7)!important}
+.v17-dashboard .v18-root-bars b{font-size:10px;color:#26365c}
+.v17-dashboard .v18-lifecycle-list{gap:5px}
+.v17-dashboard .v18-lifecycle-item{grid-template-columns:21px minmax(0,1fr) 42px 37px;gap:4px;font-size:10px;padding:2px 0;border-color:#f9d5dd}
+.v17-dashboard .v18-lifecycle-icon{font-size:17px;color:#f33149}
+.v17-dashboard .v18-lifecycle-item b{font-size:11px}
+.v17-dashboard .v18-lifecycle-note{font-size:9px;margin-top:5px;line-height:1.15}
+.v17-dashboard .v17-warning-list{gap:6px}
+.v17-dashboard .v17-warning-list>button{padding:1px 0;gap:5px}
+.v17-dashboard .v17-warning-list b{font-size:10px;color:#17335c}
+.v17-dashboard .v17-warning-list small{font-size:9px;max-width:96px}
+.v17-dashboard .v18-quicklinks{display:flex;align-items:center;justify-content:space-around;gap:7px;flex:1}
+.v17-dashboard .v18-quicklinks button{flex:1;height:36px;min-width:0;padding:6px 4px;background:linear-gradient(#fafdff,#e5f3ff);border:1px solid #9cc7fa;border-radius:8px;white-space:nowrap;font-size:10px;box-shadow:0 2px 6px #0e7cdd1f;color:#07518b}
+/* full process ribbon */
+.v17-dashboard .v17-process{height:58px;min-height:58px;gap:9px;padding:2px 1px}
+.v17-dashboard .v17-process-head{height:46px;display:flex;align-items:center;gap:7px;font-size:16px;padding:7px 15px;border-radius:9px;background:linear-gradient(#168aff,#0052c3);box-shadow:0 2px 6px #0062cd4a;white-space:nowrap}
+.v17-dashboard .v17-process-head span{font-size:22px}
+.v17-dashboard .v17-nav-items{gap:6px;height:48px}
+.v17-dashboard .v17-nav-items button{height:46px;min-height:46px;grid-template-columns:26px minmax(0,1fr);column-gap:3px;border-color:#c4d9f1;background:linear-gradient(#f9fcff,#e5f1fb);border-radius:9px;padding:3px 4px}
+.v17-dashboard .v17-nav-items button>span{font-size:21px;color:#0b567d}
+.v17-dashboard .v17-nav-items button b{font-size:12px;line-height:1.25;color:#123f68;font-weight:950}
+.v17-dashboard .v17-nav-items button small{font-size:10px;line-height:1;color:#577293}
+.v17-dashboard .v17-separator{font-size:19px;color:#315c91}
+.v17-dashboard .v17-footer{padding:2px 7px;line-height:18px;font-size:9px;color:#5f7595;font-weight:700}
+/* Keep shared layout elegant at smaller widths, without clipping modules. */
+@media (max-width:1400px){
+ .v17-dashboard .v17-brand h1{font-size:26px}.v17-dashboard .v17-brand small{font-size:11px}
+ .v17-dashboard .v17-health p{font-size:16px}.v17-dashboard .v17-controls button{font-size:10px;padding:0 5px}
+ .v17-dashboard .v17-risk-count{min-width:220px;font-size:14px}
+ .v17-dashboard .v17-risk-item b{font-size:11px}
+ .v17-dashboard .v17-kpi-name{font-size:11px}.v17-dashboard .v17-kpi-value{font-size:15px}
+ .v17-dashboard .v17-panel-title{font-size:11px}.v17-dashboard .v17-circle{width:92px;height:92px;min-width:92px}.v17-dashboard .v17-circle>span{width:58px;height:58px}
+ .v17-dashboard .v17-nav-items button b{font-size:10px}
+}
+@media (max-width:1150px){
+ .v17-dashboard .v17-filter-actions{height:auto;flex-direction:column;align-items:stretch}
+ .v17-dashboard .v17-filters{grid-template-columns:repeat(5,minmax(0,1fr))}
+ .v17-dashboard .v17-filters .v16-filter{flex-direction:column;align-items:stretch}
+ .v17-dashboard .v17-controls{border-left:0;border-top:1px solid #d1e4fb;padding-top:5px;flex-wrap:wrap}
+ .v17-dashboard .v17-kpi-layout{grid-template-columns:1fr 1fr}.v17-dashboard .v17-kpi-compliance{grid-column:1/-1}
+ .v17-dashboard .v17-four-grid,.v17-dashboard .v17-issues .v18-issues-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .v17-dashboard .v17-two-zones{grid-template-columns:1fr}
+ .v17-dashboard .v17-zone .v17-panel{height:145px!important}
+ .v17-dashboard .v17-issues .v18-issues-grid>.v17-panel{height:145px!important}
+ .v17-dashboard .v17-process{height:auto;flex-direction:column;align-items:stretch}
+ .v17-dashboard .v17-nav-items{height:auto;flex-wrap:wrap}.v17-dashboard .v17-nav-items button{flex:1 1 22%;min-width:155px}
+ .v17-dashboard .v17-separator{display:none}
+}
+@media (max-width:720px){
+ .v17-dashboard .v17-topbar{height:auto;min-height:50px}.v17-dashboard .v17-brand>div{flex-direction:column;gap:0}.v17-dashboard .v17-brand h1{font-size:24px}
+ .v17-dashboard .v17-health{height:auto;flex-direction:column;align-items:stretch}.v17-dashboard .v17-health-lead{border-right:0;border-bottom:1px solid #d0dff5;padding:0 0 7px}.v17-dashboard .v19-pharma-art{display:none}
+ .v17-dashboard .v17-health p{font-size:14px}.v17-dashboard .v17-filters{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .v17-dashboard .v17-kpi-layout,.v17-dashboard .v17-four-grid,.v17-dashboard .v17-issues .v18-issues-grid{grid-template-columns:1fr}
+ .v17-dashboard .v17-kpi-compliance{grid-column:auto}.v17-dashboard .v17-kpi-grid.three{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .v17-dashboard .v17-kpi-group{height:auto}.v17-dashboard .v17-risk-count{width:100%}
+ .v17-dashboard .v17-issues .v18-issues-grid>.v17-panel{height:155px!important}
+ .v17-dashboard .v17-supplier .v17-two-grid,.v17-dashboard .v17-improvement .v17-two-grid{grid-template-columns:1fr}
+ .v17-dashboard .v17-footer span{white-space:normal}
+}
+/* Top-six guarantee: six source-backed risk rows must remain visible within the compact panel. */
+@media(min-width:1151px){
+ .v17-dashboard .v17-analytics .v17-panel{height:146px!important;min-height:146px}
+ .v17-dashboard .v17-analytics .v17-panel-risk .v16-table{font-size:9px;line-height:1.05}
+ .v17-dashboard .v17-analytics .v17-panel-risk .v16-table th,.v17-dashboard .v17-analytics .v17-panel-risk .v16-table td{height:14px;padding:0 3px!important;line-height:13px}
+ .v17-dashboard .v17-analytics .v17-panel-risk .v19-top6-note{height:11px;line-height:10px;font-size:8px}
+}
+
+/* V1.9.1 Bolt preview responsiveness hotfix.
+   The original V1.9 compact mode wrapped four alert buttons inside a FIXED
+   59px container, producing overlapping rows; it also forced min-content
+   overflow at 720–980px. This patch affects Overview only and leaves
+   >=1151px desktop layout and all business/data logic unchanged. */
+@media (min-width:721px) and (max-width:1150px){
+ .v17-dashboard{width:100%;min-width:0;max-width:100%;overflow:visible}
+ .v17-dashboard .v17-health{height:auto;min-height:106px;max-width:100%;padding:9px 14px;gap:12px;overflow:visible}
+ .v17-dashboard .v17-health-lead{flex-shrink:0;min-width:0}
+ .v17-dashboard .v17-health p{font-size:15px;line-height:1.5;min-width:0;overflow-wrap:anywhere}
+ .v17-dashboard .v17-filter-actions{height:auto;min-height:0;align-items:stretch;padding:8px 10px;gap:8px}
+ .v17-dashboard .v17-filters{grid-template-columns:repeat(5,minmax(0,1fr));width:100%;gap:9px}
+ .v17-dashboard .v17-filters .v16-filter select{width:100%;max-width:100%;min-width:0}
+ .v17-dashboard .v17-controls{margin:0;padding:6px 0 0;justify-content:flex-start;gap:7px}
+ .v17-dashboard .v17-risk-card{display:grid!important;height:auto!important;min-height:0!important;max-height:none!important;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:minmax(37px,auto) minmax(47px,auto);align-items:stretch;gap:6px;padding:7px;overflow:visible}
+ .v17-dashboard .v17-risk-count{grid-column:1/span 2;grid-row:1;width:auto;min-width:0;min-height:37px;font-size:15px;white-space:normal;padding:6px 12px}
+ .v17-dashboard .v17-risk-item{grid-row:2;min-width:0;min-height:47px;padding:5px 8px}
+ .v17-dashboard .v17-risk-item:nth-child(2){grid-column:1}
+ .v17-dashboard .v17-risk-item:nth-child(3){grid-column:2}
+ .v17-dashboard .v17-risk-item:nth-child(4){grid-column:3}
+ .v17-dashboard .v17-risk-item b{font-size:11px;white-space:normal;overflow:visible}
+ .v17-dashboard .v17-risk-item span{font-size:10px;white-space:normal;overflow-wrap:anywhere}
+ .v17-dashboard .v17-risk-cta{grid-column:3;grid-row:1;min-width:0;min-height:37px;padding:3px 7px;font-size:12px}
+ .v17-dashboard .v17-risk-cta small{margin-top:1px}
+ .v17-dashboard .v17-kpi-layout{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-items:stretch}
+ .v17-dashboard .v17-kpi-delivery{grid-column:1/-1}
+ .v17-dashboard .v17-kpi-cost,.v17-dashboard .v17-kpi-compliance{grid-column:auto}
+ .v17-dashboard .v17-kpi-group{height:auto;min-height:113px;min-width:0}
+ .v17-dashboard .v17-kpi-name{font-size:12px;white-space:normal;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+ .v17-dashboard .v17-kpi-value{font-size:17px}
+ .v17-dashboard .v17-analytics .v17-panel{height:205px!important;min-height:205px!important;max-height:none}
+ .v17-dashboard .v17-analytics .v17-panel-risk{height:205px!important;min-height:205px!important}
+ .v17-dashboard .v17-analytics .v17-panel-risk .v16-table-scroll{overflow-y:auto}
+ .v17-dashboard .v17-analytics .v17-panel-risk .v16-table{font-size:10px}
+ .v17-dashboard .v17-two-grid>.v17-panel{height:165px!important;min-height:165px!important}
+ .v17-dashboard .v17-issues .v18-issues-grid>.v17-panel{height:172px!important;min-height:172px!important}
+ .v17-dashboard .v17-process{height:auto;min-height:0;gap:8px}
+ .v17-dashboard .v17-nav-items{height:auto;min-height:0}
+ .v17-dashboard .v17-nav-items button{min-width:165px;min-height:47px}
+}
+@media (min-width:721px) and (max-width:980px){
+ .v17-dashboard .v17-topbar,.v17-dashboard .v17-filter-actions,.v17-dashboard .v17-risk-card,.v17-dashboard .v17-kpi-layout,.v17-dashboard .v17-analytics,.v17-dashboard .v17-two-zones,.v17-dashboard .v17-issues,.v17-dashboard .v17-process,.v17-dashboard .v17-footer{min-width:0;max-width:100%}
+ .v17-dashboard .v17-health{display:flex;flex-wrap:wrap;height:auto;gap:8px 12px;min-width:0}
+ .v17-dashboard .v17-health-lead{border-right:0;padding-right:0;min-width:0}
+ .v17-dashboard .v17-health p{flex:1 1 390px;font-size:14px;margin:0;min-width:0}
+ .v17-dashboard .v19-pharma-art{display:none}
+ .v17-dashboard .v17-risk-card{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto auto auto;gap:6px}
+ .v17-dashboard .v17-risk-count{grid-column:1/-1;grid-row:1}
+ .v17-dashboard .v17-risk-item:nth-child(2){grid-column:1;grid-row:2}
+ .v17-dashboard .v17-risk-item:nth-child(3){grid-column:2;grid-row:2}
+ .v17-dashboard .v17-risk-item:nth-child(4){grid-column:1;grid-row:3}
+ .v17-dashboard .v17-risk-cta{grid-column:2;grid-row:3}
+ .v17-dashboard .v17-kpi-grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .v17-dashboard .v17-filters{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .v17-dashboard .v17-filters .v16-filter{min-width:0}
+ .v17-dashboard .v17-two-grid{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)}
+ .v17-dashboard .v17-two-grid.tasks-progress{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
+}
+@media (max-width:720px){
+ .v17-dashboard{min-width:0;width:100%;overflow:visible}
+ .v17-dashboard .v17-topbar,.v17-dashboard .v17-filter-actions,.v17-dashboard .v17-risk-card,.v17-dashboard .v17-kpi-layout,.v17-dashboard .v17-analytics,.v17-dashboard .v17-two-zones,.v17-dashboard .v17-issues,.v17-dashboard .v17-process,.v17-dashboard .v17-footer{min-width:0;width:100%;max-width:100%}
+ .v17-dashboard .v17-health{display:flex;flex-direction:column;align-items:stretch;height:auto;min-height:0;max-width:100%;padding:9px 12px;gap:8px;overflow:visible}
+ .v17-dashboard .v17-health-lead{width:100%;height:auto;min-height:78px;flex-wrap:wrap;min-width:0;padding:0 0 8px;border-right:0;border-bottom:1px solid #ccdef6;gap:10px}
+ .v17-dashboard .v17-health p{width:100%;flex:none;margin:0;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+ .v17-dashboard .v19-pharma-art{display:none}
+ .v17-dashboard .v17-filter-actions{height:auto;min-height:0;padding:8px;gap:8px;flex-direction:column}
+ .v17-dashboard .v17-filters{grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:8px}
+ .v17-dashboard .v17-filters .v16-filter{min-width:0;width:auto}
+ .v17-dashboard .v17-filters .v16-filter select{width:100%;max-width:100%;min-width:0}
+ .v17-dashboard .v17-controls{margin:0;border-left:0;border-top:1px solid #d7e6f9;padding:6px 0 0;flex-wrap:wrap;justify-content:flex-start}
+ .v17-dashboard .v17-risk-card{display:grid!important;height:auto!important;min-height:0!important;max-height:none!important;grid-template-columns:1fr;grid-template-rows:none;gap:6px;padding:7px;overflow:visible}
+ .v17-dashboard .v17-risk-count,.v17-dashboard .v17-risk-item,.v17-dashboard .v17-risk-cta{grid-column:1!important;grid-row:auto!important;width:100%;min-width:0;min-height:40px;padding:7px;white-space:normal}
+ .v17-dashboard .v17-risk-item b,.v17-dashboard .v17-risk-item span{white-space:normal;overflow:visible}
+ .v17-dashboard .v17-kpi-layout{display:grid;grid-template-columns:1fr;gap:7px}
+ .v17-dashboard .v17-kpi-delivery,.v17-dashboard .v17-kpi-cost,.v17-dashboard .v17-kpi-compliance{grid-column:auto;height:auto;min-height:0}
+ .v17-dashboard .v17-kpi-grid.three{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .v17-dashboard .v17-kpi-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .v17-dashboard .v17-kpi-grid.one{grid-template-columns:1fr}
+ .v17-dashboard .v17-kpi{height:82px;min-height:82px}
+ .v17-dashboard .v17-kpi-value{font-size:16px}
+ .v17-dashboard .v17-four-grid,.v17-dashboard .v17-issues .v18-issues-grid,.v17-dashboard .v17-two-grid,.v17-dashboard .v17-two-grid.tasks-progress{grid-template-columns:1fr}
+ .v17-dashboard .v17-analytics .v17-panel{height:202px!important;min-height:202px!important}
+ .v17-dashboard .v17-two-grid>.v17-panel{height:173px!important;min-height:173px!important}
+ .v17-dashboard .v17-issues .v18-issues-grid>.v17-panel{height:175px!important;min-height:175px!important}
+ .v17-dashboard .v17-process{height:auto;min-height:0;flex-direction:column;align-items:stretch}
+ .v17-dashboard .v17-nav-items{height:auto;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}
+ .v17-dashboard .v17-nav-items button{min-width:0;height:50px;min-height:50px}
+ .v17-dashboard .v17-footer{display:block;font-size:9px}
+ .v17-dashboard .v17-footer span{display:block;white-space:normal;overflow-wrap:anywhere}
+}
+@media (max-width:430px){
+ .v17-dashboard .v17-filters{grid-template-columns:1fr 1fr}
+ .v17-dashboard .v17-kpi-grid.three,.v17-dashboard .v17-kpi-grid.two{grid-template-columns:1fr}
+ .v17-dashboard .v17-nav-items{grid-template-columns:1fr 1fr}
+}

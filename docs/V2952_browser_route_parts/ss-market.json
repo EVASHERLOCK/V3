@@ -1,0 +1,301 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:18:43.553168+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-market",
+      "expected": 6,
+      "exact_ids_found": 6,
+      "rendered_module_count": 6,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-market.f8c12c52",
+      "route": "ss-market",
+      "title": "原料药 / 零部件品类价格趋势",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2539,
+        "sha256": "f11f4994634d243063db16bf02db592c91409baa72356e98fb055bb049839316"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 22684,
+        "sha256": "0b90c01a4787859bfb2baba2f17befb15b81b860437a126d51866e7f1f28146a"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "ab116fd8563a050f6602fe761c587099bd551604e0f5f2b56b4a6183caa5d4e4",
+        "bytes": 61258,
+        "filename_sha256": "41be9192d17f7dabc3e4c64af0595568a6ac6a363ed0cedc1e74c4468a073c2e"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 13,
+        "source_metrics_recomputed": 5,
+        "display_passed": 0,
+        "display_unverified": 13,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 1,
+        "response_sha256": "917e4d5c29ffed9e8eeab83de588998d1506f3dd81af4aa65cf2d4241d67222a"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-market.dab0e191",
+      "route": "ss-market",
+      "title": "全球供应商分布与产能格局",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3211,
+        "sha256": "b879cc793d40bb58ebec744c6656d245264945074fcc3efa65a4181a75e3f195"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 36751,
+        "sha256": "b1dbd71fd268409aebb38ef5e61842b08359a5efa7faa3ae06d9bd306bd19462"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "10470b602f3378bde3624138250a85efbaf665c45313eae35175f35bf0379b2a",
+        "bytes": 62353,
+        "filename_sha256": "6319fe22763b9ec5f6b7f24fe076c3078379b7580d34cc405d1d808535bb2123"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 10,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 1,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 1,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 7,
+        "response_sha256": "15bae449b9ff89d6b773158af41b3ab3df2d7f185e4024eae324dce969114238"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-market.d4cc009f",
+      "route": "ss-market",
+      "title": "技术情报与产业洞察",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 4159,
+        "sha256": "878f16ccc81dc7f201c52985b56dc6a9e18c79bf708784096f1cffa70dcafd96"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 5737,
+        "sha256": "0205478223de288a84b06f1614ebb9979b6bdb9569e370d8b9bb5ae50cdd47a0"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "6da77147dd326d284ae9d8460b17958516622d532358aa720cf46efa0a1bf09a",
+        "bytes": 62319,
+        "filename_sha256": "39a8e4432eb76333b51c874bb2d23c0e0ba69d809721d53be55fa5b56cd37bf0"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 2,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 9,
+        "narrative_unverified": 9,
+        "missing_count": 2,
+        "response_sha256": "7ef08619edd3014f8a0dc3a603e7a4caed158ca22b19ff0cf379626c589e8841"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-market.2cc668b2",
+      "route": "ss-market",
+      "title": "供给风险热力图（规则情景 · 未来 12 个月）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3029,
+        "sha256": "f7eefb3d6d270cff3de082f479c5ddf20cfc1b4585ff3eb16689fdd056efb6bb"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 21742,
+        "sha256": "7c41f83fa631a45496d36c02fb473cc70817d065fce7749a2c4231847f1d92c6"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 160,
+        "xlsx_sha256": "5329f672f6c639ca1c8f84ced3587914398612c4fc1ef7966da14a5115ab78c5",
+        "bytes": 61033,
+        "filename_sha256": "c1210a4b9d0d720d6d2093538792625abb86c3a0ede4778e2afc2120e0467848"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 8,
+        "computed_metrics": 6,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 3,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 5,
+        "response_sha256": "a9dd8f6b727ad291b117a0163edf0c1602d9699e68fb13dfc731d1b685faf223"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-market.5e33d1b8",
+      "route": "ss-market",
+      "title": "官方来源发现与每日更新 · Official Discovery",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2361,
+        "sha256": "d94868245fcb2e521ae1bac911965cc7df46bb60d154344bfd972e86c451c0b4"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 35100,
+        "sha256": "11878b2aa1a24159093e9feed557a7e1095947e32deb2f5c5a95d900d3363e83"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 157,
+        "xlsx_sha256": "a7b17d8ec99b3575823a91954817640e261f030df7a3c52b7a59de345ac7b69c",
+        "bytes": 59605,
+        "filename_sha256": "2635666e1c4ab9c364ef917ac43297b59b5187a4941d5c4c14285f951ec60f65"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 1,
+        "response_sha256": "13326d2ba03e335458d03a190b5f0182f94521f9cf623d9bac8013d6372e981c"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-market.88a2dc80",
+      "route": "ss-market",
+      "title": "原材料供应商候选名录 · 80 家",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2460,
+        "sha256": "1e7a418f467fd17946127873adb0ad68472255141478ae81ed14221f544a0657"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 40789,
+        "sha256": "5f9777d5ea08c4f4c3a6ddb8e166a24ca3375eb2db31d8b4da7be992c1e3d540"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 163,
+        "xlsx_sha256": "6dc5bf25fa8600eb067ef12db5f0eb1c4c44709505eaafa0de0fa09086ec4cdf",
+        "bytes": 66065,
+        "filename_sha256": "18ddb6665405c26b77eec2880276e69df2ca7c4bc919f43c922c54bcff78f7b8"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 3,
+        "computed_metrics": 3,
+        "visible_dom_rows": 80,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 1,
+        "response_sha256": "3bf650b55b2f8eaa1c663aeed5a184043e07b2a8acca1e7bd135e8d6a763457b"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:18:50.915378+00:00",
+  "exact_rendered": 6,
+  "three_entry_click_verified": 6,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 6,
+  "api_trace_received": 6,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

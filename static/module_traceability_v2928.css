@@ -1,0 +1,41 @@
+/* V2.9.28: Two mandatory, non-decorative site-wide traceability actions. */
+.pharma-module-ready{position:relative!important;}
+.pharma-module-tools{display:flex!important;gap:8px!important;align-items:center!important;flex-wrap:wrap!important;margin:12px 10px 9px!important;padding-top:9px!important;border-top:1px solid #d9e7f4!important;position:relative!important;z-index:1!important;}
+.pharma-module-tools button{appearance:none!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;border-radius:8px!important;padding:7px 11px!important;line-height:1.4!important;font-size:12px!important;font-weight:650!important;cursor:pointer!important;min-height:29px!important;box-shadow:none!important;white-space:normal!important;}
+.pharma-module-ready > .pharma-module-top{position:relative!important;display:block!important;inset:auto!important;width:max-content!important;margin:10px 10px 0 auto!important;z-index:2!important;max-width:94%!important;border:1px solid #84b5e6!important;background:#eaf4ff!important;color:#17598c!important;padding:5px 10px!important;border-radius:8px!important;font-size:11px!important;font-weight:700!important;cursor:pointer!important;box-shadow:0 1px 3px #8daed033!important;}
+.pharma-module-tools .pharma-module-bottom{border:1px solid #91c4e9!important;background:#f7fcff!important;color:#235f92!important;text-align:left!important;}
+.pharma-module-tools .pharma-module-xlsx{border:1px solid #8bcbb5!important;background:#eefaf3!important;color:#176448!important;}
+.pharma-module-inline{position:relative!important;z-index:1!important;display:block!important;padding:14px!important;margin:10px!important;border:1px solid #a6c8e7!important;background:#fcfeff!important;color:#254b70!important;border-radius:11px!important;font:13px/1.65 Arial,'Microsoft YaHei',sans-serif!important;text-align:left!important;max-height:min(84vh,1080px)!important;overflow:auto!important;}
+.pharma-module-inline[hidden]{display:none!important;}
+.pharma-module-inline h4{font-size:15px!important;margin:17px 0 8px!important;font-weight:750!important;color:#15588d!important;}
+.pharma-module-inline h5{font-size:13px!important;margin:12px 0 7px!important;font-weight:700!important;}
+.pharma-module-inline p,.pharma-module-inline li{line-height:1.7!important;}
+.pharma-module-scroller{overflow:auto!important;max-height:380px!important;border:1px solid #d8e5f2!important;border-radius:8px!important;}
+.pharma-module-scroller table{min-width:750px!important;width:100%!important;border-collapse:collapse!important;table-layout:auto!important;}
+.pharma-module-scroller th,.pharma-module-scroller td{padding:7px 9px!important;border-bottom:1px solid #e5edf4!important;font-size:12px!important;text-align:left!important;vertical-align:top!important;white-space:normal!important;word-break:break-word!important;}
+.pharma-module-scroller th{background:#eaf3ff!important;position:sticky!important;top:0!important;}
+.pharma-module-info{padding:10px!important;border-radius:8px!important;background:#eef8fe!important;border:1px solid #cee2f4!important;}
+.pharma-module-warning{background:#fff6e7!important;color:#845523!important;border:1px solid #f0daaf!important;border-radius:7px!important;padding:9px!important;margin-top:12px!important;}
+.pharma-module-decision{border:1px solid #c8e6d6!important;border-radius:8px!important;background:#f7fcf9!important;padding:11px!important;margin:10px 0!important;}
+.pharma-module-ready>.pharma-component-trace,.pharma-module-ready>.pharma-metric-trigger{display:none!important;}
+@media(max-width:750px){.pharma-module-tools{margin-top:35px!important}.pharma-module-ready > .pharma-module-top{position:static!important;display:block!important;margin:6px 8px 3px auto!important;max-width:100%!important;}.pharma-module-tools button{font-size:11px!important}}
+/* V2.9.44 executive-first interpretation: the strict audit remains optional. */
+.pharma-manager-intro{background:#eff7ff;border-left:4px solid #2376d1;border-radius:8px;padding:11px 14px;margin-bottom:12px}
+.pharma-manager-intro b{font-size:16px;color:#164d87}
+.pharma-manager-intro p{margin:4px 0}
+.pharma-manager-steps{padding-left:24px!important}
+.pharma-manager-steps li{margin-bottom:9px!important;padding-left:4px!important}
+.pharma-cell-formula{display:flex;flex-direction:column;gap:5px;min-width:190px}
+.pharma-cell-formula code{font-size:11px!important;color:#145b99!important;background:#eef5ff;padding:5px;border-radius:4px;white-space:pre-wrap;word-break:break-all}
+.pharma-cell-formula span{font-weight:750;color:#176943}
+.pharma-manager-analysis{background:#f1faf4;border:1px solid #b8d9c7;padding:11px;margin:8px 0;border-radius:9px}
+.pharma-manager-boundary{font-size:12px;color:#775a28;background:#fff8e9;border:1px solid #f0dcaf;padding:9px;border-radius:7px}
+.pharma-manager-audit{border-top:1px solid #d1dbe7;margin-top:20px;padding-top:12px}
+.pharma-manager-audit summary{cursor:pointer;color:#65758b;font-size:12px;font-weight:600}
+
+/* V2.9.53 explicit read-only legacy compatibility sections */
+.cc31-legacy-acceptance,.sd-demo-audit{margin:16px 0;padding:12px;border:1px solid #b8cddd;border-radius:10px;background:#f8fbff;color:#173a52}
+.cc31-legacy-acceptance>summary,.sd-demo-audit>summary{cursor:pointer;font-weight:700;padding:7px}
+.demo-v2953-legacy-module{background:#fff;border:1px solid #d6e3ee;border-radius:8px;padding:12px;margin:12px 0;overflow:auto}
+.demo-v2953-legacy-module table{width:100%;font-size:12px;border-collapse:collapse}
+.demo-v2953-legacy-module td,.demo-v2953-legacy-module th{padding:5px;border-bottom:1px solid #e1e8f0;text-align:left}

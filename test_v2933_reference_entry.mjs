@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const index=fs.readFileSync('static/index.html','utf8');
+const src=fs.readFileSync('static/change_control_ra_v2931.js','utf8');
+const app=fs.readFileSync('static/app.js','utf8');
+const css=fs.readFileSync('static/change_control_reference_v2932.css','utf8');
+const server=fs.readFileSync('server.mjs','utf8');
+assert(src.includes('href="#m09-reference" role="button"'), 'Adjacent visible title entry');
+assert(index.includes('id="ccref-top-entry"'), 'Second header entry');
+assert(/CC REF V2\.9\.3[3-9]/.test(index), 'Human-readable build verification for current 2.9.3x release');
+assert(app.includes("S.view==='m09'||S.view==='m09-reference'"), 'Header entry only visible in the change-control context');
+assert(css.includes('body.ccref-context-visible .ccref-top-entry{display:inline-flex'), 'Visible top header shortcut');
+assert(server.includes("'Cache-Control':'no-store, max-age=0'"), 'Avoid stale HTML/CSS/JS on Node deployment');
+assert(index.includes('window.PharmaChangeReference={render,init'), 'Full reference route bundled inline');
+console.log('PASS V2.9.33: visible reference entrances, independent route, verifiable release, cache-safe assets.');

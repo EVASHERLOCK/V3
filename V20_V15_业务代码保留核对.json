@@ -1,0 +1,104 @@
+{
+  "source": "uploaded V15 archive (2)",
+  "method": "byte-for-byte SHA256",
+  "identical_files": 13,
+  "compatible_extended_files": 3,
+  "files": [
+    {
+      "file": "static/styles.css",
+      "sha256": "3ba1fa013a837ff73ba57e625c092a76a3cb07797a4069429611514774aef730",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "static/enterprise_v08.js",
+      "sha256": "49899ed0c81a2b12c3a0d7f2ea11cf967d4e3949645ee3e96ef6e53cd763735e",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "static/enterprise_v08.css",
+      "sha256": "38b1f8e3d9a10ed655a47cf491bbfbb5805cdeaa4053ff237a2eb47835bb6784",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "static/v12_ui.js",
+      "sha256": "9c01f932383adb170ccf0321c363cef733cadc77df8a071a3badc45a1f080ace",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "static/v12_ui.css",
+      "sha256": "9ef11891f42fe2a3465624bd83256db591a15efbe68871994be0f22e4f49dc53",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "static/v14_ui.js",
+      "sha256": "4ba3423d20d9592e36bcb17ef3a4b66525a5854ecd08f7a42ff77bb1144246d8",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "static/v14_ui.css",
+      "sha256": "4c9644936cb8014f325965b76191747c681cc558a73aee5745ec3f8a3492a1a7",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "static/v15_exports.js",
+      "sha256": "2d9e12cec096a27df4c61041833391653da13bef89201eea56e85e5286fa4ddb",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "static/v15_pptx_template.js",
+      "sha256": "7e91d0eebe380b410189c35a332d3210c3c7180dd2a4ed48916e9e8fafd188b8",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "calculations.mjs",
+      "sha256": "a23afbe075d572706be5b530e9b4e6cd0fc4c5c344074672d8b7dd7d34ea0ca4",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "suite.mjs",
+      "sha256": "a1ab97f5ce9fde1b1cf5a0b0b600eb36ad1f33d59963407d2ffbcbcc0ba19e8e",
+      "identical_to_v15": false,
+      "notes": "仅增加 Overview 筛选维度所需的兼容扩展；保留原有业务能力"
+    },
+    {
+      "file": "enterprise_v08.mjs",
+      "sha256": "06fb4bee6e1d0b4b9217c50345a5fbccf624ea97151a55dbcf0064d883cf79f0",
+      "identical_to_v15": false,
+      "notes": "仅增加 Overview 筛选维度所需的兼容扩展；保留原有业务能力"
+    },
+    {
+      "file": "demo_master.json",
+      "sha256": "012c5443753f871cd24a38fd05e723d9c2240812bb79eea311abbdc32f5c5cb5",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "rules.json",
+      "sha256": "0ac45207ece5fdace25141ff60865c44e60a3105dee9be7ce13f4132dd6f74ba",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "v08_demo.json",
+      "sha256": "4f0c5e29551016790a3786ce013aabe4ac27c98e8eff9dadec3e8edadefc039c",
+      "identical_to_v15": true,
+      "notes": "原样保留"
+    },
+    {
+      "file": "browser_api.mjs",
+      "sha256": "0812e2db6c7cd2775127543181b8ec3d2f26b539ecbbf734b30c16ef3b9495d3",
+      "identical_to_v15": false,
+      "notes": "仅增加 Overview 筛选维度所需的兼容扩展；保留原有业务能力"
+    }
+  ]
+}

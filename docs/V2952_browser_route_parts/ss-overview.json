@@ -1,0 +1,301 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:18:43.351621+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "ss-overview",
+      "expected": 6,
+      "exact_ids_found": 6,
+      "rendered_module_count": 6,
+      "unmatched_ids": []
+    }
+  ],
+  "components": [
+    {
+      "id": "ss-overview.1b5641e0",
+      "route": "ss-overview",
+      "title": "官方供应商发现与同步状态",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1904,
+        "sha256": "962ec22cb2a6ca1a31e977385affb170bfbdac9f7caf805d1de4316bbce67697"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 18736,
+        "sha256": "3b91b82b0b9ff08a0e31a38b849a47f184724f56384c503a7d6151be3072e469"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "e88ccc03c2332f478b91bf674cede767a90ce3fa2e630bc557d2b5ff6dedfa1e",
+        "bytes": 58499,
+        "filename_sha256": "e9b0bcfdbbbb9d8a1cc1ac165f5dd408d237f950904cbaecd8905ba90b9bc6b6"
+      },
+      "api_trace": {
+        "status": "SOURCE_METRICS_RECOMPUTABLE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 2,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 1,
+        "response_sha256": "eeace3b9aee97dd263a6acad3d032be6dcccfd8c8e3d701a32f52e963c221977"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-overview.71283571",
+      "route": "ss-overview",
+      "title": "寻源项目漏斗（项目数）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 2635,
+        "sha256": "d3dfc75caca555444e861bb2becf11309c80614e6620b9fa7d5ee4e5d44c2f04"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 8212,
+        "sha256": "1cef8c205873eaeb661707d55db0f7b2abfbd2088eb3dabd8158621812889261"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 156,
+        "xlsx_sha256": "b214ab5441f9dc184af06d55890dadf86151b6a95713203be3a5e1524890d7de",
+        "bytes": 60942,
+        "filename_sha256": "964ef9d409e8094a6ddb715675d9aad85d9215932dcaf4c82b2499cf2facc71a"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 6,
+        "computed_metrics": 2,
+        "visible_dom_rows": 0,
+        "displayed_figures": 5,
+        "source_metrics_recomputed": 1,
+        "display_passed": 0,
+        "display_unverified": 5,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 1,
+        "narrative_unverified": 1,
+        "missing_count": 6,
+        "response_sha256": "5159bcf14f1defabf878d5855da23672edaf2f6d4e6e9d785df540605d71a7a6"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-overview.9963dc10",
+      "route": "ss-overview",
+      "title": "供应链风险预警矩阵",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3832,
+        "sha256": "895f15c42f78a558a82d2451931da53ac13a49d3fedacf3ea820096e350ad454"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 24853,
+        "sha256": "3285c268d3ba4c77f02ca6e02bcd912da655b7af4bef33e887d75e688392e663"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 161,
+        "xlsx_sha256": "04571d0d8316300bdeb797447aaf265a08ddb670c027fff674b5130dda7fb7a4",
+        "bytes": 64020,
+        "filename_sha256": "a8e3aaa6bb8b30fb160f708f55953ecbdbb1c13eb1d5762b56b473357548c9a9"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 10,
+        "computed_metrics": 7,
+        "visible_dom_rows": 0,
+        "displayed_figures": 13,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 13,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 6,
+        "response_sha256": "6e3b1fcc81fc39dae85ba4c9d5b4590e65fe886f516ef2855cfda5aead2a82e9"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-overview.43c5616f",
+      "route": "ss-overview",
+      "title": "Kraljic 矩阵（品类分布）",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 1826,
+        "sha256": "03a91c796e4cf575611f2e37e71cf4b9e97f01d1305b7ac709fca01d53a04d76"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 12106,
+        "sha256": "8b21cc8c878fbf0397e013d1dcbbfd14a3d19292f98e2c6851d070cfd7a84aac"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 157,
+        "xlsx_sha256": "ae3f8fcf3c52f221cd32f8a6034a68cc87deaf0a1c176ffc4e18d27753fea9ca",
+        "bytes": 58029,
+        "filename_sha256": "cadd58e0d508cc4724b5be2eaa4a57abe825e87338e4a03fd89dd98895bcdad2"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "SOURCE_ONLY_RECOMPUTED",
+        "matched_metrics": 4,
+        "computed_metrics": 3,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 2,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 3,
+        "response_sha256": "835a0e59b768efeaaa7d86c31c9206deef784ecd074be0fddce5d0a64348ffa9"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-overview.c9557816",
+      "route": "ss-overview",
+      "title": "商业得分 × Site/Material 资格二维矩阵",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 3319,
+        "sha256": "6c97eef975088770c9762462ab78d9e07cacfdf87643a0b8825447f9d59102a9"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 8335,
+        "sha256": "8fecf6be775c3fc63874e80d8ccaf5285d15df76c905973ec69b0ad772c9889b"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 163,
+        "xlsx_sha256": "a7e44867a8b4b9282437082d673683a7866b39702d1aa67a90510b406ba4cf84",
+        "bytes": 70308,
+        "filename_sha256": "591f7471fe47eeb23f05fde6fabf2ffdcaab09cd8214de896f8c9ca0804a0a19"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "NOT_FULLY_RECONCILED",
+        "matched_metrics": 5,
+        "computed_metrics": 0,
+        "visible_dom_rows": 80,
+        "displayed_figures": 9,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 9,
+        "charts_unverified": 1,
+        "narrative_paragraphs": 2,
+        "narrative_unverified": 2,
+        "missing_count": 7,
+        "response_sha256": "ebbaae00041333e2322c3f0892bdbbe05b57949b8f3c851de675fe091c983fc6"
+      },
+      "business_calculation_complete": false
+    },
+    {
+      "id": "ss-overview.b57040b6",
+      "route": "ss-overview",
+      "title": "快捷功能入口",
+      "status": "OFFLINE_BRIDGED_CLICK_OK",
+      "clicked": [
+        "formula",
+        "sources",
+        "excel"
+      ],
+      "formula": {
+        "ok": true,
+        "text_length": 725,
+        "sha256": "545ff2a7fb5395d216b23982a3374c55d550fc5c331a7efa178d0fba525d58af"
+      },
+      "sources": {
+        "ok": true,
+        "text_length": 1079,
+        "sha256": "37fdbf30114000ffcc3eb18358ad0728cba5cc0584745ed5db906aca5c4dc52d"
+      },
+      "excel": {
+        "ok": true,
+        "formula_cells": 1,
+        "xlsx_sha256": "d4eabf7d82516ff572ae93b7e67549dd91f1b26f8e6499dfdb433b4d39553840",
+        "bytes": 19882,
+        "filename_sha256": "2413309d6e829f6010b0bdb94ecb0c9965c00d3c66a4134df8b7b1add177f236"
+      },
+      "api_trace": {
+        "status": "PARTIAL_EVIDENCE",
+        "reconciliation_status": "INSUFFICIENT_SOURCE",
+        "matched_metrics": 0,
+        "computed_metrics": 0,
+        "visible_dom_rows": 0,
+        "displayed_figures": 0,
+        "source_metrics_recomputed": 0,
+        "display_passed": 0,
+        "display_unverified": 0,
+        "charts_unverified": 0,
+        "narrative_paragraphs": 0,
+        "narrative_unverified": 0,
+        "missing_count": 2,
+        "response_sha256": "f4b025dee8962a15d94ab65986486eebccf735a568bb5910c75ebcf52b96c8fd"
+      },
+      "business_calculation_complete": false
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "finished_utc": "2026-11-13T06:18:49.471295+00:00",
+  "exact_rendered": 6,
+  "three_entry_click_verified": 6,
+  "forced_pointer_clicks": 0,
+  "formula_workbooks_checked": 6,
+  "api_trace_received": 6,
+  "api_business_calculation_complete": 0,
+  "full_browser_http_e2e_verified": 0
+}

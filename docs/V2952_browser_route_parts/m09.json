@@ -1,0 +1,72 @@
+{
+  "version": "2.9.52",
+  "test_type": "CHROMIUM_OFFLINE_BUNDLED_SITE_WITH_REAL_NODE_API_BRIDGE",
+  "is_real_browser_native_http_navigation": false,
+  "source_mode": "SIMULATED",
+  "browser_url": "about:blank (set_content of original static/index.html)",
+  "backend_transport": "Python urllib forwards fetch() to local Node HTTP server",
+  "started_utc": "2026-11-13T06:16:16.198980+00:00",
+  "registered_legacy": 217,
+  "routes": [
+    {
+      "route": "m09",
+      "expected": 6,
+      "exact_ids_found": 0,
+      "rendered_module_count": 0,
+      "unmatched_ids": [
+        "m09.6d7eec95",
+        "m09.643115a6",
+        "m09.6c93d7bf",
+        "m09.eb351d3d",
+        "m09.8f402240",
+        "m09.154104ce"
+      ]
+    }
+  ],
+  "script_errors": [],
+  "limit": "Browser clicks, API responses and formula-bearing XLSX tested; NOT independent webpage-vs-XLSX every-cell recalculation, NOT full source row parity, NOT narrative semantic acceptance.",
+  "components": [
+    {
+      "id": "m09.6d7eec95",
+      "route": "m09",
+      "title": "变更类型结构",
+      "status": "NO_EXACT_DOM_NODE",
+      "error": "Not found in rendered route after waiting for simulated data"
+    },
+    {
+      "id": "m09.643115a6",
+      "route": "m09",
+      "title": "开放变更账龄 vs 60天目标线",
+      "status": "NO_EXACT_DOM_NODE",
+      "error": "Not found in rendered route after waiting for simulated data"
+    },
+    {
+      "id": "m09.6c93d7bf",
+      "route": "m09",
+      "title": "变更与行动台账",
+      "status": "NO_EXACT_DOM_NODE",
+      "error": "Not found in rendered route after waiting for simulated data"
+    },
+    {
+      "id": "m09.eb351d3d",
+      "route": "m09",
+      "title": "搜索 ?列设置 ▾每页",
+      "status": "NO_EXACT_DOM_NODE",
+      "error": "Not found in rendered route after waiting for simulated data"
+    },
+    {
+      "id": "m09.8f402240",
+      "route": "m09",
+      "title": "变更类型",
+      "status": "NO_EXACT_DOM_NODE",
+      "error": "Not found in rendered route after waiting for simulated data"
+    },
+    {
+      "id": "m09.154104ce",
+      "route": "m09",
+      "title": "变更行动与责任台账",
+      "status": "NO_EXACT_DOM_NODE",
+      "error": "Not found in rendered route after waiting for simulated data"
+    }
+  ]
+}
